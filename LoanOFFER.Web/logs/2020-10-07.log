@@ -1,0 +1,41 @@
+2020-10-07 08:17:07.1629 INFO 10/7/2020 8:17:06 AM
+2020-10-07 08:24:42.1097 INFO 10/7/2020 8:24:42 AM
+2020-10-07 08:25:30.2306 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-10-07 08:25:45.8816 INFO Reader is not null..
+2020-10-07 08:25:48.4804 INFO Reader is equal to true..
+2020-10-07 08:25:57.1319 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-10-07 08:26:17.4316 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 48
+2020-10-07 08:28:28.9231 INFO 10/7/2020 8:28:28 AM
+2020-10-07 08:29:10.8834 INFO 10/7/2020 8:29:10 AM
+2020-10-07 08:29:43.0564 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-10-07 08:30:18.6291 INFO Reader is not null..
+2020-10-07 08:30:20.6160 INFO Reader is equal to true..
+2020-10-07 08:32:20.1413 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-10-07 13:27:41.7345 INFO 10/7/2020 1:27:41 PM
+2020-10-07 13:17:32.8426 INFO 10/7/2020 1:17:32 PM
+2020-10-07 13:21:04.8578 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-10-07 13:21:43.1962 INFO Reader is not null..
+2020-10-07 13:21:47.1309 INFO Reader is equal to true..
+2020-10-07 13:22:11.3113 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-10-07 13:22:40.4323 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 52
+2020-10-07 13:59:35.6728 INFO 10/7/2020 1:59:35 PM
+2020-10-07 14:01:50.3752 INFO 10/7/2020 2:01:50 PM
+2020-10-07 14:02:04.7702 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-10-07 14:02:18.1764 INFO Reader is not null..
+2020-10-07 14:02:21.7222 INFO Reader is equal to true..
+2020-10-07 14:03:19.8674 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-10-07 14:05:08.0400 INFO 10/7/2020 2:05:08 PM
+2020-10-07 14:06:14.2928 INFO 10/7/2020 2:06:14 PM
+2020-10-07 14:06:36.1604 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-07 14:07:04.6845 INFO Reader is not null..
+2020-10-07 14:07:08.6293 INFO Reader is equal to true..

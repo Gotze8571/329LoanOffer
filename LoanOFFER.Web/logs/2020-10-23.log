@@ -1,0 +1,44 @@
+2020-10-23 01:24:31.6556 INFO 10/23/2020 1:24:31 AM
+2020-10-23 01:29:42.1729 INFO 10/23/2020 1:29:42 AM
+2020-10-23 01:29:49.4024 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-23 01:29:53.2812 INFO Reader is not null..
+2020-10-23 01:29:53.2812 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-23 01:31:33.2468 INFO start date:01-Jan-2018
+2020-10-23 01:31:33.2468 INFO end date:06-Oct-2020
+2020-10-23 01:31:33.2468 INFO  Remitta Report Loaded Successful
+2020-10-23 01:08:45.1133 INFO 10/23/2020 1:08:45 AM
+2020-10-23 01:12:56.5938 INFO 10/23/2020 1:12:56 AM
+2020-10-23 10:13:59.1249 INFO 10/23/2020 10:13:59 AM
+2020-10-23 10:14:46.4529 INFO 10/23/2020 10:14:46 AM
+2020-10-23 10:14:48.1068 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-23 10:14:48.9467 INFO Reader is not null..
+2020-10-23 10:14:48.9467 INFO Reader is equal to true..
+2020-10-23 10:14:49.2617 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-23 10:15:09.7674 INFO start date:01-Jan-2018
+2020-10-23 10:15:09.7674 INFO end date:06-Oct-2020
+2020-10-23 10:15:09.7674 INFO  Remitta Report Loaded Successful
+2020-10-23 16:52:43.3196 INFO 10/23/2020 4:52:43 PM
+2020-10-23 17:15:21.4700 INFO 10/23/2020 5:15:21 PM
+2020-10-23 17:17:36.5196 INFO 10/23/2020 5:17:36 PM
+2020-10-23 17:17:38.2365 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-23 17:17:39.9724 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-23 17:17:55.4384 INFO start date:01-Jan-2018
+2020-10-23 17:17:55.4384 INFO end date:18-Jun-2020
+2020-10-23 17:17:55.4384 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-23 17:18:38.9372 INFO 10/23/2020 5:18:38 PM
+2020-10-23 17:20:41.2304 INFO 10/23/2020 5:20:41 PM
+2020-10-23 17:21:11.8599 INFO 10/23/2020 5:21:11 PM
+2020-10-23 17:21:12.9119 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-23 17:21:14.3418 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-23 17:21:44.8558 INFO start date:01-Jan-2018
+2020-10-23 17:21:44.8558 INFO end date:13-Oct-2020
+2020-10-23 17:21:44.8558 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-23 17:22:08.5914 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-23 17:22:08.8524 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-23 17:22:11.1782 INFO 10/23/2020 5:22:11 PM
+2020-10-23 17:23:46.5231 INFO 10/23/2020 5:23:46 PM
+2020-10-23 17:25:53.0561 INFO 10/23/2020 5:25:53 PM
+2020-10-23 17:42:57.1626 INFO 10/23/2020 5:42:57 PM
+2020-10-23 17:45:35.0746 INFO 10/23/2020 5:45:35 PM
+2020-10-23 17:48:49.4912 INFO 10/23/2020 5:48:49 PM
+2020-10-23 18:07:22.0740 INFO 10/23/2020 6:07:22 PM

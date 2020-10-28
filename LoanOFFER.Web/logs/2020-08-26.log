@@ -1,0 +1,121 @@
+2020-08-26 01:15:21.5569 INFO NEW LOGIN
+2020-08-26 01:18:19.4776 INFO Group: Business Automation
+2020-08-26 01:18:20.4876 INFO UserId:1
+2020-08-26 01:23:23.6302 INFO System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 154
+2020-08-26 01:23:23.6682 INFO Signed in User: tella.adesina
+2020-08-26 01:23:23.6682 INFO IP Address: ::1
+2020-08-26 01:23:23.6682 INFO IP Address: TELLA-PC
+2020-08-26 01:42:57.6205 INFO NEW LOGIN
+2020-08-26 01:43:18.5582 INFO Group: Business Automation
+2020-08-26 01:43:18.5582 INFO UserId:1
+2020-08-26 01:43:20.9731 INFO Signed in User: tella.adesina
+2020-08-26 01:43:20.9731 INFO IP Address: ::1
+2020-08-26 01:43:20.9731 INFO IP Address: TELLA-PC
+2020-08-26 01:48:19.3550 INFO NEW LOGIN
+2020-08-26 01:48:33.5931 INFO Group: Business Automation
+2020-08-26 01:48:33.5931 INFO UserId:1
+2020-08-26 01:48:35.9699 INFO Signed in User: tella.adesina
+2020-08-26 01:48:35.9699 INFO IP Address: ::1
+2020-08-26 01:48:35.9699 INFO IP Address: TELLA-PC
+2020-08-26 01:53:51.6008 INFO NEW LOGIN
+2020-08-26 01:54:11.7306 INFO Incorrect login details
+2020-08-26 01:56:47.2921 INFO NEW LOGIN
+2020-08-26 01:59:19.6199 INFO Group: Business Automation
+2020-08-26 01:59:20.7638 INFO UserId:1
+2020-08-26 01:59:56.4287 INFO Signed in User: tella.adesina
+2020-08-26 01:59:57.9746 INFO IP Address: ::1
+2020-08-26 01:59:58.6955 INFO IP Address: TELLA-PC
+2020-08-26 02:18:56.5565 INFO NEW LOGIN
+2020-08-26 02:22:09.8178 INFO Group: Business Automation
+2020-08-26 02:22:09.8178 INFO UserId:1
+2020-08-26 02:22:12.0556 INFO Signed in User: tella.adesina
+2020-08-26 02:22:12.0556 INFO IP Address: ::1
+2020-08-26 02:22:12.0556 INFO IP Address: TELLA-PC
+2020-08-26 02:26:41.0928 INFO NEW LOGIN
+2020-08-26 02:26:57.5008 INFO Group: Business Automation
+2020-08-26 02:26:57.5008 INFO UserId:1
+2020-08-26 02:26:59.8076 INFO Signed in User: tella.adesina
+2020-08-26 02:26:59.8076 INFO IP Address: ::1
+2020-08-26 02:26:59.8076 INFO IP Address: TELLA-PC
+2020-08-26 02:32:30.2266 INFO NEW LOGIN
+2020-08-26 02:32:50.4404 INFO Group: Business Automation
+2020-08-26 02:32:50.4404 INFO UserId:1
+2020-08-26 02:32:53.2552 INFO Signed in User: tella.adesina
+2020-08-26 02:32:53.2552 INFO IP Address: ::1
+2020-08-26 02:32:53.2552 INFO IP Address: TELLA-PC
+2020-08-26 02:52:35.4239 INFO NEW LOGIN
+2020-08-26 02:52:55.1757 INFO Group: Business Automation
+2020-08-26 02:52:55.1757 INFO UserId:1
+2020-08-26 02:52:58.3805 INFO Signed in User: tella.adesina
+2020-08-26 02:52:58.3805 INFO IP Address: ::1
+2020-08-26 02:52:58.3805 INFO IP Address: TELLA-PC
+2020-08-26 03:10:47.1414 INFO NEW LOGIN
+2020-08-26 03:11:05.4548 INFO Group: Business Automation
+2020-08-26 03:11:05.4548 INFO UserId:1
+2020-08-26 03:11:07.9757 INFO Signed in User: tella.adesina
+2020-08-26 03:11:07.9757 INFO IP Address: ::1
+2020-08-26 03:11:07.9757 INFO IP Address: TELLA-PC
+2020-08-26 03:14:07.9767 INFO NEW LOGIN
+2020-08-26 03:14:23.0118 INFO Group: Business Automation
+2020-08-26 03:14:23.0118 INFO UserId:1
+2020-08-26 03:14:25.4857 INFO Signed in User: tella.adesina
+2020-08-26 03:14:25.4857 INFO IP Address: ::1
+2020-08-26 03:14:25.4857 INFO IP Address: TELLA-PC
+2020-08-26 03:16:09.6143 INFO Home Page Loaded: 8/26/2020 3:16:09 AM
+2020-08-26 10:19:28.3055 INFO 8/26/2020 10:19:28 AM
+2020-08-26 10:21:40.1965 INFO 8/26/2020 10:21:40 AM
+2020-08-26 10:21:40.2274 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 21
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-08-26 10:22:44.8744 INFO 8/26/2020 10:22:44 AM
+2020-08-26 10:42:03.7317 INFO Home Page Loaded: 8/26/2020 10:42:03 AM
+2020-08-26 10:42:33.1559 INFO 8/26/2020 10:42:33 AM
+2020-08-26 10:45:01.0197 INFO Home Page Loaded: 8/26/2020 10:45:01 AM
+2020-08-26 10:59:26.7138 INFO Home Page Loaded: 8/26/2020 10:59:26 AM
+2020-08-26 10:59:48.0925 INFO 8/26/2020 10:59:48 AM
+2020-08-26 11:34:19.9818 INFO 8/26/2020 11:34:19 AM
+2020-08-26 11:36:17.0455 INFO 8/26/2020 11:36:17 AM
+2020-08-26 11:36:18.6054 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 21
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-08-26 11:42:39.0861 INFO Home Page Loaded: 8/26/2020 11:42:39 AM
+2020-08-26 11:42:46.9896 INFO 8/26/2020 11:42:46 AM
+2020-08-26 12:38:04.3050 INFO 8/26/2020 12:38:04 PM
+2020-08-26 14:01:48.5306 INFO Home Page Loaded: 8/26/2020 2:01:48 PM
+2020-08-26 14:01:57.1601 INFO 8/26/2020 2:01:57 PM
+2020-08-26 14:02:42.6703 INFO 8/26/2020 2:02:42 PM
+2020-08-26 14:02:43.2533 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 21
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-08-26 14:07:33.4105 INFO 8/26/2020 2:07:33 PM
+2020-08-26 15:48:10.8154 INFO 8/26/2020 3:48:10 PM
+2020-08-26 15:49:17.1393 INFO 8/26/2020 3:49:17 PM
+2020-08-26 15:49:17.6053 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 21
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-08-26 16:14:10.7901 INFO 8/26/2020 4:14:10 PM
+2020-08-26 16:15:09.0935 INFO 8/26/2020 4:15:09 PM
+2020-08-26 16:15:09.4406 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 21
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-08-26 18:23:06.1712 INFO 8/26/2020 6:23:06 PM
+2020-08-26 18:24:04.9326 INFO 8/26/2020 6:24:04 PM
+2020-08-26 18:24:05.7305 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 21
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45

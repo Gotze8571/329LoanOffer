@@ -1,0 +1,111 @@
+2020-09-22 05:16:33.9227 INFO NEW LOGIN
+2020-09-22 05:17:08.5520 INFO Incorrect login details
+2020-09-22 05:17:09.0230 INFO Home Page Loaded: 9/22/2020 5:17:09 AM
+2020-09-22 05:17:19.7543 INFO 9/22/2020 5:17:19 AM
+2020-09-22 05:18:37.3973 INFO 9/22/2020 5:18:37 AM
+2020-09-22 05:19:57.6847 INFO 9/22/2020 5:19:57 AM
+2020-09-22 06:05:28.2012 INFO 9/22/2020 6:05:28 AM
+2020-09-22 06:06:55.9976 INFO 9/22/2020 6:06:55 AM
+2020-09-22 05:14:10.4178 INFO 9/22/2020 5:14:10 AM
+2020-09-22 05:15:26.2499 INFO 9/22/2020 5:15:26 AM
+2020-09-22 05:18:27.2453 INFO 9/22/2020 5:18:27 AM
+2020-09-22 05:20:59.1856 INFO 9/22/2020 5:20:59 AM
+2020-09-22 05:21:50.7113 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String phoneNo, String RequestTime, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 128
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 41
+2020-09-22 05:27:47.6004 INFO 9/22/2020 5:27:47 AM
+2020-09-22 05:27:08.2349 INFO 9/22/2020 5:27:08 AM
+2020-09-22 05:28:17.4345 INFO 9/22/2020 5:28:17 AM
+2020-09-22 05:33:52.8205 INFO 9/22/2020 5:33:52 AM
+2020-09-22 05:34:50.7699 INFO 9/22/2020 5:34:50 AM
+2020-09-22 05:36:02.3243 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 05:36:07.7949 INFO Reader is not null..
+2020-09-22 05:36:11.6567 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-09-22 05:36:42.6117 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: String
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 48
+2020-09-22 05:38:48.3176 INFO 9/22/2020 5:38:48 AM
+2020-09-22 05:39:41.3132 INFO 9/22/2020 5:39:41 AM
+2020-09-22 05:40:31.3920 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 06:02:33.5658 INFO 9/22/2020 6:02:33 AM
+2020-09-22 06:05:53.6540 INFO 9/22/2020 6:05:53 AM
+2020-09-22 05:10:32.9139 INFO 9/22/2020 5:10:32 AM
+2020-09-22 10:27:44.7383 INFO 9/22/2020 10:27:44 AM
+2020-09-22 10:29:09.7925 INFO 9/22/2020 10:29:09 AM
+2020-09-22 10:30:42.1546 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 12:14:55.8458 INFO 9/22/2020 12:14:55 PM
+2020-09-22 12:16:08.0941 INFO 9/22/2020 12:16:08 PM
+2020-09-22 12:16:58.1309 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 14:00:10.7218 INFO 9/22/2020 2:00:10 PM
+2020-09-22 14:04:27.4053 INFO 9/22/2020 2:04:27 PM
+2020-09-22 14:05:26.5555 INFO 9/22/2020 2:05:26 PM
+2020-09-22 14:06:34.6997 ERROR System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=53534; handshake=50114;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String phoneNo, String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 134
+ClientConnectionId:00d56948-5e5e-4aaf-ab92-b96be453ee06
+Error Number:-2,State:0,Class:11
+2020-09-22 14:07:18.8529 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 41
+2020-09-22 14:07:40.9954 ERROR System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6283; handshake=16777;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String phoneNo, String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 134
+ClientConnectionId:8cbbb630-a985-4632-bba9-6856e7696bf1
+Error Number:-2,State:0,Class:11
+2020-09-22 14:07:41.1964 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 41
+2020-09-22 14:40:11.9805 INFO 9/22/2020 2:40:11 PM
+2020-09-22 14:41:59.8356 INFO 9/22/2020 2:41:59 PM
+2020-09-22 14:45:08.5204 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 14:45:36.8346 INFO Reader is not null..
+2020-09-22 15:30:28.4487 INFO 9/22/2020 3:30:28 PM
+2020-09-22 15:31:20.9214 INFO 9/22/2020 3:31:20 PM
+2020-09-22 15:32:38.1914 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 15:33:23.5445 INFO Reader is not null..
+2020-09-22 15:33:33.0289 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-09-22 16:53:24.7021 INFO 9/22/2020 4:53:24 PM
+2020-09-22 16:53:24.7791 INFO 9/22/2020 4:53:24 PM
+2020-09-22 16:54:54.2223 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 17:24:34.2722 INFO 9/22/2020 5:24:34 PM
+2020-09-22 17:25:31.7165 INFO 9/22/2020 5:25:31 PM
+2020-09-22 17:26:26.9420 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 17:26:45.0838 INFO Reader is not null..
+2020-09-22 17:38:44.3592 INFO 9/22/2020 5:38:44 PM
+2020-09-22 17:39:36.2719 INFO 9/22/2020 5:39:36 PM
+2020-09-22 17:40:37.3760 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-09-22 17:40:51.1651 INFO Reader is not null..
+2020-09-22 17:40:55.1308 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully

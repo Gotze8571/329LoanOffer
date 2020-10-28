@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetUserAdStaffID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAdStaffIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserAdStaffIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAdFullDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAdFullDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserAdFullDetailsResult" type="tns:UserAdDetails" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UserAdDetails">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="StaffID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Groups" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StaffName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DisplayName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Department" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MobileNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ManagerName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ManagerDepartment" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Response" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseMessage" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserAdGroups">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAdGroupsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserAdGroupsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserFinacleDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserFinacleDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserFinacleDetailsResult" type="tns:UserFinacleDetails" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UserFinacleDetails">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="StaffID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FinacleUserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RoleID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GenericRoleID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SOL_DESC" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTellerFinacleTillAccounts">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTellerFinacleTillAccountsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTellerFinacleTillAccountsResult" type="tns:ArrayOfTillAccount" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTillAccount">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TillAccount" nillable="true" type="tns:TillAccount" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TillAccount">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TELLER_TILL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CURRENCYCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BRANCHCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StaffId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserAccountOfficerDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAccountOfficerDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserAccountOfficerDetailsResult" type="tns:UserAccountOfficerDetails" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UserAccountOfficerDetails">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="StaffID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountOfficer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountOfficerCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SbuCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RegionCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ZoneCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserDsaDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DsaBrokerCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserDsaDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserDsaDetailsResult" type="tns:UserDsaDetails" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UserDsaDetails">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="EmployeeCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmployeeName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AccountOfficerCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DsaBrokerCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Branch" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RoleType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBranch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBranchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBranchResult" type="tns:ArrayOfBranch" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfBranch">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Branch" nillable="true" type="tns:Branch" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Branch">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="BranchCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ZoneCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ZoneCodeOps" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CsmEmail" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchManagerEmail" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetZone">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetZoneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetZoneResult" type="tns:ArrayOfZone" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfZone">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Zone" nillable="true" type="tns:Zone" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Zone">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ZoneCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ZoneName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RegionCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetStaffIDWithUserName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStaffIDWithUserNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStaffIDWithUserNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStaffGroupWithUserName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStaffGroupWithUserNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStaffGroupWithUserNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="staffId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tokenCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthenticateTokenResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateTokenDigipass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tokenCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateTokenDigipassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthenticateTokenDigipassResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResetTokenResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAdFullDetailsWLoginName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AppKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserAdFullDetailsWLoginNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserAdFullDetailsWLoginNameResult" type="tns:UserAdDetails" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetUserAdStaffIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserAdStaffID" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAdStaffIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserAdStaffIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAdFullDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserAdFullDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAdFullDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserAdFullDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAdGroupsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserAdGroups" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAdGroupsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserAdGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserFinacleDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserFinacleDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetUserFinacleDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserFinacleDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTellerFinacleTillAccountsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTellerFinacleTillAccounts" />
+  </wsdl:message>
+  <wsdl:message name="GetTellerFinacleTillAccountsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTellerFinacleTillAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAccountOfficerDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserAccountOfficerDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAccountOfficerDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserAccountOfficerDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserDsaDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserDsaDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetUserDsaDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserDsaDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBranchSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBranch" />
+  </wsdl:message>
+  <wsdl:message name="GetBranchSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBranchResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetZoneSoapIn">
+    <wsdl:part name="parameters" element="tns:GetZone" />
+  </wsdl:message>
+  <wsdl:message name="GetZoneSoapOut">
+    <wsdl:part name="parameters" element="tns:GetZoneResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStaffIDWithUserNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStaffIDWithUserName" />
+  </wsdl:message>
+  <wsdl:message name="GetStaffIDWithUserNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStaffIDWithUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStaffGroupWithUserNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStaffGroupWithUserName" />
+  </wsdl:message>
+  <wsdl:message name="GetStaffGroupWithUserNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStaffGroupWithUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:AuthenticateToken" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:AuthenticateTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateTokenDigipassSoapIn">
+    <wsdl:part name="parameters" element="tns:AuthenticateTokenDigipass" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateTokenDigipassSoapOut">
+    <wsdl:part name="parameters" element="tns:AuthenticateTokenDigipassResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResetTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:ResetToken" />
+  </wsdl:message>
+  <wsdl:message name="ResetTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:ResetTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAdFullDetailsWLoginNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserAdFullDetailsWLoginName" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAdFullDetailsWLoginNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserAdFullDetailsWLoginNameResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AuthenticationServiceSoap">
+    <wsdl:operation name="GetUserAdStaffID">
+      <wsdl:input message="tns:GetUserAdStaffIDSoapIn" />
+      <wsdl:output message="tns:GetUserAdStaffIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdFullDetails">
+      <wsdl:input message="tns:GetUserAdFullDetailsSoapIn" />
+      <wsdl:output message="tns:GetUserAdFullDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdGroups">
+      <wsdl:input message="tns:GetUserAdGroupsSoapIn" />
+      <wsdl:output message="tns:GetUserAdGroupsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserFinacleDetails">
+      <wsdl:input message="tns:GetUserFinacleDetailsSoapIn" />
+      <wsdl:output message="tns:GetUserFinacleDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTellerFinacleTillAccounts">
+      <wsdl:input message="tns:GetTellerFinacleTillAccountsSoapIn" />
+      <wsdl:output message="tns:GetTellerFinacleTillAccountsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAccountOfficerDetails">
+      <wsdl:input message="tns:GetUserAccountOfficerDetailsSoapIn" />
+      <wsdl:output message="tns:GetUserAccountOfficerDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDsaDetails">
+      <wsdl:input message="tns:GetUserDsaDetailsSoapIn" />
+      <wsdl:output message="tns:GetUserDsaDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBranch">
+      <wsdl:input message="tns:GetBranchSoapIn" />
+      <wsdl:output message="tns:GetBranchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetZone">
+      <wsdl:input message="tns:GetZoneSoapIn" />
+      <wsdl:output message="tns:GetZoneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffIDWithUserName">
+      <wsdl:input message="tns:GetStaffIDWithUserNameSoapIn" />
+      <wsdl:output message="tns:GetStaffIDWithUserNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffGroupWithUserName">
+      <wsdl:input message="tns:GetStaffGroupWithUserNameSoapIn" />
+      <wsdl:output message="tns:GetStaffGroupWithUserNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateToken">
+      <wsdl:input message="tns:AuthenticateTokenSoapIn" />
+      <wsdl:output message="tns:AuthenticateTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateTokenDigipass">
+      <wsdl:input message="tns:AuthenticateTokenDigipassSoapIn" />
+      <wsdl:output message="tns:AuthenticateTokenDigipassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetToken">
+      <wsdl:input message="tns:ResetTokenSoapIn" />
+      <wsdl:output message="tns:ResetTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdFullDetailsWLoginName">
+      <wsdl:input message="tns:GetUserAdFullDetailsWLoginNameSoapIn" />
+      <wsdl:output message="tns:GetUserAdFullDetailsWLoginNameSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AuthenticationServiceSoap" type="tns:AuthenticationServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserAdStaffID">
+      <soap:operation soapAction="http://tempuri.org/GetUserAdStaffID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdFullDetails">
+      <soap:operation soapAction="http://tempuri.org/GetUserAdFullDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdGroups">
+      <soap:operation soapAction="http://tempuri.org/GetUserAdGroups" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserFinacleDetails">
+      <soap:operation soapAction="http://tempuri.org/GetUserFinacleDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTellerFinacleTillAccounts">
+      <soap:operation soapAction="http://tempuri.org/GetTellerFinacleTillAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAccountOfficerDetails">
+      <soap:operation soapAction="http://tempuri.org/GetUserAccountOfficerDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDsaDetails">
+      <soap:operation soapAction="http://tempuri.org/GetUserDsaDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranch">
+      <soap:operation soapAction="http://tempuri.org/GetBranch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZone">
+      <soap:operation soapAction="http://tempuri.org/GetZone" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffIDWithUserName">
+      <soap:operation soapAction="http://tempuri.org/GetStaffIDWithUserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffGroupWithUserName">
+      <soap:operation soapAction="http://tempuri.org/GetStaffGroupWithUserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateToken">
+      <soap:operation soapAction="http://tempuri.org/AuthenticateToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateTokenDigipass">
+      <soap:operation soapAction="http://tempuri.org/AuthenticateTokenDigipass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetToken">
+      <soap:operation soapAction="http://tempuri.org/ResetToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdFullDetailsWLoginName">
+      <soap:operation soapAction="http://tempuri.org/GetUserAdFullDetailsWLoginName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticationServiceSoap12" type="tns:AuthenticationServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetUserAdStaffID">
+      <soap12:operation soapAction="http://tempuri.org/GetUserAdStaffID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdFullDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetUserAdFullDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdGroups">
+      <soap12:operation soapAction="http://tempuri.org/GetUserAdGroups" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserFinacleDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetUserFinacleDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTellerFinacleTillAccounts">
+      <soap12:operation soapAction="http://tempuri.org/GetTellerFinacleTillAccounts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAccountOfficerDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetUserAccountOfficerDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDsaDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetUserDsaDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBranch">
+      <soap12:operation soapAction="http://tempuri.org/GetBranch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetZone">
+      <soap12:operation soapAction="http://tempuri.org/GetZone" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffIDWithUserName">
+      <soap12:operation soapAction="http://tempuri.org/GetStaffIDWithUserName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStaffGroupWithUserName">
+      <soap12:operation soapAction="http://tempuri.org/GetStaffGroupWithUserName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateToken">
+      <soap12:operation soapAction="http://tempuri.org/AuthenticateToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateTokenDigipass">
+      <soap12:operation soapAction="http://tempuri.org/AuthenticateTokenDigipass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetToken">
+      <soap12:operation soapAction="http://tempuri.org/ResetToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAdFullDetailsWLoginName">
+      <soap12:operation soapAction="http://tempuri.org/GetUserAdFullDetailsWLoginName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AuthenticationService">
+    <wsdl:port name="AuthenticationServiceSoap" binding="tns:AuthenticationServiceSoap">
+      <soap:address location="http://172.27.15.103/Authenticationutilityservicesit/AuthenticationService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticationServiceSoap12" binding="tns:AuthenticationServiceSoap12">
+      <soap12:address location="http://172.27.15.103/Authenticationutilityservicesit/AuthenticationService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,102 @@
+2020-09-21 10:53:05.7976 INFO NEW LOGIN
+2020-09-21 10:54:10.2435 INFO Group: Business Automation
+2020-09-21 10:54:10.2435 INFO UserId:1
+2020-09-21 10:54:16.0932 INFO System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+LoanOFFER.Web.Models.SalaryTopUpLoan: : EntityType 'SalaryTopUpLoan' has no key defined. Define the key for this EntityType.
+SalaryTopUpLoans: EntityType: EntitySet 'SalaryTopUpLoans' is based on type 'SalaryTopUpLoan' that has no keys defined.
+
+   at System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 154
+2020-09-21 10:54:16.3321 INFO Signed in User: tella.adesina
+2020-09-21 10:54:16.3321 INFO IP Address: ::1
+2020-09-21 10:54:16.3321 INFO IP Address: TELLA-PC
+2020-09-21 10:54:17.8760 INFO Home Page Loaded: 9/21/2020 10:54:17 AM
+2020-09-21 11:13:40.4013 INFO NEW LOGIN
+2020-09-21 11:14:03.1599 INFO Group: Business Automation
+2020-09-21 11:14:03.1599 INFO UserId:1
+2020-09-21 11:14:03.9479 INFO System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+LoanOFFER.Web.Models.SalaryTopUpLoan: : EntityType 'SalaryTopUpLoan' has no key defined. Define the key for this EntityType.
+SalaryTopUpLoans: EntityType: EntitySet 'SalaryTopUpLoans' is based on type 'SalaryTopUpLoan' that has no keys defined.
+
+   at System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 154
+2020-09-21 11:14:04.0198 INFO Signed in User: tella.adesina
+2020-09-21 11:14:04.0198 INFO IP Address: ::1
+2020-09-21 11:14:04.0198 INFO IP Address: TELLA-PC
+2020-09-21 11:14:35.8018 INFO NEW LOGIN
+2020-09-21 11:14:36.5228 INFO Group: Business Automation
+2020-09-21 11:14:36.5228 INFO UserId:1
+2020-09-21 11:14:36.6298 INFO System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+LoanOFFER.Web.Models.SalaryTopUpLoan: : EntityType 'SalaryTopUpLoan' has no key defined. Define the key for this EntityType.
+SalaryTopUpLoans: EntityType: EntitySet 'SalaryTopUpLoans' is based on type 'SalaryTopUpLoan' that has no keys defined.
+
+   at System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 154
+2020-09-21 11:14:36.6298 INFO Signed in User: tella.adesina
+2020-09-21 11:14:36.6298 INFO IP Address: ::1
+2020-09-21 11:14:36.6298 INFO IP Address: TELLA-PC
+2020-09-21 11:17:24.8213 INFO NEW LOGIN
+2020-09-21 11:17:51.2376 INFO Group: Business Automation
+2020-09-21 11:17:51.2376 INFO UserId:1
+2020-09-21 11:17:51.9875 INFO System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+LoanOFFER.Web.Models.SalaryTopUpLoan: : EntityType 'SalaryTopUpLoan' has no key defined. Define the key for this EntityType.
+SalaryTopUpLoans: EntityType: EntitySet 'SalaryTopUpLoans' is based on type 'SalaryTopUpLoan' that has no keys defined.
+
+   at System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 154
+2020-09-21 11:17:52.0585 INFO Signed in User: tella.adesina
+2020-09-21 11:17:52.0585 INFO IP Address: ::1
+2020-09-21 11:17:52.0585 INFO IP Address: TELLA-PC
+2020-09-21 11:17:52.5425 INFO Home Page Loaded: 9/21/2020 11:17:52 AM

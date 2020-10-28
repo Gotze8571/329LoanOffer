@@ -1,0 +1,131 @@
+2020-09-17 13:53:21.8107 INFO 9/17/2020 1:53:21 PM
+2020-09-17 13:58:18.7407 INFO 9/17/2020 1:58:18 PM
+2020-09-17 13:58:39.9106 INFO Connection to database to Simbrella Loan Offer Report was successful!
+2020-09-17 14:07:20.8462 INFO 9/17/2020 2:07:20 PM
+2020-09-17 14:09:29.3161 INFO 9/17/2020 2:09:29 PM
+2020-09-17 14:09:52.7567 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 14:10:58.4699 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 14:12:28.0447 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 14:34:43.9833 INFO 9/17/2020 2:34:43 PM
+2020-09-17 14:42:30.3382 INFO 9/17/2020 2:42:30 PM
+2020-09-17 14:42:53.5843 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 14:43:31.0294 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 14:47:50.7744 INFO 9/17/2020 2:47:50 PM
+2020-09-17 15:19:31.6836 INFO 9/17/2020 3:19:31 PM
+2020-09-17 15:20:24.4100 INFO 9/17/2020 3:20:24 PM
+2020-09-17 15:20:40.5169 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 15:21:22.4011 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 15:24:44.2928 INFO 9/17/2020 3:24:44 PM
+2020-09-17 17:05:21.3156 INFO 9/17/2020 5:05:21 PM
+2020-09-17 17:06:11.3786 INFO 9/17/2020 5:06:11 PM
+2020-09-17 17:07:06.5393 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 17:12:22.4471 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 17:12:40.1020 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 59
+2020-09-17 17:14:02.8140 INFO 9/17/2020 5:14:02 PM
+2020-09-17 17:14:22.6238 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 17:15:24.2766 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 17:23:08.0685 INFO 9/17/2020 5:23:08 PM
+2020-09-17 17:24:28.3296 INFO 9/17/2020 5:24:28 PM
+2020-09-17 17:24:52.0742 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 17:26:41.1026 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 17:27:05.4031 INFO start date:01-Jan-2018
+2020-09-17 17:27:06.3370 INFO end date:10-Sep-2020
+2020-09-17 17:27:07.8789 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-17 17:29:36.9119 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 17:29:40.1947 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 17:36:37.5365 INFO 9/17/2020 5:36:37 PM
+2020-09-17 17:38:23.5081 INFO 9/17/2020 5:38:23 PM
+2020-09-17 17:38:31.6087 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 17:38:32.4596 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 17:38:45.3288 INFO start date:27-Jul-2020
+2020-09-17 17:38:45.3288 INFO end date:14-Sep-2020
+2020-09-17 17:38:45.3288 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-17 17:41:51.1691 INFO 9/17/2020 5:41:51 PM
+2020-09-17 18:00:06.4157 INFO NEW LOGIN
+2020-09-17 18:00:25.8565 INFO Group: Business Automation
+2020-09-17 18:00:25.8565 INFO UserId:1
+2020-09-17 18:00:29.4933 INFO Signed in User: tella.adesina
+2020-09-17 18:00:29.4933 INFO IP Address: ::1
+2020-09-17 18:00:29.4933 INFO IP Address: TELLA-PC
+2020-09-17 18:00:30.2133 INFO Home Page Loaded: 9/17/2020 6:00:30 PM
+2020-09-17 18:00:50.6231 INFO 9/17/2020 6:00:50 PM
+2020-09-17 18:02:03.2057 INFO 9/17/2020 6:02:03 PM
+2020-09-17 18:02:08.3744 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 18:02:12.0601 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 18:02:12.9841 INFO start date:01-Jan-2018
+2020-09-17 18:02:12.9841 INFO end date:14-Aug-2018
+2020-09-17 18:02:12.9841 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-17 18:02:40.2824 INFO 9/17/2020 6:02:40 PM
+2020-09-17 18:02:44.0592 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 18:02:46.7830 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 18:02:47.5650 INFO start date:01-Sep-2020
+2020-09-17 18:02:47.5650 INFO end date:10-Sep-2020
+2020-09-17 18:02:47.5650 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-17 18:03:25.1877 INFO 9/17/2020 6:03:25 PM
+2020-09-17 18:03:29.6264 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 18:03:30.1145 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 18:03:30.9344 INFO start date:14-Aug-2018
+2020-09-17 18:03:30.9344 INFO end date:14-Aug-2018
+2020-09-17 18:03:30.9344 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-17 18:05:06.9576 INFO 9/17/2020 6:05:06 PM
+2020-09-17 18:05:12.5412 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 18:05:16.3140 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 18:05:17.2290 INFO start date:14-Aug-2018
+2020-09-17 18:05:17.2290 INFO end date:15-Aug-2018
+2020-09-17 18:05:17.2290 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-17 18:05:43.5654 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-17 18:05:58.0995 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-17 18:39:24.0004 INFO 9/17/2020 6:39:23 PM
+2020-09-17 18:49:11.2977 INFO 9/17/2020 6:49:11 PM
+2020-09-17 18:50:08.9762 INFO 9/17/2020 6:50:08 PM
+2020-09-17 18:50:48.2588 INFO 9/17/2020 6:50:48 PM
+2020-09-17 19:28:43.6972 INFO 9/17/2020 7:28:43 PM
+2020-09-17 21:36:55.1211 INFO 9/17/2020 9:36:55 PM
+2020-09-17 21:37:33.1578 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-17 21:44:18.5802 INFO 9/17/2020 9:44:18 PM
+2020-09-17 21:45:32.1687 INFO 9/17/2020 9:45:32 PM
+2020-09-17 21:46:49.9471 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-17 21:49:37.5514 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-09-17 22:11:58.4595 INFO 9/17/2020 10:11:58 PM
+2020-09-17 22:16:01.8401 INFO 9/17/2020 10:16:01 PM
+2020-09-17 22:16:24.7810 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-17 22:17:03.8392 INFO Reader is not null..
+2020-09-17 22:17:23.9043 INFO Reader is equal to true..
+2020-09-17 22:17:31.9549 ERROR System.IndexOutOfRangeException: PhoneNo
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate, String phoneNo) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 102
+2020-09-17 22:17:42.8934 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 45
+2020-09-17 22:19:37.0500 INFO 9/17/2020 10:19:37 PM
+2020-09-17 22:22:11.3098 INFO 9/17/2020 10:22:11 PM
+2020-09-17 22:22:34.7507 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-17 22:22:42.3594 INFO Reader is not null..
+2020-09-17 22:26:32.6726 INFO Reader is equal to true..
+2020-09-17 22:37:11.8741 INFO 9/17/2020 10:37:11 PM
+2020-09-17 22:48:58.5946 INFO 9/17/2020 10:48:58 PM
+2020-09-17 22:49:20.8013 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-17 22:49:37.5051 INFO Reader is not null..
+2020-09-17 22:49:44.4558 INFO Reader is equal to true..
+2020-09-17 22:51:20.8994 INFO Reader is equal to true..

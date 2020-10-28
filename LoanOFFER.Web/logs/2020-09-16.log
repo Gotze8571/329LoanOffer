@@ -1,0 +1,247 @@
+2020-09-16 07:00:34.4792 INFO Home Page Loaded: 9/16/2020 7:00:34 AM
+2020-09-16 07:04:56.7917 INFO 9/16/2020 7:04:56 AM
+2020-09-16 07:14:04.1025 INFO 9/16/2020 7:14:03 AM
+2020-09-16 07:14:49.0741 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 07:14:51.1748 ERROR System.Data.SqlClient.SqlException (0x80131904): An expression of non-boolean type specified in a context where a condition is expected, near 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 47
+ClientConnectionId:9fe30669-8081-4052-8799-2ef11d04eacd
+Error Number:4145,State:1,Class:15
+2020-09-16 07:15:16.4348 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 07:15:30.6470 ERROR System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception (0x80004005): The semaphore timeout period has expired
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 47
+ClientConnectionId:9fe30669-8081-4052-8799-2ef11d04eacd
+Error Number:121,State:0,Class:20
+2020-09-16 07:16:20.5780 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 07:16:21.0530 ERROR System.Data.SqlClient.SqlException (0x80131904): An expression of non-boolean type specified in a context where a condition is expected, near 'and'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 47
+ClientConnectionId:385576bc-ffdf-4786-a63f-1bbfdb24fe98
+Error Number:4145,State:1,Class:15
+2020-09-16 07:17:12.8027 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 07:57:25.2384 INFO 9/16/2020 7:57:25 AM
+2020-09-16 07:59:49.6240 INFO 9/16/2020 7:59:49 AM
+2020-09-16 08:00:21.4758 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 09:00:49.8887 INFO 9/16/2020 9:00:49 AM
+2020-09-16 09:02:50.8740 INFO 9/16/2020 9:02:50 AM
+2020-09-16 09:03:06.5636 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 09:04:17.1502 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 09:49:09.3295 INFO 9/16/2020 9:49:09 AM
+2020-09-16 09:50:30.3805 INFO 9/16/2020 9:50:30 AM
+2020-09-16 09:50:56.7288 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 10:00:06.6825 INFO 9/16/2020 10:00:06 AM
+2020-09-16 10:01:55.9947 INFO 9/16/2020 10:01:55 AM
+2020-09-16 10:02:09.4569 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 10:02:23.7261 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 10:02:52.4643 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 59
+2020-09-16 10:07:12.2856 INFO 9/16/2020 10:07:12 AM
+2020-09-16 10:08:28.7500 INFO 9/16/2020 10:08:28 AM
+2020-09-16 10:08:43.1791 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 10:11:24.7571 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 10:35:38.5626 INFO 9/16/2020 10:35:38 AM
+2020-09-16 10:37:58.1681 INFO 9/16/2020 10:37:58 AM
+2020-09-16 10:38:48.4651 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 10:50:35.1281 INFO 9/16/2020 10:50:35 AM
+2020-09-16 10:52:16.9110 INFO 9/16/2020 10:52:16 AM
+2020-09-16 10:52:26.9124 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 10:52:36.5823 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 10:54:02.8151 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 11:16:00.9337 INFO 9/16/2020 11:16:00 AM
+2020-09-16 11:17:12.1004 INFO 9/16/2020 11:17:12 AM
+2020-09-16 11:17:37.7229 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 11:17:45.9824 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 11:18:06.2191 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 59
+2020-09-16 11:34:46.2130 INFO 9/16/2020 11:34:46 AM
+2020-09-16 11:36:52.1954 INFO 9/16/2020 11:36:52 AM
+2020-09-16 11:37:23.4195 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 11:37:39.3765 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 11:50:24.6564 INFO 9/16/2020 11:50:24 AM
+2020-09-16 11:51:37.5775 INFO 9/16/2020 11:51:37 AM
+2020-09-16 11:52:00.2212 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 11:52:10.2856 ERROR System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'between'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 47
+ClientConnectionId:cba87a58-2085-4fcf-8310-fd8856e23aa4
+Error Number:156,State:1,Class:15
+2020-09-16 11:52:21.8419 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-09-16 12:17:51.6012 INFO 9/16/2020 12:17:51 PM
+2020-09-16 12:19:34.7610 INFO 9/16/2020 12:19:34 PM
+2020-09-16 12:19:49.8561 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 12:20:40.8200 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 12:20:56.6250 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 59
+2020-09-16 12:23:37.4619 INFO 9/16/2020 12:23:37 PM
+2020-09-16 12:24:58.9790 INFO 9/16/2020 12:24:58 PM
+2020-09-16 12:25:10.7742 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 12:25:19.5437 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 12:25:49.1969 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 13:24:53.7270 INFO NEW LOGIN
+2020-09-16 13:25:20.3494 INFO Group: Business Automation
+2020-09-16 13:25:20.3494 INFO UserId:1
+2020-09-16 13:25:24.9281 INFO System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 154
+2020-09-16 13:25:24.9851 INFO Signed in User: tella.adesina@fcmb.com
+2020-09-16 13:25:24.9851 INFO IP Address: ::1
+2020-09-16 13:25:24.9851 INFO IP Address: TELLA-PC
+2020-09-16 13:25:26.9590 INFO Home Page Loaded: 9/16/2020 1:25:26 PM
+2020-09-16 13:26:18.0605 INFO 9/16/2020 1:26:18 PM
+2020-09-16 13:28:47.7626 INFO 9/16/2020 1:28:47 PM
+2020-09-16 13:31:54.9555 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 13:49:08.5249 INFO 9/16/2020 1:49:08 PM
+2020-09-16 13:51:51.6858 INFO 9/16/2020 1:51:51 PM
+2020-09-16 13:52:28.2495 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 14:25:56.7252 INFO 9/16/2020 2:25:56 PM
+2020-09-16 14:29:25.6084 INFO 9/16/2020 2:29:25 PM
+2020-09-16 14:29:55.7001 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 15:03:58.2105 INFO 9/16/2020 3:03:58 PM
+2020-09-16 15:06:48.8157 INFO 9/16/2020 3:06:48 PM
+2020-09-16 15:07:23.3137 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-16 15:17:28.9353 INFO 9/16/2020 3:17:28 PM
+2020-09-16 15:18:39.4313 INFO 9/16/2020 3:18:39 PM
+2020-09-16 15:19:02.2518 INFO Connection to database to Simbrella Loan Offer Report was successful!
+2020-09-16 15:24:59.2121 INFO 9/16/2020 3:24:59 PM
+2020-09-16 15:26:12.2960 INFO 9/16/2020 3:26:12 PM
+2020-09-16 15:26:40.2677 INFO Connection to database to Simbrella Loan Offer Report was successful!
+2020-09-16 15:28:24.2114 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 15:31:38.1559 INFO 9/16/2020 3:31:38 PM
+2020-09-16 15:33:21.3371 INFO 9/16/2020 3:33:21 PM
+2020-09-16 15:33:59.3001 INFO Connection to database to Simbrella Loan Offer Report was successful!
+2020-09-16 15:40:20.0599 INFO 9/16/2020 3:40:20 PM
+2020-09-16 15:42:39.6684 INFO 9/16/2020 3:42:39 PM
+2020-09-16 15:43:33.0388 INFO 9/16/2020 3:43:33 PM
+2020-09-16 15:43:52.2553 INFO Connection to database to Simbrella Loan Offer Report was successful!
+2020-09-16 15:43:53.1294 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-16 15:44:18.8790 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 59

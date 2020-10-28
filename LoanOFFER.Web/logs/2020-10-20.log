@@ -1,0 +1,21 @@
+2020-10-20 12:59:01.6589 INFO NEW LOGIN
+2020-10-20 12:59:24.0035 INFO Group: Business Automation
+2020-10-20 12:59:24.0035 INFO UserId:1
+2020-10-20 12:59:26.1554 INFO Signed in User: tella.adesina
+2020-10-20 12:59:26.1554 INFO IP Address: ::1
+2020-10-20 12:59:26.1554 INFO IP Address: TELLA-PC
+2020-10-20 12:59:26.5343 INFO Home Page Loaded: 10/20/2020 12:59:26 PM
+2020-10-20 13:11:40.1045 INFO 10/20/2020 1:11:40 PM
+2020-10-20 13:11:48.9369 INFO 10/20/2020 1:11:48 PM
+2020-10-20 13:12:36.9789 INFO 10/20/2020 1:12:36 PM
+2020-10-20 13:13:44.2826 INFO 10/20/2020 1:13:44 PM
+2020-10-20 13:13:46.7665 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-10-20 13:13:47.0105 INFO Reader is not null..
+2020-10-20 13:13:47.0105 INFO Reader is equal to true..
+2020-10-20 13:13:47.0105 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-10-20 13:13:48.5644 INFO start date:01-Jan-2018
+2020-10-20 13:13:48.5644 INFO end date:07-Oct-2020
+2020-10-20 13:13:48.5644 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-10-20 13:43:29.7671 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-10-20 13:43:29.9601 INFO Reader is not null..
+2020-10-20 13:43:29.9601 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully

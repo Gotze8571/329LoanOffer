@@ -1,0 +1,53 @@
+2020-10-28 03:49:42.5594 INFO 10/28/2020 3:49:42 AM
+2020-10-28 03:59:06.7283 INFO 10/28/2020 3:59:06 AM
+2020-10-28 04:05:59.1631 INFO 10/28/2020 4:05:59 AM
+2020-10-28 04:08:30.5580 INFO 10/28/2020 4:08:30 AM
+2020-10-28 04:08:38.3426 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-28 04:08:42.3323 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-28 04:09:57.0698 INFO start date:01-Jan-2018
+2020-10-28 04:09:57.0698 INFO end date:27-Oct-2020
+2020-10-28 04:09:57.0698 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-28 04:10:05.4803 INFO 10/28/2020 4:10:05 AM
+2020-10-28 04:23:48.7455 INFO NEW LOGIN
+2020-10-28 04:24:02.7936 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-10-28 04:24:02.7936 INFO Incorrect login details
+2020-10-28 04:24:03.0116 INFO Home Page Loaded: 10/28/2020 4:24:03 AM
+2020-10-28 04:24:23.4194 INFO 10/28/2020 4:24:23 AM
+2020-10-28 04:24:59.6082 INFO 10/28/2020 4:24:59 AM
+2020-10-28 04:25:00.1762 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-28 04:25:02.1010 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-28 04:25:05.3868 INFO start date:01-Jan-2018
+2020-10-28 04:25:05.3868 INFO end date:20-Oct-2020
+2020-10-28 04:25:05.3868 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-28 04:25:13.1634 INFO 10/28/2020 4:25:13 AM
+2020-10-28 04:38:20.3766 INFO 10/28/2020 4:38:20 AM
+2020-10-28 04:39:39.1719 INFO 10/28/2020 4:39:39 AM
+2020-10-28 04:39:41.5597 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-28 04:39:46.9034 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-28 04:40:25.5521 INFO start date:01-Jan-2018
+2020-10-28 04:40:25.5521 INFO end date:20-Oct-2020
+2020-10-28 04:40:25.5521 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-28 04:41:13.5712 INFO 10/28/2020 4:41:13 AM
+2020-10-28 05:06:21.8074 INFO 10/28/2020 5:06:21 AM
+2020-10-28 05:10:39.9178 INFO 10/28/2020 5:10:39 AM
+2020-10-28 05:10:42.0277 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-28 05:10:44.3026 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-28 05:11:35.8765 INFO start date:01-Jan-2018
+2020-10-28 05:11:35.8765 INFO end date:21-Oct-2020
+2020-10-28 05:11:35.8765 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-28 05:11:46.0529 INFO 10/28/2020 5:11:46 AM

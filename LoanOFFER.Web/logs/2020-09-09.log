@@ -1,0 +1,47 @@
+2020-09-09 10:25:45.4102 INFO 9/9/2020 10:25:45 AM
+2020-09-09 10:27:19.7990 INFO 9/9/2020 10:27:19 AM
+2020-09-09 10:27:22.4499 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 22
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-09-09 10:33:19.2898 INFO 9/9/2020 10:33:19 AM
+2020-09-09 10:39:47.6081 INFO 9/9/2020 10:39:47 AM
+2020-09-09 10:46:15.2254 INFO 9/9/2020 10:46:14 AM
+2020-09-09 09:53:41.0859 INFO 9/9/2020 9:53:41 AM
+2020-09-09 09:57:33.3947 INFO 9/9/2020 9:57:30 AM
+2020-09-09 10:02:22.2709 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 22
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-09-09 10:07:37.4464 INFO 9/9/2020 10:07:37 AM
+2020-09-09 10:09:29.9461 INFO 9/9/2020 10:09:29 AM
+2020-09-09 10:09:51.9137 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 22
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-09-09 10:18:07.2768 INFO 9/9/2020 10:18:06 AM
+2020-09-09 10:22:04.6215 INFO 9/9/2020 10:22:04 AM
+2020-09-09 10:28:26.6822 ERROR System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.) ---> System.ComponentModel.Win32Exception (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustomerId) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 30
+ClientConnectionId:c81857b2-0212-4f14-bf58-1187698f2679
+Error Number:10054,State:0,Class:20
+2020-09-09 10:28:47.5009 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 45
+2020-09-09 10:25:01.9462 INFO 9/9/2020 10:25:01 AM
+2020-09-09 10:36:14.6130 INFO 9/9/2020 10:36:14 AM
+2020-09-09 10:38:27.7685 INFO Connection to database to fetch Simbrella Loan Offer Report!
+2020-09-09 10:39:29.6580 INFO Connection to database to fetch Simbrella Loan Offer Report!

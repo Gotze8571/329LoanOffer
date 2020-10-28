@@ -1,0 +1,56 @@
+2020-09-20 21:27:53.2408 INFO NEW LOGIN
+2020-09-20 21:29:15.3836 INFO Group: Business Automation
+2020-09-20 21:29:15.3836 INFO UserId:1
+2020-09-20 21:29:21.5032 INFO System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+LoanOFFER.Web.Models.SalaryTopUpLoan: : EntityType 'SalaryTopUpLoan' has no key defined. Define the key for this EntityType.
+SalaryTopUpLoans: EntityType: EntitySet 'SalaryTopUpLoans' is based on type 'SalaryTopUpLoan' that has no keys defined.
+
+   at System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 154
+2020-09-20 21:29:21.8021 INFO Signed in User: tella.adesina
+2020-09-20 21:29:21.8021 INFO IP Address: ::1
+2020-09-20 21:29:21.8021 INFO IP Address: TELLA-PC
+2020-09-20 21:29:23.6630 INFO Home Page Loaded: 9/20/2020 9:29:23 PM
+2020-09-20 21:30:46.3397 INFO 9/20/2020 9:30:46 PM
+2020-09-20 21:35:24.2846 INFO NEW LOGIN
+2020-09-20 21:35:39.0986 INFO Group: Business Automation
+2020-09-20 21:35:39.0986 INFO UserId:1
+2020-09-20 21:35:39.9396 INFO System.Data.Entity.ModelConfiguration.ModelValidationException: One or more validation errors were detected during model generation:
+
+LoanOFFER.Web.Models.SalaryTopUpLoan: : EntityType 'SalaryTopUpLoan' has no key defined. Define the key for this EntityType.
+SalaryTopUpLoans: EntityType: EntitySet 'SalaryTopUpLoans' is based on type 'SalaryTopUpLoan' that has no keys defined.
+
+   at System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   at System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 154
+2020-09-20 21:35:39.9396 INFO Signed in User: tella.adesina
+2020-09-20 21:35:39.9396 INFO IP Address: ::1
+2020-09-20 21:35:39.9396 INFO IP Address: TELLA-PC
+2020-09-20 21:35:40.5715 INFO Home Page Loaded: 9/20/2020 9:35:40 PM
+2020-09-20 21:36:06.2999 INFO 9/20/2020 9:36:06 PM
+2020-09-20 21:36:57.2536 INFO 9/20/2020 9:36:57 PM
+2020-09-20 21:37:07.1250 INFO 9/20/2020 9:37:07 PM

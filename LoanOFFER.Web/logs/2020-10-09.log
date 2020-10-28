@@ -1,0 +1,16 @@
+2020-10-09 16:10:27.3598 INFO NEW LOGIN
+2020-10-09 16:10:46.9462 INFO Group: Business Automation
+2020-10-09 16:10:46.9462 INFO UserId:1
+2020-10-09 16:10:48.7331 INFO Signed in User: tella.adesina
+2020-10-09 16:10:48.7331 INFO IP Address: ::1
+2020-10-09 16:10:48.7331 INFO IP Address: TELLA-PC
+2020-10-09 16:10:48.9701 INFO Home Page Loaded: 10/9/2020 4:10:48 PM
+2020-10-09 16:11:13.6061 INFO 10/9/2020 4:11:13 PM
+2020-10-09 16:13:22.2401 INFO 10/9/2020 4:13:22 PM
+2020-10-09 16:13:22.4031 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-09 16:13:25.9212 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-09 16:13:29.8917 INFO start date:01-Jan-2018
+2020-10-09 16:13:29.8917 INFO end date:21-Mar-2019
+2020-10-09 16:13:29.8917 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-09 18:38:30.5798 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-09 18:38:31.2207 INFO  Simbrella Loan Offer Report data fetched from database successfully

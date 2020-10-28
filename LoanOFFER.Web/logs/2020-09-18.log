@@ -1,0 +1,101 @@
+2020-09-18 00:35:54.7315 INFO 9/18/2020 12:35:54 AM
+2020-09-18 00:36:56.7114 INFO 9/18/2020 12:36:56 AM
+2020-09-18 00:37:07.8458 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 00:37:25.6087 INFO Reader is not null..
+2020-09-18 00:37:27.9506 INFO Reader is equal to true..
+2020-09-18 01:03:40.1076 INFO 9/18/2020 1:03:40 AM
+2020-09-18 01:04:52.1373 INFO 9/18/2020 1:04:52 AM
+2020-09-18 01:05:03.6886 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 01:05:18.9327 INFO Reader is not null..
+2020-09-18 01:05:24.9283 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-09-18 01:05:47.6709 INFO start date:01-Jan-2019
+2020-09-18 01:05:48.6979 INFO end date:04-Jan-2019
+2020-09-18 01:05:49.4178 INFO  Remitta Report Loaded Successful
+2020-09-18 01:06:21.0130 INFO 9/18/2020 1:06:21 AM
+2020-09-18 01:06:40.6788 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 01:06:57.8378 INFO Reader is not null..
+2020-09-18 01:06:57.8378 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-09-18 01:06:58.2777 INFO start date:01-Jan-2019
+2020-09-18 01:06:58.2777 INFO end date:04-Jan-2019
+2020-09-18 01:06:58.2777 INFO  Remitta Report Loaded Successful
+2020-09-18 01:07:15.3597 INFO 9/18/2020 1:07:15 AM
+2020-09-18 01:07:23.2092 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 01:07:45.6479 INFO Reader is not null..
+2020-09-18 01:16:22.3286 INFO 9/18/2020 1:16:22 AM
+2020-09-18 01:17:00.7113 INFO 9/18/2020 1:17:00 AM
+2020-09-18 01:17:06.9719 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 01:17:22.9680 INFO Reader is not null..
+2020-09-18 01:17:22.9680 INFO Reader is equal to true..
+2020-09-18 01:17:23.0369 ERROR System.IndexOutOfRangeException: PhoneNo
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate, String phoneNo) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 102
+2020-09-18 01:17:23.1829 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 45
+2020-09-18 09:21:46.2251 INFO 9/18/2020 9:21:46 AM
+2020-09-18 09:22:34.0768 INFO 9/18/2020 9:22:34 AM
+2020-09-18 09:23:32.3242 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 09:23:39.2418 INFO Reader is not null..
+2020-09-18 09:23:56.2248 INFO Reader is equal to true..
+2020-09-18 09:33:38.6661 INFO 9/18/2020 9:33:38 AM
+2020-09-18 09:34:32.7778 INFO 9/18/2020 9:34:32 AM
+2020-09-18 09:34:45.8690 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-18 09:34:46.4029 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-18 09:34:56.7913 INFO start date:01-Jan-2018
+2020-09-18 09:34:56.7913 INFO end date:30-Aug-2018
+2020-09-18 09:34:56.7913 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-18 09:38:47.1632 INFO 9/18/2020 9:38:47 AM
+2020-09-18 09:39:22.6870 INFO 9/18/2020 9:39:22 AM
+2020-09-18 09:39:43.0047 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 09:39:54.8920 INFO Reader is not null..
+2020-09-18 09:40:01.7286 INFO Reader is equal to true..
+2020-09-18 09:41:01.0020 ERROR System.IndexOutOfRangeException: PhoneNo
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate, String phoneNo) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 101
+2020-09-18 09:41:01.2609 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 45
+2020-09-18 09:43:53.1924 INFO 9/18/2020 9:43:53 AM
+2020-09-18 09:44:39.5136 INFO 9/18/2020 9:44:39 AM
+2020-09-18 09:44:40.3415 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 09:44:40.5905 INFO Reader is not null..
+2020-09-18 09:44:40.5905 INFO Reader is equal to true..
+2020-09-18 09:44:40.5905 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-09-18 09:44:48.6780 INFO start date:01-Jan-2019
+2020-09-18 09:44:48.6780 INFO end date:30-Jan-2019
+2020-09-18 09:44:48.6780 INFO  Remitta Report Loaded Successful
+2020-09-18 10:16:04.6206 INFO 9/18/2020 10:16:04 AM
+2020-09-18 10:16:47.6910 INFO 9/18/2020 10:16:47 AM
+2020-09-18 10:16:48.6209 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-09-18 10:16:49.4509 INFO Reader is not null..
+2020-09-18 10:16:49.4509 INFO Reader is equal to true..
+2020-09-18 10:16:49.4509 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-09-18 10:17:01.7552 INFO start date:01-Jan-2019
+2020-09-18 10:17:01.7552 INFO end date:30-Jan-2019
+2020-09-18 10:17:01.7552 INFO  Remitta Report Loaded Successful
+2020-09-18 10:35:07.2860 INFO 9/18/2020 10:35:07 AM
+2020-09-18 10:36:33.3078 INFO 9/18/2020 10:36:33 AM
+2020-09-18 10:36:38.7094 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-18 10:36:39.3024 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-18 10:36:48.0269 INFO start date:01-Jan-2018
+2020-09-18 10:36:48.0269 INFO end date:31-Aug-2018
+2020-09-18 10:36:48.0269 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-18 10:36:54.6605 INFO 9/18/2020 10:36:54 AM
+2020-09-18 10:41:05.3474 INFO 9/18/2020 10:41:05 AM
+2020-09-18 10:41:46.5519 INFO 9/18/2020 10:41:46 AM
+2020-09-18 10:41:54.0054 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-09-18 10:41:56.2033 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-09-18 10:42:08.0767 INFO start date:01-Jan-2018
+2020-09-18 10:42:08.0767 INFO end date:31-Aug-2018
+2020-09-18 10:42:08.0767 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-09-18 10:42:15.4183 INFO 9/18/2020 10:42:15 AM

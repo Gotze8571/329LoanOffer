@@ -1,0 +1,148 @@
+2020-10-15 03:51:59.6166 INFO NEW LOGIN
+2020-10-15 03:52:36.4548 INFO Incorrect login details
+2020-10-15 03:52:36.5898 INFO Home Page Loaded: 10/15/2020 3:52:36 AM
+2020-10-15 03:52:47.3610 INFO 10/15/2020 3:52:47 AM
+2020-10-15 03:53:32.0184 INFO 10/15/2020 3:53:32 AM
+2020-10-15 03:53:32.5904 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-15 03:53:34.5372 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-15 03:53:37.9870 INFO start date:01-Jan-2018
+2020-10-15 03:53:37.9870 INFO end date:15-Sep-2020
+2020-10-15 03:53:37.9870 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-15 03:53:57.0255 INFO 10/15/2020 3:53:57 AM
+2020-10-15 04:07:16.8601 INFO 10/15/2020 4:07:16 AM
+2020-10-15 04:07:44.7761 INFO 10/15/2020 4:07:44 AM
+2020-10-15 04:07:47.0669 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-15 04:07:49.0578 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-15 04:08:02.9648 INFO start date:02-Jan-2018
+2020-10-15 04:08:02.9648 INFO end date:29-Sep-2020
+2020-10-15 04:08:02.9648 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-15 04:08:09.9703 INFO 10/15/2020 4:08:09 AM
+2020-10-15 04:08:22.1014 INFO 10/15/2020 4:08:22 AM
+2020-10-15 04:13:34.5688 INFO 10/15/2020 4:13:34 AM
+2020-10-15 04:15:54.9519 INFO 10/15/2020 4:15:54 AM
+2020-10-15 04:17:25.9186 INFO 10/15/2020 4:17:25 AM
+2020-10-15 04:18:09.0845 INFO 10/15/2020 4:18:09 AM
+2020-10-15 04:18:09.9164 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-15 04:18:11.4853 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-15 04:18:20.0737 INFO start date:01-Feb-2018
+2020-10-15 04:18:20.0737 INFO end date:29-Sep-2020
+2020-10-15 04:18:20.0737 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-15 04:27:15.3349 INFO NEW LOGIN
+2020-10-15 04:27:26.7011 INFO Group: Business Automation
+2020-10-15 04:27:26.7011 INFO UserId:1
+2020-10-15 04:27:29.0129 INFO Signed in User: tella.adesina
+2020-10-15 04:27:29.0129 INFO IP Address: ::1
+2020-10-15 04:27:29.0129 INFO IP Address: TELLA-PC
+2020-10-15 04:27:29.2829 INFO Home Page Loaded: 10/15/2020 4:27:29 AM
+2020-10-15 04:27:45.7498 INFO 10/15/2020 4:27:45 AM
+2020-10-15 04:28:18.3045 INFO 10/15/2020 4:28:18 AM
+2020-10-15 04:29:24.7068 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-10-15 04:34:21.5728 INFO NEW LOGIN
+2020-10-15 04:34:39.9705 INFO Group: Business Automation
+2020-10-15 04:34:39.9705 INFO UserId:1
+2020-10-15 04:34:43.5133 INFO Signed in User: tella.adesina
+2020-10-15 04:34:43.5133 INFO IP Address: ::1
+2020-10-15 04:34:43.5133 INFO IP Address: TELLA-PC
+2020-10-15 04:34:43.6853 INFO Home Page Loaded: 10/15/2020 4:34:43 AM
+2020-10-15 04:34:56.8054 INFO 10/15/2020 4:34:56 AM
+2020-10-15 04:35:47.7817 INFO 10/15/2020 4:35:47 AM
+2020-10-15 04:36:10.9561 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-10-15 04:36:25.4341 INFO Reader is not null..
+2020-10-15 04:36:30.9357 INFO Reader is equal to true..
+2020-10-15 04:37:18.8403 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-10-15 04:37:24.7799 INFO start date:03-Jan-2018
+2020-10-15 04:37:24.7799 INFO end date:30-Sep-2020
+2020-10-15 04:37:24.7799 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-10-15 04:47:39.5168 INFO 10/15/2020 4:47:39 AM
+2020-10-15 04:48:05.0071 INFO 10/15/2020 4:48:05 AM
+2020-10-15 04:48:08.4839 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 04:48:09.0719 INFO Reader is not null..
+2020-10-15 04:48:09.0719 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 04:48:10.2938 INFO start date:01-Jan-2018
+2020-10-15 04:48:10.2938 INFO end date:29-Sep-2020
+2020-10-15 04:48:10.2938 INFO  Remitta Report Loaded Successful
+2020-10-15 04:48:27.6836 INFO 10/15/2020 4:48:27 AM
+2020-10-15 04:48:30.9184 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 04:48:31.3724 INFO Reader is not null..
+2020-10-15 04:48:31.3724 INFO Reader is equal to true..
+2020-10-15 04:48:31.5333 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 04:48:32.0113 INFO start date:01-Jan-2018
+2020-10-15 04:48:32.0113 INFO end date:14-Oct-2020
+2020-10-15 04:48:32.0113 INFO  Remitta Report Loaded Successful
+2020-10-15 04:49:36.5180 INFO 10/15/2020 4:49:36 AM
+2020-10-15 04:49:41.0807 INFO 10/15/2020 4:49:41 AM
+2020-10-15 04:49:52.8970 INFO Home Page Loaded: 10/15/2020 4:49:52 AM
+2020-10-15 04:49:55.6928 INFO Home Page Loaded: 10/15/2020 4:49:55 AM
+2020-10-15 04:55:31.6359 INFO 10/15/2020 4:55:31 AM
+2020-10-15 04:56:54.1004 INFO 10/15/2020 4:56:54 AM
+2020-10-15 04:56:55.2003 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-10-15 04:56:57.1362 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-10-15 04:57:07.6495 INFO start date:01-Jan-2018
+2020-10-15 04:57:07.6495 INFO end date:30-Sep-2020
+2020-10-15 04:57:07.6495 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-10-15 05:07:57.3232 INFO 10/15/2020 5:07:57 AM
+2020-10-15 05:09:28.8813 INFO 10/15/2020 5:09:28 AM
+2020-10-15 05:09:43.5983 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 05:09:44.4582 INFO Reader is not null..
+2020-10-15 05:09:44.4582 INFO Reader is equal to true..
+2020-10-15 05:09:44.9502 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 05:10:08.9326 INFO start date:01-Jan-2018
+2020-10-15 05:10:08.9326 INFO end date:13-Oct-2020
+2020-10-15 05:10:08.9326 INFO  Remitta Report Loaded Successful
+2020-10-15 05:14:45.1236 INFO 10/15/2020 5:14:45 AM
+2020-10-15 05:15:36.7087 INFO 10/15/2020 5:15:36 AM
+2020-10-15 05:15:43.2253 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 05:15:43.6612 INFO Reader is not null..
+2020-10-15 05:15:43.6612 INFO Reader is equal to true..
+2020-10-15 05:15:43.8022 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 05:15:56.2244 INFO start date:01-Jan-2018
+2020-10-15 05:15:56.2244 INFO end date:13-Oct-2020
+2020-10-15 05:15:56.2244 INFO  Remitta Report Loaded Successful
+2020-10-15 05:16:03.7169 INFO 10/15/2020 5:16:03 AM
+2020-10-15 05:19:11.7285 INFO 10/15/2020 5:19:11 AM
+2020-10-15 05:19:48.7431 INFO 10/15/2020 5:19:48 AM
+2020-10-15 05:19:53.4428 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 05:19:56.5856 INFO Reader is not null..
+2020-10-15 05:19:56.5856 INFO Reader is equal to true..
+2020-10-15 05:19:57.1805 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 05:20:14.4074 INFO start date:01-Jan-2018
+2020-10-15 05:20:14.4074 INFO end date:13-Oct-2020
+2020-10-15 05:20:14.4074 INFO  Remitta Report Loaded Successful
+2020-10-15 05:20:41.9496 INFO 10/15/2020 5:20:41 AM
+2020-10-15 06:04:22.9136 INFO 10/15/2020 6:04:22 AM
+2020-10-15 06:05:09.7076 INFO 10/15/2020 6:05:09 AM
+2020-10-15 06:05:14.6743 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 06:05:15.8952 INFO Reader is not null..
+2020-10-15 06:05:15.8952 INFO Reader is equal to true..
+2020-10-15 06:05:16.0882 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 06:05:38.6457 INFO start date:01-Jan-2018
+2020-10-15 06:05:38.6457 INFO end date:13-Oct-2020
+2020-10-15 06:05:38.6457 INFO  Remitta Report Loaded Successful
+2020-10-15 06:05:49.7520 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 06:05:50.0690 INFO Reader is not null..
+2020-10-15 06:05:50.0690 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 06:17:20.6808 INFO 10/15/2020 6:17:20 AM
+2020-10-15 06:17:20.6808 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 06:17:20.6808 INFO 10/15/2020 6:17:20 AM
+2020-10-15 06:17:21.0978 INFO Reader is not null..
+2020-10-15 06:17:21.0978 INFO Reader is equal to true..
+2020-10-15 06:17:21.2408 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 06:17:21.2998 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 06:17:21.5617 INFO Reader is not null..
+2020-10-15 06:17:21.5617 INFO Reader is equal to true..
+2020-10-15 06:17:22.7217 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 06:17:22.8547 INFO start date:01-Jan-2017
+2020-10-15 06:17:22.8547 INFO end date:13-Oct-2020
+2020-10-15 06:17:22.8547 INFO  Remitta Report Loaded Successful
+2020-10-15 06:17:23.7416 INFO start date:01-Jan-2017
+2020-10-15 06:17:23.7416 INFO end date:13-Oct-2020
+2020-10-15 06:17:23.7416 INFO  Remitta Report Loaded Successful
+2020-10-15 10:59:40.5607 INFO 10/15/2020 10:59:40 AM
+2020-10-15 10:25:54.4958 INFO 10/15/2020 10:25:54 AM
+2020-10-15 10:25:59.6965 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-10-15 10:26:01.8034 INFO Reader is not null..
+2020-10-15 10:26:01.8034 INFO Reader is equal to true..
+2020-10-15 10:26:03.8183 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-10-15 10:26:25.0019 INFO start date:02-Jan-2018
+2020-10-15 10:26:25.0019 INFO end date:06-Oct-2020
+2020-10-15 10:26:25.0019 INFO  Remitta Report Loaded Successful
