@@ -1,0 +1,28 @@
+2020-11-11 11:18:34.3677 INFO NEW LOGIN
+2020-11-11 11:18:53.0616 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-11-11 11:18:53.1666 INFO Incorrect login details
+2020-11-11 11:18:54.0305 INFO Home Page Loaded: 11/11/2020 11:18:54 AM
+2020-11-11 17:08:45.2225 INFO 11/11/2020 5:08:45 PM
+2020-11-11 17:26:41.6912 INFO 11/11/2020 5:26:41 PM
+2020-11-11 17:26:42.1211 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-11 17:26:42.6121 INFO Reader is not null..
+2020-11-11 17:26:42.6121 INFO Reader is equal to true..
+2020-11-11 17:26:42.6121 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-11 17:26:48.9267 INFO start date:01-Jan-2018
+2020-11-11 17:26:48.9267 INFO end date:27-Oct-2020
+2020-11-11 17:26:48.9267 INFO Salary Top-Up Plus Loan Report Loaded Successful

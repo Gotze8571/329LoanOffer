@@ -1,0 +1,22 @@
+2020-11-25 10:27:57.5395 INFO NEW LOGIN
+2020-11-25 10:27:58.9144 INFO Home Page Loaded: 11/25/2020 10:27:58 AM
+2020-11-25 10:41:44.9857 INFO NEW LOGIN
+2020-11-25 10:41:45.6877 INFO Home Page Loaded: 11/25/2020 10:41:45 AM
+2020-11-25 10:41:51.6463 INFO 11/25/2020 10:41:51 AM
+2020-11-25 10:42:28.0608 INFO 11/25/2020 10:42:28 AM
+2020-11-25 10:42:32.2395 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-25 10:42:33.6894 INFO Reader is not null..
+2020-11-25 10:42:33.6894 INFO Reader is equal to true..
+2020-11-25 10:42:34.2164 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 257
+2020-11-25 10:42:34.6693 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-11-25 13:11:47.2075 INFO NEW LOGIN
+2020-11-25 13:11:50.2432 INFO Home Page Loaded: 11/25/2020 1:11:50 PM
+2020-11-25 13:42:05.8605 INFO Home Page Loaded: 11/25/2020 1:42:05 PM

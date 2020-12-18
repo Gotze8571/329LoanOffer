@@ -11,13 +11,18 @@
 <!Doctype html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="~/Content/PagedList.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
     <style>
         h2 {
             color: #ffba18;
         }
+
         .cardClass {
             background-color: #5c3092;
             padding: 20px;
@@ -38,7 +43,7 @@
     <br />
     <form class="form-inline">
 
-        <div class="input-group date ">
+        <div class="form-group date ">
             <input type="text" class="form-control datepicker" name="RequestDate" autocomplete="off">
             <div class="input-group-addon">
                 <label>start date</label>
@@ -46,30 +51,30 @@
             </div>
         </div>
 
-        <div class="input-group date">
+        <div class="form-group date">
             <input type="text" class="form-control datepicker" name="LogDate" autocomplete="off">
             <div class="input-group-addon">
                 <label>end date</label>
                 @*<span class="glyphicon glyphicon-th"></span>*@
             </div>
         </div>
-        <div class="input-group">
+        <div class="form-group">
             <input class="form-control mr-sm-2" type="search" name="SourcePhone" placeholder=" Phone Number Only" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </div>
 
-        <div class="input-group">
+        @*<div class="form-group">
             <input class="form-control mr-sm-2" type="text" name="customerName" placeholder="Customer Name" aria-label="Read-only">
-            @*<button class="btn btn-outline-success my-2 my-sm-0" type="search">Customer </button>*@
-        </div>
+            
+        </div>*@
 
         @*<button type="submit" class="btn btnClass ">Generate</button>*@
-        <div id="excelbtn" style="float:right" class="input-group">
-            @Html.ActionLink("Export To Excel", "ExportToExcel", "SalaryTopUpReport", new { RequestDate = ViewBag.RequestDate, LogDate = ViewBag.LogDate, phoneNo = ViewBag.SourcePhone }, new { @class = "btn btnClass", RequestDate = ViewBag.RequestDate, LogDate = ViewBag.LogDate, phoneNo = ViewBag.SourcePhone })
+        <div id="excelbtn" style="float:right" class="form-group">
+            @Html.ActionLink("Export To Excel", "ExportToExcel", "SalaryTopUpReport", new { startDate = ViewBag.RequestDate, endDate = ViewBag.LogDate}, new { @class = "btn btnClass", startDate = ViewBag.RequestDate, endDate = ViewBag.LogDate })
         </div>
 
-        <div id="pdfbtn" style="float:right" class="input-group">
-            @Html.ActionLink("Export To Pdf", "ExportToPdf", "SalaryTopUpReport", new { startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo }, new { @class = "btn btnClass", startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.SourcePhone })
+        <div id="pdfbtn" style="float:right" class="form-group">
+            @Html.ActionLink("Export To Pdf", "ExportToPdf", "SalaryTopUpReport", new { startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate}, new { @class = "btn btnClass", startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate})
         </div>
 
         <br />
@@ -78,9 +83,13 @@
         <table class="table table-striped table-bordered text-center" id="tblData">
             <thead style="background-color:  #5c3092; color: white">
                 <tr>
-                    @*<th>
-                     @Html.DisplayNameFor(model => model.First().Id)
-                    </th>*@
+                   
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().LoanID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().RequestID)
+                    </th>
                     <th>
                         @Html.DisplayNameFor(model => model.First().SourcePhone)
                     </th>
@@ -88,33 +97,57 @@
                         @Html.DisplayNameFor(model => model.First().Channel)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.First().RequestType)
+                        @Html.DisplayNameFor(model => model.First().LoanType)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.First().RequestDate)
+                        @Html.DisplayNameFor(model => model.First().Amount)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.First().Duration)
+                        @Html.DisplayNameFor(model => model.First().CustType)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.First().ResponseCode)
+                        @Html.DisplayNameFor(model => model.First().BrokerCode)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.First().ResponseDescr)
+                        @Html.DisplayNameFor(model => model.First().RespDescr)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.First().Remark)
+                        @Html.DisplayNameFor(model => model.First().RespCode)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().TranDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().Address_1)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().State)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().FirstName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().LastName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().Account)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().CustomerID)
                     </th>
                 </tr>
             </thead>
 
             @foreach (var item in Model)
-            {
+             {
                 <tbody>
                     <tr>
-                        @*<td>
-                            @Html.DisplayFor(modelItem => item.Id)
-                        </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LoanID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RequestID)
+                        </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.SourcePhone)
                         </td>
@@ -122,30 +155,52 @@
                             @Html.DisplayFor(modelItem => item.Channel)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.RequestType)
+                            @Html.DisplayFor(modelItem => item.LoanType)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.RequestDate)
+                            @Html.DisplayFor(modelItem => item.Amount)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Duration)
+                            @Html.DisplayFor(modelItem => item.CustType)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.ResponseCode)
+                            @Html.DisplayFor(modelItem => item.BrokerCode)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.ResponseDescr)
+                            @Html.DisplayFor(modelItem => item.RespDescr)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Remark)
+                            @Html.DisplayFor(modelItem => item.RespCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TranDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Address_1)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.State)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Account)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CustomerID)
                         </td>
                     </tr>
                 </tbody>
-            }
-
+             }
         </table>
     </form>
     <p>
-        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, RequestDate = ViewBag.RequestDate, LogDate = ViewBag.LogDate, SourcePhone = ViewBag.SourcePhone }), PagedListRenderOptions.PageNumbersOnly)
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, startDate = ViewBag.startDate, endDate = ViewBag.endDate }), PagedListRenderOptions.PageNumbersOnly)
     </p>
+    @*Salary Top-Up view end*@
+
 </body>

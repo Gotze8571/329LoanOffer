@@ -1,0 +1,52 @@
+2020-11-19 17:44:42.3797 INFO 11/19/2020 5:44:42 PM
+2020-11-19 17:49:18.1921 INFO 11/19/2020 5:49:18 PM
+2020-11-19 17:49:45.0975 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-19 17:49:45.9544 INFO Reader is not null..
+2020-11-19 17:49:45.9544 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-19 17:50:10.3429 INFO start date:01-Jan-2018
+2020-11-19 17:50:10.3429 INFO end date:27-Oct-2020
+2020-11-19 17:50:10.3429 INFO  Remitta Report Loaded Successful
+2020-11-19 17:53:51.4912 INFO 11/19/2020 5:53:51 PM
+2020-11-19 17:54:04.9454 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-19 17:54:07.3612 INFO Reader is not null..
+2020-11-19 17:54:08.7912 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-19 17:54:44.6529 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-19 17:54:54.9183 INFO Reader is not null..
+2020-11-19 17:55:09.8034 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-19 17:55:11.6542 INFO start date:01-Jan-2017
+2020-11-19 17:55:11.6542 INFO end date:27-Oct-2020
+2020-11-19 17:55:11.6542 INFO  Remitta Report Loaded Successful
+2020-11-19 18:04:10.1068 INFO 11/19/2020 6:04:10 PM
+2020-11-19 18:06:33.2909 INFO 11/19/2020 6:06:33 PM
+2020-11-19 18:06:40.3625 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-19 18:06:40.4374 INFO Reader is not null..
+2020-11-19 18:06:40.4374 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-19 18:06:52.8937 INFO start date:01-Jan-2017
+2020-11-19 18:06:52.8937 INFO end date:27-Oct-2020
+2020-11-19 18:06:52.8937 INFO  Remitta Report Loaded Successful
+2020-11-19 19:12:51.4678 INFO NEW LOGIN
+2020-11-19 19:13:06.1344 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-11-19 19:13:06.1674 INFO Incorrect login details
+2020-11-19 19:13:06.4053 INFO Home Page Loaded: 11/19/2020 7:13:06 PM
+2020-11-19 19:13:54.3989 INFO 11/19/2020 7:13:54 PM
+2020-11-19 19:59:04.2403 INFO 11/19/2020 7:59:04 PM
+2020-11-19 19:59:20.8223 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-19 19:59:20.9313 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-19 19:59:25.2420 INFO start date:01-Jan-2018
+2020-11-19 19:59:25.2420 INFO end date:26-Oct-2020
+2020-11-19 19:59:25.2420 INFO  Simbrella Loan Offer Report Loaded Successfully

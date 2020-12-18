@@ -1,0 +1,175 @@
+2020-11-04 07:49:48.6363 INFO NEW LOGIN
+2020-11-04 07:50:32.4564 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-11-04 07:50:32.5044 INFO Incorrect login details
+2020-11-04 07:50:33.4054 INFO Home Page Loaded: 11/4/2020 7:50:33 AM
+2020-11-04 07:54:50.0615 INFO Home Page Loaded: 11/4/2020 7:54:50 AM
+2020-11-04 07:55:32.0858 INFO Home Page Loaded: 11/4/2020 7:55:32 AM
+2020-11-04 07:56:24.1825 INFO Home Page Loaded: 11/4/2020 7:56:24 AM
+2020-11-04 07:58:37.0975 INFO Home Page Loaded: 11/4/2020 7:58:37 AM
+2020-11-04 07:59:16.5374 INFO Home Page Loaded: 11/4/2020 7:59:16 AM
+2020-11-04 07:59:45.1146 INFO Home Page Loaded: 11/4/2020 7:59:45 AM
+2020-11-04 07:59:45.8665 INFO Home Page Loaded: 11/4/2020 7:59:45 AM
+2020-11-04 08:04:51.1400 INFO Home Page Loaded: 11/4/2020 8:04:51 AM
+2020-11-04 08:05:22.3640 INFO Home Page Loaded: 11/4/2020 8:05:22 AM
+2020-11-04 08:11:44.3793 INFO Home Page Loaded: 11/4/2020 8:11:44 AM
+2020-11-04 08:12:16.3503 INFO Home Page Loaded: 11/4/2020 8:12:16 AM
+2020-11-04 08:12:21.9409 INFO Home Page Loaded: 11/4/2020 8:12:21 AM
+2020-11-04 08:15:39.8007 INFO Home Page Loaded: 11/4/2020 8:15:39 AM
+2020-11-04 08:17:11.0493 INFO Home Page Loaded: 11/4/2020 8:17:11 AM
+2020-11-04 08:36:50.1660 INFO NEW LOGIN
+2020-11-04 08:38:52.7491 INFO System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The user name or password is incorrect
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:1326,State:0,Class:20
+2020-11-04 08:38:52.8811 INFO Incorrect login details
+2020-11-04 08:38:53.8630 INFO Home Page Loaded: 11/4/2020 8:38:53 AM
+2020-11-04 08:40:13.7704 INFO 11/4/2020 8:40:13 AM
+2020-11-04 08:47:57.4365 INFO Home Page Loaded: 11/4/2020 8:47:57 AM
+2020-11-04 08:48:06.0280 INFO Home Page Loaded: 11/4/2020 8:48:06 AM
+2020-11-04 08:49:54.4190 INFO Home Page Loaded: 11/4/2020 8:49:54 AM
+2020-11-04 08:57:27.3132 INFO Home Page Loaded: 11/4/2020 8:57:27 AM
+2020-11-04 08:58:50.3158 INFO Home Page Loaded: 11/4/2020 8:58:50 AM
+2020-11-04 08:59:15.0182 INFO Home Page Loaded: 11/4/2020 8:59:15 AM
+2020-11-04 08:59:49.4460 INFO Home Page Loaded: 11/4/2020 8:59:49 AM
+2020-11-04 09:01:11.2287 INFO Home Page Loaded: 11/4/2020 9:01:11 AM
+2020-11-04 09:04:10.3516 INFO Home Page Loaded: 11/4/2020 9:04:10 AM
+2020-11-04 09:06:23.1206 INFO Home Page Loaded: 11/4/2020 9:06:23 AM
+2020-11-04 09:06:55.8715 INFO Home Page Loaded: 11/4/2020 9:06:55 AM
+2020-11-04 09:08:11.0272 INFO Home Page Loaded: 11/4/2020 9:08:11 AM
+2020-11-04 09:09:03.1398 INFO Home Page Loaded: 11/4/2020 9:09:03 AM
+2020-11-04 09:09:41.2194 INFO Home Page Loaded: 11/4/2020 9:09:41 AM
+2020-11-04 09:10:45.3653 INFO Home Page Loaded: 11/4/2020 9:10:45 AM
+2020-11-04 09:12:33.0789 INFO Home Page Loaded: 11/4/2020 9:12:33 AM
+2020-11-04 09:13:43.3004 INFO Home Page Loaded: 11/4/2020 9:13:43 AM
+2020-11-04 09:20:57.0363 INFO Home Page Loaded: 11/4/2020 9:20:57 AM
+2020-11-04 09:23:21.8299 INFO Home Page Loaded: 11/4/2020 9:23:21 AM
+2020-11-04 09:29:55.1935 INFO Home Page Loaded: 11/4/2020 9:29:55 AM
+2020-11-04 09:32:27.0057 INFO Home Page Loaded: 11/4/2020 9:32:27 AM
+2020-11-04 09:36:57.1843 INFO Home Page Loaded: 11/4/2020 9:36:57 AM
+2020-11-04 09:38:53.7948 INFO Home Page Loaded: 11/4/2020 9:38:53 AM
+2020-11-04 09:42:35.2525 INFO Home Page Loaded: 11/4/2020 9:42:35 AM
+2020-11-04 09:48:09.1945 INFO Home Page Loaded: 11/4/2020 9:48:09 AM
+2020-11-04 10:22:27.4622 INFO Home Page Loaded: 11/4/2020 10:22:27 AM
+2020-11-04 10:22:27.4622 INFO Home Page Loaded: 11/4/2020 10:22:27 AM
+2020-11-04 10:27:08.4653 INFO Home Page Loaded: 11/4/2020 10:27:08 AM
+2020-11-04 14:30:12.7336 INFO Home Page Loaded: 11/4/2020 2:30:12 PM
+2020-11-04 14:48:36.2562 INFO 11/4/2020 2:48:36 PM
+2020-11-04 15:14:03.7580 INFO 11/4/2020 3:14:03 PM
+2020-11-04 15:14:06.1168 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-04 15:14:07.9897 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-04 15:16:38.2379 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2020-11-04 15:22:55.3113 INFO NEW LOGIN
+2020-11-04 15:23:29.7578 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-11-04 15:23:29.7808 INFO Incorrect login details
+2020-11-04 15:23:30.9159 INFO Home Page Loaded: 11/4/2020 3:23:30 PM
+2020-11-04 15:23:41.2047 INFO 11/4/2020 3:23:41 PM
+2020-11-04 15:24:12.3410 INFO 11/4/2020 3:24:12 PM
+2020-11-04 15:24:12.5220 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-04 15:24:13.3201 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-04 15:24:21.4176 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2020-11-04 15:24:30.1893 INFO start date:01-Jan-2018
+2020-11-04 15:24:30.1893 INFO end date:27-Oct-2020
+2020-11-04 15:24:30.1893 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-04 15:25:00.1535 INFO 11/4/2020 3:25:00 PM
+2020-11-04 19:38:28.9540 INFO Home Page Loaded: 11/4/2020 7:38:28 PM
+2020-11-04 19:50:02.2121 INFO Home Page Loaded: 11/4/2020 7:50:02 PM
+2020-11-04 19:50:06.2868 INFO Home Page Loaded: 11/4/2020 7:50:06 PM
+2020-11-04 19:50:11.9195 INFO Home Page Loaded: 11/4/2020 7:50:11 PM
+2020-11-04 19:50:21.4689 INFO Home Page Loaded: 11/4/2020 7:50:21 PM
+2020-11-04 19:51:47.2324 INFO Home Page Loaded: 11/4/2020 7:51:47 PM
+2020-11-04 19:51:54.4079 INFO Home Page Loaded: 11/4/2020 7:51:54 PM
+2020-11-04 19:51:55.4119 INFO Home Page Loaded: 11/4/2020 7:51:55 PM
+2020-11-04 19:51:55.7848 INFO Home Page Loaded: 11/4/2020 7:51:55 PM
+2020-11-04 19:51:56.2048 INFO Home Page Loaded: 11/4/2020 7:51:56 PM
+2020-11-04 19:51:57.5007 INFO Home Page Loaded: 11/4/2020 7:51:57 PM
+2020-11-04 19:51:58.1607 INFO Home Page Loaded: 11/4/2020 7:51:58 PM
+2020-11-04 19:52:01.3815 INFO Home Page Loaded: 11/4/2020 7:52:01 PM
+2020-11-04 19:53:08.6702 INFO Home Page Loaded: 11/4/2020 7:53:08 PM
+2020-11-04 19:53:48.6647 INFO Home Page Loaded: 11/4/2020 7:53:48 PM
+2020-11-04 19:54:42.6892 INFO Home Page Loaded: 11/4/2020 7:54:42 PM
+2020-11-04 19:57:06.0290 INFO Home Page Loaded: 11/4/2020 7:57:06 PM
+2020-11-04 19:59:37.9065 INFO Home Page Loaded: 11/4/2020 7:59:37 PM
+2020-11-04 20:11:56.7905 INFO Home Page Loaded: 11/4/2020 8:11:56 PM
+2020-11-04 20:14:38.6331 INFO Home Page Loaded: 11/4/2020 8:14:38 PM
+2020-11-04 20:14:47.0066 INFO Home Page Loaded: 11/4/2020 8:14:47 PM
+2020-11-04 20:14:47.5166 INFO Home Page Loaded: 11/4/2020 8:14:47 PM
+2020-11-04 20:16:00.6259 INFO Home Page Loaded: 11/4/2020 8:16:00 PM
+2020-11-04 20:16:06.6726 INFO Home Page Loaded: 11/4/2020 8:16:06 PM
+2020-11-04 20:16:07.3715 INFO Home Page Loaded: 11/4/2020 8:16:07 PM
+2020-11-04 20:16:08.2045 INFO Home Page Loaded: 11/4/2020 8:16:08 PM

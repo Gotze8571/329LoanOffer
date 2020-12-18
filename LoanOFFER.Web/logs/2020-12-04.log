@@ -1,0 +1,86 @@
+2020-12-04 10:17:10.2148 INFO NEW LOGIN
+2020-12-04 10:17:10.6598 INFO Home Page Loaded: 12/4/2020 10:17:10 AM
+2020-12-04 10:18:40.6573 INFO 12/4/2020 10:18:40 AM
+2020-12-04 10:20:44.9677 INFO 12/4/2020 10:20:44 AM
+2020-12-04 10:21:12.1109 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-04 10:21:17.5755 INFO Reader is not null..
+2020-12-04 10:21:21.4534 INFO Reader is equal to true..
+2020-12-04 10:26:44.0935 INFO NEW LOGIN
+2020-12-04 10:26:44.2265 INFO Home Page Loaded: 12/4/2020 10:26:44 AM
+2020-12-04 10:26:51.2571 INFO 12/4/2020 10:26:51 AM
+2020-12-04 10:27:19.4376 INFO 12/4/2020 10:27:19 AM
+2020-12-04 10:27:34.1477 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-04 10:27:43.7282 INFO Reader is not null..
+2020-12-04 10:27:47.3940 INFO Reader is equal to true..
+2020-12-04 10:27:54.2706 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 257
+2020-12-04 10:28:04.0391 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-12-04 10:39:54.6026 INFO NEW LOGIN
+2020-12-04 10:39:54.8246 INFO Home Page Loaded: 12/4/2020 10:39:54 AM
+2020-12-04 10:40:15.0458 INFO 12/4/2020 10:40:15 AM
+2020-12-04 10:42:10.3253 INFO 12/4/2020 10:42:10 AM
+2020-12-04 10:42:30.2470 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-04 10:42:34.8719 INFO Reader is not null..
+2020-12-04 10:42:48.8951 INFO Reader is equal to true..
+2020-12-04 10:42:59.6645 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 257
+2020-12-04 11:49:01.4297 INFO NEW LOGIN
+2020-12-04 11:49:01.8737 INFO Home Page Loaded: 12/4/2020 11:49:01 AM
+2020-12-04 11:51:31.8322 INFO 12/4/2020 11:51:31 AM
+2020-12-04 11:52:01.3515 INFO 12/4/2020 11:52:01 AM
+2020-12-04 11:52:12.7319 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-04 11:52:25.5762 INFO Reader is not null..
+2020-12-04 11:52:27.1111 INFO Reader is equal to true..
+2020-12-04 12:07:07.6634 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 257
+2020-12-04 13:49:44.6777 INFO NEW LOGIN
+2020-12-04 13:49:45.0186 INFO Home Page Loaded: 12/4/2020 1:49:45 PM
+2020-12-04 13:52:38.4038 INFO 12/4/2020 1:52:38 PM
+2020-12-04 13:53:07.1952 INFO 12/4/2020 1:53:07 PM
+2020-12-04 14:30:46.0843 INFO NEW LOGIN
+2020-12-04 14:30:46.4583 INFO Home Page Loaded: 12/4/2020 2:30:46 PM
+2020-12-04 14:30:55.6017 INFO 12/4/2020 2:30:55 PM
+2020-12-04 14:41:08.5366 INFO NEW LOGIN
+2020-12-04 14:41:08.6435 INFO Home Page Loaded: 12/4/2020 2:41:08 PM
+2020-12-04 14:41:20.4711 INFO 12/4/2020 2:41:20 PM
+2020-12-04 14:41:45.9262 INFO 12/4/2020 2:41:45 PM
+2020-12-04 15:08:01.6184 INFO NEW LOGIN
+2020-12-04 15:08:01.7734 INFO Home Page Loaded: 12/4/2020 3:08:01 PM
+2020-12-04 15:08:08.7070 INFO 12/4/2020 3:08:08 PM
+2020-12-04 15:08:43.5421 INFO 12/4/2020 3:08:43 PM
+2020-12-04 20:01:47.8072 INFO NEW LOGIN
+2020-12-04 20:01:48.1152 INFO Home Page Loaded: 12/4/2020 8:01:48 PM
+2020-12-04 20:01:54.4534 INFO 12/4/2020 8:01:54 PM
+2020-12-04 20:02:17.3497 INFO 12/4/2020 8:02:17 PM
+2020-12-04 20:05:44.5777 INFO NEW LOGIN
+2020-12-04 20:05:44.7106 INFO Home Page Loaded: 12/4/2020 8:05:44 PM
+2020-12-04 20:05:49.7113 INFO 12/4/2020 8:05:49 PM
+2020-12-04 20:06:13.7199 INFO 12/4/2020 8:06:13 PM
+2020-12-04 20:06:37.1034 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-04 20:06:41.6072 INFO Reader is not null..
+2020-12-04 20:06:44.0600 INFO Reader is equal to true..
+2020-12-04 20:07:00.9930 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-04 20:07:13.2143 INFO start date:30-Dec-2019
+2020-12-04 20:07:13.2143 INFO end date:03-Dec-2020
+2020-12-04 20:07:13.2143 INFO  Remitta Report Loaded Successful
+2020-12-04 20:07:51.8579 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 194
+2020-12-04 20:20:36.1053 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 194

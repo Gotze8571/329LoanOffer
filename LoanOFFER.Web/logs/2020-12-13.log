@@ -1,0 +1,28 @@
+2020-12-13 09:32:21.5197 INFO 12/13/2020 9:32:21 AM
+2020-12-13 09:34:49.9357 INFO 12/13/2020 9:34:49 AM
+2020-12-13 09:34:53.7799 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-13 09:34:54.4808 INFO Reader is not null..
+2020-12-13 09:34:54.4808 INFO Reader is equal to true..
+2020-12-13 09:34:54.4808 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-13 09:34:55.2315 INFO start date:29-Dec-2019
+2020-12-13 09:34:55.2315 INFO end date:10-Dec-2020
+2020-12-13 09:34:55.2315 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-13 09:35:08.2151 INFO 12/13/2020 9:35:08 AM
+2020-12-13 09:38:10.4638 INFO 12/13/2020 9:38:10 AM
+2020-12-13 09:38:41.1434 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-13 09:38:42.2583 INFO Reader is not null..
+2020-12-13 09:38:42.2583 INFO Reader is equal to true..
+2020-12-13 09:38:42.3112 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-13 09:38:42.3363 INFO start date:30-Dec-2019
+2020-12-13 09:38:42.3363 INFO end date:10-Dec-2020
+2020-12-13 09:38:42.3363 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-13 09:39:01.4070 INFO 12/13/2020 9:39:01 AM
+2020-12-13 09:55:49.0881 INFO 12/13/2020 9:55:49 AM
+2020-12-13 09:55:51.5260 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-13 09:55:51.9848 INFO Reader is not null..
+2020-12-13 09:55:51.9848 INFO Reader is equal to true..
+2020-12-13 09:55:51.9977 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-13 09:55:52.0414 INFO start date:29-Dec-2019
+2020-12-13 09:55:52.0414 INFO end date:10-Dec-2020
+2020-12-13 09:55:52.0414 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-13 09:56:16.7127 INFO 12/13/2020 9:56:16 AM

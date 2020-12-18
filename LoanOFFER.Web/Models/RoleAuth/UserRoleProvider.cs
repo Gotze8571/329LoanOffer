@@ -48,6 +48,7 @@ namespace LoanOFFER.Web.Models.RoleAuth
                                  select role.RoleName).ToArray();
                 return userRoles;
             }
+           
         }
 
         public override string[] GetUsersInRole(string roleName)

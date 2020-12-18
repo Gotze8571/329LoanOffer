@@ -1,0 +1,232 @@
+2020-12-10 00:04:47.7816 INFO NEW LOGIN
+2020-12-10 00:04:47.7976 INFO Home Page Loaded: 12/10/2020 12:04:47 AM
+2020-12-10 00:05:03.1972 INFO 12/10/2020 12:05:03 AM
+2020-12-10 00:06:43.0143 INFO 12/10/2020 12:06:43 AM
+2020-12-10 00:07:07.7643 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-10 00:07:11.0105 INFO Reader is not null..
+2020-12-10 00:07:12.8045 INFO Reader is equal to true..
+2020-12-10 00:07:21.6915 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-10 00:07:26.8048 INFO start date:29-Dec-2019
+2020-12-10 00:07:26.8048 INFO end date:08-Dec-2020
+2020-12-10 00:07:26.8048 INFO  Remitta Report Loaded Successful
+2020-12-10 00:08:24.4579 INFO Home Page Loaded: 12/10/2020 12:08:24 AM
+2020-12-10 00:08:27.6382 INFO 12/10/2020 12:08:27 AM
+2020-12-10 00:08:40.0178 INFO 12/10/2020 12:08:40 AM
+2020-12-10 00:08:40.0178 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:08:42.8891 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:08:43.8108 INFO start date:30-Dec-2019
+2020-12-10 00:08:43.8108 INFO end date:09-Dec-2020
+2020-12-10 00:08:43.8108 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:12:03.6113 INFO 12/10/2020 12:12:03 AM
+2020-12-10 00:12:04.8051 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:12:05.7374 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:12:09.9200 INFO start date:30-Dec-2019
+2020-12-10 00:12:09.9200 INFO end date:09-Dec-2020
+2020-12-10 00:12:09.9200 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:12:11.3440 INFO NEW LOGIN
+2020-12-10 00:12:11.3600 INFO Home Page Loaded: 12/10/2020 12:12:11 AM
+2020-12-10 00:12:14.2130 INFO 12/10/2020 12:12:14 AM
+2020-12-10 00:42:56.7177 INFO 12/10/2020 12:42:56 AM
+2020-12-10 00:42:56.7177 INFO 12/10/2020 12:42:56 AM
+2020-12-10 00:42:56.7177 INFO 12/10/2020 12:42:56 AM
+2020-12-10 00:42:57.8659 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:42:58.7726 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:42:59.7221 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:43:00.1701 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:43:04.7340 INFO start date:30-Dec-2019
+2020-12-10 00:43:04.7340 INFO end date:09-Dec-2020
+2020-12-10 00:43:04.7340 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:43:05.6117 INFO start date:30-Dec-2019
+2020-12-10 00:43:05.6117 INFO end date:09-Dec-2020
+2020-12-10 00:43:05.6117 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:43:09.6457 INFO 12/10/2020 12:43:09 AM
+2020-12-10 00:43:09.6457 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:43:10.5417 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:43:11.2537 INFO start date:30-Dec-2019
+2020-12-10 00:43:11.2537 INFO end date:02-Dec-2020
+2020-12-10 00:43:11.2537 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:45:38.9226 INFO 12/10/2020 12:45:38 AM
+2020-12-10 00:45:40.2960 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:45:41.0669 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:45:44.4897 INFO NEW LOGIN
+2020-12-10 00:45:44.5137 INFO Home Page Loaded: 12/10/2020 12:45:44 AM
+2020-12-10 00:45:45.2017 INFO start date:30-Dec-2019
+2020-12-10 00:45:45.2017 INFO end date:02-Dec-2020
+2020-12-10 00:45:45.2017 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:46:19.4011 INFO 12/10/2020 12:46:19 AM
+2020-12-10 00:46:30.5201 INFO 12/10/2020 12:46:30 AM
+2020-12-10 00:46:30.5201 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:46:31.9293 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:46:32.7452 INFO start date:30-Dec-2019
+2020-12-10 00:46:32.7452 INFO end date:09-Dec-2020
+2020-12-10 00:46:32.7452 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:52:24.3758 INFO Home Page Loaded: 12/10/2020 12:52:24 AM
+2020-12-10 00:52:40.9315 INFO 12/10/2020 12:52:40 AM
+2020-12-10 00:52:42.1360 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:52:43.9796 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:52:44.8209 INFO start date:31-Dec-2018
+2020-12-10 00:52:44.8209 INFO end date:09-Dec-2020
+2020-12-10 00:52:44.8209 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:56:36.9667 INFO 12/10/2020 12:56:36 AM
+2020-12-10 00:56:36.9667 INFO 12/10/2020 12:56:36 AM
+2020-12-10 00:56:38.1623 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:56:38.8903 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:56:39.1143 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 00:56:39.4308 INFO NEW LOGIN
+2020-12-10 00:56:39.4388 INFO Home Page Loaded: 12/10/2020 12:56:39 AM
+2020-12-10 00:56:40.7589 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 00:56:41.8596 INFO 12/10/2020 12:56:41 AM
+2020-12-10 00:56:43.0641 INFO start date:30-Dec-2019
+2020-12-10 00:56:43.0641 INFO end date:02-Dec-2020
+2020-12-10 00:56:43.0641 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:56:43.9054 INFO start date:31-Dec-2018
+2020-12-10 00:56:43.9054 INFO end date:09-Dec-2020
+2020-12-10 00:56:43.9054 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 00:56:58.0412 INFO 12/10/2020 12:56:58 AM
+2020-12-10 00:57:12.1637 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-10 00:57:14.5180 INFO Reader is not null..
+2020-12-10 00:57:14.5180 INFO Reader is equal to true..
+2020-12-10 00:57:15.1340 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-10 00:57:15.9701 INFO start date:30-Dec-2019
+2020-12-10 00:57:15.9701 INFO end date:09-Dec-2020
+2020-12-10 00:57:15.9701 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-10 00:57:34.2162 INFO 12/10/2020 12:57:34 AM
+2020-12-10 00:58:21.1351 INFO Home Page Loaded: 12/10/2020 12:58:21 AM
+2020-12-10 00:58:34.3108 INFO 12/10/2020 12:58:34 AM
+2020-12-10 00:59:36.5357 INFO 12/10/2020 12:59:36 AM
+2020-12-10 00:59:49.1632 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-10 00:59:50.7210 INFO Reader is not null..
+2020-12-10 00:59:50.7210 INFO Reader is equal to true..
+2020-12-10 00:59:56.2040 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-10 00:59:57.1286 INFO start date:30-Dec-2019
+2020-12-10 00:59:57.1286 INFO end date:09-Dec-2020
+2020-12-10 00:59:57.1286 INFO  Remitta Report Loaded Successful
+2020-12-10 01:09:51.6583 INFO NEW LOGIN
+2020-12-10 01:09:51.6823 INFO Home Page Loaded: 12/10/2020 1:09:51 AM
+2020-12-10 01:09:59.5946 INFO 12/10/2020 1:09:59 AM
+2020-12-10 01:10:16.5351 INFO 12/10/2020 1:10:16 AM
+2020-12-10 01:10:24.8424 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-10 01:10:25.4549 INFO Reader is not null..
+2020-12-10 01:10:25.4549 INFO Reader is equal to true..
+2020-12-10 01:10:26.8349 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-10 01:10:31.5123 INFO start date:30-Dec-2018
+2020-12-10 01:10:31.5123 INFO end date:09-Dec-2020
+2020-12-10 01:10:31.5123 INFO  Remitta Report Loaded Successful
+2020-12-10 01:11:15.3460 INFO Home Page Loaded: 12/10/2020 1:11:15 AM
+2020-12-10 01:12:47.3549 INFO 12/10/2020 1:12:47 AM
+2020-12-10 01:15:34.0148 INFO 12/10/2020 1:15:34 AM
+2020-12-10 01:15:37.8722 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-10 01:15:38.3856 INFO Reader is not null..
+2020-12-10 01:15:38.3856 INFO Reader is equal to true..
+2020-12-10 01:15:38.6975 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-10 01:15:43.5029 INFO start date:30-Dec-2019
+2020-12-10 01:15:43.5029 INFO end date:09-Dec-2020
+2020-12-10 01:15:43.5029 INFO  Remitta Report Loaded Successful
+2020-12-10 01:18:56.5739 INFO 12/10/2020 1:18:56 AM
+2020-12-10 01:18:58.8537 INFO Home Page Loaded: 12/10/2020 1:18:58 AM
+2020-12-10 01:19:01.4208 INFO 12/10/2020 1:19:01 AM
+2020-12-10 01:28:15.5627 INFO 12/10/2020 1:28:15 AM
+2020-12-10 01:28:19.5207 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-10 01:28:21.9847 INFO Reader is not null..
+2020-12-10 01:28:21.9847 INFO Reader is equal to true..
+2020-12-10 01:28:23.7225 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-10 01:28:25.6864 INFO start date:31-Dec-2018
+2020-12-10 01:28:25.6864 INFO end date:09-Dec-2020
+2020-12-10 01:28:25.6864 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-10 01:28:50.0290 INFO 12/10/2020 1:28:50 AM
+2020-12-10 01:28:56.9824 INFO Home Page Loaded: 12/10/2020 1:28:56 AM
+2020-12-10 01:28:58.9894 INFO 12/10/2020 1:28:58 AM
+2020-12-10 01:29:14.9902 INFO 12/10/2020 1:29:14 AM
+2020-12-10 01:29:16.1430 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 01:29:17.9978 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 01:29:18.9100 INFO start date:31-Dec-2018
+2020-12-10 01:29:18.9100 INFO end date:09-Dec-2020
+2020-12-10 01:29:18.9100 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 08:37:47.1728 INFO NEW LOGIN
+2020-12-10 08:37:47.1908 INFO Home Page Loaded: 12/10/2020 8:37:47 AM
+2020-12-10 08:37:52.0092 INFO 12/10/2020 8:37:52 AM
+2020-12-10 08:38:09.7975 INFO 12/10/2020 8:38:09 AM
+2020-12-10 08:38:11.3159 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 08:38:12.4037 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 08:38:17.5208 INFO start date:30-Dec-2019
+2020-12-10 08:38:17.5208 INFO end date:02-Dec-2020
+2020-12-10 08:38:17.5208 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 08:51:13.0973 INFO 12/10/2020 8:51:13 AM
+2020-12-10 08:51:14.0625 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-10 08:51:15.2881 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-10 08:51:17.1025 INFO start date:30-Dec-2019
+2020-12-10 08:51:17.1025 INFO end date:09-Dec-2020
+2020-12-10 08:51:17.1025 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-10 09:33:53.1098 INFO NEW LOGIN
+2020-12-10 09:33:53.1277 INFO Home Page Loaded: 12/10/2020 9:33:53 AM
+2020-12-10 09:34:13.8228 INFO 12/10/2020 9:34:13 AM
+2020-12-10 09:34:30.6115 INFO 12/10/2020 9:34:30 AM
+2020-12-10 09:34:48.3129 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-10 09:34:52.3151 INFO Reader is not null..
+2020-12-10 09:34:54.8931 INFO Reader is equal to true..
+2020-12-10 09:35:22.8887 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-10 09:35:28.0665 INFO start date:30-Dec-2019
+2020-12-10 09:35:28.0665 INFO end date:09-Dec-2020
+2020-12-10 09:35:28.0665 INFO  Remitta Report Loaded Successful
+2020-12-10 09:36:20.3552 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-10 09:36:20.6010 INFO Reader is not null..
+2020-12-10 09:36:20.6010 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-10 09:40:18.1717 INFO 12/10/2020 9:40:18 AM
+2020-12-10 09:40:37.6568 INFO 12/10/2020 9:40:37 AM
+2020-12-10 09:40:50.1408 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-10 09:40:50.4206 INFO Reader is not null..
+2020-12-10 09:40:50.4206 INFO Reader is equal to true..
+2020-12-10 09:40:50.5533 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-10 09:40:55.4381 INFO start date:29-Dec-2019
+2020-12-10 09:40:55.4381 INFO end date:02-Dec-2020
+2020-12-10 09:40:55.4381 INFO  Remitta Report Loaded Successful
+2020-12-10 10:40:53.5442 INFO 12/10/2020 10:40:53 AM
+2020-12-10 10:41:12.6696 INFO 12/10/2020 10:41:12 AM
+2020-12-10 10:41:16.2295 ERROR System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.) ---> System.ComponentModel.Win32Exception (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate) in C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 153
+ClientConnectionId:047d8746-0bc3-4642-8b82-63003786a51b
+Error Number:10054,State:0,Class:20
+2020-12-10 10:41:16.2584 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 50
+2020-12-10 10:43:22.9032 INFO 12/10/2020 10:43:22 AM
+2020-12-10 10:43:38.4470 INFO 12/10/2020 10:43:38 AM
+2020-12-10 10:43:42.2365 ERROR System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.) ---> System.ComponentModel.Win32Exception (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate) in C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 153
+ClientConnectionId:c212dd28-2f91-4b63-97fa-78d6ad04fe53
+Error Number:10054,State:0,Class:20
+2020-12-10 10:43:42.2634 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 50

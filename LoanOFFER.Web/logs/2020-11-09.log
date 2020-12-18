@@ -1,0 +1,89 @@
+2020-11-09 00:11:57.3532 INFO 11/9/2020 12:11:57 AM
+2020-11-09 04:02:51.0525 INFO 11/9/2020 4:02:51 AM
+2020-11-09 04:03:02.4122 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-09 04:03:14.4144 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-09 04:03:20.6160 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2020-11-09 04:03:41.7067 INFO start date:01-Jan-2018
+2020-11-09 04:03:41.7067 INFO end date:28-Oct-2020
+2020-11-09 04:03:41.7067 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-09 04:04:11.3613 INFO 11/9/2020 4:04:11 AM
+2020-11-09 05:52:47.7369 INFO 11/9/2020 5:52:47 AM
+2020-11-09 05:55:10.9280 INFO 11/9/2020 5:55:10 AM
+2020-11-09 05:55:11.9689 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-09 05:55:19.4114 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-09 05:55:25.1071 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2020-11-09 05:55:47.5797 INFO start date:01-Jan-2018
+2020-11-09 05:55:47.5797 INFO end date:27-Oct-2020
+2020-11-09 05:55:47.5797 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-09 05:55:53.1573 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-09 05:55:57.3751 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-09 06:02:52.9477 INFO 11/9/2020 6:02:52 AM
+2020-11-09 06:03:38.7349 INFO 11/9/2020 6:03:38 AM
+2020-11-09 06:03:42.0246 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-09 06:03:46.5461 INFO Reader is not null..
+2020-11-09 06:03:46.5461 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-09 06:04:07.1534 INFO start date:01-Jan-2020
+2020-11-09 06:04:07.1534 INFO end date:03-Nov-2020
+2020-11-09 06:04:07.1534 INFO  Remitta Report Loaded Successful
+2020-11-09 05:04:47.2996 INFO 11/9/2020 5:04:47 AM
+2020-11-09 05:04:47.2996 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-09 05:04:48.1655 INFO Reader is not null..
+2020-11-09 05:04:48.1655 INFO Reader is equal to true..
+2020-11-09 05:04:52.9001 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-09 05:04:53.5061 INFO start date:01-Jan-2018
+2020-11-09 05:04:53.5061 INFO end date:28-Oct-2020
+2020-11-09 05:04:53.5061 INFO  Remitta Report Loaded Successful
+2020-11-09 12:24:17.5949 INFO 11/9/2020 12:24:17 PM
+2020-11-09 12:27:13.5707 INFO 11/9/2020 12:27:13 PM
+2020-11-09 12:27:17.8134 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-09 12:27:19.7403 INFO Reader is not null..
+2020-11-09 12:27:19.7403 INFO Reader is equal to true..
+2020-11-09 12:27:20.3133 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-09 12:27:37.7682 INFO start date:01-Jan-2018
+2020-11-09 12:27:37.7682 INFO end date:28-Oct-2020
+2020-11-09 12:27:37.7682 INFO  Remitta Report Loaded Successful
+2020-11-09 12:27:42.2689 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 175
+2020-11-09 12:28:13.9655 INFO Home Page Loaded: 11/9/2020 12:28:13 PM
+2020-11-09 12:45:12.2213 INFO 11/9/2020 12:45:12 PM
+2020-11-09 12:46:32.9823 INFO 11/9/2020 12:46:32 PM
+2020-11-09 12:46:33.5013 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-09 12:46:34.9242 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-09 12:46:41.0768 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2020-11-09 12:46:42.7177 INFO start date:01-Jan-2018
+2020-11-09 12:46:42.7177 INFO end date:27-Oct-2020
+2020-11-09 12:46:42.7177 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-09 13:04:47.5446 INFO 11/9/2020 1:04:47 PM
+2020-11-09 13:05:01.5757 INFO Home Page Loaded: 11/9/2020 1:05:01 PM
+2020-11-09 13:05:05.1575 INFO 11/9/2020 1:05:05 PM
+2020-11-09 13:05:22.0285 INFO 11/9/2020 1:05:22 PM
+2020-11-09 13:05:22.5204 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-09 13:05:22.8194 INFO Reader is not null..
+2020-11-09 13:05:22.8194 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-09 13:05:23.8723 INFO start date:01-Jan-2018
+2020-11-09 13:05:23.8723 INFO end date:28-Oct-2020
+2020-11-09 13:05:23.8723 INFO  Remitta Report Loaded Successful
+2020-11-09 13:08:42.0401 INFO 11/9/2020 1:08:42 PM
+2020-11-09 13:08:42.0401 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-09 13:08:42.3221 INFO Reader is not null..
+2020-11-09 13:08:42.3221 INFO Reader is equal to true..
+2020-11-09 13:08:42.4561 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-09 13:08:42.8650 INFO start date:01-Jan-2018
+2020-11-09 13:08:42.8650 INFO end date:28-Oct-2020
+2020-11-09 13:08:42.8650 INFO  Remitta Report Loaded Successful
+2020-11-09 14:15:24.3288 INFO 11/9/2020 2:15:24 PM
+2020-11-09 14:15:24.9087 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-09 14:15:25.2727 INFO Reader is not null..
+2020-11-09 14:15:25.2727 INFO Reader is equal to true..
+2020-11-09 14:15:25.4047 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-09 14:15:26.5976 INFO start date:01-Jan-2017
+2020-11-09 14:15:26.5976 INFO end date:04-Nov-2020
+2020-11-09 14:15:26.5976 INFO  Remitta Report Loaded Successful
+2020-11-09 14:15:31.4513 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 175

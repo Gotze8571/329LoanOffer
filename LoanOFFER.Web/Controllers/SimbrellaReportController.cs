@@ -38,20 +38,25 @@ namespace LoanOFFER.Web.Controllers
             var startDate = Request.Params["RequestTime"];
             var endDate = Request.Params["LogDate"];
             var CustId = Request.Params["customerid"];
+           // var accountNo = Request.Params["accountNo"];
+            
             LoanOfferDb dataConnector = new LoanOfferDb();
 
             try
             {
-                if (string.IsNullOrWhiteSpace(startDate) || string.IsNullOrWhiteSpace(endDate) || string.IsNullOrWhiteSpace(CustId))
+                // if (string.IsNullOrWhiteSpace(startDate) || string.IsNullOrWhiteSpace(endDate) || string.IsNullOrWhiteSpace(CustId))
+                if (string.IsNullOrWhiteSpace(startDate) || string.IsNullOrWhiteSpace(endDate))
                 {
                     return View("Index", new SimbrellaLoanList().ToList().ToPagedList(pageNumber, pageSize));
                 }
-                if (CustId != null)
+                if ((startDate != null) || (endDate != null))
                 {
                     var result = dataConnector.GetSimbrellaLoanDb(startDate, endDate, CustId).ToPagedList(pageNumber, pageSize);
+                   // var resultSecond = dataConnector.GetMoreInfo(accountNo).ToPagedList(pageNumber, pageSize);
                     ViewBag.startDate = this.Request.Params["RequestTime"];
                     ViewBag.endDate = this.Request.Params["LogDate"];
                     ViewBag.CustId = this.Request.Params["customerId"];
+                    ViewBag.accountNo = this.Request.Params["accountNo"];
 
                     SimbrellaLoanTracker sim = new SimbrellaLoanTracker
                     {
@@ -73,11 +78,12 @@ namespace LoanOFFER.Web.Controllers
                 {
                     ErrorLoan error = new ErrorLoan
                     {
+                        //Id = id,
                         StartDate = startDate,
                         EndDate = endDate,
-                        FetchedData = true,
+                        FetchedData = false,
                         LoginUser = userId,
-                        ErrorName = "Simbrella Report Error.",
+                        ErrorName = "Simbrella Report Error in spooling data!!",
                         ErrorDate = DateTime.Now
                     };
                     context.Errors.Add(error);
@@ -89,9 +95,10 @@ namespace LoanOFFER.Web.Controllers
                 logger.Error(ex);
                 ErrorLoan error = new ErrorLoan
                 {
+                    //Id = id,
                     StartDate = startDate,
                     EndDate = endDate,
-                    FetchedData = true,
+                    FetchedData = false,
                     LoginUser = userId,
                     ErrorName = "Simbrella Report Error caught an Exception.",
                     ErrorDate = DateTime.Now

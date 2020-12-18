@@ -1,0 +1,148 @@
+2020-12-11 08:10:59.6989 INFO NEW LOGIN
+2020-12-11 08:10:59.7178 INFO Home Page Loaded: 12/11/2020 8:10:59 AM
+2020-12-11 08:11:03.2231 INFO 12/11/2020 8:11:03 AM
+2020-12-11 08:11:21.2981 INFO 12/11/2020 8:11:21 AM
+2020-12-11 08:11:24.8690 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-11 08:11:25.5957 INFO Reader is not null..
+2020-12-11 08:11:25.5957 INFO Reader is equal to true..
+2020-12-11 08:11:25.6534 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-11 08:11:57.5250 INFO 12/11/2020 8:11:57 AM
+2020-12-11 08:12:16.4843 INFO 12/11/2020 8:12:16 AM
+2020-12-11 08:12:26.3258 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-11 08:12:27.5389 INFO Reader is not null..
+2020-12-11 08:12:28.5892 INFO Reader is equal to true..
+2020-12-11 08:13:10.3865 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-11 08:15:53.8720 INFO 12/11/2020 8:15:53 AM
+2020-12-11 08:16:15.6901 INFO 12/11/2020 8:16:15 AM
+2020-12-11 08:16:24.0798 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-11 08:16:27.9567 INFO Reader is not null..
+2020-12-11 08:16:29.0979 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-11 08:35:11.3190 INFO NEW LOGIN
+2020-12-11 08:35:11.3399 INFO Home Page Loaded: 12/11/2020 8:35:11 AM
+2020-12-11 08:35:15.1925 INFO 12/11/2020 8:35:15 AM
+2020-12-11 08:35:44.3241 INFO 12/11/2020 8:35:44 AM
+2020-12-11 08:35:59.9564 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-11 08:36:03.5878 INFO Reader is not null..
+2020-12-11 08:36:05.7216 INFO Reader is equal to true..
+2020-12-11 08:37:09.8878 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-11 08:38:22.8013 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 68
+2020-12-11 08:49:30.7371 INFO NEW LOGIN
+2020-12-11 08:49:30.7550 INFO Home Page Loaded: 12/11/2020 8:49:30 AM
+2020-12-11 08:49:40.3134 INFO 12/11/2020 8:49:40 AM
+2020-12-11 08:49:55.8366 INFO 12/11/2020 8:49:55 AM
+2020-12-11 08:50:04.3699 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-11 08:50:07.2664 INFO Reader is not null..
+2020-12-11 08:50:07.6849 INFO Reader is equal to true..
+2020-12-11 08:50:42.1963 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-11 08:51:04.5220 INFO start date:01-Sep-2020
+2020-12-11 08:51:05.4925 INFO end date:10-Dec-2020
+2020-12-11 08:51:06.4133 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-11 08:51:37.1961 INFO Home Page Loaded: 12/11/2020 8:51:37 AM
+2020-12-11 08:51:40.4321 INFO 12/11/2020 8:51:40 AM
+2020-12-11 08:51:45.0857 INFO Home Page Loaded: 12/11/2020 8:51:45 AM
+2020-12-11 08:51:47.5337 INFO 12/11/2020 8:51:47 AM
+2020-12-11 08:52:23.9397 INFO 12/11/2020 8:52:23 AM
+2020-12-11 08:52:35.5698 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-11 08:52:38.0338 INFO Reader is not null..
+2020-12-11 08:52:38.8285 INFO Reader is equal to true..
+2020-12-11 08:52:58.8806 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-11 08:52:59.0023 INFO start date:01-Jan-2020
+2020-12-11 08:52:59.0023 INFO end date:30-Nov-2020
+2020-12-11 08:52:59.0023 INFO  Remitta Report Loaded Successful
+2020-12-11 08:54:08.9615 INFO NEW LOGIN
+2020-12-11 08:54:08.9784 INFO Home Page Loaded: 12/11/2020 8:54:08 AM
+2020-12-11 08:54:13.7400 INFO 12/11/2020 8:54:13 AM
+2020-12-11 08:54:30.7469 INFO 12/11/2020 8:54:30 AM
+2020-12-11 08:54:30.9462 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-11 08:54:31.1572 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-11 08:54:32.0209 INFO start date:01-Jan-2020
+2020-12-11 08:54:32.0209 INFO end date:10-Dec-2020
+2020-12-11 08:54:32.0209 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-11 09:40:56.2001 INFO 12/11/2020 9:40:56 AM
+2020-12-11 09:41:16.7743 INFO 12/11/2020 9:41:16 AM
+2020-12-11 09:41:21.1860 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-11 09:41:21.2499 INFO Reader is not null..
+2020-12-11 09:41:21.2499 INFO Reader is equal to true..
+2020-12-11 09:41:21.3765 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-11 09:41:22.2930 INFO start date:01-Jan-2020
+2020-12-11 09:41:22.2930 INFO end date:10-Dec-2020
+2020-12-11 09:41:22.2930 INFO  Remitta Report Loaded Successful
+2020-12-11 10:12:09.9640 INFO 12/11/2020 10:12:09 AM
+2020-12-11 10:12:44.9623 INFO 12/11/2020 10:12:44 AM
+2020-12-11 10:12:47.8865 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-11 10:12:47.9244 INFO Reader is not null..
+2020-12-11 10:12:47.9244 INFO Reader is equal to true..
+2020-12-11 10:12:48.0621 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-11 10:12:49.1444 INFO start date:31-Dec-2019
+2020-12-11 10:12:49.1444 INFO end date:02-Dec-2020
+2020-12-11 10:12:49.1444 INFO  Remitta Report Loaded Successful
+2020-12-11 10:36:26.6549 INFO 12/11/2020 10:36:26 AM
+2020-12-11 10:37:15.4361 INFO 12/11/2020 10:37:15 AM
+2020-12-11 10:37:18.4204 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-11 10:37:18.4841 INFO Reader is not null..
+2020-12-11 10:37:18.4841 INFO Reader is equal to true..
+2020-12-11 10:37:18.6178 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-11 10:37:19.4268 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 64
+2020-12-11 10:40:42.9019 INFO NEW LOGIN
+2020-12-11 10:40:42.9208 INFO Home Page Loaded: 12/11/2020 10:40:42 AM
+2020-12-11 10:40:48.0468 INFO 12/11/2020 10:40:48 AM
+2020-12-11 10:41:02.9805 INFO 12/11/2020 10:41:02 AM
+2020-12-11 10:41:05.9410 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-11 10:41:05.9809 INFO Reader is not null..
+2020-12-11 10:41:05.9809 INFO Reader is equal to true..
+2020-12-11 10:41:06.1136 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-11 10:41:07.0578 INFO start date:01-Jan-2020
+2020-12-11 10:41:07.0578 INFO end date:03-Dec-2020
+2020-12-11 10:41:07.0578 INFO  Remitta Report Loaded Successful
+2020-12-11 10:58:51.4969 INFO 12/11/2020 10:58:51 AM
+2020-12-11 11:03:21.1104 INFO 12/11/2020 11:03:21 AM
+2020-12-11 11:03:24.3113 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-11 11:03:24.3510 INFO Reader is not null..
+2020-12-11 11:03:24.3510 INFO Reader is equal to true..
+2020-12-11 11:03:24.4969 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-11 11:03:25.3904 INFO start date:01-Jan-2020
+2020-12-11 11:03:25.3904 INFO end date:02-Dec-2020
+2020-12-11 11:03:25.3904 INFO  Remitta Report Loaded Successful
+2020-12-11 11:06:59.0765 INFO Home Page Loaded: 12/11/2020 11:06:59 AM
+2020-12-11 11:07:03.1775 INFO 12/11/2020 11:07:03 AM
+2020-12-11 11:07:18.1085 INFO 12/11/2020 11:07:18 AM
+2020-12-11 11:07:21.1612 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-11 11:07:22.2188 INFO Reader is not null..
+2020-12-11 11:07:22.2188 INFO Reader is equal to true..
+2020-12-11 11:07:22.2710 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-11 11:07:22.3656 INFO start date:31-Dec-2019
+2020-12-11 11:07:22.3656 INFO end date:10-Dec-2020
+2020-12-11 11:07:22.3656 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-11 12:24:43.8633 INFO Home Page Loaded: 12/11/2020 12:24:43 PM

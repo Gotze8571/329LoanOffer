@@ -1,0 +1,133 @@
+2020-11-02 10:18:49.8558 INFO NEW LOGIN
+2020-11-02 10:19:04.9438 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-11-02 10:19:04.9758 INFO Incorrect login details
+2020-11-02 10:19:05.5418 INFO Home Page Loaded: 11/2/2020 10:19:05 AM
+2020-11-02 10:19:22.5787 INFO 11/2/2020 10:19:22 AM
+2020-11-02 10:20:08.4487 INFO 11/2/2020 10:20:08 AM
+2020-11-02 10:20:08.5807 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-02 10:20:29.1604 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-02 10:20:31.3192 INFO start date:01-Jan-2018
+2020-11-02 10:20:31.3192 INFO end date:27-Oct-2020
+2020-11-02 10:20:31.3192 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-02 10:20:39.1397 INFO 11/2/2020 10:20:39 AM
+2020-11-02 10:30:37.9467 INFO 11/2/2020 10:30:37 AM
+2020-11-02 10:42:03.3112 INFO 11/2/2020 10:42:03 AM
+2020-11-02 11:44:40.6344 INFO 11/2/2020 11:44:40 AM
+2020-11-02 11:48:09.8350 INFO 11/2/2020 11:48:09 AM
+2020-11-02 11:50:59.5290 INFO 11/2/2020 11:50:59 AM
+2020-11-02 11:52:54.4174 INFO 11/2/2020 11:52:54 AM
+2020-11-02 11:56:13.2630 INFO 11/2/2020 11:56:13 AM
+2020-11-02 11:59:35.3546 INFO 11/2/2020 11:59:35 AM
+2020-11-02 12:02:38.6017 INFO 11/2/2020 12:02:38 PM
+2020-11-02 12:03:23.0239 INFO 11/2/2020 12:03:23 PM
+2020-11-02 12:03:35.0051 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-02 12:03:35.2401 INFO Reader is not null..
+2020-11-02 12:03:35.2401 INFO Reader is equal to true..
+2020-11-02 12:03:35.4321 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-02 12:03:48.1762 INFO start date:01-Jan-2018
+2020-11-02 12:03:48.1762 INFO end date:27-Oct-2020
+2020-11-02 12:03:48.1762 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-11-02 12:37:50.0914 INFO 11/2/2020 12:37:50 PM
+2020-11-02 12:45:28.0774 INFO 11/2/2020 12:45:28 PM
+2020-11-02 12:45:28.3454 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-02 12:45:28.8053 INFO Reader is not null..
+2020-11-02 12:45:28.8053 INFO Reader is equal to true..
+2020-11-02 12:45:28.8053 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-02 12:45:44.8491 INFO start date:01-Jan-2018
+2020-11-02 12:45:44.8491 INFO end date:27-Oct-2020
+2020-11-02 12:45:44.8491 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-11-02 14:23:23.3527 INFO 11/2/2020 2:23:23 PM
+2020-11-02 14:26:29.9136 INFO 11/2/2020 2:26:29 PM
+2020-11-02 14:26:31.9794 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-02 14:26:33.1074 INFO Reader is not null..
+2020-11-02 14:26:33.1074 INFO Reader is equal to true..
+2020-11-02 14:26:33.1514 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-02 14:26:59.4977 INFO start date:01-Jan-2018
+2020-11-02 14:26:59.4977 INFO end date:28-Oct-2020
+2020-11-02 14:26:59.4977 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-11-02 18:46:50.0696 INFO 11/2/2020 6:46:50 PM
+2020-11-02 19:09:35.6095 INFO 11/2/2020 7:09:35 PM
+2020-11-02 19:09:42.6350 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-02 19:09:44.4489 INFO Reader is not null..
+2020-11-02 19:09:44.4489 INFO Reader is equal to true..
+2020-11-02 19:09:44.4759 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-02 19:10:49.9321 INFO start date:01-Jan-2018
+2020-11-02 19:10:49.9321 INFO end date:27-Oct-2020
+2020-11-02 19:10:49.9321 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-11-02 19:41:57.3557 INFO 11/2/2020 7:41:57 PM
+2020-11-02 19:42:52.0327 INFO 11/2/2020 7:42:52 PM
+2020-11-02 19:42:52.4577 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-02 19:42:53.1506 INFO Reader is not null..
+2020-11-02 19:42:53.1506 INFO Reader is equal to true..
+2020-11-02 19:42:55.3290 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-02 19:43:06.6219 INFO start date:01-Jan-2018
+2020-11-02 19:43:06.6219 INFO end date:27-Oct-2020
+2020-11-02 19:43:06.6219 INFO  Remitta Report Loaded Successful
+2020-11-02 19:50:27.4911 INFO 11/2/2020 7:50:27 PM
+2020-11-02 19:51:27.5259 INFO 11/2/2020 7:51:27 PM
+2020-11-02 19:51:27.7299 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-02 19:51:28.4228 INFO Reader is not null..
+2020-11-02 19:51:28.4228 INFO Reader is equal to true..
+2020-11-02 19:51:31.0743 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-02 19:51:40.8190 INFO start date:01-Jan-2018
+2020-11-02 19:51:40.8190 INFO end date:27-Oct-2020
+2020-11-02 19:51:40.8190 INFO  Remitta Report Loaded Successful
+2020-11-02 20:03:12.9288 INFO 11/2/2020 8:03:12 PM
+2020-11-02 20:03:59.0053 INFO 11/2/2020 8:03:59 PM
+2020-11-02 20:03:59.3393 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-02 20:04:02.4141 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-02 20:04:19.4833 INFO start date:01-Jan-2018
+2020-11-02 20:04:19.4833 INFO end date:28-Oct-2020
+2020-11-02 20:04:19.4833 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-02 20:08:26.4995 INFO 11/2/2020 8:08:26 PM
+2020-11-02 20:08:59.0739 INFO 11/2/2020 8:08:59 PM
+2020-11-02 20:08:59.3978 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-02 20:09:02.9370 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-02 20:09:18.4722 INFO start date:01-Jan-2018
+2020-11-02 20:09:18.4722 INFO end date:27-Oct-2020
+2020-11-02 20:09:18.4722 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-02 20:12:06.6879 INFO 11/2/2020 8:12:06 PM
+2020-11-02 20:12:48.5524 INFO 11/2/2020 8:12:48 PM
+2020-11-02 20:12:48.8694 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-02 20:12:52.0772 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-02 20:13:05.6132 INFO start date:01-Jan-2018
+2020-11-02 20:13:05.6132 INFO end date:27-Oct-2020
+2020-11-02 20:13:05.6132 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-02 20:25:07.1063 INFO 11/2/2020 8:25:07 PM
+2020-11-02 20:26:07.2596 INFO 11/2/2020 8:26:07 PM
+2020-11-02 20:26:07.4626 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-02 20:26:15.8280 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-02 20:26:28.4020 INFO start date:01-Jan-2018
+2020-11-02 20:26:28.4020 INFO end date:28-Oct-2020
+2020-11-02 20:26:28.4020 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-02 20:26:30.6601 INFO 11/2/2020 8:26:30 PM
+2020-11-02 20:26:53.1486 INFO 11/2/2020 8:26:53 PM
+2020-11-02 20:26:53.1486 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-02 20:27:05.6598 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-02 20:27:05.8008 INFO start date:01-Jan-2018
+2020-11-02 20:27:05.8008 INFO end date:29-Oct-2020
+2020-11-02 20:27:05.8008 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-02 20:30:38.7790 INFO 11/2/2020 8:30:38 PM
+2020-11-02 20:31:10.0570 INFO 11/2/2020 8:31:10 PM
+2020-11-02 20:31:10.3190 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-02 20:31:12.7286 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-02 20:31:24.8516 INFO start date:01-Jan-2018
+2020-11-02 20:31:24.8516 INFO end date:28-Oct-2020
+2020-11-02 20:31:24.8516 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-02 21:29:30.4339 INFO 11/2/2020 9:29:30 PM
+2020-11-02 21:42:19.9511 INFO 11/2/2020 9:42:19 PM

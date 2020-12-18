@@ -23,7 +23,7 @@ namespace LoanOFFER.Web.Controllers
         }
         // GET: SalaryTopUpReport
         //[OutputCache(Duration = 60)]
-        [OutputCache(CacheProfile = "Cache10Min")]
+        //[OutputCache(CacheProfile = "Cache10Min")]
         public ActionResult Index(int? page, string search)
         {
             var logger = NLog.LogManager.GetCurrentClassLogger();
@@ -41,13 +41,13 @@ namespace LoanOFFER.Web.Controllers
 
             try
             {
-                if (string.IsNullOrWhiteSpace(startDate) || string.IsNullOrWhiteSpace(endDate) || string.IsNullOrWhiteSpace(phoneNo))
+                if (string.IsNullOrWhiteSpace(startDate) || string.IsNullOrWhiteSpace(endDate))
                 {
                     return View("Index", new SalaryTopUpPlusList().ToList().ToPagedList(pageNumber, pageSize));
                 }
-                if (phoneNo != null)
+                if ((startDate != null) || (endDate != null))
                 {
-                    var result = dataConnector.GetSalaryTopPlus(phoneNo, startDate, endDate).ToPagedList(pageNumber, pageSize);
+                    var result = dataConnector.GetSalaryTopPlus(startDate, endDate).ToPagedList(pageNumber, pageSize);
                     ViewBag.startDate = this.Request.Params["RequestDate"];
                     ViewBag.endDate = this.Request.Params["LogDate"];
                     ViewBag.phoneNo = this.Request.Params["SourcePhone"];
@@ -74,9 +74,19 @@ namespace LoanOFFER.Web.Controllers
                 }
                 else
                 {
-                    
                     logger.Info("Please, Contact Buisness Automation to Resolve the Issue.");
                     ViewBag.Message("Salary Top-Up Plus Loan information is incomplete to spool the data!");
+                    ErrorLoan error = new ErrorLoan
+                    {
+                        StartDate = startDate,
+                        EndDate = endDate,
+                        FetchedData = false,
+                        LoginUser = userId,
+                        ErrorName = "Salary Top-Up Plus Report Error spooling data!!",
+                        ErrorDate = DateTime.Now
+                    };
+                    context.Errors.Add(error);
+                    context.SaveChanges();
                 }
             }
             catch (Exception ex)
@@ -114,7 +124,7 @@ namespace LoanOFFER.Web.Controllers
             if (RequestTime != null)
             {
                 SalaryTopUpPlusList list = new SalaryTopUpPlusList();
-                list = report.GetSalaryTopPlus(RequestTime, LogTime, PhoneNo);
+                list = report.GetSalaryTopPlus(RequestTime, LogTime);
                 string[] columns = { "Request", "PhoneNo", "RequestTime", "LogDate" };
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Salary Top-Up Report exported successfully");
@@ -132,7 +142,7 @@ namespace LoanOFFER.Web.Controllers
             else
             {
                 SalaryTopUpPlusList list = null;
-                list = report.GetSalaryTopPlus(RequestTime, LogTime, PhoneNo);
+                list = report.GetSalaryTopPlus(RequestTime, LogTime);
                 string[] columns = { "Request", "PhoneNo", "RequestTime", "LogDate" };
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Salary Top-Up Report exported successfully");

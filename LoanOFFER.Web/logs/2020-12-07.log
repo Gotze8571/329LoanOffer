@@ -1,0 +1,143 @@
+2020-12-07 01:38:04.9611 INFO NEW LOGIN
+2020-12-07 01:38:05.3373 INFO Home Page Loaded: 12/7/2020 1:38:05 AM
+2020-12-07 01:45:06.6721 INFO 12/7/2020 1:45:06 AM
+2020-12-07 01:45:36.2985 INFO 12/7/2020 1:45:36 AM
+2020-12-07 01:45:43.2771 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-07 01:45:43.7566 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-07 01:45:59.7151 INFO start date:01-Jan-2020
+2020-12-07 01:45:59.7151 INFO end date:02-Dec-2020
+2020-12-07 01:45:59.7151 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-07 01:46:17.7436 INFO 12/7/2020 1:46:17 AM
+2020-12-07 01:46:23.8681 INFO Home Page Loaded: 12/7/2020 1:46:23 AM
+2020-12-07 01:46:27.1484 INFO 12/7/2020 1:46:27 AM
+2020-12-07 01:46:40.9705 INFO 12/7/2020 1:46:40 AM
+2020-12-07 01:46:45.0153 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-07 01:46:45.1383 INFO Reader is not null..
+2020-12-07 01:46:45.1383 INFO Reader is equal to true..
+2020-12-07 01:46:45.1383 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-07 01:46:45.4213 INFO start date:01-Jan-2020
+2020-12-07 01:46:45.4213 INFO end date:03-Dec-2020
+2020-12-07 01:46:45.4213 INFO  Remitta Report Loaded Successful
+2020-12-07 01:46:54.3070 INFO Home Page Loaded: 12/7/2020 1:46:54 AM
+2020-12-07 01:46:56.5598 INFO 12/7/2020 1:46:56 AM
+2020-12-07 01:47:39.0043 INFO 12/7/2020 1:47:39 AM
+2020-12-07 01:47:45.7029 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 01:47:46.3519 INFO Reader is not null..
+2020-12-07 01:47:46.3519 INFO Reader is equal to true..
+2020-12-07 01:47:47.4729 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 260
+2020-12-07 01:47:47.7639 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-12-07 02:28:31.8474 INFO NEW LOGIN
+2020-12-07 02:28:32.0874 INFO Home Page Loaded: 12/7/2020 2:28:32 AM
+2020-12-07 02:28:43.1728 INFO 12/7/2020 2:28:43 AM
+2020-12-07 02:29:05.8473 INFO 12/7/2020 2:29:05 AM
+2020-12-07 02:29:28.4139 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 02:30:12.5237 INFO Reader is not null..
+2020-12-07 02:30:22.7271 INFO Reader is equal to true..
+2020-12-07 02:31:13.6241 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 260
+2020-12-07 02:31:13.9701 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-12-07 02:32:31.0042 INFO NEW LOGIN
+2020-12-07 02:32:31.3552 INFO Home Page Loaded: 12/7/2020 2:32:31 AM
+2020-12-07 02:32:40.2240 INFO 12/7/2020 2:32:40 AM
+2020-12-07 02:32:49.9696 INFO Home Page Loaded: 12/7/2020 2:32:49 AM
+2020-12-07 02:32:52.1490 INFO 12/7/2020 2:32:52 AM
+2020-12-07 02:33:10.6555 INFO 12/7/2020 2:33:10 AM
+2020-12-07 02:33:27.6137 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-07 02:36:14.9566 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-07 02:36:26.4368 INFO start date:01-Jan-2020
+2020-12-07 02:36:26.4368 INFO end date:03-Dec-2020
+2020-12-07 02:36:26.4368 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-07 02:36:56.0009 INFO Home Page Loaded: 12/7/2020 2:36:56 AM
+2020-12-07 02:37:12.3104 INFO 12/7/2020 2:37:12 AM
+2020-12-07 02:37:22.9500 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 02:37:46.6896 INFO Reader is not null..
+2020-12-07 02:37:48.9351 INFO Reader is equal to true..
+2020-12-07 03:36:24.2921 INFO NEW LOGIN
+2020-12-07 03:36:25.1351 INFO Home Page Loaded: 12/7/2020 3:36:25 AM
+2020-12-07 03:36:34.5700 INFO 12/7/2020 3:36:34 AM
+2020-12-07 03:37:01.1098 INFO 12/7/2020 3:37:01 AM
+2020-12-07 03:37:22.2251 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 03:37:28.9318 INFO Reader is not null..
+2020-12-07 03:37:31.5533 INFO Reader is equal to true..
+2020-12-07 03:37:37.2185 ERROR System.IndexOutOfRangeException: c.LoanID
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 260
+2020-12-07 03:37:48.9234 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-12-07 03:49:17.1750 INFO 12/7/2020 3:49:17 AM
+2020-12-07 03:49:40.5317 INFO 12/7/2020 3:49:40 AM
+2020-12-07 03:50:05.5292 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 03:50:12.6988 INFO Reader is not null..
+2020-12-07 03:50:27.8193 INFO Reader is equal to true..
+2020-12-07 03:50:38.1636 ERROR System.IndexOutOfRangeException: c.RequestID
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 260
+2020-12-07 03:50:43.6546 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-12-07 04:27:39.1391 INFO NEW LOGIN
+2020-12-07 04:27:39.8531 INFO Home Page Loaded: 12/7/2020 4:27:39 AM
+2020-12-07 04:27:48.0836 INFO 12/7/2020 4:27:48 AM
+2020-12-07 04:28:29.6851 INFO 12/7/2020 4:28:29 AM
+2020-12-07 04:28:49.4079 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 04:29:25.9627 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 04:35:35.9082 INFO NEW LOGIN
+2020-12-07 04:35:36.0142 INFO Home Page Loaded: 12/7/2020 4:35:36 AM
+2020-12-07 04:35:41.7328 INFO 12/7/2020 4:35:41 AM
+2020-12-07 04:36:08.6982 INFO 12/7/2020 4:36:08 AM
+2020-12-07 04:36:45.5300 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 04:36:58.4062 INFO Reader is not null..
+2020-12-07 04:37:00.9281 INFO Reader is equal to true..
+2020-12-07 04:37:07.4767 ERROR System.IndexOutOfRangeException: c.LoanID
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 262
+2020-12-07 04:37:14.8633 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-12-07 12:05:56.0673 INFO NEW LOGIN
+2020-12-07 12:05:57.4266 INFO Home Page Loaded: 12/7/2020 12:05:57 PM
+2020-12-07 12:07:26.8971 INFO 12/7/2020 12:07:26 PM
+2020-12-07 12:08:41.9825 INFO 12/7/2020 12:08:41 PM
+2020-12-07 12:09:03.8495 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-07 12:09:54.0006 INFO Reader is not null..
+2020-12-07 12:09:56.9165 INFO Reader is equal to true..
+2020-12-07 12:10:38.0085 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-07 12:10:53.2198 INFO Home Page Loaded: 12/7/2020 12:10:53 PM
+2020-12-07 12:10:56.7726 INFO 12/7/2020 12:10:56 PM
+2020-12-07 12:11:09.2710 INFO start date:01-Jan-2020
+2020-12-07 12:11:09.2710 INFO end date:03-Dec-2020
+2020-12-07 12:11:09.2710 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-07 12:11:27.9361 INFO 12/7/2020 12:11:27 PM
+2020-12-07 12:11:37.1692 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-07 21:10:25.7178 INFO 12/7/2020 9:10:25 PM

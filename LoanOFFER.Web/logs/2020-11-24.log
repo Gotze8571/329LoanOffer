@@ -1,0 +1,46 @@
+2020-11-24 08:47:32.3460 INFO NEW LOGIN
+2020-11-24 08:47:40.4641 INFO Home Page Loaded: 11/24/2020 8:47:40 AM
+2020-11-24 08:48:07.7396 INFO 11/24/2020 8:48:07 AM
+2020-11-24 08:49:17.6508 INFO 11/24/2020 8:49:17 AM
+2020-11-24 09:04:23.6814 INFO NEW LOGIN
+2020-11-24 09:04:24.2274 INFO Home Page Loaded: 11/24/2020 9:04:24 AM
+2020-11-24 09:04:29.5159 INFO 11/24/2020 9:04:29 AM
+2020-11-24 10:21:01.1993 INFO NEW LOGIN
+2020-11-24 10:21:01.7923 INFO Home Page Loaded: 11/24/2020 10:21:01 AM
+2020-11-24 10:21:13.4457 INFO 11/24/2020 10:21:13 AM
+2020-11-24 10:22:07.7076 INFO 11/24/2020 10:22:07 AM
+2020-11-24 10:38:20.3813 INFO NEW LOGIN
+2020-11-24 10:38:21.2123 INFO Home Page Loaded: 11/24/2020 10:38:21 AM
+2020-11-24 10:38:35.9145 INFO 11/24/2020 10:38:35 AM
+2020-11-24 10:40:24.6343 INFO 11/24/2020 10:40:24 AM
+2020-11-24 10:40:57.5114 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-24 10:41:02.6371 INFO Reader is not null..
+2020-11-24 10:41:05.0220 INFO Reader is equal to true..
+2020-11-24 10:41:18.2492 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 257
+2020-11-24 10:41:32.1464 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-11-24 10:53:22.8259 INFO NEW LOGIN
+2020-11-24 10:53:24.0688 INFO Home Page Loaded: 11/24/2020 10:53:24 AM
+2020-11-24 10:53:32.6633 INFO 11/24/2020 10:53:32 AM
+2020-11-24 10:54:08.7911 INFO 11/24/2020 10:54:08 AM
+2020-11-24 10:58:35.6349 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-24 10:58:41.7145 INFO Reader is not null..
+2020-11-24 10:58:44.4094 INFO Reader is equal to true..
+2020-11-24 11:07:00.4930 INFO 11/24/2020 11:07:00 AM
+2020-11-24 11:12:16.6197 INFO NEW LOGIN
+2020-11-24 11:12:16.8877 INFO Home Page Loaded: 11/24/2020 11:12:16 AM
+2020-11-24 11:12:26.4011 INFO 11/24/2020 11:12:26 AM
+2020-11-24 11:13:29.9912 INFO 11/24/2020 11:13:29 AM
+2020-11-24 11:13:34.7269 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-24 11:13:35.8819 INFO Reader is not null..
+2020-11-24 11:13:35.8819 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-24 11:13:54.8607 INFO start date:01-Jan-2018
+2020-11-24 11:13:54.8607 INFO end date:12-Dec-2018
+2020-11-24 11:13:54.8607 INFO Salary Top-Up Plus Loan Report Loaded Successful

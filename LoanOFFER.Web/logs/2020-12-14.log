@@ -1,0 +1,54 @@
+2020-12-14 07:45:47.5391 INFO NEW LOGIN
+2020-12-14 07:45:47.5571 INFO Home Page Loaded: 12/14/2020 7:45:47 AM
+2020-12-14 07:45:51.1161 INFO 12/14/2020 7:45:51 AM
+2020-12-14 07:46:06.5432 INFO 12/14/2020 7:46:06 AM
+2020-12-14 07:46:10.1875 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-14 07:46:14.4067 INFO Reader is not null..
+2020-12-14 07:46:14.4067 INFO Reader is equal to true..
+2020-12-14 07:46:14.4166 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-14 07:46:15.4315 INFO start date:30-Dec-2019
+2020-12-14 07:46:15.4315 INFO end date:03-Dec-2020
+2020-12-14 07:46:15.4315 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-14 07:46:33.0273 INFO 12/14/2020 7:46:33 AM
+2020-12-14 07:46:35.3956 INFO Home Page Loaded: 12/14/2020 7:46:35 AM
+2020-12-14 07:46:38.1529 INFO 12/14/2020 7:46:38 AM
+2020-12-14 07:46:54.0069 INFO 12/14/2020 7:46:54 AM
+2020-12-14 07:46:54.0458 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-14 07:46:54.4337 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-14 07:46:54.4736 INFO start date:29-Dec-2019
+2020-12-14 07:46:54.4736 INFO end date:11-Dec-2020
+2020-12-14 07:46:54.4736 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-14 07:47:25.2542 INFO 12/14/2020 7:47:25 AM
+2020-12-14 07:47:25.2542 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-14 07:47:25.2709 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-14 07:47:25.2932 INFO start date:29-Dec-2019
+2020-12-14 07:47:25.2932 INFO end date:11-Dec-2020
+2020-12-14 07:47:25.2932 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-14 07:47:29.0718 INFO Home Page Loaded: 12/14/2020 7:47:29 AM
+2020-12-14 07:47:47.7876 INFO 12/14/2020 7:47:47 AM
+2020-12-14 07:47:47.8056 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-14 07:47:47.8315 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-14 07:47:47.8664 INFO start date:29-Dec-2019
+2020-12-14 07:47:47.8664 INFO end date:10-Dec-2020
+2020-12-14 07:47:47.8664 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-14 07:48:51.0231 INFO 12/14/2020 7:48:51 AM
+2020-12-14 07:48:51.0231 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-14 07:48:51.0411 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-14 07:48:51.0660 INFO start date:29-Dec-2019
+2020-12-14 07:48:51.0660 INFO end date:10-Dec-2020
+2020-12-14 07:48:51.0660 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-14 07:49:14.0056 INFO Home Page Loaded: 12/14/2020 7:49:14 AM
+2020-12-14 07:49:59.6111 INFO Home Page Loaded: 12/14/2020 7:49:59 AM
+2020-12-14 09:00:25.4724 INFO NEW LOGIN
+2020-12-14 09:00:25.5033 INFO Home Page Loaded: 12/14/2020 9:00:25 AM
+2020-12-14 09:00:27.8810 INFO 12/14/2020 9:00:27 AM
+2020-12-14 09:00:40.0889 INFO 12/14/2020 9:00:40 AM
+2020-12-14 09:00:43.4652 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-14 09:00:45.0779 INFO Reader is not null..
+2020-12-14 09:00:45.0779 INFO Reader is equal to true..
+2020-12-14 09:00:45.0889 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-14 09:00:45.7162 INFO start date:29-Dec-2019
+2020-12-14 09:00:45.7162 INFO end date:10-Dec-2020
+2020-12-14 09:00:45.7162 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-14 09:00:56.6229 INFO 12/14/2020 9:00:56 AM
+2020-12-14 09:00:58.3830 INFO Home Page Loaded: 12/14/2020 9:00:58 AM

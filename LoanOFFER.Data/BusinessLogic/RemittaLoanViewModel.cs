@@ -35,15 +35,18 @@ namespace LoanOFFER.Data.BusinessLogic
         public string Amount { get; set; }
         [Display(Name = "Loan Type")]
         public string LoanType { get; set; }
-
+        [Display(Name = "Transaction Status")]
+        public string TransactionStatus { get; set; }
+        [Display(Name = "Branch Sol ID")]
+        public string BranchSolId { get; set; }
+        [Display(Name = "Branch SBU")]
+        public string BranchSbu { get; set; }
+        [Display(Name = "Broker Code")]
+        public string BrokerCode { get; set; }
+        public RemittaLoan RemittaLoan { get; set; }
+        public RemittaLoanResponse RemittaLoanResponse { get; set; }
     }
-
-    public class DeObj
-    {
-        string json = "";
-        //return null;
-    }
-
+    
 }
 
 

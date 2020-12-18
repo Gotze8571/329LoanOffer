@@ -9,15 +9,43 @@ C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\Loa
 C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CopyComplete
 C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.dll
 C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.pdb
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\NLog.config
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.dll.config
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.dll
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.pdb
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\NLog.dll
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\Oracle.ManagedDataAccess.dll
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\NLog.xml
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csprojAssemblyReference.cache
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CoreCompileInputs.cache
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CopyComplete
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.dll
-C:\Users\HP PC\Source\Repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.pdb
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.config
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.dll.config
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.dll
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.pdb
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.dll
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.xml
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csprojAssemblyReference.cache
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CopyComplete
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.dll
+C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.pdb
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.config
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.dll.config
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.dll
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.pdb
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.dll
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.xml
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CopyComplete
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.dll
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.pdb
+C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csprojAssemblyReference.cache
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.config
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.dll.config
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.dll
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\LoanOFFER.Data.pdb
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.dll
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\bin\Debug\NLog.xml
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csprojAssemblyReference.cache
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CopyComplete
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.dll
+C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.pdb

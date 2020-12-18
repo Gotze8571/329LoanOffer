@@ -1,0 +1,69 @@
+2020-11-06 18:52:45.3165 INFO 11/6/2020 6:52:45 PM
+2020-11-06 18:54:29.3058 INFO 11/6/2020 6:54:29 PM
+2020-11-06 18:55:00.0848 ERROR System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSimbrellaLoanDb(String RequestTime, String LogDate, String CustId) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 47
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2020-11-06 18:55:00.7527 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 52
+2020-11-06 18:56:58.7661 INFO 11/6/2020 6:56:58 PM
+2020-11-06 18:56:59.7810 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-06 18:57:04.4987 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-06 19:49:17.7037 INFO Home Page Loaded: 11/6/2020 7:49:17 PM
+2020-11-06 19:56:44.5113 INFO 11/6/2020 7:56:44 PM
+2020-11-06 19:57:11.4403 INFO 11/6/2020 7:57:11 PM
+2020-11-06 19:57:12.2943 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-06 19:57:15.5379 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-06 19:57:21.0357 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2020-11-06 19:58:03.3365 INFO start date:01-Jan-2018
+2020-11-06 19:58:03.3365 INFO end date:27-Oct-2020
+2020-11-06 19:58:03.3365 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-06 19:59:53.5099 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-06 19:59:54.0198 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-06 20:06:33.9480 INFO Home Page Loaded: 11/6/2020 8:06:33 PM
+2020-11-06 20:06:53.6042 INFO 11/6/2020 8:06:53 PM
+2020-11-06 20:22:17.1432 INFO 11/6/2020 8:22:17 PM
+2020-11-06 20:22:20.5610 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-06 20:22:21.3750 INFO Reader is not null..
+2020-11-06 20:22:21.3750 INFO Reader is equal to true..
+2020-11-06 20:22:21.6529 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-06 20:22:41.3847 INFO start date:01-Jan-2018
+2020-11-06 20:22:41.3847 INFO end date:28-Oct-2020
+2020-11-06 20:22:41.3847 INFO  Remitta Report Loaded Successful
+2020-11-06 20:22:59.5815 INFO 11/6/2020 8:22:59 PM
+2020-11-06 23:04:09.7701 INFO Home Page Loaded: 11/6/2020 11:04:09 PM
+2020-11-06 23:04:39.3735 INFO 11/6/2020 11:04:39 PM
+2020-11-06 23:06:40.8006 INFO 11/6/2020 11:06:40 PM
+2020-11-06 23:06:42.8985 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-06 23:06:44.6854 INFO Reader is not null..
+2020-11-06 23:06:44.6854 INFO Reader is equal to true..
+2020-11-06 23:06:45.0414 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-06 23:06:58.6755 INFO start date:01-Jan-2018
+2020-11-06 23:06:58.6755 INFO end date:27-Oct-2020
+2020-11-06 23:06:58.6755 INFO  Remitta Report Loaded Successful
+2020-11-06 23:13:02.5720 INFO 11/6/2020 11:13:02 PM
+2020-11-06 23:15:49.9692 INFO 11/6/2020 11:15:49 PM
+2020-11-06 23:18:47.4977 INFO 11/6/2020 11:18:47 PM
+2020-11-06 23:18:52.8213 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-06 23:18:54.9082 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-06 23:19:20.7905 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2020-11-06 23:20:10.3184 INFO start date:01-Jan-2020
+2020-11-06 23:20:10.3184 INFO end date:04-Nov-2020
+2020-11-06 23:20:10.3184 INFO  Simbrella Loan Offer Report Loaded Successfully

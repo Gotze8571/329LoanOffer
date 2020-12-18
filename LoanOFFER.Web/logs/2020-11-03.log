@@ -1,0 +1,25 @@
+2020-11-03 03:08:02.3033 INFO 11/3/2020 3:08:02 AM
+2020-11-03 02:24:47.9416 INFO NEW LOGIN
+2020-11-03 02:25:01.5477 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-11-03 02:25:01.5477 INFO Incorrect login details
+2020-11-03 02:25:01.6857 INFO Home Page Loaded: 11/3/2020 2:25:01 AM
+2020-11-03 02:25:17.9151 INFO 11/3/2020 2:25:17 AM
+2020-11-03 02:25:38.9818 INFO 11/3/2020 2:25:38 AM
+2020-11-03 02:25:39.1458 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-03 02:25:42.1396 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-03 02:26:11.7306 INFO  Simbrella Loan Offer other Report data fetched from database successfully

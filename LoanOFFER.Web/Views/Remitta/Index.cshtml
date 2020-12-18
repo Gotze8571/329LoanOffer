@@ -7,31 +7,9 @@
     //Layout = "";
 }
 
-@*<!Doctype html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <style>
-
-            .cardClass {
-                background-color: #5c3092;
-                padding: 20px;
-                border: 1px solid #ccb27f;
-            }
-
-            .textClass {
-                color: #ccb27f;
-            }
-        </style>
-    </head>
-    <body>
-        <h2 style="color: #ffba18">Remitta Fast Cash Loan Offer Report</h2>
-        <div class="card cardClass">
-            <p class="textClass">The information on Remitta Fast Cash would be provided, shortly. </p>
-        </div>
-    </body>*@
-
 <h2 style="color: #ffba18">Remitta Loan Offer Report</h2>
+<link href="~/Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
 <link href="~/Content/Site.css" rel="stylesheet" />
 <link href="~/Content/PagedList.css" rel="stylesheet" />
 <style>
@@ -60,7 +38,7 @@
 <br />
 <form class="form-inline">
 
-    <div class="input-group date ">
+    <div class="form-group date">
         <input type="text" class="form-control datepicker" name="RequestTime" autocomplete="off">
         <div class="input-group-addon">
             <label>start date</label>
@@ -68,28 +46,23 @@
         </div>
     </div>
 
-    <div class="input-group date">
+    <div class="form-group date">
         <input type="text" class="form-control datepicker" name="LogDate" autocomplete="off">
         <div class="input-group-addon">
             <label>end date</label>
             @*<span class="glyphicon glyphicon-th"></span>*@
         </div>
     </div>
-    <div class="input-group">
+    <div class="form-group">
         <input class="form-control mr-sm-2" type="search" name="phoneNo" placeholder="Phone Number only" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </div>
-    <div class="input-group">
-        <input class="form-control mr-sm-2" type="text" name="customerName" placeholder="Customer Name" aria-label="Read-only">
-        @*<button class="btn btn-outline-success my-2 my-sm-0" type="search">Customer </button>*@
-    </div>
-
-    @*<button type="submit" class="btn btnClass ">Generate</button>*@
-    <div id="excelbtn" style="float:right" class="input-group">
+    
+    <div id="excelbtn" style="float:right" class="form-group">
         @Html.ActionLink("Export To Excel", "ExportToExcel", "Remitta", new { startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo }, new { @class = "btn btnClass", startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo })
     </div>
 
-    <div id="pdfbtn" style="float:right" class="input-group">
+    <div id="pdfbtn" style="float:right" class="form-group">
         @Html.ActionLink("Export To Pdf", "ExportToPdf", "Remitta", new { startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo }, new { @class = "btn btnClass", startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo })
     </div>
 
@@ -99,9 +72,9 @@
     <table class="table table-striped table-bordered text-center" id="tblData">
         <thead style="background-color:  #5c3092; color: white">
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().Request)
-                </th>
+                @*<th>
+            @Html.DisplayNameFor(model => model.First().Request)
+        </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.First().PhoneNo)
                 </th>
@@ -109,7 +82,100 @@
                     @Html.DisplayNameFor(model => model.First().RequestTime)
                 </th>
                 <th>
+                    @Html.DisplayNameFor(model => model.First().Response)
+                </th>
+                <th>
                     @Html.DisplayNameFor(model => model.First().LogDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().CustomerName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().LoanType)
+                </th>
+                @*<th>
+            @Html.DisplayNameFor(model => model.First().TransactionStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().BranchSolId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().BranchSbu)
+        </th>*@
+                @*<th>
+            @Html.DisplayNameFor(model => model.First().RemittaLoan.bvn)
+        </th>*@
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoan.mobileNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible2MonthsDBRAmount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible2MonthsDBRAmountTenor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligibleAmount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.isDeliquent)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.responseDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.responseCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.interestRate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible1MonthDBRAmount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible1MonthDBRAmountTenor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible3MonthsDBRAmount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible1MonthlyRepayment)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible2MonthlyRepayment)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible3MonthlyRepayment)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.eligible3MonthsDBRAmountTenor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.DueDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.ManagementFee)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.dob)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.AccountNo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.BankCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.companyName)
                 </th>
             </tr>
         </thead>
@@ -118,9 +184,9 @@
         {
             <tbody>
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Request)
-                    </td>
+                    @*<td>
+            @Html.DisplayFor(modelItem => item.Request)
+        </td>*@
                     <td>
                         @Html.DisplayFor(modelItem => item.PhoneNo)
                     </td>
@@ -128,11 +194,104 @@
                         @Html.DisplayFor(modelItem => item.RequestTime)
                     </td>
                     <td>
+                        @Html.DisplayFor(modelItem => item.Response)
+                    </td>
+                    <td>
                         @Html.DisplayFor(modelItem => item.LogDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CustomerName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LoanType)
+                    </td>
+                    @*<td>
+            @Html.DisplayFor(modelItem => item.TransactionStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BranchSolId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BranchSbu)
+        </td>*@
+                    @*<td>
+            @Html.DisplayFor(modelItem => item.RemittaLoan.bvn)
+        </td>*@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoan.mobileNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible2MonthsDBRAmount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible2MonthsDBRAmountTenor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligibleAmount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.isDeliquent)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.responseDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.responseCode)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.interestRate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible1MonthDBRAmount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible1MonthDBRAmountTenor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible3MonthsDBRAmount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible1MonthlyRepayment)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible2MonthlyRepayment)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible3MonthlyRepayment)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.eligible3MonthsDBRAmountTenor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.DueDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.ManagementFee)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.dob)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.AccountNo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.BankCode)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.companyName)
                     </td>
                 </tr>
             </tbody>
-        }
+         }
 
     </table>
 </form>

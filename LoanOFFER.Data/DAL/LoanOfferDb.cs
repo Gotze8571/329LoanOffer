@@ -10,80 +10,140 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Oracle.ManagedDataAccess.Client;
+using Newtonsoft.Json;
 
 namespace LoanOFFER.Data.DAL
 {
     public class LoanOfferDb
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
-        SimbrellaLoanList list = new SimbrellaLoanList();
-        RemittaLoanList Realist = new RemittaLoanList();
-        SalaryTopUpPlusList salaryList = new SalaryTopUpPlusList();
-
-        //public DataTable GetSimbrellaLoanDb(string RequestTime, string LogDate, string CustomerId)
-        //{
-        //    DataTable data = new DataTable();
-        //    string strConString = @"Data Source=172.27.15.103;Initial Catalog=MicroLendingDBNew;Persist Security Info=True;User ID=dev;Password=developers@456;";
-        //    using (SqlConnection con = new SqlConnection(strConString))
-        //    {
-        //        con.Open();
-        //        SqlCommand cmd = new SqlCommand("Select Id, Request, customerid, RequestTime, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo where '" + RequestTime + "' and '" + LogDate + "' and '" + CustomerId + "'", con);
-        //        SqlDataAdapter da = new SqlDataAdapter(cmd);
-        //        da.Fill(data);
-        //    }
-        //    return data;
-        //}
+      
         public SimbrellaLoanList GetSimbrellaLoanDb(string RequestTime, string LogDate, string CustId)
         {
-            var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo where ltrim(rtrim(customerid))= '{CustId}' and RequestTime BETWEEN '{RequestTime}' AND '{LogDate}'";
-
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["329LoanOffer"].ToString()))
+            SimbrellaLoanList list = new SimbrellaLoanList();
+            if ((RequestTime != null) && (LogDate != null))
             {
-                using (SqlCommand command = new SqlCommand(query, con))
+                var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo where RequestTime BETWEEN'"+RequestTime+"' and  '"+LogDate+"'";
+
+                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["329LoanOffer"].ToString()))
                 {
-                    try
+                    using (SqlCommand command = new SqlCommand(query, con))
                     {
-                        con.Open();
-                        logger.Info("Connection to Simbrella Loan Offer Report was successful!");
-                        SqlDataReader reader = command.ExecuteReader();
-                        if (reader != null)
+                        try
                         {
-                            if (reader.HasRows)
+                            con.Open();
+                            logger.Info("Connection to Simbrella Loan Offer Report was successful!");
+                            SqlDataReader reader = command.ExecuteReader();
+                            if (reader != null)
                             {
-                                while (reader.Read())
+                                if (reader.HasRows)
                                 {
-                                    var model = new SimbrellaViewModel()
+                                    while (reader.Read())
                                     {
-                                        Id = reader["Id"].ToString(),
-                                        Request = reader["Request"].ToString(),
-                                        customerId = reader["customerid"].ToString(),
-                                        RequestTime = reader["RequestTime"].ToString(),
-                                        Response = reader["Response"].ToString(),
-                                        ResponseTime = reader["ResponseTime"].ToString(),
-                                        LogDate = reader["LogDate"].ToString(),
-                                        ResponseCode = reader["ResponseCode"].ToString()
-                                    };
-                                    list.Add(model);
+                                        var model = new SimbrellaViewModel()
+                                        {
+                                            Id = reader["Id"].ToString(),
+                                            Request = reader["Request"].ToString(),
+                                            SimbrellaLoan = JsonConvert.DeserializeObject<SimbrellaLoan>(reader["Request"].ToString()),
+                                            customerId = reader["customerid"].ToString(),
+                                            RequestTime = reader["RequestTime"].ToString(),
+                                            Response = reader["Response"].ToString(),
+                                            ResponseTime = reader["ResponseTime"].ToString(),
+                                            LogDate = reader["LogDate"].ToString(),
+                                            ResponseCode = reader["ResponseCode"].ToString(),
+                                            LoanType = "SimbrellaLoan"
+                                        };
+                                        list.Add(model);
+                                    }
                                 }
+                                logger.Info(" Simbrella Loan Offer Report data fetched from database successfully");
+                                return list;
                             }
-                            logger.Info(" Simbrella Loan Offer Report data fetched from database successfully");
-                            return list;
+
+                            //con.Close();
                         }
-                       
-                        //con.Close();
-                    }
-                    catch (Exception ex)
-                    {
-                        logger.Error(ex);
+                        catch (Exception ex)
+                        {
+                            logger.Error(ex);
+                            ErrorLoan err = new ErrorLoan()
+                            {
+                                ErrorName = "Simbrella Report caught an Exception!!",
+                                ErrorDate = DateTime.Now
+                            };
+                        }
                     }
                 }
             }
+            else if (CustId != null)
+            {
+                var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo where ltrim(rtrim(customerid))= '{CustId}' and RequestTime BETWEEN '{RequestTime}' AND '{LogDate}'";
+
+                using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["329LoanOffer"].ToString()))
+                {
+                    using (SqlCommand command = new SqlCommand(query, con))
+                    {
+                        try
+                        {
+                            con.Open();
+                            logger.Info("Connection to Simbrella Loan Offer Report was successful!");
+                            SqlDataReader reader = command.ExecuteReader();
+                            if (reader != null)
+                            {
+                                if (reader.HasRows)
+                                {
+                                    while (reader.Read())
+                                    {
+                                        var model = new SimbrellaViewModel()
+                                        {
+                                            Id = reader["Id"].ToString(),
+                                            Request = reader["Request"].ToString(),
+                                            SimbrellaLoan = JsonConvert.DeserializeObject<SimbrellaLoan>(reader["Request"].ToString()),
+                                            customerId = reader["customerid"].ToString(),
+                                            RequestTime = reader["RequestTime"].ToString(),
+                                            Response = reader["Response"].ToString(),
+                                            ResponseTime = reader["ResponseTime"].ToString(),
+                                            LogDate = reader["LogDate"].ToString(),
+                                            ResponseCode = reader["ResponseCode"].ToString(),
+                                            LoanType = "SimbrellaLoan"
+                                        };
+                                       
+                                        list.Add(model);
+                                        
+                                    }
+                                }
+                                logger.Info(" Simbrella Loan Offer Report data fetched from database successfully");
+                                return list;
+                                
+                            }
+
+                            //con.Close();
+                        }
+                        catch (Exception ex)
+                        {
+                            logger.Error(ex);
+                            ErrorLoan err = new ErrorLoan()
+                            {
+                                ErrorName = "Simbrella Report caught an Exception!!",
+                                ErrorDate = DateTime.Now
+                            };
+                        }
+                    }
+                }
+            }
+            else
+            {
+                logger.Info("Simbrella Loan Report data doesn't contain Customer Id and Request Date.");
+            }
+
             return null;
         }
-        public RemittaLoanList GetRemittaLoanDb(string RequestTime, string LogDate, string phoneNo)
+       
+        public RemittaLoanList GetRemittaLoanDb(string RequestTime, string LogDate)
         {
-            
-            var query = $"Select Id, Request, PhoneNumber, RequestTime, Response, LogDate FROM [MicroLendingDBNew].[dbo].[vx_RemitaEligibiltyInfo] where ltrim(rtrim(PhoneNumber))= '"+phoneNo+"' and RequestTime BETWEEN '"+RequestTime+"' AND '"+LogDate+"'";
+            RemittaLoanList Realist = new RemittaLoanList();
+            // var query = $"Select Id, Request, PhoneNumber, RequestTime, Response, LogDate FROM [MicroLendingDBNew].[dbo].[vx_RemitaEligibiltyInfo] where ltrim(rtrim(PhoneNumber))= '"+phoneNo+"' and RequestTime BETWEEN '"+RequestTime+"' AND '"+LogDate+"'";
+
+            var query = $"Select Id, Request, PhoneNumber, RequestTime, Response, LogDate FROM [MicroLendingDBNew].[dbo].[vx_RemitaEligibiltyInfo] where RequestTime BETWEEN '{RequestTime}' AND '{LogDate}'";
             using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["329LoanOffer"].ToString()))
             {
                 using (SqlCommand command = new SqlCommand(query, con))
@@ -105,13 +165,15 @@ namespace LoanOFFER.Data.DAL
                                     {
                                         Id = reader["Id"].ToString(),
                                         Request = reader["Request"].ToString(),
+                                        RemittaLoan = JsonConvert.DeserializeObject<RemittaLoan>(reader["Request"].ToString()),
                                         PhoneNo = reader["PhoneNumber"].ToString(),
                                         RequestTime = reader["RequestTime"].ToString(),
                                         Response = reader["Response"].ToString(),
-                                        LogDate = reader["LogDate"].ToString()
+                                        RemittaLoanResponse = JsonConvert.DeserializeObject<RemittaLoanResponse>(reader["Response"].ToString()),
+                                        LogDate = reader["LogDate"].ToString(),
+                                        LoanType = "RemittaLoan"
                                     };
-                                    Realist.Add(model);
-                                   
+                                     Realist.Add(model);
                                 }
                             }
                             logger.Info(" Remitta Loan Offer Report data fetched from database successfully");
@@ -121,17 +183,67 @@ namespace LoanOFFER.Data.DAL
                     catch (Exception ex)
                     {
                         logger.Error(ex);
+                       
                     }
                 }
             }
-                return null;
+            return null;
         }
-        public SalaryTopUpPlusList GetSalaryTopPlus(string phoneNo, string RequestDate, string LogDate)
+        public List<RemittaLoanViewModel> GetMoreRemittaInfo()
         {
-            //var query = $"select * from [ActivityLog].[dbo].[USSDBanking] where requesttype = 'SALARYPLUSTOPUPAMT' and ltrim(rtrim(SourcePhone))= '{phoneNo}'  AND RequestDate BETWEEN '{RequestDate}' AND '{LogDate}'";
+            List<RemittaLoanViewModel> moreInfoList = new List<RemittaLoanViewModel>();
+            // GetRemittaPhoneNumber Here.
+            string phoneNo = "08035528076";
+            RemittaLoanList list = new RemittaLoanList();
+            string com = ConfigurationManager.ConnectionStrings["FinacleCodeContext"].ConnectionString;
+            var query = $"SELECT CUST_NAME, SOL_ID, FREE_CODE_1 SBU_CODE, FREE_CODE_2 BROKER_CODE " +
+                $"FROM TBAADM.CMG C, TBAADM.GAM G, TBAADM.FCFTT F, CRMUSER.PHONEEMAIL P WHERE G.CIF_ID = C.CIF_ID AND " +
+                $"G.CIF_ID = P.ORGKEY AND G.ACID = F.ACID AND P.PHONENOLOCALCODE = '"+phoneNo+"' AND P.PHONEOREMAIL = 'PHONE' AND P.PREFERREDFLAG = 'Y' AND ROWNUM = 1";
 
-            var query = $"Select RecID, RequestID, SourcePhone, Channel, RequestType, RequestDate, ResponseDate, Duration, ResponseCode, ResponseDescr, Remark from [USSDBanking].[dbo].[ActivityLog] where requesttype = 'SALARYPLUSTOPUPAMT' and ltrim(rtrim(SourcePhone))= '"+phoneNo+"'  AND RequestDate BETWEEN '"+RequestDate+"' AND '"+LogDate+"'";
-            using(SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["LoanOffer"].ToString()))
+            using (OracleConnection con = new OracleConnection(com))
+            {
+                try
+                {
+                    OracleCommand command = new OracleCommand(query, con);
+                    con.Open();
+                    using (OracleDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                var model = new RemittaLoanViewModel()
+                                {
+                                    CustomerName = reader["CUST_NAME"].ToString(),
+                                    BranchSolId = reader["SOL_ID"].ToString(),
+                                    BranchSbu = reader["FREE_CODE_1 SBU_CODE"].ToString(),
+                                    BrokerCode = reader["FREE_CODE_2 BROKER_CODE"].ToString()
+                                };
+                                list.Add(model);
+                            }
+                        }
+                        logger.Info(" Remitta Loan Offer other Report data fetched from database successfully");
+                        return list;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    logger.Error(ex);
+                }
+            }
+            return null;
+        }
+        public SalaryTopUpPlusList GetSalaryTopPlus(string RequestDate, string LogDate)
+        {
+            SalaryTopUpPlusList salaryList = new SalaryTopUpPlusList();
+
+            //var query = $"Select RecID, RequestID, SourcePhone, Channel, RequestType, RequestDate, ResponseDate, Duration, ResponseCode, ResponseDescr, Remark from [USSDBanking].[dbo].[ActivityLog] where requesttype = 'SALARYPLUSTOPUPAMT' and ltrim(rtrim(SourcePhone))= '"+phoneNo+"'  AND RequestDate BETWEEN '"+RequestDate+"' AND '"+LogDate+"'";
+
+            //var query = $"Select c.*,p.Address_1,p.[State],p.FirstName,p.LastName,f.Account ,m.network, SUBSTRING(f.account,1,7) as CustomerID from USSDBanking.dbo.Loans c join wallet.dbo.WalletCustomer p on c.SourcePhone = p.MobilePhone join wallet.dbo.WalletCustomerAccountsMapping f on c.SourcePhone = f.MobilePhone join [Wallet].[dbo].[MobileNetworkPrefix] m on SUBSTRING(c.SourcePhone, 1, 6) = m.Prefix where LoanType = 'SPLUSTOPUP' and TranDate between '{RequestDate}' and '{LogDate}' Order by TranDate desc";
+
+            var query = $"SELECT c.LoanID, c.RequestID, c.SourcePhone, c.LoanType, c.Amount, c.CustType, c.Channel, c.BrokerCode, c.RespCode, c.RespDescr, c.TranDate, p.Address_1,p.[State],p.FirstName, p.LastName,f.Account ,m.network, SUBSTRING(f.account, 1, 7) as CustomerID from USSDBanking.dbo.Loans c join wallet.dbo.WalletCustomer p on c.SourcePhone = p.MobilePhone join wallet.dbo.WalletCustomerAccountsMapping f on c.SourcePhone = f.MobilePhone join [Wallet].[dbo].[MobileNetworkPrefix] m on SUBSTRING(c.SourcePhone, 1, 6) = m.Prefix where LoanType = 'SPLUSTOPUP' and TranDate between '{RequestDate}' and '{LogDate}' Order by TranDate desc";
+
+            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["LoanOffer"].ToString()))
             {
                 using(SqlCommand com = new SqlCommand(query, con))
                 {
@@ -150,23 +262,71 @@ namespace LoanOFFER.Data.DAL
                                 {
                                     var model = new SalaryTopUpViewModel()
                                     {
-                                        RecID = reader["RecID"].ToString(),
+                                        LoanID = int.Parse(reader["LoanID"].ToString()),
                                         RequestID = reader["RequestID"].ToString(),
                                         SourcePhone = reader["SourcePhone"].ToString(),
+                                        LoanType = reader["LoanType"].ToString(),
+                                        Amount = Convert.ToDecimal(reader["Amount"].ToString()),
+                                        CustType = reader["CustType"].ToString(),
                                         Channel = reader["Channel"].ToString(),
-                                        RequestType = reader["RequestType"].ToString(),
-                                        RequestDate = reader["RequestDate"].ToString(),
-                                        ResponseDate = reader["ResponseDate"].ToString(),
-                                        Duration = reader["Duration"].ToString(),
-                                        ResponseCode = reader["ResponseCode"].ToString(),
-                                        ResponseDescr = reader["ResponseDescr"].ToString(),
-                                        Remark = reader["Remark"].ToString()
+                                        BrokerCode = reader["BrokerCode"].ToString(),
+                                        RespCode = reader["RespCode"].ToString(),
+                                        RespDescr = reader["RespDescr"].ToString(),
+                                        TranDate = reader["TranDate"].ToString(),
+                                        Address_1 = reader["Address_1"].ToString(),
+                                        State = reader["State"].ToString(),
+                                        FirstName = reader["FirstName"].ToString(),
+                                        LastName = reader["LastName"].ToString(),
+                                        Account = reader["Account"].ToString(),
+                                        Network = reader["network"].ToString(),
+                                        CustomerID = reader["CustomerID"].ToString()
+                                        
                                     };
                                     salaryList.Add(model);
                                 }
                             }
                             logger.Info(" Salary Top-Up Plus Loan Offer Report data fetched from database successfully");
                             return salaryList;
+                        }
+                        con.Close();
+                    }
+                    catch (Exception ex)
+                    {
+                        logger.Error(ex);
+                    }
+                }
+            }
+            return null;
+        }
+       
+        // Get Account number from Simbrella Loan Offer.
+        public string GetSimbrellaCustomerNameWithCustomerID()
+        {
+            var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo";
+            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["LoanOffer"].ToString()))
+            {
+                using (SqlCommand com = new SqlCommand(query, con))
+                {
+                    try
+                    {
+                        con.Open();
+                        logger.Info("Connection to database to fetch Simbrella Loan Offer Report!");
+                        SqlDataReader reader = com.ExecuteReader();
+                        if (reader != null)
+                        {
+                            logger.Info("Reader is not null..");
+                            if (reader.HasRows)
+                            {
+                                logger.Info("Reader is equal to true..");
+                                while (reader.Read())
+                                {
+                                    var model = new SimbrellaViewModel()
+                                    {
+                                        Request = reader["Request"].ToString()
+                                    };
+                                    return model.Request.ToString();
+                                }
+                            }
                         }
                     }
                     catch (Exception ex)
@@ -179,6 +339,7 @@ namespace LoanOFFER.Data.DAL
         }
         public SimbrellaLoanList GetMoreInfo(string accountNo)
         {
+            accountNo = GetSimbrellaCustomerNameWithCustomerID();
             SimbrellaLoanList otherList = new SimbrellaLoanList();
             string com = ConfigurationManager.ConnectionStrings["FinacleCodeContext"].ConnectionString;
             var query = $"SELECT CUST_NAME, SOL_ID, FREE_CODE_1 SBU_CODE, FREE_CODE_2 BROKER_CODE FROM TBAADM.CMG C, TBAADM.GAM G, TBAADM.FCFTT F " +

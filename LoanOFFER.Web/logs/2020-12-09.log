@@ -1,0 +1,156 @@
+2020-12-09 07:43:56.0055 INFO NEW LOGIN
+2020-12-09 07:43:56.4654 INFO Home Page Loaded: 12/9/2020 7:43:56 AM
+2020-12-09 07:44:15.6963 INFO 12/9/2020 7:44:15 AM
+2020-12-09 07:45:02.5905 INFO 12/9/2020 7:45:02 AM
+2020-12-09 07:45:22.0274 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-09 07:45:24.8512 INFO Reader is not null..
+2020-12-09 07:45:28.5890 INFO Reader is equal to true..
+2020-12-09 07:47:22.8593 ERROR System.InvalidOperationException: Invalid attempt to read when no data is present.
+   at System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   at System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   at System.Data.SqlClient.SqlDataReader.GetValueInternal(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.GetValue(Int32 i)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 168
+2020-12-09 07:47:27.9070 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 50
+2020-12-09 16:42:53.7405 INFO NEW LOGIN
+2020-12-09 16:42:55.4696 INFO Home Page Loaded: 12/9/2020 4:42:55 PM
+2020-12-09 16:44:01.8035 INFO 12/9/2020 4:44:01 PM
+2020-12-09 16:44:54.4106 INFO 12/9/2020 4:44:54 PM
+2020-12-09 16:46:10.2900 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-09 16:53:17.7396 INFO Reader is not null..
+2020-12-09 16:53:20.6478 INFO Reader is equal to true..
+2020-12-09 17:03:24.7053 INFO NEW LOGIN
+2020-12-09 17:03:25.4372 INFO Home Page Loaded: 12/9/2020 5:03:25 PM
+2020-12-09 17:03:29.5923 INFO 12/9/2020 5:03:29 PM
+2020-12-09 17:03:56.6587 INFO 12/9/2020 5:03:56 PM
+2020-12-09 17:04:40.6515 INFO 12/9/2020 5:04:40 PM
+2020-12-09 17:05:13.4621 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-09 17:05:20.1634 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-09 17:05:24.1012 INFO Reader is not null..
+2020-12-09 17:24:54.6541 INFO NEW LOGIN
+2020-12-09 17:24:55.7670 INFO Home Page Loaded: 12/9/2020 5:24:55 PM
+2020-12-09 17:25:03.6197 INFO 12/9/2020 5:25:03 PM
+2020-12-09 17:26:14.1987 INFO 12/9/2020 5:26:14 PM
+2020-12-09 17:29:25.5236 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-09 17:29:32.4785 INFO Reader is not null..
+2020-12-09 17:29:36.5236 INFO Reader is equal to true..
+2020-12-09 17:30:25.5493 ERROR System.IndexOutOfRangeException: c.LoanID
+   at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 264
+2020-12-09 17:30:26.0203 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-12-09 17:47:43.1574 INFO 12/9/2020 5:47:43 PM
+2020-12-09 17:50:00.5597 INFO 12/9/2020 5:50:00 PM
+2020-12-09 17:56:56.3039 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-09 17:57:09.4403 INFO Reader is not null..
+2020-12-09 17:57:15.3581 INFO Reader is equal to true..
+2020-12-09 18:17:20.8635 INFO NEW LOGIN
+2020-12-09 18:17:21.3064 INFO Home Page Loaded: 12/9/2020 6:17:21 PM
+2020-12-09 18:17:32.3428 INFO 12/9/2020 6:17:32 PM
+2020-12-09 18:18:25.6784 INFO 12/9/2020 6:18:25 PM
+2020-12-09 18:18:26.3883 ERROR System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 50
+
+=== Pre-bind state information ===
+LOG: DisplayName = Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/HP PC/Source/Repos/329 Loan Offer/329 Loan Offer Project/LoanOFFER.Web/
+LOG: Initial PrivatePath = C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\bin
+Calling assembly : LoanOFFER.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\web.config
+LOG: Using host configuration file: C:\Users\HP PC\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/7af3e5a6/75ed38ee/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/7af3e5a6/75ed38ee/Newtonsoft.Json/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Users/HP PC/Source/Repos/329 Loan Offer/329 Loan Offer Project/LoanOFFER.Web/bin/Newtonsoft.Json.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Major Version
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+2020-12-09 18:22:36.4445 INFO NEW LOGIN
+2020-12-09 18:22:36.9935 INFO Home Page Loaded: 12/9/2020 6:22:36 PM
+2020-12-09 18:22:48.4587 INFO 12/9/2020 6:22:48 PM
+2020-12-09 18:23:52.4175 INFO 12/9/2020 6:23:52 PM
+2020-12-09 18:24:57.2719 ERROR System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 50
+
+=== Pre-bind state information ===
+LOG: DisplayName = Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/HP PC/Source/Repos/329 Loan Offer/329 Loan Offer Project/LoanOFFER.Web/
+LOG: Initial PrivatePath = C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\bin
+Calling assembly : LoanOFFER.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\web.config
+LOG: Using host configuration file: C:\Users\HP PC\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/7af3e5a6/75ed38ee/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/7af3e5a6/75ed38ee/Newtonsoft.Json/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Users/HP PC/Source/Repos/329 Loan Offer/329 Loan Offer Project/LoanOFFER.Web/bin/Newtonsoft.Json.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Major Version
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+2020-12-09 18:34:42.6743 INFO NEW LOGIN
+2020-12-09 18:34:43.2295 INFO Home Page Loaded: 12/9/2020 6:34:43 PM
+2020-12-09 18:35:04.5715 INFO 12/9/2020 6:35:04 PM
+2020-12-09 18:36:33.5874 INFO 12/9/2020 6:36:33 PM
+2020-12-09 18:37:08.9333 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-09 18:37:13.6127 INFO Reader is not null..
+2020-12-09 18:37:16.7312 INFO Reader is equal to true..
+2020-12-09 18:38:24.1186 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-09 18:39:35.5692 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\RemittaController.cs:line 64
+2020-12-09 18:46:11.6822 INFO NEW LOGIN
+2020-12-09 18:46:12.6407 INFO Home Page Loaded: 12/9/2020 6:46:12 PM
+2020-12-09 18:55:28.6002 INFO 12/9/2020 6:55:28 PM
+2020-12-09 18:56:26.2550 INFO 12/9/2020 6:56:26 PM
+2020-12-09 18:57:20.9604 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-09 18:57:34.2750 INFO Reader is not null..
+2020-12-09 18:57:40.7387 INFO Reader is equal to true..
+2020-12-09 18:58:23.3980 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-09 18:58:43.6862 INFO start date:01-Jan-2020
+2020-12-09 18:58:43.6862 INFO end date:03-Dec-2020
+2020-12-09 18:58:43.6862 INFO  Remitta Report Loaded Successful
+2020-12-09 19:46:50.5032 INFO 12/9/2020 7:46:50 PM
+2020-12-09 19:47:59.0731 INFO 12/9/2020 7:47:59 PM
+2020-12-09 19:48:01.0810 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-09 19:48:02.5989 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-09 19:48:19.6469 INFO start date:31-Dec-2019
+2020-12-09 19:48:19.6469 INFO end date:02-Dec-2020
+2020-12-09 19:48:19.6469 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-09 20:02:23.0079 INFO 12/9/2020 8:02:23 PM

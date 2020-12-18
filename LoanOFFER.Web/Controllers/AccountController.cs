@@ -136,7 +136,6 @@ namespace LoanOFFER.Web.Controllers
                         logger.Info("IP Address: " + hostName);
                         ViewBag.Message = "hostName";
 
-
                         //return RedirectToLocal(returnUrl);
                         return RedirectToAction("Index", "Home");
                     }
@@ -145,6 +144,8 @@ namespace LoanOFFER.Web.Controllers
                         ModelState.AddModelError("message", "incorrect login details!");
                         ViewBag.Message = "Incorrect login details";
                         logger.Info("Incorrect login details");
+                        //return RedirectToAction("Login", "Account");
+                        return RedirectToLocal(returnUrl);
                     }
                 }
                 catch (Exception ex)

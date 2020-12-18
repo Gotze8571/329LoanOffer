@@ -1,0 +1,175 @@
+2020-11-17 10:14:51.9909 INFO 11/17/2020 10:14:51 AM
+2020-11-17 10:16:33.2636 INFO 11/17/2020 10:16:33 AM
+2020-11-17 10:17:40.8274 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 11:01:55.3918 INFO 11/17/2020 11:01:55 AM
+2020-11-17 11:03:08.7833 INFO 11/17/2020 11:03:08 AM
+2020-11-17 11:03:24.5297 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 11:03:34.5623 INFO Reader is not null..
+2020-11-17 11:03:37.0482 INFO Reader is equal to true..
+2020-11-17 11:03:46.4068 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String phoneNo, String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 274
+2020-11-17 11:03:53.8935 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-11-17 11:25:20.6322 INFO 11/17/2020 11:25:20 AM
+2020-11-17 11:26:08.9167 INFO 11/17/2020 11:26:08 AM
+2020-11-17 11:26:38.3333 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 11:27:09.7677 INFO Reader is not null..
+2020-11-17 11:27:41.3110 INFO Reader is equal to true..
+2020-11-17 11:28:00.5455 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String phoneNo, String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 274
+2020-11-17 11:28:00.6725 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-11-17 11:31:21.7432 INFO 11/17/2020 11:31:21 AM
+2020-11-17 11:33:13.4496 INFO 11/17/2020 11:33:13 AM
+2020-11-17 11:33:19.9126 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 11:33:21.8046 INFO Reader is not null..
+2020-11-17 11:33:21.8046 INFO Reader is equal to true..
+2020-11-17 11:33:25.0604 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String phoneNo, String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 274
+2020-11-17 11:33:25.4094 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-11-17 11:39:07.9823 INFO 11/17/2020 11:39:07 AM
+2020-11-17 11:40:22.3144 INFO 11/17/2020 11:40:22 AM
+2020-11-17 11:41:04.4107 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 11:41:09.5075 INFO Reader is not null..
+2020-11-17 11:41:15.8831 INFO Reader is equal to true..
+2020-11-17 11:43:40.8191 INFO 11/17/2020 11:43:40 AM
+2020-11-17 11:45:08.0161 INFO 11/17/2020 11:45:07 AM
+2020-11-17 11:45:26.9671 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 11:45:32.9558 INFO Reader is not null..
+2020-11-17 11:45:35.7707 INFO Reader is equal to true..
+2020-11-17 11:46:11.9228 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String phoneNo, String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 274
+2020-11-17 11:46:14.7146 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-11-17 11:54:59.4737 INFO NEW LOGIN
+2020-11-17 11:55:14.3969 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-11-17 11:55:14.3969 INFO Incorrect login details
+2020-11-17 11:55:14.6559 INFO Home Page Loaded: 11/17/2020 11:55:14 AM
+2020-11-17 11:55:18.8077 INFO NEW LOGIN
+2020-11-17 11:55:20.0406 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-11-17 11:55:20.0406 INFO Incorrect login details
+2020-11-17 11:55:20.2476 INFO Home Page Loaded: 11/17/2020 11:55:20 AM
+2020-11-17 11:55:32.5899 INFO 11/17/2020 11:55:32 AM
+2020-11-17 11:56:22.4284 INFO 11/17/2020 11:56:22 AM
+2020-11-17 11:56:33.9668 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 11:56:45.5952 INFO Reader is not null..
+2020-11-17 11:56:46.8951 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-17 12:05:21.1911 INFO 11/17/2020 12:05:21 PM
+2020-11-17 12:06:01.0898 INFO 11/17/2020 12:06:01 PM
+2020-11-17 12:06:14.5210 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 12:06:18.2908 INFO Reader is not null..
+2020-11-17 12:06:25.7534 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-17 12:11:50.9277 INFO 11/17/2020 12:11:50 PM
+2020-11-17 12:12:45.0106 INFO 11/17/2020 12:12:45 PM
+2020-11-17 12:13:08.2882 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 12:13:41.3673 INFO Reader is not null..
+2020-11-17 13:07:15.8812 INFO 11/17/2020 1:07:15 PM
+2020-11-17 13:13:20.1089 INFO 11/17/2020 1:13:20 PM
+2020-11-17 13:13:37.0029 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 13:13:48.4422 INFO Reader is not null..
+2020-11-17 13:14:10.2999 ERROR System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String phoneNo, String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 263
+2020-11-17 13:14:12.9977 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 50
+2020-11-17 13:17:58.6952 INFO 11/17/2020 1:17:58 PM
+2020-11-17 13:21:17.1071 INFO 11/17/2020 1:21:17 PM
+2020-11-17 13:21:42.9595 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-17 13:21:51.3370 INFO Reader is not null..
+2020-11-17 13:21:53.3109 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-11-17 13:24:50.6786 INFO 11/17/2020 1:24:50 PM
+2020-11-17 13:25:30.1071 INFO 11/17/2020 1:25:30 PM
+2020-11-17 13:25:35.2318 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-17 13:25:35.9568 INFO Reader is not null..
+2020-11-17 13:25:35.9568 INFO Reader is equal to true..
+2020-11-17 13:25:36.3118 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-17 13:25:52.6598 INFO start date:01-Jan-2018
+2020-11-17 13:25:52.6598 INFO end date:28-Oct-2020
+2020-11-17 13:25:52.6598 INFO  Remitta Report Loaded Successful
+2020-11-17 13:26:28.8425 INFO Home Page Loaded: 11/17/2020 1:26:28 PM
+2020-11-17 13:36:13.0550 INFO 11/17/2020 1:36:13 PM
+2020-11-17 13:37:05.1258 INFO 11/17/2020 1:37:05 PM
+2020-11-17 13:37:24.8466 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-17 13:37:33.5321 INFO Reader is not null..
+2020-11-17 13:37:54.4108 INFO Reader is equal to true..
+2020-11-17 13:38:11.3228 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-17 13:38:20.2063 INFO start date:01-Jan-2018
+2020-11-17 13:38:20.2063 INFO end date:28-Oct-2020
+2020-11-17 13:38:20.2063 INFO  Remitta Report Loaded Successful
+2020-11-17 13:39:00.2218 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-17 13:39:01.5847 INFO Reader is not null..
+2020-11-17 13:39:02.1987 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-17 13:44:42.2900 INFO 11/17/2020 1:44:42 PM
+2020-11-17 13:45:18.3968 INFO 11/17/2020 1:45:18 PM
+2020-11-17 13:45:48.2480 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-17 13:45:54.6506 INFO Reader is not null..
+2020-11-17 13:45:54.6506 INFO Reader is equal to true..
+2020-11-17 13:45:54.7096 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-11-17 13:46:07.9388 INFO start date:01-Jan-2018
+2020-11-17 13:46:07.9388 INFO end date:28-Oct-2020
+2020-11-17 13:46:07.9388 INFO  Remitta Report Loaded Successful
+2020-11-17 13:47:13.5557 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-11-17 13:47:13.9177 INFO Reader is not null..
+2020-11-17 13:47:13.9177 INFO  Remitta Loan Offer Report data fetched from database successfully

@@ -1,0 +1,41 @@
+2020-11-30 09:11:22.2134 INFO NEW LOGIN
+2020-11-30 09:40:30.3140 INFO 11/30/2020 9:40:30 AM
+2020-11-30 09:41:57.0217 INFO Home Page Loaded: 11/30/2020 9:41:57 AM
+2020-11-30 09:57:42.3553 INFO NEW LOGIN
+2020-11-30 09:57:43.6492 INFO Home Page Loaded: 11/30/2020 9:57:43 AM
+2020-11-30 10:05:46.1806 INFO NEW LOGIN
+2020-11-30 10:05:46.2396 INFO Home Page Loaded: 11/30/2020 10:05:46 AM
+2020-11-30 10:07:47.4584 INFO Home Page Loaded: 11/30/2020 10:07:47 AM
+2020-11-30 10:15:35.1107 INFO 11/30/2020 10:15:35 AM
+2020-11-30 10:16:00.2622 INFO Home Page Loaded: 11/30/2020 10:16:00 AM
+2020-11-30 10:16:05.4739 INFO 11/30/2020 10:16:05 AM
+2020-11-30 10:16:19.9270 INFO Home Page Loaded: 11/30/2020 10:16:19 AM
+2020-11-30 10:35:22.7319 INFO 11/30/2020 10:35:22 AM
+2020-11-30 10:35:37.6810 INFO 11/30/2020 10:35:37 AM
+2020-11-30 10:35:53.9660 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-30 10:35:54.2620 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-30 10:36:09.0201 INFO start date:01-Jan-2019
+2020-11-30 10:36:09.0201 INFO end date:25-Nov-2020
+2020-11-30 10:36:09.0201 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-11-30 10:36:42.2991 INFO Home Page Loaded: 11/30/2020 10:36:42 AM
+2020-11-30 10:38:47.9580 INFO NEW LOGIN
+2020-11-30 10:38:48.0140 INFO Home Page Loaded: 11/30/2020 10:38:48 AM
+2020-11-30 10:38:53.5756 INFO Home Page Loaded: 11/30/2020 10:38:53 AM
+2020-11-30 10:48:28.6215 INFO 11/30/2020 10:48:28 AM
+2020-11-30 10:48:41.2587 INFO 11/30/2020 10:48:41 AM
+2020-11-30 10:48:58.9637 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-11-30 10:49:28.5349 INFO Reader is not null..
+2020-11-30 10:49:37.6763 INFO Reader is equal to true..
+2020-11-30 10:50:58.0974 ERROR System.OverflowException: Value was either too large or too small for an Int32.
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetSalaryTopPlus(String RequestDate, String LogDate) in C:\Users\HP PC\Source\Repos\329 Loan Offer\329 Loan Offer Project\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 257
+2020-11-30 12:10:12.4908 INFO NEW LOGIN
+2020-11-30 12:10:12.8518 INFO Home Page Loaded: 11/30/2020 12:10:12 PM
+2020-11-30 12:10:48.4756 INFO 11/30/2020 12:10:48 PM
+2020-11-30 12:11:11.5367 INFO 11/30/2020 12:11:11 PM
+2020-11-30 12:11:12.1447 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-11-30 12:11:12.3487 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-11-30 12:11:27.3408 INFO start date:01-Jan-2018
+2020-11-30 12:11:27.3408 INFO end date:27-Nov-2020
+2020-11-30 12:11:27.3408 INFO  Simbrella Loan Offer Report Loaded Successfully

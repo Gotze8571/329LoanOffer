@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using LoanOFFER.Data.BusinessLogic;
 using LoanOFFER.Web.Models.AuditTrail;
+using LoanOFFER.Web.Models.RoleAuth;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -57,4 +58,5 @@ namespace LoanOFFER.Web.Models
 
         //public System.Data.Entity.DbSet<LoanOFFER.Data.BusinessLogic.SimbrellaViewModel> SimbrellaViewModels { get; set; }
     }
+    
 }

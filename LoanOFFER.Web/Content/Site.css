@@ -1,6 +1,8 @@
 ﻿body {
-    padding-top: 0px;
-    padding-bottom: 5px;
+    /*padding-top: 0px;
+    padding-bottom: 5px;*/
+    margin: 0;
+    padding: 0;
 }
 
 .navbar{
@@ -8,7 +10,7 @@
 }
 
 .wrapper {
-    margin-top: 20px;
+    margin-top: 2px;
     
 }
 /* Set padding to keep content from hitting the edges */
@@ -29,4 +31,11 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.header{
+    padding: 0;
+    margin: 0 auto;
+    width: inherit;
+    height: inherit;
 }
