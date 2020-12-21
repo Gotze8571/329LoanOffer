@@ -10,12 +10,11 @@ using System.Web.Security;
 
 namespace LoanOFFER.Web.Controllers
 {
-
     public class HomeController : Controller
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
 
-       [Authorize]
+      // [Authorize]
         
         public ActionResult Index()
         {
