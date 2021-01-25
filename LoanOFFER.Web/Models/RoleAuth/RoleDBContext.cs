@@ -14,6 +14,8 @@ namespace LoanOFFER.Web.Models.RoleAuth
         public DbSet<Role> Roles { get; set; }
         public DbSet<UserIdentity> UserIdentities { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
-        public DbSet<ErrorLoan> ErrorLoans { get; set; }
+
+        public System.Data.Entity.DbSet<LoanOFFER.Web.Models.User> Users { get; set; }
+        // public DbSet<ErrorLoan> ErrorLoans { get; set; }
     }
 }

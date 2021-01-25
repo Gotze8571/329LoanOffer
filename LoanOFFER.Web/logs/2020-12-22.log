@@ -1,0 +1,622 @@
+2020-12-22 02:49:11.6881 INFO 12/22/2020 2:49:11 AM
+2020-12-22 02:49:27.7026 INFO 12/22/2020 2:49:27 AM
+2020-12-22 02:49:27.7625 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 02:49:27.9958 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 02:49:30.5658 INFO start date:29-Dec-2019
+2020-12-22 02:49:30.5658 INFO end date:16-Dec-2020
+2020-12-22 02:49:30.5658 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 03:00:14.9178 INFO 12/22/2020 3:00:14 AM
+2020-12-22 03:01:03.8085 INFO 12/22/2020 3:01:03 AM
+2020-12-22 03:01:03.8698 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 03:01:04.0613 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 03:01:06.4937 INFO start date:29-Dec-2019
+2020-12-22 03:01:06.4937 INFO end date:02-Dec-2020
+2020-12-22 03:01:06.4937 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 03:03:24.2982 ERROR Error in Excel Sheet
+2020-12-22 03:09:14.3302 INFO 12/22/2020 3:09:14 AM
+2020-12-22 03:09:32.8513 INFO 12/22/2020 3:09:32 AM
+2020-12-22 03:09:32.9061 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 03:09:33.0876 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 03:09:35.3717 INFO start date:29-Dec-2019
+2020-12-22 03:09:35.3717 INFO end date:16-Dec-2020
+2020-12-22 03:09:35.3717 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 03:10:03.5891 INFO Simbrella Loan Report data doesn't contain Customer Id and Request Date.
+2020-12-22 03:26:24.6573 INFO 12/22/2020 3:26:24 AM
+2020-12-22 03:30:12.7305 INFO 12/22/2020 3:30:12 AM
+2020-12-22 03:30:12.7934 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 03:30:12.9849 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 03:30:15.2918 INFO start date:29-Dec-2019
+2020-12-22 03:30:15.2918 INFO end date:16-Dec-2020
+2020-12-22 03:30:15.2918 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 03:30:29.7885 INFO Simbrella Loan Report data doesn't contain Customer Id and Request Date.
+2020-12-22 03:39:25.9419 INFO 12/22/2020 3:39:25 AM
+2020-12-22 03:39:39.5834 INFO 12/22/2020 3:39:39 AM
+2020-12-22 03:39:39.6422 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 03:39:39.8606 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 03:39:42.3325 INFO start date:29-Dec-2019
+2020-12-22 03:39:42.3325 INFO end date:18-Dec-2020
+2020-12-22 03:39:42.3325 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 03:41:25.3275 INFO 12/22/2020 3:41:25 AM
+2020-12-22 03:41:39.0142 INFO 12/22/2020 3:41:39 AM
+2020-12-22 03:41:52.1582 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 03:57:49.6160 INFO 12/22/2020 3:57:49 AM
+2020-12-22 03:58:09.3891 INFO 12/22/2020 3:58:09 AM
+2020-12-22 03:58:26.0952 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 03:58:26.6129 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 03:58:28.8742 INFO start date:29-Dec-2019
+2020-12-22 03:58:28.8742 INFO end date:18-Dec-2020
+2020-12-22 03:58:28.8742 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 04:06:44.6767 INFO Simbrella Loan Report data doesn't contain Customer Id and Request Date.
+2020-12-22 04:16:56.4692 INFO 12/22/2020 4:16:56 AM
+2020-12-22 04:17:14.3431 INFO 12/22/2020 4:17:14 AM
+2020-12-22 04:17:19.9998 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 04:17:20.1863 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 04:17:22.8626 INFO start date:29-Dec-2019
+2020-12-22 04:17:22.8626 INFO end date:16-Dec-2020
+2020-12-22 04:17:22.8626 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 04:17:44.4829 INFO Simbrella Loan Report data doesn't contain Customer Id and Request Date.
+2020-12-22 04:18:25.1972 INFO 12/22/2020 4:18:25 AM
+2020-12-22 04:18:40.1577 INFO 12/22/2020 4:18:40 AM
+2020-12-22 04:18:52.6931 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 04:19:02.9675 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 04:19:05.7245 INFO start date:29-Dec-2019
+2020-12-22 04:19:05.7245 INFO end date:18-Dec-2020
+2020-12-22 04:19:05.7245 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:01:40.7920 INFO 12/22/2020 5:01:40 AM
+2020-12-22 05:01:52.9093 INFO 12/22/2020 5:01:52 AM
+2020-12-22 05:01:59.9126 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:02:00.0981 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:02:02.6519 INFO start date:29-Dec-2019
+2020-12-22 05:02:02.6519 INFO end date:16-Dec-2020
+2020-12-22 05:02:02.6519 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:04:22.6689 INFO 12/22/2020 5:04:22 AM
+2020-12-22 05:04:37.3899 INFO 12/22/2020 5:04:37 AM
+2020-12-22 05:05:03.5061 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:05:03.7185 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:05:06.4888 INFO start date:29-Dec-2019
+2020-12-22 05:05:06.4888 INFO end date:18-Dec-2020
+2020-12-22 05:05:06.4888 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:09:07.3009 INFO 12/22/2020 5:09:07 AM
+2020-12-22 05:10:37.0147 INFO 12/22/2020 5:10:37 AM
+2020-12-22 05:10:41.6845 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:10:41.8431 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:10:44.4474 INFO start date:29-Dec-2019
+2020-12-22 05:10:44.4474 INFO end date:03-Dec-2020
+2020-12-22 05:10:44.4474 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:13:40.1471 INFO 12/22/2020 5:13:40 AM
+2020-12-22 05:13:53.1265 INFO 12/22/2020 5:13:53 AM
+2020-12-22 05:14:02.9307 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:14:03.1102 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:14:05.7513 INFO start date:29-Dec-2019
+2020-12-22 05:14:05.7513 INFO end date:16-Dec-2020
+2020-12-22 05:14:05.7513 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:19:09.5783 INFO 12/22/2020 5:19:09 AM
+2020-12-22 05:19:27.9794 INFO 12/22/2020 5:19:27 AM
+2020-12-22 05:19:38.0290 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:19:38.2065 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:19:40.4583 INFO start date:29-Dec-2019
+2020-12-22 05:19:40.4583 INFO end date:17-Dec-2020
+2020-12-22 05:19:40.4583 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:20:05.0341 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:20:05.0790 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:20:06.9032 INFO Simbrella Report exported successfully
+2020-12-22 05:24:10.5189 INFO 12/22/2020 5:24:10 AM
+2020-12-22 05:24:26.2379 INFO 12/22/2020 5:24:26 AM
+2020-12-22 05:24:31.9816 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:24:32.1681 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:24:34.6221 INFO start date:29-Dec-2019
+2020-12-22 05:24:34.6221 INFO end date:16-Dec-2020
+2020-12-22 05:24:34.6221 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:24:42.3887 INFO 12/22/2020 5:24:42 AM
+2020-12-22 05:29:48.6872 INFO 12/22/2020 5:29:48 AM
+2020-12-22 05:29:59.8646 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:29:59.9097 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:29:59.9615 INFO start date:29-Dec-2019
+2020-12-22 05:29:59.9615 INFO end date:10-Dec-2020
+2020-12-22 05:29:59.9615 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:30:22.5716 INFO 12/22/2020 5:30:22 AM
+2020-12-22 05:32:10.6368 INFO 12/22/2020 5:32:10 AM
+2020-12-22 05:32:34.6853 INFO 12/22/2020 5:32:34 AM
+2020-12-22 05:33:54.0577 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:33:54.2473 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:33:56.7400 INFO start date:29-Dec-2019
+2020-12-22 05:33:56.7400 INFO end date:18-Dec-2020
+2020-12-22 05:33:56.7400 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:34:20.9063 INFO 12/22/2020 5:34:20 AM
+2020-12-22 05:44:16.0240 INFO 12/22/2020 5:44:16 AM
+2020-12-22 05:44:33.6785 INFO 12/22/2020 5:44:33 AM
+2020-12-22 05:44:36.6947 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:44:36.8673 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:44:39.1881 INFO start date:29-Dec-2019
+2020-12-22 05:44:39.1881 INFO end date:17-Dec-2020
+2020-12-22 05:44:39.1881 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:44:49.8790 INFO 12/22/2020 5:44:49 AM
+2020-12-22 05:46:51.1562 INFO 12/22/2020 5:46:51 AM
+2020-12-22 05:47:09.9336 INFO 12/22/2020 5:47:09 AM
+2020-12-22 05:47:38.4916 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:47:38.6812 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:47:41.5445 INFO start date:29-Dec-2019
+2020-12-22 05:47:41.5445 INFO end date:18-Dec-2020
+2020-12-22 05:47:41.5445 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:48:16.5174 INFO 12/22/2020 5:48:16 AM
+2020-12-22 05:49:40.5791 INFO 12/22/2020 5:49:40 AM
+2020-12-22 05:50:25.1483 INFO 12/22/2020 5:50:25 AM
+2020-12-22 05:50:28.0565 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:50:28.2580 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:50:30.7089 INFO start date:29-Dec-2019
+2020-12-22 05:50:30.7089 INFO end date:18-Dec-2020
+2020-12-22 05:50:30.7089 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:50:46.9870 INFO 12/22/2020 5:50:46 AM
+2020-12-22 05:54:54.6931 INFO 12/22/2020 5:54:54 AM
+2020-12-22 05:55:10.0891 INFO 12/22/2020 5:55:10 AM
+2020-12-22 05:55:11.7844 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 05:55:11.9679 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 05:55:14.4137 INFO start date:29-Dec-2019
+2020-12-22 05:55:14.4137 INFO end date:16-Dec-2020
+2020-12-22 05:55:14.4137 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 05:55:26.2147 INFO 12/22/2020 5:55:26 AM
+2020-12-22 06:06:55.3119 INFO 12/22/2020 6:06:55 AM
+2020-12-22 06:07:16.4458 INFO 12/22/2020 6:07:16 AM
+2020-12-22 06:07:19.3368 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 06:07:19.5114 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 06:07:21.8122 INFO start date:29-Dec-2019
+2020-12-22 06:07:21.8122 INFO end date:17-Dec-2020
+2020-12-22 06:07:21.8122 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 06:07:34.2548 INFO 12/22/2020 6:07:34 AM
+2020-12-22 06:09:56.1933 INFO 12/22/2020 6:09:56 AM
+2020-12-22 06:10:28.0513 INFO 12/22/2020 6:10:28 AM
+2020-12-22 06:10:30.3509 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 06:10:30.5025 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 06:10:32.7407 INFO start date:29-Dec-2019
+2020-12-22 06:10:32.7407 INFO end date:17-Dec-2020
+2020-12-22 06:10:32.7407 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 06:10:47.2736 INFO 12/22/2020 6:10:47 AM
+2020-12-22 06:13:16.4994 INFO 12/22/2020 6:13:16 AM
+2020-12-22 06:13:38.3315 INFO 12/22/2020 6:13:38 AM
+2020-12-22 06:13:40.7226 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 06:13:40.8962 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 06:13:43.3120 INFO start date:29-Dec-2019
+2020-12-22 06:13:43.3120 INFO end date:18-Dec-2020
+2020-12-22 06:13:43.3120 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 06:13:58.3421 INFO 12/22/2020 6:13:58 AM
+2020-12-22 06:14:17.9712 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 06:14:18.0131 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 06:14:18.1787 INFO start date:29-Dec-2019
+2020-12-22 06:14:18.1787 INFO end date:18-Dec-2020
+2020-12-22 06:14:18.1787 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 06:14:27.0573 INFO 12/22/2020 6:14:27 AM
+2020-12-22 06:14:29.0028 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 06:14:29.0397 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 06:14:29.0786 INFO start date:29-Dec-2019
+2020-12-22 06:14:29.0786 INFO end date:18-Dec-2020
+2020-12-22 06:14:29.0786 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 06:23:42.8932 INFO NEW LOGIN
+2020-12-22 06:25:07.7531 INFO NEW LOGIN
+2020-12-22 06:27:36.0195 INFO NEW LOGIN
+2020-12-22 06:27:58.9885 INFO NEW LOGIN
+2020-12-22 06:28:13.9885 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-12-22 06:28:32.4296 INFO Incorrect login details
+2020-12-22 06:28:39.8341 INFO Home Page Loaded: 12/22/2020 6:28:39 AM
+2020-12-22 06:30:12.8427 INFO NEW LOGIN
+2020-12-22 06:30:30.7322 INFO NEW LOGIN
+2020-12-22 06:31:17.7209 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-12-22 06:32:31.7321 INFO Incorrect login details
+2020-12-22 06:32:33.9439 INFO NEW LOGIN
+2020-12-22 06:33:02.2289 INFO NEW LOGIN
+2020-12-22 06:33:51.7611 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-12-22 06:33:56.9246 INFO Incorrect login details
+2020-12-22 06:33:59.0880 INFO NEW LOGIN
+2020-12-22 06:34:25.1861 INFO NEW LOGIN
+2020-12-22 06:59:53.0804 INFO NEW LOGIN
+2020-12-22 07:00:16.2211 INFO NEW LOGIN
+2020-12-22 07:00:32.6358 INFO System.InvalidOperationException: The model backing the 'RoleDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String hostName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+2020-12-22 07:00:38.8709 INFO Incorrect login details
+2020-12-22 07:00:42.6185 INFO NEW LOGIN
+2020-12-22 07:01:45.5822 INFO NEW LOGIN
+2020-12-22 07:07:17.3123 INFO NEW LOGIN
+2020-12-22 07:07:38.8752 INFO NEW LOGIN
+2020-12-22 07:08:25.7797 INFO Signed in User: tella.adesina
+2020-12-22 07:08:27.0188 INFO IP Address: ::1
+2020-12-22 07:08:27.6066 INFO IP Address: TELLA-PC
+2020-12-22 07:08:32.3045 INFO NEW LOGIN
+2020-12-22 07:09:48.9281 INFO NEW LOGIN
+2020-12-22 07:10:34.2559 INFO NEW LOGIN
+2020-12-22 07:10:36.0427 INFO Signed in User: tella.adesina
+2020-12-22 07:10:36.0427 INFO IP Address: ::1
+2020-12-22 07:10:36.0427 INFO IP Address: TELLA-PC
+2020-12-22 07:10:36.9111 INFO NEW LOGIN
+2020-12-22 07:20:09.3630 INFO NEW LOGIN
+2020-12-22 07:20:38.3666 INFO NEW LOGIN
+2020-12-22 07:20:42.6619 INFO Signed in User: tella.adesina
+2020-12-22 07:20:42.6619 INFO IP Address: ::1
+2020-12-22 07:20:42.6619 INFO IP Address: TELLA-PC
+2020-12-22 07:20:47.0172 INFO Home Page Loaded: 12/22/2020 7:20:47 AM
+2020-12-22 07:26:18.8623 INFO NEW LOGIN
+2020-12-22 07:26:43.2735 INFO NEW LOGIN
+2020-12-22 07:26:49.2362 INFO Signed in User: tella.adesina
+2020-12-22 07:26:49.2362 INFO IP Address: ::1
+2020-12-22 07:26:49.2362 INFO IP Address: TELLA-PC
+2020-12-22 07:26:53.2635 INFO Home Page Loaded: 12/22/2020 7:26:53 AM
+2020-12-22 07:29:41.4422 INFO NEW LOGIN
+2020-12-22 07:30:03.8784 INFO NEW LOGIN
+2020-12-22 07:30:10.4935 INFO Signed in User: tella.adesina
+2020-12-22 07:30:10.4935 INFO IP Address: ::1
+2020-12-22 07:30:10.4935 INFO IP Address: TELLA-PC
+2020-12-22 07:32:46.0228 INFO NEW LOGIN
+2020-12-22 07:33:09.7869 INFO NEW LOGIN
+2020-12-22 07:33:16.5670 INFO Signed in User: tella.adesina
+2020-12-22 07:33:16.5670 INFO IP Address: ::1
+2020-12-22 07:33:16.5670 INFO IP Address: TELLA-PC
+2020-12-22 07:33:18.7201 INFO Home Page Loaded: 12/22/2020 7:33:18 AM
+2020-12-22 07:34:56.2327 INFO NEW LOGIN
+2020-12-22 07:37:19.4151 INFO NEW LOGIN
+2020-12-22 07:37:41.4634 INFO NEW LOGIN
+2020-12-22 07:37:47.2052 INFO Incorrect login details
+2020-12-22 07:37:49.1510 INFO NEW LOGIN
+2020-12-22 07:38:15.7189 INFO NEW LOGIN
+2020-12-22 07:38:18.6943 INFO Signed in User: tella.adesina
+2020-12-22 07:38:18.6943 INFO IP Address: ::1
+2020-12-22 07:38:18.6943 INFO IP Address: TELLA-PC
+2020-12-22 07:38:19.6313 INFO Home Page Loaded: 12/22/2020 7:38:19 AM
+2020-12-22 07:41:17.1231 INFO Home Page Loaded: 12/22/2020 7:41:17 AM
+2020-12-22 07:41:36.4142 INFO NEW LOGIN
+2020-12-22 07:42:01.9698 INFO NEW LOGIN
+2020-12-22 07:42:09.8898 INFO Signed in User: tella.adesina
+2020-12-22 07:42:09.8898 INFO IP Address: ::1
+2020-12-22 07:42:09.8898 INFO IP Address: TELLA-PC
+2020-12-22 07:42:09.9167 INFO Home Page Loaded: 12/22/2020 7:42:09 AM
+2020-12-22 08:03:24.8255 INFO 12/22/2020 8:03:24 AM
+2020-12-22 08:03:45.1565 INFO 12/22/2020 8:03:45 AM
+2020-12-22 08:03:45.2124 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 08:03:45.3341 INFO Reader is not null..
+2020-12-22 08:03:45.3341 INFO Reader is equal to true..
+2020-12-22 08:03:45.4737 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 08:03:47.7190 INFO start date:29-Dec-2019
+2020-12-22 08:03:47.7190 INFO end date:18-Dec-2020
+2020-12-22 08:03:47.7190 INFO  Remitta Report Loaded Successful
+2020-12-22 08:03:52.3284 INFO 12/22/2020 8:03:52 AM
+2020-12-22 08:04:07.8110 INFO 12/22/2020 8:04:07 AM
+2020-12-22 08:04:07.8110 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 08:04:07.8593 INFO Reader is not null..
+2020-12-22 08:04:07.8593 INFO Reader is equal to true..
+2020-12-22 08:04:07.8782 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 08:04:07.9122 INFO start date:29-Dec-2019
+2020-12-22 08:04:07.9122 INFO end date:18-Dec-2020
+2020-12-22 08:04:07.9122 INFO  Remitta Report Loaded Successful
+2020-12-22 08:04:24.6367 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 08:04:24.6576 INFO Reader is not null..
+2020-12-22 08:04:24.6576 INFO Reader is equal to true..
+2020-12-22 08:04:24.6656 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 08:04:32.4702 INFO Remitta Report exported successfully
+2020-12-22 08:07:11.8929 INFO NEW LOGIN
+2020-12-22 08:07:19.3591 INFO NEW LOGIN
+2020-12-22 08:07:35.4393 INFO NEW LOGIN
+2020-12-22 08:07:41.0209 INFO Signed in User: tella.adesina
+2020-12-22 08:07:41.0209 INFO IP Address: ::1
+2020-12-22 08:07:41.0209 INFO IP Address: TELLA-PC
+2020-12-22 08:07:44.6478 INFO Home Page Loaded: 12/22/2020 8:07:44 AM
+2020-12-22 08:07:52.6717 INFO 12/22/2020 8:07:52 AM
+2020-12-22 08:08:08.9302 INFO 12/22/2020 8:08:08 AM
+2020-12-22 08:08:27.7838 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 08:08:27.8157 INFO Reader is not null..
+2020-12-22 08:08:27.8157 INFO Reader is equal to true..
+2020-12-22 08:08:27.9593 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 08:08:28.2934 INFO start date:29-Dec-2019
+2020-12-22 08:08:28.2934 INFO end date:16-Dec-2020
+2020-12-22 08:08:28.2934 INFO  Remitta Report Loaded Successful
+2020-12-22 08:08:58.2181 INFO 12/22/2020 8:08:58 AM
+2020-12-22 08:11:00.3108 INFO 12/22/2020 8:11:00 AM
+2020-12-22 08:11:13.7827 INFO 12/22/2020 8:11:13 AM
+2020-12-22 08:11:14.9319 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 08:11:14.9638 INFO Reader is not null..
+2020-12-22 08:11:14.9638 INFO Reader is equal to true..
+2020-12-22 08:11:15.1216 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 08:11:17.5097 INFO start date:29-Dec-2019
+2020-12-22 08:11:17.5097 INFO end date:17-Dec-2020
+2020-12-22 08:11:17.5097 INFO  Remitta Report Loaded Successful
+2020-12-22 08:11:28.7880 INFO 12/22/2020 8:11:28 AM
+2020-12-22 08:11:41.5912 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 08:11:41.6122 INFO Reader is not null..
+2020-12-22 08:11:41.6122 INFO Reader is equal to true..
+2020-12-22 08:11:41.6192 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 08:11:41.6690 INFO start date:29-Dec-2019
+2020-12-22 08:11:41.6690 INFO end date:17-Dec-2020
+2020-12-22 08:11:41.6690 INFO  Remitta Report Loaded Successful
+2020-12-22 08:12:05.2012 INFO 12/22/2020 8:12:05 AM
+2020-12-22 08:12:05.2122 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 08:12:05.2321 INFO Reader is not null..
+2020-12-22 08:12:05.2321 INFO Reader is equal to true..
+2020-12-22 08:12:05.2321 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 08:12:05.2830 INFO start date:29-Dec-2019
+2020-12-22 08:12:05.2830 INFO end date:17-Dec-2020
+2020-12-22 08:12:05.2830 INFO  Remitta Report Loaded Successful
+2020-12-22 08:12:18.5530 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 08:12:18.5719 INFO Reader is not null..
+2020-12-22 08:12:18.5719 INFO Reader is equal to true..
+2020-12-22 08:12:18.5719 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 08:12:24.0020 INFO Remitta Report exported successfully
+2020-12-22 08:28:07.1766 INFO NEW LOGIN
+2020-12-22 08:28:32.7665 INFO NEW LOGIN
+2020-12-22 08:28:37.2525 INFO Signed in User: tella.adesina
+2020-12-22 08:28:37.2525 INFO IP Address: ::1
+2020-12-22 08:28:37.2525 INFO IP Address: TELLA-PC
+2020-12-22 08:28:39.2456 INFO Home Page Loaded: 12/22/2020 8:28:39 AM
+2020-12-22 08:28:44.2237 INFO 12/22/2020 8:28:44 AM
+2020-12-22 08:28:55.2858 INFO 12/22/2020 8:28:55 AM
+2020-12-22 08:28:55.3376 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-22 08:28:56.1744 INFO Reader is not null..
+2020-12-22 08:28:56.1744 INFO Reader is equal to true..
+2020-12-22 08:28:56.1976 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-22 08:28:56.5478 INFO start date:29-Dec-2019
+2020-12-22 08:28:56.5478 INFO end date:17-Dec-2020
+2020-12-22 08:28:56.5478 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-22 08:29:18.4399 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-22 08:29:18.6561 INFO Reader is not null..
+2020-12-22 08:29:18.6561 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-22 08:32:04.4647 INFO 12/22/2020 8:32:04 AM
+2020-12-22 08:32:23.7556 INFO 12/22/2020 8:32:23 AM
+2020-12-22 08:32:23.8314 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-22 08:32:24.5323 INFO Reader is not null..
+2020-12-22 08:32:24.5323 INFO Reader is equal to true..
+2020-12-22 08:32:24.5442 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-22 08:32:26.9315 INFO start date:29-Dec-2019
+2020-12-22 08:32:26.9315 INFO end date:17-Dec-2020
+2020-12-22 08:32:26.9315 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-22 08:32:33.4493 INFO 12/22/2020 8:32:33 AM
+2020-12-22 08:32:33.4493 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-22 08:32:34.1564 INFO Reader is not null..
+2020-12-22 08:32:34.1564 INFO Reader is equal to true..
+2020-12-22 08:32:34.1564 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-22 08:32:34.2003 INFO start date:29-Dec-2019
+2020-12-22 08:32:34.2003 INFO end date:17-Dec-2020
+2020-12-22 08:32:34.2003 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-22 08:32:41.0589 INFO 12/22/2020 8:32:41 AM
+2020-12-22 08:32:41.0589 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-22 08:32:42.3577 INFO Reader is not null..
+2020-12-22 08:32:42.3577 INFO Reader is equal to true..
+2020-12-22 08:32:42.3577 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-22 08:32:42.3956 INFO start date:29-Dec-2019
+2020-12-22 08:32:42.3956 INFO end date:17-Dec-2020
+2020-12-22 08:32:42.3956 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-22 08:32:46.5268 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-22 08:32:47.5390 INFO Reader is not null..
+2020-12-22 08:32:47.5390 INFO Reader is equal to true..
+2020-12-22 08:32:47.5390 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-22 08:32:56.4175 INFO Salary Top-Up Report exported successfully
+2020-12-22 08:42:48.9974 INFO 12/22/2020 8:42:48 AM
+2020-12-22 08:44:40.7710 INFO 12/22/2020 8:44:40 AM
+2020-12-22 08:44:42.1303 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 08:44:42.3378 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 08:44:44.5741 INFO start date:29-Nov-2020
+2020-12-22 08:44:44.5741 INFO end date:18-Dec-2020
+2020-12-22 08:44:44.5741 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 09:38:28.6209 INFO NEW LOGIN
+2020-12-22 09:39:19.4862 INFO NEW LOGIN
+2020-12-22 09:39:25.0225 INFO Signed in User: tella.adesina
+2020-12-22 09:39:25.0225 INFO IP Address: ::1
+2020-12-22 09:39:25.0225 INFO IP Address: TELLA-PC
+2020-12-22 09:39:26.5267 INFO Home Page Loaded: 12/22/2020 9:39:26 AM
+2020-12-22 10:06:47.5632 INFO 12/22/2020 10:06:47 AM
+2020-12-22 10:06:58.9128 INFO 12/22/2020 10:06:58 AM
+2020-12-22 10:07:01.7390 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 10:07:02.0452 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 10:07:04.2748 INFO start date:29-Dec-2019
+2020-12-22 10:07:04.2748 INFO end date:17-Dec-2020
+2020-12-22 10:07:04.2748 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 10:07:07.1821 INFO 12/22/2020 10:07:07 AM
+2020-12-22 10:09:09.4340 INFO NEW LOGIN
+2020-12-22 10:09:24.1225 INFO NEW LOGIN
+2020-12-22 10:09:32.7453 INFO Signed in User: tella.adesina
+2020-12-22 10:09:32.7453 INFO IP Address: ::1
+2020-12-22 10:09:32.7453 INFO IP Address: TELLA-PC
+2020-12-22 10:09:36.4527 INFO Home Page Loaded: 12/22/2020 10:09:36 AM
+2020-12-22 10:10:02.7577 INFO 12/22/2020 10:10:02 AM
+2020-12-22 10:10:23.1567 INFO 12/22/2020 10:10:23 AM
+2020-12-22 10:10:23.1866 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 10:10:23.2435 INFO Reader is not null..
+2020-12-22 10:10:23.2435 INFO Reader is equal to true..
+2020-12-22 10:10:23.3831 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 10:10:23.7321 INFO start date:29-Dec-2019
+2020-12-22 10:10:23.7321 INFO end date:19-Dec-2020
+2020-12-22 10:10:23.7321 INFO  Remitta Report Loaded Successful
+2020-12-22 10:10:38.2768 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\RemittaController.cs:line 200
+2020-12-22 10:11:30.1628 INFO NEW LOGIN
+2020-12-22 10:11:45.9285 INFO NEW LOGIN
+2020-12-22 10:11:48.1887 INFO NEW LOGIN
+2020-12-22 10:11:48.7013 INFO Signed in User: tella.adesina
+2020-12-22 10:11:48.7013 INFO Signed in User: tella.adesina
+2020-12-22 10:11:48.7013 INFO IP Address: ::1
+2020-12-22 10:11:48.7013 INFO IP Address: TELLA-PC
+2020-12-22 10:11:48.7013 INFO IP Address: ::1
+2020-12-22 10:11:48.7013 INFO IP Address: TELLA-PC
+2020-12-22 10:11:48.7392 INFO Home Page Loaded: 12/22/2020 10:11:48 AM
+2020-12-22 10:12:05.6684 INFO 12/22/2020 10:12:05 AM
+2020-12-22 10:12:16.4941 INFO 12/22/2020 10:12:16 AM
+2020-12-22 10:12:16.5211 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 10:12:16.5649 INFO Reader is not null..
+2020-12-22 10:12:16.5649 INFO Reader is equal to true..
+2020-12-22 10:12:16.7076 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 10:12:17.0636 INFO start date:29-Dec-2019
+2020-12-22 10:12:17.0636 INFO end date:18-Dec-2020
+2020-12-22 10:12:17.0636 INFO  Remitta Report Loaded Successful
+2020-12-22 10:12:19.7432 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\RemittaController.cs:line 200
+2020-12-22 10:46:46.1794 INFO Home Page Loaded: 12/22/2020 10:46:46 AM
+2020-12-22 10:46:57.0427 INFO 12/22/2020 10:46:57 AM
+2020-12-22 10:47:15.0958 INFO 12/22/2020 10:47:15 AM
+2020-12-22 10:47:18.0985 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 10:47:18.3768 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 10:47:20.7028 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 72
+2020-12-22 10:53:05.8016 INFO NEW LOGIN
+2020-12-22 10:53:36.6588 INFO NEW LOGIN
+2020-12-22 10:53:39.5608 INFO Signed in User: tella.adesina
+2020-12-22 10:53:39.5608 INFO IP Address: ::1
+2020-12-22 10:53:39.5608 INFO IP Address: TELLA-PC
+2020-12-22 10:53:39.5928 INFO Home Page Loaded: 12/22/2020 10:53:39 AM
+2020-12-22 10:53:45.3886 INFO 12/22/2020 10:53:45 AM
+2020-12-22 10:53:59.5075 INFO 12/22/2020 10:53:59 AM
+2020-12-22 10:54:06.7856 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 10:54:06.9411 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 10:54:07.2972 INFO start date:29-Dec-2019
+2020-12-22 10:54:07.2972 INFO end date:16-Dec-2020
+2020-12-22 10:54:07.2972 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 10:54:14.9193 INFO 12/22/2020 10:54:14 AM
+2020-12-22 10:54:14.9193 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 10:54:14.9502 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 10:54:14.9941 INFO start date:29-Dec-2019
+2020-12-22 10:54:14.9941 INFO end date:16-Dec-2020
+2020-12-22 10:54:14.9941 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 10:54:24.6920 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 10:54:24.7269 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 10:54:29.5835 INFO Simbrella Report exported successfully
+2020-12-22 10:54:34.5085 INFO 12/22/2020 10:54:34 AM
+2020-12-22 11:02:33.1152 INFO NEW LOGIN
+2020-12-22 11:03:06.4176 INFO NEW LOGIN
+2020-12-22 11:03:09.2521 INFO Signed in User: tella.adesina
+2020-12-22 11:03:09.2521 INFO IP Address: ::1
+2020-12-22 11:03:09.2521 INFO IP Address: TELLA-PC
+2020-12-22 11:03:09.2885 INFO Home Page Loaded: 12/22/2020 11:03:09 AM
+2020-12-22 11:03:14.1634 INFO 12/22/2020 11:03:14 AM
+2020-12-22 11:04:08.7367 INFO 12/22/2020 11:04:08 AM
+2020-12-22 11:04:08.7666 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 11:04:08.9551 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 11:04:09.3327 INFO start date:29-Dec-2019
+2020-12-22 11:04:09.3327 INFO end date:17-Dec-2020
+2020-12-22 11:04:09.3327 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 11:04:15.9531 INFO 12/22/2020 11:04:15 AM
+2020-12-22 11:04:15.9531 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 11:04:16.3198 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 11:04:16.3627 INFO start date:29-Dec-2019
+2020-12-22 11:04:16.3627 INFO end date:17-Dec-2020
+2020-12-22 11:04:16.3627 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 11:04:26.7517 INFO 12/22/2020 11:04:26 AM
+2020-12-22 11:04:26.7517 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 11:04:26.8065 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 11:04:26.8863 INFO start date:29-Dec-2019
+2020-12-22 11:04:26.8863 INFO end date:17-Dec-2020
+2020-12-22 11:04:26.8863 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 11:14:21.7677 INFO 12/22/2020 11:14:21 AM
+2020-12-22 11:14:21.7947 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 11:14:21.8575 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 11:14:21.9189 INFO start date:29-Dec-2019
+2020-12-22 11:14:21.9189 INFO end date:17-Dec-2020
+2020-12-22 11:14:21.9189 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-22 11:14:24.1064 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-22 11:14:24.1473 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-22 11:14:24.6490 INFO Simbrella Report exported successfully
+2020-12-22 11:14:32.2412 INFO Home Page Loaded: 12/22/2020 11:14:32 AM
+2020-12-22 11:14:33.8441 INFO 12/22/2020 11:14:33 AM
+2020-12-22 11:14:52.1397 INFO 12/22/2020 11:14:52 AM
+2020-12-22 11:14:52.1925 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-22 11:14:52.9926 INFO Reader is not null..
+2020-12-22 11:14:52.9926 INFO Reader is equal to true..
+2020-12-22 11:14:52.9926 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-22 11:14:53.0486 INFO start date:30-Dec-2019
+2020-12-22 11:14:53.0486 INFO end date:16-Dec-2020
+2020-12-22 11:14:53.0486 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-22 11:15:29.0555 INFO Home Page Loaded: 12/22/2020 11:15:29 AM
+2020-12-22 11:15:31.5212 INFO 12/22/2020 11:15:31 AM
+2020-12-22 11:16:28.4201 INFO 12/22/2020 11:16:28 AM
+2020-12-22 11:16:28.4201 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 11:16:28.4789 INFO Reader is not null..
+2020-12-22 11:16:28.4789 INFO Reader is equal to true..
+2020-12-22 11:16:28.5079 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 11:16:28.5547 INFO start date:29-Dec-2019
+2020-12-22 11:16:28.5547 INFO end date:16-Dec-2020
+2020-12-22 11:16:28.5547 INFO  Remitta Report Loaded Successful
+2020-12-22 11:18:14.8877 INFO 12/22/2020 11:18:14 AM
+2020-12-22 11:18:14.8877 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-22 11:18:14.9086 INFO Reader is not null..
+2020-12-22 11:18:14.9086 INFO Reader is equal to true..
+2020-12-22 11:18:14.9166 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-22 11:18:14.9535 INFO start date:29-Dec-2019
+2020-12-22 11:18:14.9535 INFO end date:16-Dec-2020
+2020-12-22 11:18:14.9535 INFO  Remitta Report Loaded Successful
+2020-12-22 11:21:11.2567 INFO Home Page Loaded: 12/22/2020 11:21:11 AM
+2020-12-22 11:21:13.9671 INFO NEW LOGIN
+2020-12-22 11:36:18.3584 INFO NEW LOGIN
+2020-12-22 11:36:30.0428 INFO NEW LOGIN
+2020-12-22 11:36:32.9817 INFO Signed in User: tella.adesina
+2020-12-22 11:36:32.9817 INFO IP Address: ::1
+2020-12-22 11:36:32.9817 INFO IP Address: TELLA-PC
+2020-12-22 11:36:33.0126 INFO Home Page Loaded: 12/22/2020 11:36:33 AM

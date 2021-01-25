@@ -31,6 +31,7 @@ namespace LoanOFFER.Web.Models
             }
 
             object[] values = new object[properties.Count];
+            // data is null.. cross check it..
             foreach (T item in data)
             {
                 for (int i = 0; i < values.Length; i++)

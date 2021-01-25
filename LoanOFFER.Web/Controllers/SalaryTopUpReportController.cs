@@ -1,10 +1,12 @@
 ﻿using LoanOFFER.Data.BusinessLogic;
 using LoanOFFER.Data.BusinessObject;
 using LoanOFFER.Data.DAL;
+using LoanOFFER.Web.DAL;
 using LoanOFFER.Web.Models;
 using LoanOFFER.Web.Models.AuditTrail;
 using NLog;
 using PagedList;
+using Rotativa;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -111,21 +113,20 @@ namespace LoanOFFER.Web.Controllers
             return View();
         }
 
-        public FileContentResult ExportToExcel(int? page, string RequestTime, string LogTime)
+        public FileContentResult ExportToExcel(int? page, string startDate, string endDate)
         {
-
             var PhoneNo = Request.Params["phoneNo"];
             int pageNumber = (page ?? 1);
             const int pageSize = 20;
-            //StageDb stagereport = new StageDb();
             LoanOfferDb report = new LoanOfferDb();
             //ViewBag.startDate = this.Request.Params["startDate"];
             //ViewBag.endDate = this.Request.Params["endDate"];
-            if (RequestTime != null)
+            if ((startDate != null) || (endDate != null))
             {
                 SalaryTopUpPlusList list = new SalaryTopUpPlusList();
-                list = report.GetSalaryTopPlus(RequestTime, LogTime);
-                string[] columns = { "Request", "PhoneNo", "RequestTime", "LogDate" };
+                list = report.GetSalaryTopPlus(startDate, endDate);
+                string[] columns = { "LoanID", "RequestID", "SourcePhone", "LoanType", "Amount", "CustType", "Channel", "BrokerCode", "RespCode",
+                "RespDescr", "TranDate", "Address_1", "State", "FirstName", "LastName", "Account", "network", "CustomerID"};
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Salary Top-Up Report exported successfully");
                 string userId = Session["UserId"] as string;
@@ -142,8 +143,9 @@ namespace LoanOFFER.Web.Controllers
             else
             {
                 SalaryTopUpPlusList list = null;
-                list = report.GetSalaryTopPlus(RequestTime, LogTime);
-                string[] columns = { "Request", "PhoneNo", "RequestTime", "LogDate" };
+                list = report.GetSalaryTopPlus(startDate, endDate);
+                string[] columns = { "LoanID", "RequestID", "SourcePhone", "LoanType", "Amount", "CustType", "Channel", "BrokerCode", "RespCode",
+                "RespDescr", "TranDate", "Address_1", "State", "FirstName", "LastName", "Account", "network", "CustomerID"};
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Salary Top-Up Report exported successfully");
                 string userId = Session["UserId"] as string;
@@ -160,6 +162,34 @@ namespace LoanOFFER.Web.Controllers
                 //logger.Info("Please, Contact Buisness Automation to Resolve the Issue.");
                 //ViewBag.Message("Unable to download the data on excel!");
             }
+        }
+        public ActionResult PrintViewToPdf()
+        {
+             
+             return  new ActionAsPdf("Index")
+             {
+                FileName = Server.MapPath("~/Content/SPL.pdf")
+             };
+            
+        }
+        public ActionResult SPLViewToPdf(string startDate, string endDate)
+        {
+            LoanOfferDb db = new LoanOfferDb();
+
+            SalaryTopUpPlusList list = new SalaryTopUpPlusList();
+            list = db.GetSalaryTopPlus(startDate, endDate);
+
+            //var report = new PartialViewAsPdf("~/Views/Shared/ExportToPdfSPL.cshtml", list);
+
+            logger.Info("SPL Report exported successfully");
+            //return report;
+
+            return new PartialViewAsPdf("~/Views/Shared/ExportToPdfSPL.cshtml", list)
+            {
+                //FileName = Server.MapPath("~/Content/Relato.pdf"),
+                PageOrientation = Rotativa.Options.Orientation.Landscape,
+                PageSize = Rotativa.Options.Size.A4
+            };
         }
     }
 }

@@ -57,13 +57,13 @@
         <input class="form-control mr-sm-2" type="search" name="phoneNo" placeholder="Phone Number only" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </div>
-    
-    <div id="excelbtn" style="float:right" class="form-group">
-        @Html.ActionLink("Export To Excel", "ExportToExcel", "Remitta", new { startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo }, new { @class = "btn btnClass", startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo })
+
+    <div id="excelbtn" value="ExportToExcel" style="float:right" class="form-group">
+        @Html.ActionLink("Export To Excel", "ExportToExcel", "Remitta", new { startDate = ViewBag.startDate, endDate = ViewBag.endDate, phoneNo = ViewBag.PhoneNo }, new { @class = "btn btnClass", startDate = ViewBag.startDate, endDate = ViewBag.endDate, phoneNo = ViewBag.PhoneNo })
     </div>
 
-    <div id="pdfbtn" style="float:right" class="form-group">
-        @Html.ActionLink("Export To Pdf", "ExportToPdf", "Remitta", new { startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo }, new { @class = "btn btnClass", startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo })
+    <div id="pdfbtn" name="GridHtml" style="float:right" class="form-group">
+        @Html.ActionLink("Export To Pdf", "PrintPartialViewToPdf", "Remitta", new { startDate = ViewBag.startDate, endDate = ViewBag.endDate, phoneNo = ViewBag.PhoneNo }, new { @class = "btn btnClass", startDate = ViewBag.startDate, endDate = ViewBag.endDate, phoneNo = ViewBag.PhoneNo })
     </div>
 
     <br />
@@ -73,8 +73,8 @@
         <thead style="background-color:  #5c3092; color: white">
             <tr>
                 @*<th>
-            @Html.DisplayNameFor(model => model.First().Request)
-        </th>*@
+                        @Html.DisplayNameFor(model => model.First().Request)
+                    </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.First().PhoneNo)
                 </th>
@@ -94,17 +94,17 @@
                     @Html.DisplayNameFor(model => model.First().LoanType)
                 </th>
                 @*<th>
-            @Html.DisplayNameFor(model => model.First().TransactionStatus)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.First().BranchSolId)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.First().BranchSbu)
-        </th>*@
+                        @Html.DisplayNameFor(model => model.First().TransactionStatus)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().BranchSolId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().BranchSbu)
+                    </th>*@
                 @*<th>
-            @Html.DisplayNameFor(model => model.First().RemittaLoan.bvn)
-        </th>*@
+                        @Html.DisplayNameFor(model => model.First().RemittaLoan.bvn)
+                    </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.First().RemittaLoan.mobileNumber)
                 </th>
@@ -153,9 +153,9 @@
                 <th>
                     @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.DueDate)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.ManagementFee)
-                </th>
+                @*<th>
+                        @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.ManagementFee)
+                    </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.FirstName)
                 </th>
@@ -165,12 +165,12 @@
                 <th>
                     @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.dob)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.Title)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.AccountNo)
-                </th>
+                @*<th>
+                        @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.Title)
+                    </th>*@
+                @*<th>
+                        @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.AccountNo)
+                    </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.First().RemittaLoanResponse.BankCode)
                 </th>
@@ -185,8 +185,8 @@
             <tbody>
                 <tr>
                     @*<td>
-            @Html.DisplayFor(modelItem => item.Request)
-        </td>*@
+                            @Html.DisplayFor(modelItem => item.Request)
+                        </td>*@
                     <td>
                         @Html.DisplayFor(modelItem => item.PhoneNo)
                     </td>
@@ -206,17 +206,17 @@
                         @Html.DisplayFor(modelItem => item.LoanType)
                     </td>
                     @*<td>
-            @Html.DisplayFor(modelItem => item.TransactionStatus)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.BranchSolId)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.BranchSbu)
-        </td>*@
+                            @Html.DisplayFor(modelItem => item.TransactionStatus)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BranchSolId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BranchSbu)
+                        </td>*@
                     @*<td>
-            @Html.DisplayFor(modelItem => item.RemittaLoan.bvn)
-        </td>*@
+                            @Html.DisplayFor(modelItem => item.RemittaLoan.bvn)
+                        </td>*@
                     <td>
                         @Html.DisplayFor(modelItem => item.RemittaLoan.mobileNumber)
                     </td>
@@ -265,9 +265,9 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.RemittaLoanResponse.DueDate)
                     </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.ManagementFee)
-                    </td>
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.RemittaLoanResponse.ManagementFee)
+                        </td>*@
                     <td>
                         @Html.DisplayFor(modelItem => item.RemittaLoanResponse.FirstName)
                     </td>
@@ -277,12 +277,12 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.RemittaLoanResponse.dob)
                     </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.Title)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RemittaLoanResponse.AccountNo)
-                    </td>
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.RemittaLoanResponse.Title)
+                        </td>*@
+                    @*<td>
+                            @Html.DisplayFor(modelItem => item.RemittaLoanResponse.AccountNo)
+                        </td>*@
                     <td>
                         @Html.DisplayFor(modelItem => item.RemittaLoanResponse.BankCode)
                     </td>
@@ -291,10 +291,17 @@
                     </td>
                 </tr>
             </tbody>
-         }
-
+        }
     </table>
 </form>
 <p>
-    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, phoneNo = ViewBag.PhoneNo }), PagedListRenderOptions.PageNumbersOnly)
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, RequestTime = ViewBag.startDate, LogDate = ViewBag.endDate, phoneNo = ViewBag.PhoneNo }), PagedListRenderOptions.PageNumbersOnly)
 </p>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+        $(function () {
+            $("#pdfbtn").click(function () {
+                $("input[name='GridHtml']").val($("#Grid").html());
+            });
+        });
+</script>

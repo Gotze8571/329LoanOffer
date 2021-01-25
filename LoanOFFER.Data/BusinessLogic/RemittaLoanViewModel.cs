@@ -25,9 +25,9 @@ namespace LoanOFFER.Data.BusinessLogic
         public string reasonCode { get; set; }
         [Display(Name = "Account Number")]
         public string PhoneNo { get; set; }
-        [Display(Name = "Loan Requested Time")]
+        [Display(Name = "Request Time")]
         public string  RequestTime { get; set; }
-        [Display(Name = "Customer Eligiblity")]
+        [Display(Name = "Loan Offer Details")]
         public string Response { get; set; }
         [Display(Name = "Loan Date")]
         public  string LogDate { get; set; }

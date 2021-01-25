@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.4.1.2\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.4.1.2\build\Microsoft.TypeScript.MSBuild.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -47,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="ClosedXML, Version=0.93.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ClosedXML.0.93.0\lib\net40\ClosedXML.dll</HintPath>
     </Reference>
@@ -55,6 +59,12 @@
     </Reference>
     <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
       <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net40\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus, Version=5.3.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <HintPath>..\packages\EPPlus.5.3.0\lib\net45\EPPlus.dll</HintPath>
@@ -65,8 +75,11 @@
     <Reference Include="FastMember.Signed, Version=1.3.0.0, Culture=neutral, PublicKeyToken=9e8f22703bef9a29, processorArchitecture=MSIL">
       <HintPath>..\packages\FastMember.Signed.1.3.0\lib\net45\FastMember.Signed.dll</HintPath>
     </Reference>
-    <Reference Include="itextsharp, Version=5.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
-      <HintPath>..\packages\iTextSharp.5.0.5\lib\itextsharp.dll</HintPath>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.13.2\lib\itextsharp.xmlworker.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -155,12 +168,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.2\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
@@ -216,19 +223,34 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FastCashController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RemittaController.cs" />
     <Compile Include="Controllers\SalaryTopUpReportController.cs" />
     <Compile Include="Controllers\SimbrellaReportController.cs" />
+    <Compile Include="DAL\LoanReportDbContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="LoanReportDbContextMigration\202012151617014_Initial.cs" />
-    <Compile Include="LoanReportDbContextMigration\202012151617014_Initial.Designer.cs">
-      <DependentUpon>202012151617014_Initial.cs</DependentUpon>
+    <Compile Include="LoanReportMigration\202012211913399_Initial.cs" />
+    <Compile Include="LoanReportMigration\202012211913399_Initial.Designer.cs">
+      <DependentUpon>202012211913399_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoanReportDbContextMigration\Configuration.cs" />
+    <Compile Include="LoanReportMigration\202012220556594_SecondMigration.cs" />
+    <Compile Include="LoanReportMigration\202012220556594_SecondMigration.Designer.cs">
+      <DependentUpon>202012220556594_SecondMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanReportMigration\202012220950068_ThirdMigration.cs" />
+    <Compile Include="LoanReportMigration\202012220950068_ThirdMigration.Designer.cs">
+      <DependentUpon>202012220950068_ThirdMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanReportMigration\202101190837285_FourthMigration.cs" />
+    <Compile Include="LoanReportMigration\202101190837285_FourthMigration.Designer.cs">
+      <DependentUpon>202101190837285_FourthMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoanReportMigration\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AuditTrail\Export.cs" />
     <Compile Include="Models\AuditTrail\Login.cs" />
@@ -255,6 +277,10 @@
     <Compile Include="RoleDbContextMigration\202012151629366_Initial.cs" />
     <Compile Include="RoleDbContextMigration\202012151629366_Initial.Designer.cs">
       <DependentUpon>202012151629366_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoleDbContextMigration\202012220605373_SecondMigration.cs" />
+    <Compile Include="RoleDbContextMigration\202012220605373_SecondMigration.Designer.cs">
+      <DependentUpon>202012220605373_SecondMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="RoleDbContextMigration\Configuration.cs" />
     <Compile Include="Startup.cs" />
@@ -558,6 +584,12 @@
     <Content Include="Views\Shared\_LoginPartial1.cshtml" />
     <Content Include="Views\Remitta\Index.cshtml" />
     <Content Include="Views\SalaryTopUpReport\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\FastCash\Index.cshtml" />
+    <Content Include="Views\Remitta\ExportToPdf.cshtml" />
+    <Content Include="Views\Shared\ExportToPdf.cshtml" />
+    <Content Include="Views\Shared\ExportToPdfSimbrella.cshtml" />
+    <Content Include="Views\Shared\ExportToPdfSPL.cshtml" />
     <None Include="Web References\ADService\AuthenticationService.disco" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -676,11 +708,23 @@
     <EmbeddedResource Include="ApplicationContextMigration\202012151606510_Initial.resx">
       <DependentUpon>202012151606510_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoanReportDbContextMigration\202012151617014_Initial.resx">
-      <DependentUpon>202012151617014_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="LoanReportMigration\202012211913399_Initial.resx">
+      <DependentUpon>202012211913399_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanReportMigration\202012220556594_SecondMigration.resx">
+      <DependentUpon>202012220556594_SecondMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanReportMigration\202012220950068_ThirdMigration.resx">
+      <DependentUpon>202012220950068_ThirdMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanReportMigration\202101190837285_FourthMigration.resx">
+      <DependentUpon>202101190837285_FourthMigration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RoleDbContextMigration\202012151629366_Initial.resx">
       <DependentUpon>202012151629366_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoleDbContextMigration\202012220605373_SecondMigration.resx">
+      <DependentUpon>202012220605373_SecondMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
@@ -717,7 +761,10 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.4.1.2\build\Microsoft.TypeScript.MSBuild.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.4.1.2\build\Microsoft.TypeScript.MSBuild.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.4.1.2\build\Microsoft.TypeScript.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.4.1.2\build\Microsoft.TypeScript.MSBuild.targets'))" />
   </Target>
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.4.1.2\build\Microsoft.TypeScript.MSBuild.targets" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.4.1.2\build\Microsoft.TypeScript.MSBuild.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

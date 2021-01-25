@@ -34,29 +34,29 @@ namespace LoanOFFER.Web.Models
         }
     }
 
-    public class LoanReportDbContext : IdentityDbContext<ApplicationUser>
-    {
-        public LoanReportDbContext()
-          : base("SqlConnection", throwIfV1Schema: false)
-        {
-        }
+    //public class LoanReportDbContext : IdentityDbContext<ApplicationUser>
+    //{
+    //    public LoanReportDbContext()
+    //      : base("SqlConnection", throwIfV1Schema: false)
+    //    {
+    //    }
 
-        public DbSet<Login> Logins { get; set; }
+    //    public DbSet<Login> Logins { get; set; }
        
-        //public DbSet<SimbrellaLoan> SimbrellaLoans { get; set; }
+    //    //public DbSet<SimbrellaLoan> SimbrellaLoans { get; set; }
 
-        public DbSet<SimbrellaLoanTracker> SimbrellaLoanTrackers { get; set; }
+    //    public DbSet<SimbrellaLoanTracker> SimbrellaLoanTrackers { get; set; }
         
-        public DbSet<RemittaLoan> RemittaLoans { get; set; }
-        public DbSet<SalaryTopUpLoan> SalaryTopUpLoans { get; set; }
-        public DbSet<ErrorLoan> Errors { get; set; }
-        public DbSet<Export> Exports { get; set; }
-        public static LoanReportDbContext Create()
-        {
-            return new LoanReportDbContext();
-        }
+    //    public DbSet<RemittaLoan> RemittaLoans { get; set; }
+    //    public DbSet<SalaryTopUpLoan> SalaryTopUpLoans { get; set; }
+    //    public DbSet<ErrorLoan> Errors { get; set; }
+    //    public DbSet<Export> Exports { get; set; }
+    //    public static LoanReportDbContext Create()
+    //    {
+    //        return new LoanReportDbContext();
+    //    }
 
-        //public System.Data.Entity.DbSet<LoanOFFER.Data.BusinessLogic.SimbrellaViewModel> SimbrellaViewModels { get; set; }
-    }
+    //    //public System.Data.Entity.DbSet<LoanOFFER.Data.BusinessLogic.SimbrellaViewModel> SimbrellaViewModels { get; set; }
+    //}
     
 }

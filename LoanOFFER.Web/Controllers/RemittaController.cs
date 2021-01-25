@@ -1,6 +1,10 @@
-﻿using LoanOFFER.Data.BusinessLogic;
+﻿using iTextSharp.text;
+using iTextSharp.text.pdf;
+using iTextSharp.tool.xml;
+using LoanOFFER.Data.BusinessLogic;
 using LoanOFFER.Data.BusinessObject;
 using LoanOFFER.Data.DAL;
+using LoanOFFER.Web.DAL;
 using LoanOFFER.Web.Models;
 using LoanOFFER.Web.Models.AuditTrail;
 using NLog;
@@ -8,6 +12,7 @@ using PagedList;
 using Rotativa;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -25,7 +30,7 @@ namespace LoanOFFER.Web.Controllers
         }
         // GET: Remitta
         //[OutputCache(Duration = 60)]
-        [OutputCache(CacheProfile = "Cache10Min")]
+       // [OutputCache(CacheProfile = "Cache10Min")]
         public ActionResult Index(int? page, string search)
         {
             var logger = NLog.LogManager.GetCurrentClassLogger();
@@ -104,7 +109,7 @@ namespace LoanOFFER.Web.Controllers
             //ViewBag.Message = "Remitta Report would be up shortly";
             return View("Error");
         }
-        public FileContentResult ExportToExcel(int? page, string RequestTime, string LogTime)
+        public FileContentResult ExportToExcel(int? page, string startDate, string endDate)
         {
 
             var PhoneNo = Request.Params["phoneNo"];
@@ -114,11 +119,11 @@ namespace LoanOFFER.Web.Controllers
             LoanOfferDb report = new LoanOfferDb();
             //ViewBag.startDate = this.Request.Params["startDate"];
             //ViewBag.endDate = this.Request.Params["endDate"];
-            if (RequestTime != null)
+            if ((startDate != null) || (endDate != null))
             {
                 RemittaLoanList list = new RemittaLoanList();
-                list = report.GetRemittaLoanDb(RequestTime, LogTime);
-                string[] columns = { "Request", "PhoneNo", "RequestTime", "LogDate" };
+                list = report.GetRemittaLoanDb(startDate, endDate);
+                string[] columns = { "Id", "Request", "PhoneNumber", "RequestTime", "Response", "LogDate" };
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Remitta Report exported successfully");
                 string userId = Session["UserId"] as string;
@@ -130,13 +135,13 @@ namespace LoanOFFER.Web.Controllers
                 };
                 context.Exports.Add(export);
                 context.SaveChanges();
-                return File(filecontent, ExcelExportHelper.ExcelContentType, "SimbrellaLoanOffer.xlsx");
+                return File(filecontent, ExcelExportHelper.ExcelContentType, "RemittaLoanOffer.xlsx");
             }
             else
             {
                 RemittaLoanList list = null;
-                list = report.GetRemittaLoanDb(RequestTime, LogTime);
-                string[] columns = { "Request", "PhoneNo", "RequestTime", "LogDate" };
+                list = report.GetRemittaLoanDb(startDate, endDate);
+                string[] columns = { "Id", "Request", "PhoneNumber", "RequestTime", "Response", "LogDate" };
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Remitta Report exported successfully");
                 string userId = Session["UserId"] as string;
@@ -155,6 +160,11 @@ namespace LoanOFFER.Web.Controllers
             }
             //return File(filecontent, ExcelExportHelper.ExcelContentType, "SimbrellaLoanOffer.xlsx");
         }
+        //public ActionResult PrintViewToPdf()
+        //{
+        //    var report = new ActionAsPdf("");
+        //    return report;
+        //}
         public ActionResult ExportToPdf(int? page, string RequestTime, string LogTime)
         {
             var reportList = new ActionAsPdf("");
@@ -198,21 +208,57 @@ namespace LoanOFFER.Web.Controllers
             {
                 ModelState.AddModelError("message", "An error occured");
                 logger.Error(ex);
-                ErrorLoan error = new ErrorLoan
-                {
-                    StartDate = startDate,
-                    EndDate = endDate,
-                    FetchedData = true,
-                    LoginUser = userId,
-                    ErrorName = "Remitta Report caught an Exception.",
-                    ErrorDate = DateTime.Now
-                };
-                context.Errors.Add(error);
-                context.SaveChanges();
+                //ErrorLoan error = new ErrorLoan
+                //{
+                //    StartDate = startDate,
+                //    EndDate = endDate,
+                //    FetchedData = true,
+                //    LoginUser = userId,
+                //    ErrorName = "Remitta Report caught an Exception.",
+                //    ErrorDate = DateTime.Now
+                //};
+                //context.Errors.Add(error);
+                //context.SaveChanges();
             }
             
             return null;
         }
+        public ActionResult PrintPartialViewToPdf(string startDate, string endDate)
+        {
+            LoanOfferDb db = new LoanOfferDb();
+
+            RemittaLoanList list = new RemittaLoanList();
+            list = db.GetRemittaLoanDb(startDate, endDate);
+
+            //var report = new PartialViewAsPdf("~/Views/Shared/ExportToPdf.cshtml", list);
+            //return report;
+
+            logger.Info("Remitta Report exported successfully");
+
+            return new PartialViewAsPdf("~/Views/Shared/ExportToPdf.cshtml", list)
+            {
+                //FileName = Server.MapPath("~/Content/Relato.pdf"),
+                PageOrientation = Rotativa.Options.Orientation.Landscape,
+                PageSize = Rotativa.Options.Size.A2
+            };
+
+        }
+
+        //[HttpPost]
+        //[ValidateInput(false)]
+        //public FileResult ExportToPdf(string GridHtml)
+        //{
+        //    using (MemoryStream stream = new System.IO.MemoryStream())
+        //    {
+        //        StreamReader sr = new StreamReader(GridHtml);
+        //        Document pdfDoc = new Document(PageSize.A4, 10f, 10f, 100f, 0f);
+        //        PdfWriter writer = PdfWriter.GetInstance(pdfDoc, stream);
+        //        pdfDoc.Open();
+        //        XMLWorkerHelper.GetInstance().ParseXHtml(writer, pdfDoc, sr);
+        //        pdfDoc.Close();
+        //        return File(stream.ToArray(), "application/pdf", "Remitta.pdf");
+        //    }
+        //}
 
     }
 }

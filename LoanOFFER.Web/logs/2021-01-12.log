@@ -1,0 +1,37 @@
+2021-01-12 05:20:17.6044 INFO NEW LOGIN
+2021-01-12 05:20:25.1469 INFO Signed in User: tella.adesina
+2021-01-12 05:20:25.1469 INFO IP Address: ::1
+2021-01-12 05:20:25.1469 INFO IP Address: TELLA-PC
+2021-01-12 05:20:25.1878 INFO Home Page Loaded: 1/12/2021 5:20:25 AM
+2021-01-12 05:20:27.5438 INFO 1/12/2021 5:20:27 AM
+2021-01-12 05:20:45.8824 INFO 1/12/2021 5:20:45 AM
+2021-01-12 05:20:45.9113 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-12 05:20:46.8481 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-12 05:20:47.2955 INFO start date:31-Dec-2017
+2021-01-12 05:20:47.2955 INFO end date:11-Jan-2021
+2021-01-12 05:20:47.2955 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-12 05:22:48.0815 INFO Simbrella Loan Report data doesn't contain Customer Id and Request Date.
+2021-01-12 05:22:55.9914 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-12 05:22:56.0802 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-12 05:22:56.6407 INFO Simbrella Report exported successfully
+2021-01-12 21:06:13.7586 INFO NEW LOGIN
+2021-01-12 21:06:18.6497 INFO Signed in User: tella.adesina
+2021-01-12 21:06:18.6497 INFO IP Address: ::1
+2021-01-12 21:06:18.6497 INFO IP Address: TELLA-PC
+2021-01-12 21:06:18.6836 INFO Home Page Loaded: 1/12/2021 9:06:18 PM
+2021-01-12 21:13:17.0200 INFO NEW LOGIN
+2021-01-12 21:13:19.9200 INFO Incorrect login details
+2021-01-12 21:13:34.4850 INFO NEW LOGIN
+2021-01-12 21:13:50.9619 INFO NEW LOGIN
+2021-01-12 21:20:13.4474 INFO NEW LOGIN
+2021-01-12 21:21:54.1743 INFO Incorrect login details
+2021-01-12 21:43:36.9298 INFO NEW LOGIN
+2021-01-12 21:43:46.4391 INFO Incorrect login details
+2021-01-12 23:27:21.9574 INFO NEW LOGIN
+2021-01-12 23:27:51.9306 INFO NEW LOGIN
+2021-01-12 23:28:03.0865 INFO Signed in User: tella.adesina
+2021-01-12 23:28:04.8375 INFO IP Address: ::1
+2021-01-12 23:28:05.8422 INFO IP Address: TELLA-PC
+2021-01-12 23:28:11.7866 INFO Home Page Loaded: 1/12/2021 11:28:11 PM
+2021-01-12 23:29:54.0969 INFO NEW LOGIN
+2021-01-12 23:30:12.7917 INFO Incorrect login details

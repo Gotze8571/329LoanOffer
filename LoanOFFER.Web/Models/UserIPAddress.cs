@@ -8,21 +8,14 @@ namespace LoanOFFER.Web.Models
     public class UserIPAddress
     {
         public static string GetIP(HttpRequest request)
-
         {
-
             string ipAddress = request.ServerVariables["HTTP_X_FORWARDED_FOR"];
-
             if (string.IsNullOrEmpty(ipAddress))
-
             {
-
                 ipAddress = request.ServerVariables["REMOTE_ADDR"];
-
             }
 
             return ipAddress;
-
         }
         public static string GetIPAddress()
         {

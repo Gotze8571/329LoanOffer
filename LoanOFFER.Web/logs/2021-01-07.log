@@ -1,0 +1,166 @@
+2021-01-07 07:18:02.8569 INFO NEW LOGIN
+2021-01-07 07:18:07.1202 INFO Signed in User: tella.adesina
+2021-01-07 07:18:07.1202 INFO IP Address: ::1
+2021-01-07 07:18:07.1202 INFO IP Address: TELLA-PC
+2021-01-07 07:18:07.1571 INFO Home Page Loaded: 1/7/2021 7:18:07 AM
+2021-01-07 07:18:12.9468 INFO 1/7/2021 7:18:12 AM
+2021-01-07 07:18:35.4468 INFO 1/7/2021 7:18:35 AM
+2021-01-07 07:18:35.8070 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-07 07:18:37.8853 INFO Reader is not null..
+2021-01-07 07:18:37.8853 INFO Reader is equal to true..
+2021-01-07 07:18:38.3367 INFO  Fast Cash Loan Offer Report data fetched from database successfully
+2021-01-07 07:18:39.3383 INFO start date:30-Dec-2018
+2021-01-07 07:18:39.3383 INFO end date:05-Jan-2021
+2021-01-07 07:18:39.3383 INFO USSD FAST CASH Loan Report Loaded Successful
+2021-01-07 07:18:56.0530 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-07 07:18:56.8505 INFO Reader is not null..
+2021-01-07 07:18:56.8505 INFO Reader is equal to true..
+2021-01-07 07:18:57.0900 INFO  Fast Cash Loan Offer Report data fetched from database successfully
+2021-01-07 07:18:57.7031 INFO USSD Fast Cash Loan Report exported successfully
+2021-01-07 09:04:56.0139 INFO Home Page Loaded: 1/7/2021 9:04:56 AM
+2021-01-07 09:05:30.3964 INFO 1/7/2021 9:05:30 AM
+2021-01-07 09:05:58.9452 INFO 1/7/2021 9:05:58 AM
+2021-01-07 09:06:27.4294 ERROR System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetFastCashLoan(String RequestDate, String LogDate) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 314
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2021-01-07 09:06:27.4683 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.FastCashController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\FastCashController.cs:line 51
+2021-01-07 09:07:15.8932 INFO Home Page Loaded: 1/7/2021 9:07:15 AM
+2021-01-07 09:07:18.3956 INFO 1/7/2021 9:07:18 AM
+2021-01-07 09:07:21.4651 INFO Home Page Loaded: 1/7/2021 9:07:21 AM
+2021-01-07 09:45:33.5070 INFO NEW LOGIN
+2021-01-07 09:45:37.7348 INFO Signed in User: tella.adesina
+2021-01-07 09:45:37.7348 INFO IP Address: ::1
+2021-01-07 09:45:37.7348 INFO IP Address: TELLA-PC
+2021-01-07 09:45:37.7686 INFO Home Page Loaded: 1/7/2021 9:45:37 AM
+2021-01-07 09:45:40.9682 INFO 1/7/2021 9:45:40 AM
+2021-01-07 09:45:56.6453 INFO 1/7/2021 9:45:56 AM
+2021-01-07 09:45:56.8379 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-07 09:45:57.3964 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-07 09:45:58.3871 INFO start date:30-Dec-2018
+2021-01-07 09:45:58.3871 INFO end date:07-Jan-2021
+2021-01-07 09:45:58.3871 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-07 09:46:24.5840 INFO Home Page Loaded: 1/7/2021 9:46:24 AM
+2021-01-07 09:46:27.1130 INFO 1/7/2021 9:46:27 AM
+2021-01-07 09:46:41.0274 INFO 1/7/2021 9:46:41 AM
+2021-01-07 09:46:41.4044 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-07 09:46:42.8418 INFO Reader is not null..
+2021-01-07 09:46:42.8418 INFO Reader is equal to true..
+2021-01-07 09:46:43.6734 INFO  Fast Cash Loan Offer Report data fetched from database successfully
+2021-01-07 09:46:43.9053 INFO start date:30-Dec-2018
+2021-01-07 09:46:43.9053 INFO end date:07-Jan-2021
+2021-01-07 09:46:43.9053 INFO USSD FAST CASH Loan Report Loaded Successful
+2021-01-07 09:46:46.4157 INFO Home Page Loaded: 1/7/2021 9:46:46 AM
+2021-01-07 09:46:48.9730 INFO 1/7/2021 9:46:48 AM
+2021-01-07 09:47:47.6018 INFO 1/7/2021 9:47:47 AM
+2021-01-07 09:47:47.6018 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-07 09:47:48.6114 INFO Reader is not null..
+2021-01-07 09:47:48.6114 INFO Reader is equal to true..
+2021-01-07 09:47:48.7242 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-07 09:47:48.9392 INFO start date:30-Dec-2018
+2021-01-07 09:47:48.9392 INFO end date:07-Jan-2021
+2021-01-07 09:47:48.9392 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-07 10:23:41.0546 INFO Home Page Loaded: 1/7/2021 10:23:41 AM
+2021-01-07 10:23:45.8033 INFO 1/7/2021 10:23:45 AM
+2021-01-07 10:23:57.5640 INFO 1/7/2021 10:23:57 AM
+2021-01-07 10:23:57.5899 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-07 10:23:57.7335 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-07 10:23:57.7993 INFO start date:31-Dec-2017
+2021-01-07 10:23:57.7993 INFO end date:07-Jan-2021
+2021-01-07 10:23:57.7993 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-07 10:25:41.6776 INFO Home Page Loaded: 1/7/2021 10:25:41 AM
+2021-01-07 10:27:29.9634 INFO 1/7/2021 10:27:29 AM
+2021-01-07 10:27:46.7649 INFO 1/7/2021 10:27:46 AM
+2021-01-07 10:27:46.8437 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-07 10:27:48.0767 INFO Reader is not null..
+2021-01-07 10:27:48.0767 INFO Reader is equal to true..
+2021-01-07 10:27:48.1006 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-07 10:27:51.1903 INFO start date:30-Dec-2018
+2021-01-07 10:27:51.1903 INFO end date:30-Dec-2020
+2021-01-07 10:27:51.1903 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-07 10:28:05.7865 INFO Home Page Loaded: 1/7/2021 10:28:05 AM
+2021-01-07 10:28:07.2048 INFO 1/7/2021 10:28:07 AM
+2021-01-07 10:29:36.9971 INFO 1/7/2021 10:29:36 AM
+2021-01-07 10:29:37.0636 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-07 10:29:37.2990 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-07 10:29:37.3549 INFO start date:30-Dec-2018
+2021-01-07 10:29:37.3549 INFO end date:07-Jan-2021
+2021-01-07 10:29:37.3549 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-07 10:31:06.1049 INFO 1/7/2021 10:31:06 AM
+2021-01-07 10:31:45.7321 INFO 1/7/2021 10:31:45 AM
+2021-01-07 10:31:45.7965 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-07 10:31:45.9994 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-07 10:31:48.5089 INFO start date:30-Dec-2018
+2021-01-07 10:31:48.5089 INFO end date:07-Jan-2021
+2021-01-07 10:31:48.5089 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-07 10:53:42.9677 INFO 1/7/2021 10:53:42 AM
+2021-01-07 10:53:55.2924 INFO 1/7/2021 10:53:55 AM
+2021-01-07 10:53:55.3513 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-07 10:53:55.5877 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-07 10:53:58.0724 INFO start date:31-Dec-2017
+2021-01-07 10:53:58.0724 INFO end date:07-Jan-2021
+2021-01-07 10:53:58.0724 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-07 10:58:09.4384 INFO 1/7/2021 10:58:09 AM
+2021-01-07 10:58:43.9802 INFO 1/7/2021 10:58:43 AM
+2021-01-07 10:58:44.0441 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-07 10:58:44.3124 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-07 10:58:46.7329 INFO start date:31-Dec-2017
+2021-01-07 10:58:46.7329 INFO end date:06-Jan-2021
+2021-01-07 10:58:46.7329 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-07 11:03:29.1340 INFO 1/7/2021 11:03:29 AM
+2021-01-07 11:03:46.2600 INFO 1/7/2021 11:03:46 AM
+2021-01-07 11:03:46.3148 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-07 11:03:46.5352 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-07 11:03:48.9674 INFO start date:30-Dec-2018
+2021-01-07 11:03:48.9674 INFO end date:06-Jan-2021
+2021-01-07 11:03:48.9674 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-07 11:09:46.4859 INFO 1/7/2021 11:09:46 AM
+2021-01-07 11:16:07.6584 INFO NEW LOGIN
+2021-01-07 11:16:10.4206 INFO Signed in User: tella.adesina
+2021-01-07 11:16:10.4206 INFO IP Address: ::1
+2021-01-07 11:16:10.4206 INFO IP Address: TELLA-PC
+2021-01-07 11:16:10.4545 INFO Home Page Loaded: 1/7/2021 11:16:10 AM
+2021-01-07 11:16:22.2726 INFO 1/7/2021 11:16:22 AM
+2021-01-07 11:23:14.1121 INFO NEW LOGIN
+2021-01-07 11:23:17.0821 INFO Signed in User: tella.adesina
+2021-01-07 11:23:17.0821 INFO IP Address: ::1
+2021-01-07 11:23:17.0821 INFO IP Address: TELLA-PC
+2021-01-07 11:23:17.1419 INFO Home Page Loaded: 1/7/2021 11:23:17 AM
+2021-01-07 13:23:02.6186 INFO NEW LOGIN
+2021-01-07 13:23:05.4191 INFO Signed in User: tella.adesina
+2021-01-07 13:23:05.4191 INFO IP Address: ::1
+2021-01-07 13:23:05.4191 INFO IP Address: TELLA-PC
+2021-01-07 13:23:05.4501 INFO Home Page Loaded: 1/7/2021 1:23:05 PM
+2021-01-07 13:47:48.8835 INFO NEW LOGIN
+2021-01-07 13:47:51.6181 INFO Signed in User: tella.adesina
+2021-01-07 13:47:51.6181 INFO IP Address: ::1
+2021-01-07 13:47:51.6181 INFO IP Address: TELLA-PC
+2021-01-07 13:47:51.6590 INFO Home Page Loaded: 1/7/2021 1:47:51 PM
+2021-01-07 13:47:55.0275 INFO 1/7/2021 1:47:55 PM
+2021-01-07 13:48:09.9837 INFO 1/7/2021 1:48:09 PM
+2021-01-07 13:48:10.0502 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-07 13:48:11.2684 INFO Reader is not null..
+2021-01-07 13:48:11.2684 INFO Reader is equal to true..
+2021-01-07 13:48:11.2941 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-07 13:48:11.6540 INFO start date:30-Dec-2018
+2021-01-07 13:48:11.6540 INFO end date:06-Jan-2021
+2021-01-07 13:48:11.6540 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-07 13:48:13.9389 INFO 1/7/2021 1:48:13 PM

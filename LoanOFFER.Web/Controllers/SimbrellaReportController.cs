@@ -13,6 +13,8 @@ using System.Web.UI.WebControls;
 using System.IO;
 using System.Web.UI;
 using LoanOFFER.Data.BusinessLogic;
+using LoanOFFER.Web.DAL;
+using Rotativa;
 
 namespace LoanOFFER.Web.Controllers
 {
@@ -26,7 +28,7 @@ namespace LoanOFFER.Web.Controllers
         }
         // GET: Simbrella
        // [OutputCache(Duration = 60)]
-        [OutputCache(CacheProfile = "Cache10Min")]
+        //[OutputCache(CacheProfile = "Cache10Min")]
         public ActionResult Index(int? page, string search)
         {
             var logger = NLog.LogManager.GetCurrentClassLogger();
@@ -49,10 +51,37 @@ namespace LoanOFFER.Web.Controllers
                 {
                     return View("Index", new SimbrellaLoanList().ToList().ToPagedList(pageNumber, pageSize));
                 }
+                if (!string.IsNullOrEmpty(CustId))
+                {
+                    var result = dataConnector.GetSimbrellaLoanWithCustId(startDate, endDate, CustId).ToPagedList(pageNumber, pageSize);
+                    var afterResult = dataConnector.GetCustomerMoreInfoWithFinacle().ToPagedList(pageNumber, pageSize);
+                   
+                    ViewBag.startDate = this.Request.Params["RequestTime"];
+                    ViewBag.endDate = this.Request.Params["LogDate"];
+                    ViewBag.CustId = this.Request.Params["customerId"];
+                    ViewBag.accountNo = this.Request.Params["accountNo"];
+
+                    SimbrellaLoanTracker sim = new SimbrellaLoanTracker
+                    {
+                        StartDate = startDate,
+                        EndDate = endDate,
+                        FetchedData = true,
+                        LoginUser = userId,
+                        CustomerId = CustId,
+                        Date = DateTime.Now
+                    };
+                    context.SimbrellaLoanTrackers.Add(sim);
+                    context.SaveChanges();
+                    logger.Info("start date:" + startDate);
+                    logger.Info("end date:" + endDate);
+                    logger.Info(" Simbrella Loan Offer Report Loaded Successfully");
+                    return View(result);
+                }
                 if ((startDate != null) || (endDate != null))
+                   // if (string.IsNullOrWhiteSpace(startDate) || string.IsNullOrWhiteSpace(endDate))
                 {
                     var result = dataConnector.GetSimbrellaLoanDb(startDate, endDate, CustId).ToPagedList(pageNumber, pageSize);
-                   // var resultSecond = dataConnector.GetMoreInfo(accountNo).ToPagedList(pageNumber, pageSize);
+                    // var resultSecond = dataConnector.GetMoreInfo(accountNo).ToPagedList(pageNumber, pageSize);
                     ViewBag.startDate = this.Request.Params["RequestTime"];
                     ViewBag.endDate = this.Request.Params["LogDate"];
                     ViewBag.CustId = this.Request.Params["customerId"];
@@ -93,37 +122,41 @@ namespace LoanOFFER.Web.Controllers
             catch (Exception ex)
             {
                 logger.Error(ex);
-                ErrorLoan error = new ErrorLoan
-                {
-                    //Id = id,
-                    StartDate = startDate,
-                    EndDate = endDate,
-                    FetchedData = false,
-                    LoginUser = userId,
-                    ErrorName = "Simbrella Report Error caught an Exception.",
-                    ErrorDate = DateTime.Now
-                };
-                context.Errors.Add(error);
-                context.SaveChanges();
+                //ErrorLoan error = new ErrorLoan
+                //{
+                //    //Id = id,
+                //    StartDate = startDate,
+                //    EndDate = endDate,
+                //    FetchedData = false,
+                //    LoginUser = userId,
+                //    ErrorName = "Simbrella Report Error caught an Exception.",
+                //    ErrorDate = DateTime.Now
+                //};
+                //context.Errors.Add(error);
+                //context.SaveChanges();
             }
 
             return View();
         }
 
-        public FileContentResult ExportToExcel(int? page, string RequestTime, string LogTime)
+        public FileContentResult ExportToExcel(int? page, string startDate, string endDate)
         {
             var CustId = Request.Params["customerId"];
             int pageNumber = (page ?? 1);
             const int pageSize = 20;
-            //StageDb stagereport = new StageDb();
+           // string userId = Session["UserId"] as string;
+           // var startDate = Request.Params["RequestTime"];
+          //  var endDate = Request.Params["LogDate"];
+           // var CustId = Request.Params["customerid"];
+
             LoanOfferDb report = new LoanOfferDb();
             //ViewBag.startDate = this.Request.Params["startDate"];
             //ViewBag.endDate = this.Request.Params["endDate"];
-            if (RequestTime != null)
+            if ((startDate != null) || (endDate != null))
             {
                 SimbrellaLoanList list = new SimbrellaLoanList();
-                list = report.GetSimbrellaLoanDb(RequestTime, LogTime, CustId);
-                string[] columns = { "Request", "customerId", "RequestTime", "LogDate" };
+                list = report.GetSimbrellaLoanDb(startDate, endDate, CustId);
+                string[] columns = {"Id", "customerid", "RequestTime", "Response", "ResponseTime", "LogDate", "ResponseCode"};
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Simbrella Report exported successfully");
                 string userId = Session["UserId"] as string;
@@ -140,8 +173,8 @@ namespace LoanOFFER.Web.Controllers
             else
             {
                 SimbrellaLoanList list = null;
-                list = report.GetSimbrellaLoanDb(RequestTime, LogTime, CustId);
-                string[] columns = { "Request", "customerId", "RequestTime", "LogDate" };
+                list = report.GetSimbrellaLoanDb(startDate, endDate, CustId);
+                string[] columns = { "Id", "Request", "customerid", "RequestTime", "Response", "ResponseTime", "LogDate", "ResponseCode" };
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info(" Simbrella Report exported successfully");
                 string userId = Session["UserId"] as string;
@@ -158,57 +191,66 @@ namespace LoanOFFER.Web.Controllers
                 //logger.Info("Please, Contact Buisness Automation to Resolve the Issue.");
                 //ViewBag.Message("Unable to download the data on excel!");
             }
-            //return File(filecontent, ExcelExportHelper.ExcelContentType, "SimbrellaLoanOffer.xlsx");
+           // return File(filecontent, ExcelExportHelper.ExcelContentType, "SimbrellaLoanOffer.xlsx");
         }
-        //public ActionResult ExportToExcel(int? page, string RequestTime, string LogTime)
-        //{
+        public ActionResult PrintViewToPdf(string startDate, string endDate, string CustId)
+        {
+            LoanOfferDb report = new LoanOfferDb();
+            if ((startDate != null) || (endDate != null))
+            {
+                SimbrellaLoanList list = new SimbrellaLoanList();
+               
+                list = report.GetSimbrellaLoanDb(startDate, endDate, CustId);
+                string userId = Session["UserId"] as string;
+                Export export = new Export
+                {
+                    ExportedDate = DateTime.Now,
+                    ReportName = "SimbrellaLoanOffer",
+                    LoginUser = userId
+                };
+                context.Exports.Add(export);
+                context.SaveChanges();
+                return new PartialViewAsPdf()
+                {
+                    FileName = "SimbrellaLoanOffer.pdf"
+                };
+            }
+            else
+            {
+                SimbrellaLoanList list = null;
+                list = report.GetSimbrellaLoanDb(startDate, endDate, CustId);
+                string userId = Session["UserId"] as string;
+                Export export = new Export
+                {
+                    ExportedDate = DateTime.Now,
+                    ReportName = "SimbrellaLoanOffer",
+                    LoginUser = userId
+                };
+                context.Exports.Add(export);
+                context.SaveChanges();
+                return new PartialViewAsPdf("_JobPdf", list)
+                {
+                    FileName = "SimbrellaLoanOffer.pdf"
+                };
+            }
+        }
+        public ActionResult SimbrellaPartialViewToPdf(string startDate, string endDate, string CustId)
+        {
+            LoanOfferDb db = new LoanOfferDb();
 
-        //    var gv = new GridView();
-        //    LoanOfferDb report = new LoanOfferDb();
-        //    SimbrellaLoanList list = new SimbrellaLoanList();
+            SimbrellaLoanList list = new SimbrellaLoanList();
+            list = db.GetSimbrellaLoanDb(startDate, endDate, CustId);
 
-        //    var CustId = Request.Params["customerId"];
-        //    int pageNumber = (page ?? 1);
-        //    const int pageSize = 20;
-
-        //    if (RequestTime != null)
-        //    {
-        //        list = report.GetSimbrellaLoanDb(RequestTime, LogTime, CustId);
-        //        string[] columns = { "Request", "customerId", "RequestTime", "LogDate" };
-        //        byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
-        //        logger.Info("Simbrella Report exported successfully");
-        //        string userId = Session["UserId"] as string;
-        //        Export export = new Export
-        //        {
-        //            ExportedDate = DateTime.Now,
-        //            ReportName = "SimbrellaLoanOffer",
-        //            LoginUser = userId
-        //        };
-        //        context.Exports.Add(export);
-        //        context.SaveChanges();
-
-        //        gv.DataSource = this.GetEmployeeList();
-        //        gv.DataBind();
-        //        Response.ClearContent();
-        //        Response.Buffer = true;
-        //        Response.AddHeader("content-disposition", "attachment; filename=DemoExcel.xls");
-        //        Response.ContentType = "application/ms-excel";
-        //        Response.Charset = "";
-        //        StringWriter stringWriter = new StringWriter();
-        //        HtmlTextWriter htmlTextWriter = new HtmlTextWriter(stringWriter);
-        //        gv.RenderControl(htmlTextWriter);
-        //        Response.Output.Write(stringWriter.ToString());
-        //        Response.Flush();
-        //        Response.End();
-        //    }
-        //    else
-        //    {
-
-        //    }
-
-
-        //    return View("Index");
-        //}
+            //var report = new PartialViewAsPdf("~/Views/Shared/ExportToPdfSimbrella.cshtml", list);
+            logger.Info("Simbrella Report exported successfully");
+            //return report;
+            return new PartialViewAsPdf("~/Views/Shared/ExportToPdfSimbrella.cshtml", list)
+            {
+                //FileName = Server.MapPath("~/Content/Relato.pdf"),
+                PageOrientation = Rotativa.Options.Orientation.Landscape,
+                PageSize = Rotativa.Options.Size.A2
+            };
+        }
 
         // Converting cshtml to PDf
         //public string RenderViewAsString(string viewName, object model)

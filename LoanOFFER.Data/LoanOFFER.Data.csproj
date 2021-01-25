@@ -55,13 +55,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessLogic\ErrorLoan.cs" />
+    <Compile Include="BusinessLogic\FashcashLoan.cs" />
+    <Compile Include="BusinessLogic\FastCashDisbursedViewModel.cs" />
+    <Compile Include="BusinessLogic\FastCashEligibleViewModel.cs" />
+    <Compile Include="BusinessLogic\FastCashLoanViewModel.cs" />
     <Compile Include="BusinessLogic\RemittaLoan.cs" />
     <Compile Include="BusinessLogic\RemittaLoanResponse.cs" />
     <Compile Include="BusinessLogic\RemittaLoanViewModel.cs" />
     <Compile Include="BusinessLogic\SalaryTopUpLoan.cs" />
     <Compile Include="BusinessLogic\SalaryTopUpViewModel.cs" />
     <Compile Include="BusinessLogic\SimbrellaLoan.cs" />
+    <Compile Include="BusinessLogic\SimbrellaLoanResponse.cs" />
     <Compile Include="BusinessLogic\SimbrellaViewModel.cs" />
+    <Compile Include="BusinessObject\FastCashDisbursedList.cs" />
+    <Compile Include="BusinessObject\FastCashEligibleList.cs" />
+    <Compile Include="BusinessObject\FastCashList.cs" />
     <Compile Include="BusinessObject\RemittaLoanList.cs" />
     <Compile Include="BusinessObject\SalaryTopUpPlusList.cs" />
     <Compile Include="BusinessObject\SimbrellaLoanAccess.cs" />

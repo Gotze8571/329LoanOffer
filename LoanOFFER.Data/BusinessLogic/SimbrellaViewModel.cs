@@ -12,15 +12,15 @@ namespace LoanOFFER.Data.BusinessLogic
     {
         [Display(Name = "ID")]
         public string Id { get; set; }
-        [Display(Name = "Loan Offer Details")]
+        [Display(Name = "Customer Request")]
         public string Request { get; set; }
         [Display(Name = "Customer ID")]
         public string customerId { get; set; }
-        [Display(Name = "Loan Date Requested")]
+        [Display(Name = "Request Date")]
         public string RequestTime { get; set; }
-        [Display(Name = "Customer Eligibility")]
+        [Display(Name = "Customer Response")]
         public string Response { get; set; }
-        [Display(Name = "Loan Date Responsed")]
+        [Display(Name = "Response Date")]
         public string ResponseTime { get; set; }
         [Display(Name = "Date Loan Offered ")]
         public string LogDate { get; set; }

@@ -1,4 +1,5 @@
 ﻿using LoanOFFER.Web.ADService;
+using LoanOFFER.Web.DAL;
 using LoanOFFER.Web.Models.AuditTrail;
 using LoanOFFER.Web.Models.RoleAuth;
 using System;
@@ -21,7 +22,7 @@ namespace LoanOFFER.Web.Models
             context = new LoanReportDbContext();
         }
 
-        public bool ValidLogin(string UserId, string password, string hostName)
+        public bool ValidLogin(string UserId, string password, string machineName)
         {
             var obj = new AuthenticationService();
 
@@ -101,11 +102,9 @@ namespace LoanOFFER.Web.Models
                                     roleDBContext.UserRoles.Add(user);
                                     roleDBContext.SaveChanges();
                                 }
-
                                 isValidUser = true;
                                 break;
                             }
-
                         }
 
                         //if not in first group
@@ -148,12 +147,12 @@ namespace LoanOFFER.Web.Models
                                 Group = userGroup,
                                 IPAddress = UserIPAddress.GetIPAddress(),
                                 Name = UserId,
-                                HostName = hostName
+                                HostName = machineName
                             };
 
                             context.Logins.Add(loginUser);
                             context.SaveChanges();
-                            // lblLoginStatus.Text = "Invalid UserName or Password";
+                           
                             Session["pUser"] = UserId;
                             Session["admin"] = true.ToString();
                         }

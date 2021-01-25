@@ -1,0 +1,384 @@
+2021-01-14 07:50:40.1384 INFO 1/14/2021 7:50:40 AM
+2021-01-14 07:50:59.7579 INFO 1/14/2021 7:50:59 AM
+2021-01-14 07:51:28.2384 ERROR System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 150
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2021-01-14 07:51:28.2997 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\RemittaController.cs:line 55
+2021-01-14 07:53:03.8215 INFO 1/14/2021 7:53:03 AM
+2021-01-14 07:58:18.6991 INFO 1/14/2021 7:58:18 AM
+2021-01-14 07:58:19.0509 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 07:58:19.5645 INFO Reader is not null..
+2021-01-14 07:58:19.5645 INFO Reader is equal to true..
+2021-01-14 07:58:19.7929 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 07:58:23.2956 INFO start date:31-Dec-2017
+2021-01-14 07:58:23.2956 INFO end date:31-Dec-2020
+2021-01-14 07:58:23.2956 INFO  Remitta Report Loaded Successful
+2021-01-14 07:58:29.8762 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\RemittaController.cs:line 204
+2021-01-14 08:25:52.4723 INFO 1/14/2021 8:25:52 AM
+2021-01-14 08:26:17.2827 INFO 1/14/2021 8:26:17 AM
+2021-01-14 08:26:17.7215 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 08:26:18.0243 INFO Reader is not null..
+2021-01-14 08:26:18.0243 INFO Reader is equal to true..
+2021-01-14 08:26:18.4216 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 08:26:21.9409 INFO start date:30-Dec-2018
+2021-01-14 08:26:21.9409 INFO end date:12-Jan-2021
+2021-01-14 08:26:21.9409 INFO  Remitta Report Loaded Successful
+2021-01-14 08:26:25.1583 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\RemittaController.cs:line 204
+2021-01-14 09:29:43.8471 INFO 1/14/2021 9:29:43 AM
+2021-01-14 09:30:08.5440 INFO 1/14/2021 9:30:08 AM
+2021-01-14 09:30:08.5918 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 09:30:08.6587 INFO Reader is not null..
+2021-01-14 09:30:08.6587 INFO Reader is equal to true..
+2021-01-14 09:30:08.8033 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 09:30:11.0343 INFO start date:25-Dec-2016
+2021-01-14 09:30:11.0343 INFO end date:07-Jan-2021
+2021-01-14 09:30:11.0343 INFO  Remitta Report Loaded Successful
+2021-01-14 09:30:15.7291 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 09:30:15.7501 INFO Reader is not null..
+2021-01-14 09:30:15.7501 INFO Reader is equal to true..
+2021-01-14 09:30:15.7671 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 09:31:32.8150 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\RemittaController.cs:line 204
+2021-01-14 09:32:08.0909 ERROR Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at LoanOFFER.Web.Controllers.RemittaController.ExportToPdf(Nullable`1 page, String RequestTime, String LogTime) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\RemittaController.cs:line 204
+2021-01-14 09:51:07.6203 INFO 1/14/2021 9:51:07 AM
+2021-01-14 09:51:46.1094 INFO 1/14/2021 9:51:46 AM
+2021-01-14 09:51:46.1623 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 09:51:46.2441 INFO Reader is not null..
+2021-01-14 09:51:46.2441 INFO Reader is equal to true..
+2021-01-14 09:51:46.3937 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 09:51:48.5644 INFO start date:31-Dec-2017
+2021-01-14 09:51:48.5644 INFO end date:12-Jan-2021
+2021-01-14 09:51:48.5644 INFO  Remitta Report Loaded Successful
+2021-01-14 09:51:55.3114 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 09:51:55.3293 INFO Reader is not null..
+2021-01-14 09:51:55.3293 INFO Reader is equal to true..
+2021-01-14 09:51:55.3513 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 09:53:46.6097 INFO 1/14/2021 9:53:46 AM
+2021-01-14 09:54:00.6669 INFO 1/14/2021 9:54:00 AM
+2021-01-14 09:54:00.7465 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 09:54:00.8063 INFO Reader is not null..
+2021-01-14 09:54:00.8063 INFO Reader is equal to true..
+2021-01-14 09:54:00.9619 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 09:54:03.3253 INFO start date:31-Dec-2017
+2021-01-14 09:54:03.3253 INFO end date:08-Jan-2021
+2021-01-14 09:54:03.3253 INFO  Remitta Report Loaded Successful
+2021-01-14 09:54:08.3265 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 09:54:08.4308 INFO Reader is not null..
+2021-01-14 09:54:08.4308 INFO Reader is equal to true..
+2021-01-14 09:54:08.4447 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 09:57:16.7646 INFO 1/14/2021 9:57:16 AM
+2021-01-14 09:58:22.5719 INFO 1/14/2021 9:58:22 AM
+2021-01-14 09:58:22.6357 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 09:58:22.6936 INFO Reader is not null..
+2021-01-14 09:58:22.6936 INFO Reader is equal to true..
+2021-01-14 09:58:22.8551 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 09:58:25.2808 INFO start date:30-Dec-2018
+2021-01-14 09:58:25.2808 INFO end date:14-Jan-2021
+2021-01-14 09:58:25.2808 INFO  Remitta Report Loaded Successful
+2021-01-14 09:58:36.2392 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-14 09:58:36.2584 INFO Reader is not null..
+2021-01-14 09:58:36.2584 INFO Reader is equal to true..
+2021-01-14 09:58:36.2763 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-14 10:19:29.9483 INFO 1/14/2021 10:19:29 AM
+2021-01-14 10:19:50.3180 INFO 1/14/2021 10:19:50 AM
+2021-01-14 10:19:53.0522 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 10:19:53.2855 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 10:19:55.5388 INFO start date:25-Dec-2016
+2021-01-14 10:19:55.5388 INFO end date:14-Jan-2021
+2021-01-14 10:19:55.5388 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-14 10:20:07.1341 INFO Simbrella Loan Report data doesn't contain Customer Id and Request Date.
+2021-01-14 10:20:07.1341 INFO Simbrella Report exported successfully
+2021-01-14 10:21:39.5816 INFO 1/14/2021 10:21:39 AM
+2021-01-14 10:21:55.6904 INFO 1/14/2021 10:21:55 AM
+2021-01-14 10:22:03.4381 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 10:22:03.6236 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 10:22:06.0850 INFO start date:31-Dec-2017
+2021-01-14 10:22:06.0850 INFO end date:12-Jan-2021
+2021-01-14 10:22:06.0850 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-14 10:23:54.8717 INFO NEW LOGIN
+2021-01-14 10:23:57.8714 INFO Signed in User: tella.adesina
+2021-01-14 10:23:57.8714 INFO IP Address: ::1
+2021-01-14 10:23:57.8714 INFO IP Address: TELLA-PC
+2021-01-14 10:23:57.9043 INFO Home Page Loaded: 1/14/2021 10:23:57 AM
+2021-01-14 10:24:01.8218 INFO 1/14/2021 10:24:01 AM
+2021-01-14 10:24:14.0889 INFO 1/14/2021 10:24:14 AM
+2021-01-14 10:24:19.4410 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 10:24:19.6156 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 10:24:19.9886 INFO start date:25-Dec-2016
+2021-01-14 10:24:19.9886 INFO end date:07-Jan-2021
+2021-01-14 10:24:19.9886 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-14 10:34:32.3404 INFO 1/14/2021 10:34:32 AM
+2021-01-14 10:39:36.6921 INFO 1/14/2021 10:39:36 AM
+2021-01-14 10:39:38.9986 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 10:39:39.1642 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 10:39:41.5104 INFO start date:31-Dec-2017
+2021-01-14 10:39:41.5104 INFO end date:12-Jan-2021
+2021-01-14 10:39:41.5104 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-14 10:39:47.8051 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 10:39:47.8590 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 10:39:47.8590 INFO Simbrella Report exported successfully
+2021-01-14 11:00:02.0678 INFO 1/14/2021 11:00:02 AM
+2021-01-14 11:01:46.9605 INFO 1/14/2021 11:01:46 AM
+2021-01-14 11:01:47.0371 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 11:01:48.3162 INFO Reader is not null..
+2021-01-14 11:01:48.3162 INFO Reader is equal to true..
+2021-01-14 11:01:48.3411 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 11:01:50.6350 INFO start date:30-Dec-2018
+2021-01-14 11:01:50.6350 INFO end date:10-Jan-2021
+2021-01-14 11:01:50.6350 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-14 11:02:03.6697 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 11:02:04.2457 INFO Reader is not null..
+2021-01-14 11:02:04.2457 INFO Reader is equal to true..
+2021-01-14 11:02:04.2607 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 11:02:04.2607 INFO SPL Report exported successfully
+2021-01-14 11:17:37.1744 INFO 1/14/2021 11:17:37 AM
+2021-01-14 11:18:12.2943 INFO 1/14/2021 11:18:12 AM
+2021-01-14 11:18:12.3591 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 11:18:13.2952 INFO Reader is not null..
+2021-01-14 11:18:13.2952 INFO Reader is equal to true..
+2021-01-14 11:18:13.3161 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 11:18:15.6031 INFO start date:25-Dec-2016
+2021-01-14 11:18:15.6031 INFO end date:13-Jan-2021
+2021-01-14 11:18:15.6031 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-14 11:18:17.5960 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 11:18:18.1624 INFO Reader is not null..
+2021-01-14 11:18:18.1624 INFO Reader is equal to true..
+2021-01-14 11:18:18.1624 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 11:18:18.1773 INFO SPL Report exported successfully
+2021-01-14 11:30:19.1672 INFO 1/14/2021 11:30:19 AM
+2021-01-14 11:30:35.2484 INFO 1/14/2021 11:30:35 AM
+2021-01-14 11:30:39.5623 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 11:30:39.7258 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 11:30:42.3702 INFO start date:25-Dec-2016
+2021-01-14 11:30:42.3702 INFO end date:13-Jan-2021
+2021-01-14 11:30:42.3702 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-14 11:30:54.3453 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 11:30:54.3957 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 11:30:54.3957 INFO Simbrella Report exported successfully
+2021-01-14 14:06:08.9554 INFO 1/14/2021 2:06:08 PM
+2021-01-14 14:06:29.3538 INFO 1/14/2021 2:06:29 PM
+2021-01-14 14:10:49.7867 INFO NEW LOGIN
+2021-01-14 14:10:52.5119 INFO Signed in User: tella.adesina
+2021-01-14 14:10:52.5119 INFO IP Address: ::1
+2021-01-14 14:10:52.5119 INFO IP Address: TELLA-PC
+2021-01-14 14:10:52.5447 INFO Home Page Loaded: 1/14/2021 2:10:52 PM
+2021-01-14 14:10:55.3404 INFO 1/14/2021 2:10:55 PM
+2021-01-14 14:16:08.5852 INFO 1/14/2021 2:16:08 PM
+2021-01-14 14:18:03.9635 INFO 1/14/2021 2:18:03 PM
+2021-01-14 14:18:20.5566 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 14:18:20.7281 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 14:18:22.9882 INFO start date:31-Dec-2017
+2021-01-14 14:18:22.9882 INFO end date:13-Jan-2021
+2021-01-14 14:18:22.9882 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-14 14:19:53.4371 INFO 1/14/2021 2:19:53 PM
+2021-01-14 14:19:57.7506 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 14:19:57.8076 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 14:19:57.8535 INFO start date:31-Dec-2017
+2021-01-14 14:19:57.8535 INFO end date:13-Jan-2021
+2021-01-14 14:19:57.8535 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-14 14:26:18.8505 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 14:26:18.9115 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 14:26:18.9115 INFO Simbrella Report exported successfully
+2021-01-14 14:39:49.2928 INFO 1/14/2021 2:39:49 PM
+2021-01-14 14:40:16.5044 INFO 1/14/2021 2:40:16 PM
+2021-01-14 14:40:43.5020 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 14:40:43.9029 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 14:40:46.1510 INFO start date:31-Dec-2017
+2021-01-14 14:40:46.1510 INFO end date:13-Jan-2021
+2021-01-14 14:40:46.1510 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-14 14:41:15.5894 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-14 14:41:15.6652 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-14 14:41:15.6652 INFO Simbrella Report exported successfully
+2021-01-14 16:14:58.0137 INFO 1/14/2021 4:14:58 PM
+2021-01-14 16:15:15.2481 INFO 1/14/2021 4:15:15 PM
+2021-01-14 16:15:17.6379 ERROR System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.ErrorLoans'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 117
+2021-01-14 16:16:35.0000 INFO 1/14/2021 4:16:34 PM
+2021-01-14 16:16:50.0232 INFO 1/14/2021 4:16:50 PM
+2021-01-14 16:16:52.3514 ERROR System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.ErrorLoans'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 117
+2021-01-14 16:19:52.6911 INFO 1/14/2021 4:19:52 PM
+2021-01-14 16:20:05.2152 INFO 1/14/2021 4:20:05 PM
+2021-01-14 16:20:05.3100 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 16:20:06.5098 INFO Reader is not null..
+2021-01-14 16:20:06.5098 INFO Reader is equal to true..
+2021-01-14 16:20:06.5270 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 16:20:08.9906 INFO start date:25-Dec-2016
+2021-01-14 16:20:08.9906 INFO end date:14-Jan-2021
+2021-01-14 16:20:08.9906 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-14 16:20:22.0181 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 16:20:22.6416 INFO Reader is not null..
+2021-01-14 16:20:22.6416 INFO Reader is equal to true..
+2021-01-14 16:20:22.6536 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 16:20:22.6536 INFO SPL Report exported successfully
+2021-01-14 16:20:57.5342 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 16:20:58.1491 INFO Reader is not null..
+2021-01-14 16:20:58.1491 INFO Reader is equal to true..
+2021-01-14 16:20:58.1491 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 16:20:58.1491 INFO SPL Report exported successfully
+2021-01-14 16:35:36.4188 INFO 1/14/2021 4:35:36 PM
+2021-01-14 16:35:52.6288 INFO 1/14/2021 4:35:52 PM
+2021-01-14 16:35:52.7005 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 16:35:54.0185 INFO Reader is not null..
+2021-01-14 16:35:54.0185 INFO Reader is equal to true..
+2021-01-14 16:35:54.0398 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 16:35:56.3825 INFO start date:31-Dec-2017
+2021-01-14 16:35:56.3825 INFO end date:14-Jan-2021
+2021-01-14 16:35:56.3825 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-14 16:35:59.5696 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-14 16:36:00.3001 INFO Reader is not null..
+2021-01-14 16:36:00.3001 INFO Reader is equal to true..
+2021-01-14 16:36:00.3111 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-14 16:52:09.3480 INFO 1/14/2021 4:52:09 PM
+2021-01-14 16:52:41.0861 INFO 1/14/2021 4:52:41 PM
+2021-01-14 16:52:44.5555 ERROR System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.ErrorLoans'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 117

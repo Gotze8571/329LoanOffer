@@ -1,0 +1,151 @@
+2021-01-06 05:24:00.3331 INFO NEW LOGIN
+2021-01-06 06:20:09.9537 INFO NEW LOGIN
+2021-01-06 08:09:05.5132 INFO NEW LOGIN
+2021-01-06 08:09:08.3898 INFO System.Net.WebException: The request failed with HTTP status 503: Service Unavailable.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at LoanOFFER.Web.ADService.AuthenticationService.GetUserAdFullDetails(String LoginName, String Password, String AppID, String AppKey) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Web References\ADService\Reference.cs:line 183
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String machineName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 52
+2021-01-06 08:09:08.3898 INFO Incorrect login details
+2021-01-06 08:09:11.3066 INFO NEW LOGIN
+2021-01-06 08:09:40.7956 INFO NEW LOGIN
+2021-01-06 08:09:41.1646 INFO System.Net.WebException: The request failed with HTTP status 503: Service Unavailable.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at LoanOFFER.Web.ADService.AuthenticationService.GetUserAdFullDetails(String LoginName, String Password, String AppID, String AppKey) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Web References\ADService\Reference.cs:line 183
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String machineName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 52
+2021-01-06 08:09:41.1646 INFO Incorrect login details
+2021-01-06 08:09:42.0255 INFO NEW LOGIN
+2021-01-06 08:11:54.9523 INFO NEW LOGIN
+2021-01-06 08:11:55.0131 INFO System.Net.WebException: The request failed with HTTP status 503: Service Unavailable.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at LoanOFFER.Web.ADService.AuthenticationService.GetUserAdFullDetails(String LoginName, String Password, String AppID, String AppKey) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Web References\ADService\Reference.cs:line 183
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String machineName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 52
+2021-01-06 08:11:55.0131 INFO Incorrect login details
+2021-01-06 08:11:57.6711 INFO NEW LOGIN
+2021-01-06 08:34:34.9875 INFO NEW LOGIN
+2021-01-06 08:35:01.3657 INFO NEW LOGIN
+2021-01-06 08:35:04.4632 INFO System.Net.WebException: The request failed with HTTP status 503: Service Unavailable.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at LoanOFFER.Web.ADService.AuthenticationService.GetUserAdFullDetails(String LoginName, String Password, String AppID, String AppKey) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Web References\ADService\Reference.cs:line 183
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String machineName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 52
+2021-01-06 08:35:04.4632 INFO Incorrect login details
+2021-01-06 08:35:06.6494 INFO NEW LOGIN
+2021-01-06 08:35:50.8810 INFO NEW LOGIN
+2021-01-06 08:35:50.9419 INFO System.Net.WebException: The request failed with HTTP status 503: Service Unavailable.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at LoanOFFER.Web.ADService.AuthenticationService.GetUserAdFullDetails(String LoginName, String Password, String AppID, String AppKey) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Web References\ADService\Reference.cs:line 183
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String machineName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 52
+2021-01-06 08:35:50.9419 INFO Incorrect login details
+2021-01-06 08:35:52.0556 INFO NEW LOGIN
+2021-01-06 09:45:17.1766 INFO NEW LOGIN
+2021-01-06 09:45:20.0764 INFO System.Net.WebException: The request failed with HTTP status 503: Service Unavailable.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at LoanOFFER.Web.ADService.AuthenticationService.GetUserAdFullDetails(String LoginName, String Password, String AppID, String AppKey) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Web References\ADService\Reference.cs:line 183
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String machineName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 52
+2021-01-06 09:45:25.8573 INFO Incorrect login details
+2021-01-06 09:45:46.1925 INFO NEW LOGIN
+2021-01-06 09:55:59.3097 INFO NEW LOGIN
+2021-01-06 09:56:16.7263 INFO NEW LOGIN
+2021-01-06 09:56:19.1870 INFO System.Net.WebException: The request failed with HTTP status 503: Service Unavailable.
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at LoanOFFER.Web.ADService.AuthenticationService.GetUserAdFullDetails(String LoginName, String Password, String AppID, String AppKey) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Web References\ADService\Reference.cs:line 183
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String machineName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 52
+2021-01-06 09:56:19.1870 INFO Incorrect login details
+2021-01-06 09:56:20.8878 INFO NEW LOGIN
+2021-01-06 11:11:10.8260 INFO NEW LOGIN
+2021-01-06 11:12:45.2274 INFO NEW LOGIN
+2021-01-06 11:12:48.6223 INFO Signed in User: tella.adesina
+2021-01-06 11:12:48.6223 INFO IP Address: ::1
+2021-01-06 11:12:48.6223 INFO IP Address: TELLA-PC
+2021-01-06 11:12:48.6583 INFO Home Page Loaded: 1/6/2021 11:12:48 AM
+2021-01-06 11:13:00.5771 INFO NEW LOGIN
+2021-01-06 13:32:34.4387 INFO NEW LOGIN
+2021-01-06 13:32:59.3938 INFO NEW LOGIN
+2021-01-06 13:33:02.6629 INFO Signed in User: tella.adesina
+2021-01-06 13:33:02.6629 INFO IP Address: ::1
+2021-01-06 13:33:02.6629 INFO IP Address: TELLA-PC
+2021-01-06 13:36:32.1649 INFO NEW LOGIN
+2021-01-06 13:37:06.3598 INFO Signed in User: tella.adesina
+2021-01-06 13:37:08.9578 INFO IP Address: ::1
+2021-01-06 13:37:09.7538 INFO IP Address: TELLA-PC
+2021-01-06 13:46:33.1857 INFO NEW LOGIN
+2021-01-06 13:47:21.5447 INFO Signed in User: tella.adesina
+2021-01-06 13:47:37.0901 INFO IP Address: ::1
+2021-01-06 13:47:56.5356 INFO IP Address: TELLA-PC
+2021-01-06 15:53:37.2962 INFO NEW LOGIN
+2021-01-06 15:53:54.3271 INFO Signed in User: tella.adesina
+2021-01-06 15:53:56.8278 INFO IP Address: ::1
+2021-01-06 15:54:01.7658 INFO IP Address: TELLA-PC
+2021-01-06 16:04:13.3461 INFO NEW LOGIN
+2021-01-06 16:04:19.2559 INFO Signed in User: tella.adesina
+2021-01-06 16:04:19.2559 INFO IP Address: ::1
+2021-01-06 16:04:19.2559 INFO IP Address: TELLA-PC
+2021-01-06 16:04:19.2898 INFO Home Page Loaded: 1/6/2021 4:04:19 PM
+2021-01-06 16:04:24.7800 INFO 1/6/2021 4:04:24 PM
+2021-01-06 16:04:52.3756 INFO Home Page Loaded: 1/6/2021 4:04:52 PM
+2021-01-06 16:04:54.2547 INFO 1/6/2021 4:04:54 PM
+2021-01-06 16:04:56.0391 INFO Home Page Loaded: 1/6/2021 4:04:56 PM
+2021-01-06 16:04:57.5942 INFO 1/6/2021 4:04:57 PM
+2021-01-06 16:05:17.1892 INFO 1/6/2021 4:05:17 PM
+2021-01-06 16:05:17.2192 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-06 16:05:17.4076 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-06 16:05:17.7916 INFO start date:31-Dec-2017
+2021-01-06 16:05:17.7916 INFO end date:30-Dec-2020
+2021-01-06 16:05:17.7916 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-06 16:05:23.6884 INFO Home Page Loaded: 1/6/2021 4:05:23 PM
+2021-01-06 16:05:26.4354 INFO 1/6/2021 4:05:26 PM
+2021-01-06 16:05:41.6506 INFO 1/6/2021 4:05:41 PM
+2021-01-06 16:05:41.7184 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-06 16:05:42.5978 INFO Reader is not null..
+2021-01-06 16:05:42.5978 INFO Reader is equal to true..
+2021-01-06 16:05:42.6296 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-06 16:05:42.6779 INFO start date:30-Dec-2018
+2021-01-06 16:05:42.6779 INFO end date:31-Dec-2020
+2021-01-06 16:05:42.6779 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-06 16:30:53.7374 INFO 1/6/2021 4:30:53 PM
+2021-01-06 16:31:22.7209 INFO 1/6/2021 4:31:22 PM
+2021-01-06 16:31:22.8148 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-06 16:31:24.1712 INFO Reader is not null..
+2021-01-06 16:31:24.1712 INFO Reader is equal to true..
+2021-01-06 16:31:24.2162 INFO  Fast Cash Loan Offer Report data fetched from database successfully
+2021-01-06 16:31:26.6587 INFO start date:30-Dec-2018
+2021-01-06 16:31:26.6587 INFO end date:04-Jan-2021
+2021-01-06 16:31:26.6587 INFO USSD FAST CASH Loan Report Loaded Successful
+2021-01-06 16:31:34.9595 INFO 1/6/2021 4:31:34 PM
+2021-01-06 16:31:34.9595 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-06 16:31:35.9650 INFO Reader is not null..
+2021-01-06 16:31:35.9650 INFO Reader is equal to true..
+2021-01-06 16:31:35.9999 INFO  Fast Cash Loan Offer Report data fetched from database successfully
+2021-01-06 16:31:36.0433 INFO start date:30-Dec-2018
+2021-01-06 16:31:36.0433 INFO end date:04-Jan-2021
+2021-01-06 16:31:36.0433 INFO USSD FAST CASH Loan Report Loaded Successful
+2021-01-06 16:31:43.1213 INFO 1/6/2021 4:31:43 PM
+2021-01-06 16:31:43.1213 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-06 16:31:44.4436 INFO Reader is not null..
+2021-01-06 16:31:44.4436 INFO Reader is equal to true..
+2021-01-06 16:31:44.7456 INFO  Fast Cash Loan Offer Report data fetched from database successfully
+2021-01-06 16:31:44.7964 INFO start date:30-Dec-2018
+2021-01-06 16:31:44.7964 INFO end date:04-Jan-2021
+2021-01-06 16:31:44.7964 INFO USSD FAST CASH Loan Report Loaded Successful
+2021-01-06 16:31:50.0234 INFO 1/6/2021 4:31:50 PM
+2021-01-06 16:31:50.0234 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-06 16:31:51.0472 INFO Reader is not null..
+2021-01-06 16:31:51.0472 INFO Reader is equal to true..
+2021-01-06 16:31:51.2728 INFO  Fast Cash Loan Offer Report data fetched from database successfully
+2021-01-06 16:31:51.3270 INFO start date:30-Dec-2018
+2021-01-06 16:31:51.3270 INFO end date:04-Jan-2021
+2021-01-06 16:31:51.3270 INFO USSD FAST CASH Loan Report Loaded Successful
+2021-01-06 16:31:54.7129 INFO 1/6/2021 4:31:54 PM
+2021-01-06 16:32:01.5327 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-06 16:32:02.2968 INFO Reader is not null..
+2021-01-06 16:32:02.2968 INFO Reader is equal to true..
+2021-01-06 16:32:02.3302 INFO  Fast Cash Loan Offer Report data fetched from database successfully
+2021-01-06 16:32:02.9645 INFO USSD Fast Cash Loan Report exported successfully
+2021-01-06 16:32:42.0423 INFO Home Page Loaded: 1/6/2021 4:32:42 PM
+2021-01-06 16:32:51.2062 INFO 1/6/2021 4:32:51 PM

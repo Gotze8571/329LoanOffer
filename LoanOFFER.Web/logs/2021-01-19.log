@@ -1,0 +1,339 @@
+2021-01-19 09:09:50.3040 INFO NEW LOGIN
+2021-01-19 09:09:52.2089 INFO NEW LOGIN
+2021-01-19 09:09:53.6087 INFO Signed in User: tella.adesina
+2021-01-19 09:09:53.6087 INFO IP Address: ::1
+2021-01-19 09:09:53.6087 INFO IP Address: TELLA-PC
+2021-01-19 09:09:53.6441 INFO Home Page Loaded: 1/19/2021 9:09:53 AM
+2021-01-19 09:09:53.7753 INFO Signed in User: tella.adesina
+2021-01-19 09:09:53.7753 INFO IP Address: ::1
+2021-01-19 09:09:53.7753 INFO IP Address: TELLA-PC
+2021-01-19 09:10:10.9766 INFO 1/19/2021 9:10:10 AM
+2021-01-19 09:10:35.2808 INFO 1/19/2021 9:10:35 AM
+2021-01-19 09:10:35.3641 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-19 09:10:36.4963 INFO Reader is not null..
+2021-01-19 09:10:36.4963 INFO Reader is equal to true..
+2021-01-19 09:10:36.5167 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-19 09:10:36.8877 INFO start date:30-Dec-2018
+2021-01-19 09:10:36.8877 INFO end date:13-Jan-2021
+2021-01-19 09:10:36.8877 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-19 09:11:12.2336 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-19 09:11:12.9009 INFO Reader is not null..
+2021-01-19 09:11:12.9009 INFO Reader is equal to true..
+2021-01-19 09:11:12.9009 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-19 09:11:12.9009 INFO SPL Report exported successfully
+2021-01-19 09:12:04.8621 INFO NEW LOGIN
+2021-01-19 09:12:07.8377 INFO Signed in User: tella.adesina
+2021-01-19 09:12:07.8377 INFO IP Address: ::1
+2021-01-19 09:12:07.8377 INFO IP Address: TELLA-PC
+2021-01-19 09:12:07.8796 INFO Home Page Loaded: 1/19/2021 9:12:07 AM
+2021-01-19 09:12:29.9900 INFO 1/19/2021 9:12:29 AM
+2021-01-19 09:12:48.1064 INFO 1/19/2021 9:12:48 AM
+2021-01-19 09:12:48.1353 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-19 09:12:48.4445 INFO Reader is not null..
+2021-01-19 09:12:48.4445 INFO Reader is equal to true..
+2021-01-19 09:12:48.8488 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-19 09:12:49.2007 INFO start date:28-Dec-2014
+2021-01-19 09:12:49.2007 INFO end date:14-Jan-2021
+2021-01-19 09:12:49.2007 INFO  Remitta Report Loaded Successful
+2021-01-19 09:12:58.9724 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-19 09:12:59.0438 INFO Reader is not null..
+2021-01-19 09:12:59.0438 INFO Reader is equal to true..
+2021-01-19 09:12:59.4109 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-19 09:12:59.4109 INFO Remitta Report exported successfully
+2021-01-19 09:14:03.4913 INFO 1/19/2021 9:14:03 AM
+2021-01-19 09:14:39.4194 INFO 1/19/2021 9:14:39 AM
+2021-01-19 09:14:39.4719 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-19 09:14:39.5278 INFO Reader is not null..
+2021-01-19 09:14:39.5278 INFO Reader is equal to true..
+2021-01-19 09:14:39.6764 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-19 09:14:41.9551 INFO start date:25-Dec-2016
+2021-01-19 09:14:41.9551 INFO end date:14-Jan-2021
+2021-01-19 09:14:41.9551 INFO  Remitta Report Loaded Successful
+2021-01-19 09:14:48.5931 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-19 09:14:48.6120 INFO Reader is not null..
+2021-01-19 09:14:48.6120 INFO Reader is equal to true..
+2021-01-19 09:14:48.9551 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-19 09:14:48.9551 INFO Remitta Report exported successfully
+2021-01-19 09:21:44.9631 INFO 1/19/2021 9:21:44 AM
+2021-01-19 09:22:00.9570 INFO Home Page Loaded: 1/19/2021 9:22:00 AM
+2021-01-19 09:22:06.8344 INFO 1/19/2021 9:22:06 AM
+2021-01-19 09:22:26.0036 INFO 1/19/2021 9:22:26 AM
+2021-01-19 09:22:26.0565 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-19 09:22:26.2908 INFO Reader is not null..
+2021-01-19 09:22:26.2908 INFO Reader is equal to true..
+2021-01-19 09:22:26.6319 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-19 09:22:29.1323 INFO start date:31-Dec-2017
+2021-01-19 09:22:29.1323 INFO end date:14-Jan-2021
+2021-01-19 09:22:29.1323 INFO  Remitta Report Loaded Successful
+2021-01-19 09:22:41.2896 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-19 09:22:41.3365 INFO Reader is not null..
+2021-01-19 09:22:41.3365 INFO Reader is equal to true..
+2021-01-19 09:22:41.3674 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-19 09:22:41.3674 INFO Remitta Report exported successfully
+2021-01-19 09:41:33.1650 INFO NEW LOGIN
+2021-01-19 09:41:36.4711 INFO Signed in User: tella.adesina
+2021-01-19 09:41:36.4711 INFO IP Address: ::1
+2021-01-19 09:41:36.4711 INFO IP Address: TELLA-PC
+2021-01-19 09:41:36.5054 INFO Home Page Loaded: 1/19/2021 9:41:36 AM
+2021-01-19 09:41:39.7405 INFO 1/19/2021 9:41:39 AM
+2021-01-19 09:41:53.8714 INFO 1/19/2021 9:41:53 AM
+2021-01-19 09:41:54.3791 ERROR System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.ErrorLoans'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 117
+2021-01-19 09:42:53.2319 INFO NEW LOGIN
+2021-01-19 09:42:56.1862 INFO Signed in User: tella.adesina
+2021-01-19 09:42:56.1862 INFO IP Address: ::1
+2021-01-19 09:42:56.1862 INFO IP Address: TELLA-PC
+2021-01-19 09:42:56.2191 INFO Home Page Loaded: 1/19/2021 9:42:56 AM
+2021-01-19 09:43:06.8203 INFO 1/19/2021 9:43:06 AM
+2021-01-19 09:43:20.5763 INFO 1/19/2021 9:43:20 AM
+2021-01-19 09:43:21.6162 ERROR System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.ErrorLoans'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 117
+2021-01-19 09:45:39.5827 INFO NEW LOGIN
+2021-01-19 09:45:42.4275 INFO Signed in User: tella.adesina
+2021-01-19 09:45:42.4275 INFO IP Address: ::1
+2021-01-19 09:45:42.4275 INFO IP Address: TELLA-PC
+2021-01-19 09:45:42.4614 INFO Home Page Loaded: 1/19/2021 9:45:42 AM
+2021-01-19 09:45:46.7236 INFO 1/19/2021 9:45:46 AM
+2021-01-19 09:45:59.0322 INFO 1/19/2021 9:45:59 AM
+2021-01-19 09:47:24.4584 INFO NEW LOGIN
+2021-01-19 09:47:27.3881 INFO Signed in User: tella.adesina
+2021-01-19 09:47:27.3881 INFO IP Address: ::1
+2021-01-19 09:47:27.3881 INFO IP Address: TELLA-PC
+2021-01-19 09:47:27.4200 INFO Home Page Loaded: 1/19/2021 9:47:27 AM
+2021-01-19 09:47:37.2327 INFO 1/19/2021 9:47:37 AM
+2021-01-19 09:48:37.8000 INFO 1/19/2021 9:48:37 AM
+2021-01-19 09:52:28.0707 INFO NEW LOGIN
+2021-01-19 09:52:30.9151 INFO Signed in User: tella.adesina
+2021-01-19 09:52:30.9151 INFO IP Address: ::1
+2021-01-19 09:52:30.9151 INFO IP Address: TELLA-PC
+2021-01-19 09:52:30.9480 INFO Home Page Loaded: 1/19/2021 9:52:30 AM
+2021-01-19 09:52:44.7412 INFO 1/19/2021 9:52:44 AM
+2021-01-19 09:55:47.8780 INFO 1/19/2021 9:55:47 AM
+2021-01-19 09:58:04.9087 INFO NEW LOGIN
+2021-01-19 09:58:07.0953 INFO NEW LOGIN
+2021-01-19 09:58:08.0812 INFO Signed in User: tella.adesina
+2021-01-19 09:58:08.0812 INFO Signed in User: tella.adesina
+2021-01-19 09:58:08.0812 INFO IP Address: ::1
+2021-01-19 09:58:08.0812 INFO IP Address: TELLA-PC
+2021-01-19 09:58:08.0812 INFO IP Address: ::1
+2021-01-19 09:58:08.0812 INFO IP Address: TELLA-PC
+2021-01-19 09:58:08.1232 INFO Home Page Loaded: 1/19/2021 9:58:08 AM
+2021-01-19 09:58:14.3847 INFO 1/19/2021 9:58:14 AM
+2021-01-19 09:58:44.0311 INFO 1/19/2021 9:58:44 AM
+2021-01-19 09:58:53.8531 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 09:58:54.3587 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 09:58:54.8008 INFO start date:30-Dec-2018
+2021-01-19 09:58:54.8008 INFO end date:13-Jan-2021
+2021-01-19 09:58:54.8008 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-19 09:59:05.9475 INFO 1/19/2021 9:59:05 AM
+2021-01-19 10:02:28.7030 INFO NEW LOGIN
+2021-01-19 10:02:31.8887 INFO Signed in User: tella.adesina
+2021-01-19 10:02:31.8887 INFO IP Address: ::1
+2021-01-19 10:02:31.8887 INFO IP Address: TELLA-PC
+2021-01-19 10:02:31.9226 INFO Home Page Loaded: 1/19/2021 10:02:31 AM
+2021-01-19 10:09:51.4176 INFO 1/19/2021 10:09:51 AM
+2021-01-19 10:10:25.0380 INFO 1/19/2021 10:10:25 AM
+2021-01-19 10:13:18.3105 INFO NEW LOGIN
+2021-01-19 10:13:21.4777 INFO Signed in User: tella.adesina
+2021-01-19 10:13:21.4777 INFO IP Address: ::1
+2021-01-19 10:13:21.4777 INFO IP Address: TELLA-PC
+2021-01-19 10:13:21.5106 INFO Home Page Loaded: 1/19/2021 10:13:21 AM
+2021-01-19 10:13:40.0537 INFO 1/19/2021 10:13:40 AM
+2021-01-19 10:16:56.7751 INFO NEW LOGIN
+2021-01-19 10:16:59.6341 INFO Signed in User: tella.adesina
+2021-01-19 10:16:59.6341 INFO IP Address: ::1
+2021-01-19 10:16:59.6341 INFO IP Address: TELLA-PC
+2021-01-19 10:16:59.6671 INFO Home Page Loaded: 1/19/2021 10:16:59 AM
+2021-01-19 10:17:06.2508 INFO 1/19/2021 10:17:06 AM
+2021-01-19 10:18:40.1829 INFO 1/19/2021 10:18:40 AM
+2021-01-19 10:19:22.2437 ERROR System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Invalid object name 'dbo.ErrorLoans'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 117
+2021-01-19 10:42:19.5251 INFO NEW LOGIN
+2021-01-19 10:42:22.5168 INFO Signed in User: tella.adesina
+2021-01-19 10:42:22.5168 INFO IP Address: ::1
+2021-01-19 10:42:22.5168 INFO IP Address: TELLA-PC
+2021-01-19 10:42:22.5517 INFO Home Page Loaded: 1/19/2021 10:42:22 AM
+2021-01-19 10:42:34.0634 INFO 1/19/2021 10:42:34 AM
+2021-01-19 10:42:52.1172 INFO 1/19/2021 10:42:52 AM
+2021-01-19 10:43:14.7153 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 10:43:15.4832 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 10:43:16.6491 INFO start date:25-Dec-2016
+2021-01-19 10:43:16.6491 INFO end date:15-Jan-2021
+2021-01-19 10:43:16.6491 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-19 10:43:23.7674 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 10:43:24.7378 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 10:43:24.7378 INFO Simbrella Report exported successfully
+2021-01-19 10:44:16.6808 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 10:44:17.1126 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 10:44:17.6259 INFO Simbrella Report exported successfully
+2021-01-19 10:46:57.4211 INFO NEW LOGIN
+2021-01-19 10:47:00.1672 INFO Signed in User: tella.adesina
+2021-01-19 10:47:00.1672 INFO IP Address: ::1
+2021-01-19 10:47:00.1672 INFO IP Address: TELLA-PC
+2021-01-19 10:47:00.2001 INFO Home Page Loaded: 1/19/2021 10:47:00 AM
+2021-01-19 10:47:11.1683 INFO 1/19/2021 10:47:11 AM
+2021-01-19 10:47:32.5397 INFO 1/19/2021 10:47:32 AM
+2021-01-19 10:47:41.6062 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 10:47:42.3083 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 10:47:42.7503 INFO start date:31-Dec-2017
+2021-01-19 10:47:42.7503 INFO end date:13-Jan-2021
+2021-01-19 10:47:42.7503 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-19 11:42:37.8515 INFO NEW LOGIN
+2021-01-19 11:42:40.9399 INFO Signed in User: tella.adesina
+2021-01-19 11:42:40.9399 INFO IP Address: ::1
+2021-01-19 11:42:40.9399 INFO IP Address: TELLA-PC
+2021-01-19 11:42:40.9718 INFO Home Page Loaded: 1/19/2021 11:42:40 AM
+2021-01-19 11:42:49.7898 INFO 1/19/2021 11:42:49 AM
+2021-01-19 11:43:27.9918 INFO 1/19/2021 11:43:27 AM
+2021-01-19 12:43:35.9211 INFO NEW LOGIN
+2021-01-19 12:43:40.0980 INFO Signed in User: tella.adesina
+2021-01-19 12:43:40.0980 INFO IP Address: ::1
+2021-01-19 12:43:40.0980 INFO IP Address: TELLA-PC
+2021-01-19 12:43:40.1348 INFO Home Page Loaded: 1/19/2021 12:43:40 PM
+2021-01-19 12:43:55.0190 INFO 1/19/2021 12:43:55 PM
+2021-01-19 12:44:22.1389 INFO 1/19/2021 12:44:22 PM
+2021-01-19 12:44:27.9083 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 12:44:28.4476 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 12:44:29.1752 INFO start date:27-Dec-2015
+2021-01-19 12:44:29.1752 INFO end date:15-Jan-2021
+2021-01-19 12:44:29.1752 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-19 12:44:31.3757 INFO Home Page Loaded: 1/19/2021 12:44:31 PM
+2021-01-19 12:44:34.7782 INFO 1/19/2021 12:44:34 PM
+2021-01-19 12:44:53.2793 INFO 1/19/2021 12:44:53 PM
+2021-01-19 12:45:04.5456 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 12:45:05.4034 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 12:45:05.4481 INFO start date:31-Dec-2017
+2021-01-19 12:45:05.4481 INFO end date:13-Jan-2021
+2021-01-19 12:45:05.4481 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-19 12:45:16.1545 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 12:45:16.5944 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 12:45:16.5944 INFO Simbrella Report exported successfully
+2021-01-19 13:14:36.9678 INFO NEW LOGIN
+2021-01-19 13:14:40.5697 INFO Signed in User: tella.adesina
+2021-01-19 13:14:40.5697 INFO IP Address: ::1
+2021-01-19 13:14:40.5697 INFO IP Address: TELLA-PC
+2021-01-19 13:14:40.6016 INFO Home Page Loaded: 1/19/2021 1:14:40 PM
+2021-01-19 13:14:45.5281 INFO 1/19/2021 1:14:45 PM
+2021-01-19 13:15:10.5212 INFO 1/19/2021 1:15:10 PM
+2021-01-19 13:15:18.6092 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 13:15:18.8256 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 13:15:24.6710 INFO start date:25-Dec-2016
+2021-01-19 13:15:24.9294 INFO end date:15-Jan-2021
+2021-01-19 13:15:25.1627 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-19 13:15:46.9476 INFO 1/19/2021 1:15:46 PM
+2021-01-19 13:15:50.0404 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-19 13:15:50.5294 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-19 13:15:50.5834 INFO start date:25-Dec-2016
+2021-01-19 13:15:50.5834 INFO end date:15-Jan-2021
+2021-01-19 13:15:50.5834 INFO  Simbrella Loan Offer Report Loaded Successfully

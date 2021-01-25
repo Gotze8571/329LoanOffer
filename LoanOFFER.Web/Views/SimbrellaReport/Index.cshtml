@@ -6,18 +6,24 @@
 @{
     /**/
 
-    //ViewBag.Title = "Index";
+    ViewBag.Title = "Index";
     //Layout = "null";
 }
 
 <h2 style="color: #ffba18">Simbrella Loan Offer Report</h2>
 <link href="~/Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 @*<link href="~/Content/bootstrap.min.css" rel="stylesheet" />*@
-<link href="~/Content/Site.css" rel="stylesheet" />
+
 <link href="~/Content/PagedList.css" rel="stylesheet" />
 <style>
     table {
         width: 100%;
+    }
+    .sim-wrapper{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
     }
 
     /*table tr td {
@@ -39,163 +45,166 @@
         }*/
 </style>
 <br />
-<form class="form-inline">
+<div class="sim-wrapper">
+    <form class="form-inline">
 
-    <div class="form-group date ">
-        <input type="text" class="form-control datepicker" name="RequestTime" autocomplete="off">
-        <div class="input-group-addon">
-            <div>start date</div>
-            @*<span class="glyphicon glyphicon-th"></span>*@
+        <div class="form-group date ">
+            <input type="text" class="form-control datepicker" name="RequestTime" autocomplete="off">
+            <div class="input-group-addon">
+                <div>start date</div>
+                @*<span class="glyphicon glyphicon-th"></span>*@
+            </div>
         </div>
-    </div>
 
-    <div class="form-group date">
-        <input type="text" class="form-control datepicker" name="LogDate" autocomplete="off">
-        <div class="input-group-addon">
-            <div>end date</div>
-            @*<span class="glyphicon glyphicon-th"></span>*@
+        <div class="form-group date">
+            <input type="text" class="form-control datepicker" name="LogDate" autocomplete="off">
+            <div class="input-group-addon">
+                <div>end date</div>
+                @*<span class="glyphicon glyphicon-th"></span>*@
+            </div>
         </div>
-    </div>
-    <div class="form-group">
-        <input class="form-control mr-sm-2" type="search" name="customerId" placeholder="Customer ID Only" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </div>
-    <div class="form-group">
-        <input class="form-control mr-sm-2" type="text" name="customerName" placeholder="Customer Name" aria-label="Read-only">
-        @*<button class="btn btn-outline-success my-2 my-sm-0" type="search">Customer </button>*@
-    </div>
+        <div class="form-group">
+            <input class="form-control mr-sm-2" type="search" name="customerId" placeholder="Customer ID Only" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </div>
+        <div class="form-group">
+            <input class="form-control mr-sm-2" type="text" name="customerName" placeholder="Customer Name" aria-label="Read-only">
+            @*<button class="btn btn-outline-success my-2 my-sm-0" type="search">Customer </button>*@
+        </div>
 
-    @*<button type="submit" class="btn btnClass ">Generate</button>*@
-    <div id="excelbtn" style="float:right" class="form-group">
-        @Html.ActionLink("Export To Excel", "ExportToExcel", "SimbrellaReport", new { RequestTime = ViewBag.RequestTime, LogDate = ViewBag.LogDate, customerId = ViewBag.CustId }, new { @class = "btn btnClass", startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, customerId = ViewBag.CustId })
-    </div>
+        @*<button type="submit" class="btn btnClass ">Generate</button>*@
+        <div id="excelbtn" style="float:right" class="form-group">
+            @Html.ActionLink("Export To Excel", "ExportToExcel", "SimbrellaReport", new { startDate = ViewBag.startDate, endDate = ViewBag.endDate, customerId = ViewBag.CustId }, new { @class = "btn btnClass", startDate = ViewBag.startDate, endDate = ViewBag.endDate, customerId = ViewBag.CustId })
+        </div>
 
-    <div id="pdfbtn" style="float:right" class="form-group">
-        @Html.ActionLink("Export To Pdf", "ExportToPdf", "SimbrellaReport", new { RequestTime = ViewBag.RequestTime, LogDate = ViewBag.LogDate, customerId = ViewBag.CustId }, new { @class = "btn btnClass", startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, customerId = ViewBag.CustId })
-    </div>
+        <div id="pdfbtn" style="float:right" class="form-group">
+            @Html.ActionLink("Export To Pdf", "SimbrellaPartialViewToPdf", "SimbrellaReport", new { startDate = ViewBag.startDate, endDate = ViewBag.endDate, customerId = ViewBag.CustId }, new { @class = "btn btnClass", startDate = ViewBag.startDate, endDate = ViewBag.endDate, customerId = ViewBag.CustId })
+        </div>
 
-    <br />
-    <br />
+        <br />
+        <br />
 
-    <table class="table table-striped table-bordered text-center" id="tblData">
-        <thead style="background-color:  #5c3092; color: white">
-            <tr>
-
-                @*<th>
-                    @Html.DisplayNameFor(model => model.First().Request)
-                </th>*@
-                <th>
-                    @Html.DisplayNameFor(model => model.First().customerId)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().RequestTime)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().Response)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().LogDate)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().LoanType)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().BrokerCode)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().BranchSolID)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().BranchSBU)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().SimbrellaLoan.type)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().SimbrellaLoan.transactionId)
-                </th>
-                @*<th>
-                    @Html.DisplayNameFor(model => model.First().SimbrellaLoan.customerId)
-                </th>*@
-                <th>
-                    @Html.DisplayNameFor(model => model.First().SimbrellaLoan.accountId)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.First().SimbrellaLoan.msisdn)
-                </th>
-                @*<th>
-                    @Html.DisplayNameFor(model => model.First().SimbrellaLoan.AppId)
-                </th>*@
-                @*<th>
-                    @Html.DisplayNameFor(model => model.First().SimbrellaLoan.AppKey)
-                </th>*@
-            </tr>
-        </thead>
-
-        @foreach (var item in Model)
-         {
-            <tbody>
+        <table class="table table-striped table-bordered text-center" id="tblData">
+            <thead style="background-color: #5c3092; color: white">
                 <tr>
-                    @*<td>
-        @Html.DisplayFor(modelItem => item.Id)
-         </td>*@
-                    @*<td>
-                        @Html.DisplayFor(modelItem => item.Request)
-                    </td>*@
-                    <td>
-                        @Html.DisplayFor(modelItem => item.customerId)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RequestTime)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Response)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.LogDate)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.LoanType)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.BrokerCode)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.BranchSolID)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.BranchSBU)
-                    </td>
-                    @*<td>
-                        @Html.DisplayFor(modelItem => item.SimbrellaLoan.type)
-                    </td>*@
-                    <td>
-                        @Html.DisplayFor(modelItem => item.SimbrellaLoan.transactionId)
-                    </td>
 
-                    @*<td>
-                        @Html.DisplayFor(modelItem => item.SimbrellaLoan.customerId)
-                    </td>*@
-                    <td>
-                        @Html.DisplayFor(modelItem => item.SimbrellaLoan.accountId)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.SimbrellaLoan.msisdn)
-                    </td>
-                    @*<td>
-                        @Html.DisplayFor(modelItem => item.SimbrellaLoan.AppId)
-                    </td>*@
-                    @*<td>
-                        @Html.DisplayFor(modelItem => item.SimbrellaLoan.AppKey)
-                    </td>*@
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.First().Request)
+                        </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().customerId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().RequestTime)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().Response)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().LogDate)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().LoanType)
+                    </th>
+                    @*<th>
+                        @Html.DisplayNameFor(model => model.First().BrokerCode)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().BranchSolID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().BranchSBU)
+                    </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().SimbrellaLoan.type)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().SimbrellaLoan.transactionId)
+                    </th>
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.First().SimbrellaLoan.customerId)
+                        </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().SimbrellaLoan.accountId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.First().SimbrellaLoan.msisdn)
+                    @*</th>
+                    <th>
+                            @Html.DisplayNameFor(model => model.First().SimbrellaLoan.AppId)
+                        </th>*@
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.First().SimbrellaLoan.AppKey)
+                        </th>*@
                 </tr>
-            </tbody>
-         }
-    </table>
-</form>
-<p>
-    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, startDate = ViewBag.RequestTime, endDate = ViewBag.LogDate, customerId = ViewBag.CustId }), PagedListRenderOptions.PageNumbersOnly)
-</p>
+            </thead>
+
+            @foreach (var item in Model)
+            {
+                <tbody>
+                    <tr>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                             </td>*@
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.Request)
+                            </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.customerId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RequestTime)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Response)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LogDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LoanType)
+                        </td>
+                        @*<td>
+                            @Html.DisplayFor(modelItem => item.BrokerCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BranchSolID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BranchSBU)
+                        </td>*@
+                        <td>
+                                @Html.DisplayFor(modelItem => item.SimbrellaLoan.type)
+                            </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SimbrellaLoan.transactionId)
+                        </td>
+
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.SimbrellaLoan.customerId)
+                            </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SimbrellaLoan.accountId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SimbrellaLoan.msisdn)
+                        </td>
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.SimbrellaLoan.AppId)
+                            </td>*@
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.SimbrellaLoan.AppKey)
+                            </td>*@
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </form>
+    <p>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page, RequestTime = ViewBag.startDate, LogDate = ViewBag.endDate, CustId = ViewBag.CustId }), PagedListRenderOptions.PageNumbersOnly)
+    </p>
+</div>
+
 @*<div class="container body-content">
 
         <hr />

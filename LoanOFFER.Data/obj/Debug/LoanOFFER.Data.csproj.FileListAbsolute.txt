@@ -57,8 +57,8 @@ C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\Ne
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\NLog.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\Newtonsoft.Json.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\bin\Debug\NLog.xml
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csprojAssemblyReference.cache
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csproj.CopyComplete
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.pdb
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\obj\Debug\LoanOFFER.Data.csprojAssemblyReference.cache

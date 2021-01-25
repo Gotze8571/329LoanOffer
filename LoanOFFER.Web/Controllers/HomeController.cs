@@ -14,7 +14,7 @@ namespace LoanOFFER.Web.Controllers
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
 
-      // [Authorize]
+       // [Authorize]
         
         public ActionResult Index()
         {

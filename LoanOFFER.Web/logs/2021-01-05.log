@@ -1,0 +1,112 @@
+2021-01-05 10:07:40.4516 INFO NEW LOGIN
+2021-01-05 10:08:01.3676 INFO NEW LOGIN
+2021-01-05 10:08:36.2987 INFO Incorrect login details
+2021-01-05 10:08:38.0418 INFO NEW LOGIN
+2021-01-05 10:39:01.2609 INFO NEW LOGIN
+2021-01-05 10:39:01.8603 INFO Incorrect login details
+2021-01-05 10:39:08.3393 INFO NEW LOGIN
+2021-01-05 10:39:46.8040 INFO NEW LOGIN
+2021-01-05 10:39:47.2634 INFO Signed in User: tella.adesina
+2021-01-05 10:39:47.2644 INFO IP Address: ::1
+2021-01-05 10:39:47.2644 INFO IP Address: TELLA-PC
+2021-01-05 10:39:47.2893 INFO Home Page Loaded: 1/5/2021 10:39:47 AM
+2021-01-05 11:15:25.1041 INFO 1/5/2021 11:15:25 AM
+2021-01-05 11:15:42.6279 INFO 1/5/2021 11:15:42 AM
+2021-01-05 11:15:42.7127 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-05 11:15:43.3759 INFO Reader is not null..
+2021-01-05 11:15:43.3759 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-05 11:15:43.8379 INFO start date:25-Oct-2020
+2021-01-05 11:15:43.8379 INFO end date:30-Dec-2020
+2021-01-05 11:15:43.8379 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-05 11:16:03.4377 INFO 1/5/2021 11:16:03 AM
+2021-01-05 11:16:03.4377 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-05 11:16:04.3894 INFO Reader is not null..
+2021-01-05 11:16:04.3894 INFO Reader is equal to true..
+2021-01-05 11:16:04.4083 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-05 11:16:04.4494 INFO start date:25-Dec-2016
+2021-01-05 11:16:04.4494 INFO end date:31-Dec-2020
+2021-01-05 11:16:04.4494 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-05 11:18:54.1997 INFO NEW LOGIN
+2021-01-05 11:19:26.2255 INFO NEW LOGIN
+2021-01-05 11:19:29.1171 INFO Incorrect login details
+2021-01-05 11:19:31.9116 INFO NEW LOGIN
+2021-01-05 11:22:46.8551 INFO NEW LOGIN
+2021-01-05 11:22:47.2941 INFO Signed in User: tella.adesina
+2021-01-05 11:22:47.2941 INFO IP Address: ::1
+2021-01-05 11:22:47.2941 INFO IP Address: TELLA-PC
+2021-01-05 11:22:47.3190 INFO Home Page Loaded: 1/5/2021 11:22:47 AM
+2021-01-05 11:22:51.9619 INFO 1/5/2021 11:22:51 AM
+2021-01-05 11:23:12.5669 INFO 1/5/2021 11:23:12 AM
+2021-01-05 11:23:12.6446 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-05 11:23:13.7303 INFO Reader is not null..
+2021-01-05 11:23:13.7303 INFO Reader is equal to true..
+2021-01-05 11:23:13.7602 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-05 11:23:14.1131 INFO start date:31-Dec-2017
+2021-01-05 11:23:14.1131 INFO end date:31-Dec-2020
+2021-01-05 11:23:14.1131 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-05 11:46:06.6330 INFO NEW LOGIN
+2021-01-05 11:48:12.2090 INFO NEW LOGIN
+2021-01-05 11:48:15.1086 INFO Signed in User: tella.adesina
+2021-01-05 11:48:15.1086 INFO IP Address: ::1
+2021-01-05 11:48:15.1086 INFO IP Address: TELLA-PC
+2021-01-05 11:48:15.1455 INFO Home Page Loaded: 1/5/2021 11:48:15 AM
+2021-01-05 11:48:30.5701 INFO 1/5/2021 11:48:30 AM
+2021-01-05 11:48:59.1163 INFO 1/5/2021 11:48:59 AM
+2021-01-05 11:48:59.1632 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-05 11:49:00.0111 INFO Reader is not null..
+2021-01-05 11:49:00.0111 INFO Reader is equal to true..
+2021-01-05 11:49:00.0300 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-05 11:49:00.3998 INFO start date:30-Dec-2018
+2021-01-05 11:49:00.3998 INFO end date:31-Dec-2020
+2021-01-05 11:49:00.3998 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-05 11:51:59.7165 INFO 1/5/2021 11:51:59 AM
+2021-01-05 11:51:59.7165 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-05 11:52:00.2849 INFO Reader is not null..
+2021-01-05 11:52:00.2849 INFO Reader is equal to true..
+2021-01-05 11:52:00.3049 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-05 11:52:00.3408 INFO start date:30-Dec-2018
+2021-01-05 11:52:00.3408 INFO end date:31-Dec-2020
+2021-01-05 11:52:00.3408 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-05 11:54:43.8410 INFO 1/5/2021 11:54:43 AM
+2021-01-05 11:54:43.8410 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-05 11:54:44.6727 INFO Reader is not null..
+2021-01-05 11:54:44.6727 INFO Reader is equal to true..
+2021-01-05 11:54:44.6727 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-05 11:54:44.7180 INFO start date:30-Dec-2018
+2021-01-05 11:54:44.7180 INFO end date:31-Dec-2020
+2021-01-05 11:54:44.7180 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-05 11:58:22.4476 INFO 1/5/2021 11:58:22 AM
+2021-01-05 11:58:22.4476 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-05 11:58:23.4739 INFO Reader is not null..
+2021-01-05 11:58:23.4739 INFO Reader is equal to true..
+2021-01-05 11:58:23.4739 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-05 11:58:23.5281 INFO start date:30-Dec-2018
+2021-01-05 11:58:23.5281 INFO end date:31-Dec-2020
+2021-01-05 11:58:23.5281 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-05 12:06:11.5192 INFO Home Page Loaded: 1/5/2021 12:06:11 PM
+2021-01-05 12:10:46.0932 INFO 1/5/2021 12:10:46 PM
+2021-01-05 12:11:10.2818 INFO 1/5/2021 12:11:10 PM
+2021-01-05 12:11:10.3097 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-05 12:11:11.3516 INFO Reader is not null..
+2021-01-05 12:11:11.3516 INFO Reader is equal to true..
+2021-01-05 12:11:11.3856 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-05 12:11:11.4508 INFO start date:31-Dec-2017
+2021-01-05 12:11:11.4508 INFO end date:30-Dec-2020
+2021-01-05 12:11:11.4508 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-05 12:11:47.1635 INFO Home Page Loaded: 1/5/2021 12:11:47 PM
+2021-01-05 12:12:30.2737 INFO Home Page Loaded: 1/5/2021 12:12:30 PM
+2021-01-05 12:13:33.0623 INFO 1/5/2021 12:13:33 PM
+2021-01-05 13:09:52.7405 INFO Home Page Loaded: 1/5/2021 1:09:52 PM
+2021-01-05 13:10:03.0425 INFO 1/5/2021 1:10:03 PM
+2021-01-05 13:12:39.7724 INFO 1/5/2021 1:12:39 PM
+2021-01-05 13:13:25.6108 INFO 1/5/2021 1:13:25 PM
+2021-01-05 13:13:57.6548 INFO 1/5/2021 1:13:57 PM
+2021-01-05 13:16:42.3125 INFO 1/5/2021 1:16:42 PM
+2021-01-05 13:17:16.5750 INFO 1/5/2021 1:17:16 PM
+2021-01-05 13:17:51.6949 INFO 1/5/2021 1:17:51 PM
+2021-01-05 13:22:06.8125 INFO 1/5/2021 1:22:06 PM
+2021-01-05 13:25:26.1377 INFO 1/5/2021 1:25:26 PM
+2021-01-05 13:25:30.3884 INFO 1/5/2021 1:25:30 PM
+2021-01-05 13:25:44.3404 INFO Home Page Loaded: 1/5/2021 1:25:44 PM
+2021-01-05 13:25:47.3215 INFO 1/5/2021 1:25:47 PM
+2021-01-05 13:25:49.5622 INFO Home Page Loaded: 1/5/2021 1:25:49 PM

@@ -15,4 +15,8 @@ namespace LoanOFFER.Web.Models.ViewModel
         [Required]
         public string Password { get; set; }
     }
+    public class ExternalLoginListViewModel
+    {
+        public string ReturnUrl { get; set; }
+    }
 }

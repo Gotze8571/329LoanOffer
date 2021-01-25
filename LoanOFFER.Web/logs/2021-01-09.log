@@ -1,0 +1,15 @@
+2021-01-09 12:17:48.5368 INFO NEW LOGIN
+2021-01-09 12:17:53.3103 INFO Signed in User: tella.adesina
+2021-01-09 12:17:53.3103 INFO IP Address: ::1
+2021-01-09 12:17:53.3103 INFO IP Address: TELLA-PC
+2021-01-09 12:17:53.3446 INFO Home Page Loaded: 1/9/2021 12:17:53 PM
+2021-01-09 12:18:07.0388 INFO 1/9/2021 12:18:07 PM
+2021-01-09 12:18:36.0096 INFO 1/9/2021 12:18:36 PM
+2021-01-09 12:18:36.0722 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-09 12:18:37.5019 INFO Reader is not null..
+2021-01-09 12:18:37.5019 INFO Reader is equal to true..
+2021-01-09 12:18:37.5191 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-09 12:18:37.9028 INFO start date:30-Dec-2018
+2021-01-09 12:18:37.9028 INFO end date:08-Jan-2021
+2021-01-09 12:18:37.9028 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-09 12:18:41.9832 INFO 1/9/2021 12:18:41 PM

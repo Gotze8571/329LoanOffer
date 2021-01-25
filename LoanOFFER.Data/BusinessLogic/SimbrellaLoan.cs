@@ -20,7 +20,9 @@ namespace LoanOFFER.Data.BusinessLogic
         public string type { get; set; }
         public string transactionId { get; set; }
         public string customerId { get; set; }
+        [Display(Name = "Account Number")]
         public string accountId { get; set; }
+        [Display(Name = "Phone Number")]
         public string msisdn { get; set; }
         public string AppId { get; set; }
         public string AppKey { get; set; }

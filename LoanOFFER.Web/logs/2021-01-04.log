@@ -1,0 +1,48 @@
+2021-01-04 06:28:11.1841 INFO NEW LOGIN
+2021-01-04 06:28:31.8536 INFO NEW LOGIN
+2021-01-04 06:28:39.1494 INFO Signed in User: tella.adesina
+2021-01-04 06:28:39.1494 INFO IP Address: ::1
+2021-01-04 06:28:39.1494 INFO IP Address: TELLA-PC
+2021-01-04 06:28:39.1852 INFO Home Page Loaded: 1/4/2021 6:28:39 AM
+2021-01-04 06:28:44.4054 INFO 1/4/2021 6:28:44 AM
+2021-01-04 06:29:11.3108 INFO 1/4/2021 6:29:11 AM
+2021-01-04 06:29:11.7267 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-04 06:29:12.3043 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-04 06:29:13.1221 INFO start date:30-Dec-2018
+2021-01-04 06:29:13.1221 INFO end date:30-Dec-2020
+2021-01-04 06:29:13.1221 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-04 06:29:22.2976 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-04 06:29:23.0237 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-04 06:29:23.5057 INFO Simbrella Report exported successfully
+2021-01-04 06:33:46.1963 INFO NEW LOGIN
+2021-01-04 06:34:05.2459 INFO NEW LOGIN
+2021-01-04 06:34:51.8774 INFO Incorrect login details
+2021-01-04 06:35:01.6987 INFO NEW LOGIN
+2021-01-04 09:45:48.7568 INFO NEW LOGIN
+2021-01-04 09:46:06.1854 INFO NEW LOGIN
+2021-01-04 09:46:10.9591 INFO Signed in User: tella.adesina
+2021-01-04 09:46:10.9591 INFO IP Address: ::1
+2021-01-04 09:46:10.9591 INFO IP Address: TELLA-PC
+2021-01-04 09:46:10.9979 INFO Home Page Loaded: 1/4/2021 9:46:10 AM
+2021-01-04 09:46:14.5888 INFO 1/4/2021 9:46:14 AM
+2021-01-04 09:46:37.9741 INFO 1/4/2021 9:46:37 AM
+2021-01-04 09:46:38.7290 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-04 09:46:40.3223 INFO Reader is not null..
+2021-01-04 09:46:40.3223 INFO Reader is equal to true..
+2021-01-04 09:46:40.6847 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-04 09:46:41.6598 INFO start date:31-Dec-2017
+2021-01-04 09:46:41.6598 INFO end date:31-Dec-2020
+2021-01-04 09:46:41.6598 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-04 09:46:48.4093 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-04 09:46:49.4615 INFO Reader is not null..
+2021-01-04 09:46:49.4615 INFO Reader is equal to true..
+2021-01-04 09:46:49.7260 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-04 09:46:50.2227 INFO Salary Top-Up Report exported successfully
+2021-01-04 09:50:10.1839 INFO 1/4/2021 9:50:10 AM
+2021-01-04 09:50:10.1839 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-04 09:50:10.8831 INFO Reader is not null..
+2021-01-04 09:50:10.8831 INFO Reader is equal to true..
+2021-01-04 09:50:11.2376 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-04 09:50:11.4448 INFO start date:31-Dec-2017
+2021-01-04 09:50:11.4448 INFO end date:31-Dec-2020
+2021-01-04 09:50:11.4448 INFO Salary Top-Up Plus Loan Report Loaded Successful

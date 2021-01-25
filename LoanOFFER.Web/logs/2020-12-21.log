@@ -1,0 +1,36 @@
+2020-12-21 20:16:50.9767 INFO NEW LOGIN
+2020-12-21 20:17:31.8152 INFO Home Page Loaded: 12/21/2020 8:17:31 PM
+2020-12-21 20:17:31.8252 INFO NEW LOGIN
+2020-12-21 20:17:31.8696 INFO Home Page Loaded: 12/21/2020 8:17:31 PM
+2020-12-21 20:17:37.0307 INFO 12/21/2020 8:17:37 PM
+2020-12-21 20:17:51.2514 INFO 12/21/2020 8:17:51 PM
+2020-12-21 20:17:51.2992 INFO Connection to Simbrella Loan Offer Report was successful!
+2020-12-21 20:17:51.5236 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2020-12-21 20:17:52.1380 INFO start date:29-Dec-2019
+2020-12-21 20:17:52.1380 INFO end date:16-Dec-2020
+2020-12-21 20:17:52.1380 INFO  Simbrella Loan Offer Report Loaded Successfully
+2020-12-21 20:54:06.9362 INFO NEW LOGIN
+2020-12-21 20:54:14.8552 INFO Home Page Loaded: 12/21/2020 8:54:14 PM
+2020-12-21 20:54:18.8271 INFO 12/21/2020 8:54:18 PM
+2020-12-21 20:54:34.3082 INFO 12/21/2020 8:54:34 PM
+2020-12-21 20:54:34.6762 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-21 20:54:37.7015 INFO Reader is not null..
+2020-12-21 20:54:37.7015 INFO Reader is equal to true..
+2020-12-21 20:54:37.7527 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-21 20:54:38.5888 INFO start date:29-Dec-2019
+2020-12-21 20:54:38.5888 INFO end date:16-Dec-2020
+2020-12-21 20:54:38.5888 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2020-12-21 20:54:49.3106 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2020-12-21 20:54:50.1379 INFO Reader is not null..
+2020-12-21 20:54:50.1379 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2020-12-21 20:57:30.1991 INFO NEW LOGIN
+2020-12-21 20:57:35.3521 INFO Home Page Loaded: 12/21/2020 8:57:35 PM
+2020-12-21 20:57:46.8672 INFO 12/21/2020 8:57:46 PM
+2020-12-21 20:58:01.7616 INFO 12/21/2020 8:58:01 PM
+2020-12-21 20:58:01.8375 INFO Connection to database to fetch Remitta Loan Offer Report!
+2020-12-21 20:58:01.9013 INFO Reader is not null..
+2020-12-21 20:58:01.9013 INFO Reader is equal to true..
+2020-12-21 20:58:02.0618 INFO  Remitta Loan Offer Report data fetched from database successfully
+2020-12-21 20:58:02.6750 INFO start date:29-Dec-2019
+2020-12-21 20:58:02.6750 INFO end date:17-Dec-2020
+2020-12-21 20:58:02.6750 INFO  Remitta Report Loaded Successful

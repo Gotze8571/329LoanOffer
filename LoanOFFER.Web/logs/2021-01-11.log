@@ -1,0 +1,12 @@
+2021-01-11 10:44:43.5244 INFO NEW LOGIN
+2021-01-11 10:44:50.9137 INFO Signed in User: tella.adesina
+2021-01-11 10:44:50.9137 INFO IP Address: ::1
+2021-01-11 10:44:50.9137 INFO IP Address: TELLA-PC
+2021-01-11 10:44:50.9517 INFO Home Page Loaded: 1/11/2021 10:44:50 AM
+2021-01-11 10:44:57.2927 INFO 1/11/2021 10:44:57 AM
+2021-01-11 10:45:10.1495 INFO 1/11/2021 10:45:10 AM
+2021-01-11 10:45:10.1774 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-11 10:45:10.6641 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-11 10:45:11.0747 INFO start date:30-Dec-2018
+2021-01-11 10:45:11.0747 INFO end date:07-Jan-2021
+2021-01-11 10:45:11.0747 INFO  Simbrella Loan Offer Report Loaded Successfully

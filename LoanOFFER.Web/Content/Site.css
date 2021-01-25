@@ -10,13 +10,13 @@
 }
 
 .wrapper {
-    margin-top: 2px;
-    
+    margin: 0;
 }
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    /*    padding-right: 20px;
+*/
+    padding: .5rem 1rem;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -38,4 +38,9 @@ textarea {
     margin: 0 auto;
     width: inherit;
     height: inherit;
+}
+.LogOutForm{
+    position: right;
+    width: 10px;
+    height: 10px;
 }

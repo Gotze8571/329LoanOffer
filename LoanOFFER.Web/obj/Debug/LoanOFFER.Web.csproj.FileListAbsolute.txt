@@ -486,6 +486,7 @@ C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\roslyn\vb
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\roslyn\VBCSCompiler.exe
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Antlr3.Runtime.dll
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\BouncyCastle.Crypto.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\ClosedXML.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\ClosedXML.Extensions.Mvc.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\DocumentFormat.OpenXml.dll
@@ -495,6 +496,7 @@ C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\EPPlus.dl
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\ExcelNumberFormat.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\FastMember.Signed.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\itextsharp.dll
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\itextsharp.xmlworker.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\LoanOFFER.Data.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
@@ -529,8 +531,11 @@ C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\LoanOFFER
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\LoanOFFER.Data.dll.config
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\ClosedXML.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\DocumentFormat.OpenXml.xml
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\EntityFramework.xml
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\EntityFramework.SqlServer.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\EPPlus.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\ExcelNumberFormat.xml
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\itextsharp.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Newtonsoft.Json.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\NLog.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\PagedList.xml
@@ -543,8 +548,6 @@ C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\System.We
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\System.Web.WebPages.Deployment.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\System.Web.WebPages.Razor.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Antlr3.Runtime.pdb
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\EntityFramework.xml
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\EntityFramework.SqlServer.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -560,8 +563,12 @@ C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csprojAssemblyReference.cache
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.ApplicationContextMigration.Initial.resources
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportDbContextMigration.Initial.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.Initial.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.SecondMigration.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.ThirdMigration.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.FourthMigration.resources
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.RoleDbContextMigration.Initial.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.RoleDbContextMigration.SecondMigration.resources
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.GenerateResource.cache
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.CopyComplete
