@@ -1,0 +1,111 @@
+2021-01-27 09:20:56.9630 INFO NEW LOGIN
+2021-01-27 09:21:00.2759 INFO Signed in User: tella.adesina
+2021-01-27 09:21:00.2759 INFO IP Address: ::1
+2021-01-27 09:21:00.2759 INFO IP Address: TELLA-PC
+2021-01-27 09:21:00.3078 INFO Home Page Loaded: 1/27/2021 9:21:00 AM
+2021-01-27 09:22:00.0214 INFO NEW LOGIN
+2021-01-27 09:22:00.1875 INFO Signed in User: tella.adesina
+2021-01-27 09:22:00.1875 INFO IP Address: ::1
+2021-01-27 09:22:00.1875 INFO IP Address: TELLA-PC
+2021-01-27 09:22:00.2054 INFO Home Page Loaded: 1/27/2021 9:22:00 AM
+2021-01-27 09:22:20.9407 INFO NEW LOGIN
+2021-01-27 09:22:22.0389 INFO Incorrect login details
+2021-01-27 09:29:14.7106 INFO NEW LOGIN
+2021-01-27 09:29:24.0903 INFO Incorrect login details
+2021-01-27 09:50:13.2648 INFO NEW LOGIN
+2021-01-27 09:50:22.2706 INFO Incorrect login details
+2021-01-27 09:50:57.4637 INFO NEW LOGIN
+2021-01-27 09:50:57.9454 INFO Incorrect login details
+2021-01-27 09:52:13.4389 INFO NEW LOGIN
+2021-01-27 09:52:14.0034 INFO Incorrect login details
+2021-01-27 09:53:23.9633 INFO NEW LOGIN
+2021-01-27 09:53:26.6219 INFO Incorrect login details
+2021-01-27 09:54:03.6840 INFO NEW LOGIN
+2021-01-27 09:54:04.0508 INFO Signed in User: tella.adesina
+2021-01-27 09:54:04.0508 INFO IP Address: ::1
+2021-01-27 09:54:04.0508 INFO IP Address: TELLA-PC
+2021-01-27 09:54:04.0802 INFO Home Page Loaded: 1/27/2021 9:54:04 AM
+2021-01-27 09:56:56.6959 INFO NEW LOGIN
+2021-01-27 09:56:56.8834 INFO Signed in User: tella.adesina
+2021-01-27 09:56:56.8834 INFO IP Address: ::1
+2021-01-27 09:56:56.8834 INFO IP Address: TELLA-PC
+2021-01-27 09:56:56.9013 INFO Home Page Loaded: 1/27/2021 9:56:56 AM
+2021-01-27 09:57:02.6160 INFO 1/27/2021 9:57:02 AM
+2021-01-27 09:57:36.8293 INFO 1/27/2021 9:57:36 AM
+2021-01-27 09:57:41.2345 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-27 09:57:41.9350 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-27 16:25:40.4863 INFO NEW LOGIN
+2021-01-27 16:27:22.6119 INFO System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   at System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   at System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   at System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   at System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   at System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at LoanOFFER.Web.Models.LoginUserDB.ValidLogin(String UserId, String password, String machineName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Models\LoginUserDB.cs:line 40
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+2021-01-27 16:27:22.6119 INFO Incorrect login details
+2021-01-27 16:27:54.3179 INFO NEW LOGIN
+2021-01-27 16:27:56.4297 INFO Signed in User: tella.adesina
+2021-01-27 16:27:56.4297 INFO IP Address: ::1
+2021-01-27 16:27:56.4297 INFO IP Address: TELLA-PC
+2021-01-27 16:27:56.4645 INFO Home Page Loaded: 1/27/2021 4:27:56 PM
+2021-01-27 16:28:05.3841 INFO 1/27/2021 4:28:05 PM
+2021-01-27 16:28:30.1682 INFO 1/27/2021 4:28:30 PM
+2021-01-27 16:28:35.6410 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-27 16:28:36.0319 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-27 16:29:15.3589 ERROR System.IndexOutOfRangeException: Unable to find specified column in result set
+   at OracleInternal.ServiceObjects.OracleDataReaderImpl.GetColumnOrdinal(String colName)
+   at Oracle.ManagedDataAccess.Client.OracleDataReader.GetOrdinal(String name)
+   at Oracle.ManagedDataAccess.Client.OracleDataReader.get_Item(String columnName)
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetCustomerMoreInfoWithFinacle(String CustId) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 63
+2021-01-27 16:29:15.4217 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 58
+2021-01-27 17:15:00.3298 INFO 1/27/2021 5:15:00 PM
+2021-01-27 17:15:45.0087 INFO 1/27/2021 5:15:45 PM
+2021-01-27 17:15:46.9732 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-27 17:15:47.1497 INFO  Simbrella Loan Offer Report data fetched from database successfully

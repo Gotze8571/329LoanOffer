@@ -1,5 +1,7 @@
 ﻿using LoanOFFER.Data.BusinessLogic;
+using LoanOFFER.Web.DAL;
 using LoanOFFER.Web.Models;
+using LoanOFFER.Web.Models.AuditTrail;
 using Microsoft.Owin.Security;
 using NLog;
 using System;
@@ -16,6 +18,7 @@ namespace LoanOFFER.Web.Controllers
     public class LoginController : Controller
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
+        private readonly LoanReportDbContext context;
         // GET: Login
         [AllowAnonymous]
         public ActionResult Index(string returnUrl)
@@ -59,6 +62,18 @@ namespace LoanOFFER.Web.Controllers
                         logger.Info("Signed in User: " + user.UserId);
 
                         string UserId = Session["user.UserId"] as string;
+                        //Login log = new Login()
+                        //{
+                        //    Name = user.UserId,
+                        //    Group = "null",
+                        //    Date = DateTime.Now,
+                        //   // SpooledData = true,
+                        //    IPAddress = UserIPAddress.GetIPAddress(),
+                        //    HostName = machineName
+                        //};
+                        //context.Logins.Add(log);
+                        //context.SaveChanges();
+
                         logger.Info("IP Address: " + UserIPAddress.GetIPAddress());
                         //logger.Info("IP Address: " + hostName);
                         logger.Info("IP Address: " + machineName);
@@ -73,7 +88,7 @@ namespace LoanOFFER.Web.Controllers
                         ViewBag.Message = "Incorrect login details";
                         logger.Info("Incorrect login details");
                        // return RedirectToAction("Index", "Login");
-                        return RedirectToLocal(returnUrl);
+                        return View();
                     }
                 }
                 catch (Exception ex)
@@ -88,7 +103,10 @@ namespace LoanOFFER.Web.Controllers
                 ViewBag.Message = "Server not connected!";
                 ErrorLoan err = new ErrorLoan
                 {
+                    //StartDate = ,
+                    //EndDate = DateTime.Now,
                     LoginUser = user.UserId,
+                    FetchedData = false,
                     ErrorName = "ADService not reachable!!",
                     ErrorDate = DateTime.Now
                 };

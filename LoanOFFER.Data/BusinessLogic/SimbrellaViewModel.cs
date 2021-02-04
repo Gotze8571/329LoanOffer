@@ -30,6 +30,12 @@ namespace LoanOFFER.Data.BusinessLogic
         public string LoanType { get; set; }
         [Display(Name = "Customer Name")]
         public string CustomerName { get; set; }
+        [Display(Name = "Customer Address 1")]
+        public string CustomerAddress1 { get; set; }
+        //[Display(Name = "Customer Address 2")]
+        //public string CustomerAddress2 { get; set; }
+        //[Display(Name = "Customer Address 3")]
+        //public string CustomerAddress3 { get; set; }
         [Display(Name = "Branch Sol ID")]
         public string BranchSolID { get; set; }
         [Display(Name = "Branch SBU")]

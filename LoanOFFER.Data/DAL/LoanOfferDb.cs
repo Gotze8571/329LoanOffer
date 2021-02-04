@@ -18,22 +18,18 @@ namespace LoanOFFER.Data.DAL
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
 
-        // Get Sbu code using Customer Id.
-        public SimbrellaLoanList GetCustomerMoreInfoWithFinacle()
+        // Get Sbu code using Customer Id from finacle..
+        public SimbrellaLoanList GetCustomerMoreInfoWithFinacle(string CustId)
         {
             SimbrellaViewModel loanView = new SimbrellaViewModel();
             SimbrellaLoanList otherList = new SimbrellaLoanList();
-            string customerId = "";
-            //customerId = loanView.customerId;
-            customerId = "3198007";
-           foreach(var custid in customerId)
-           {
+        
                 string com = ConfigurationManager.ConnectionStrings["FinacleCodeContext"].ConnectionString;
                 //var query = $"SELECT CUST_NAME, SOL_ID, FREE_CODE_1 SBU_CODE, FREE_CODE_2 BROKER_CODE FROM TBAADM.CMG C, TBAADM.GAM G, TBAADM.FCFTT F " +
                 //    $"WHERE G.CIF_ID = C.CIF_ID AND G.ACID = F.ACID AND FORACID = '" + accountNo + "'";
 
                 var query = $"select acct_name, address_line1||' '||address_line2||' '||address_line3 address, free_code_2 BROKER_CODE, SOL_ID, free_code_1 SBU " +
-                            $" From tbaadm.gam g, crmuser.accounts a, tbaadm.fcftt f where cif_id = '" + custid + "' " +
+                            $" From tbaadm.gam g, crmuser.accounts a, tbaadm.fcftt f where cif_id = '" + CustId + "' " +
                             $" and g.acid = f.acid " +
                             $" and g.cif_id = a.orgkey";
 
@@ -51,10 +47,12 @@ namespace LoanOFFER.Data.DAL
                                 {
                                     var model = new SimbrellaViewModel()
                                     {
-                                        CustomerName = reader["CUST_NAME"].ToString(),
+                                        CustomerName = reader["ACCT_NAME"].ToString(),
+                                        CustomerAddress1 = reader["ADDRESS"].ToString(),
+                                        BrokerCode = reader["BROKER_CODE"].ToString(),
                                         BranchSolID = reader["SOL_ID"].ToString(),
-                                        BranchSBU = reader["FREE_CODE_1 SBU_CODE"].ToString(),
-                                        BrokerCode = reader["FREE_CODE_2 BROKER_CODE"].ToString()
+                                        BranchSBU = reader["SBU"].ToString()
+                                       
                                     };
                                     otherList.Add(model);
                                 }
@@ -68,7 +66,7 @@ namespace LoanOFFER.Data.DAL
                         logger.Error(ex);
                     }
                 }
-           }
+      
             return null;
         } 
     
@@ -215,7 +213,7 @@ namespace LoanOFFER.Data.DAL
                                         Id = reader["Id"].ToString(),
                                         Request = reader["Request"].ToString(),
                                         RemittaLoan = JsonConvert.DeserializeObject<RemittaLoan>(reader["Request"].ToString()),
-                                        PhoneNo = reader["PhoneNumber"].ToString(),
+                                        //PhoneNo = reader["PhoneNumber"].ToString(),
                                         RequestTime = reader["RequestTime"].ToString(),
                                         Response = reader["Response"].ToString(),
                                         RemittaLoanResponse = JsonConvert.DeserializeObject<RemittaLoanResponse>(reader["Response"].ToString()),
@@ -239,50 +237,50 @@ namespace LoanOFFER.Data.DAL
             return null;
         }
         // GetMoreRemittaInfo using phone number
-        public List<RemittaLoanViewModel> GetMoreRemittaInfo()
-        {
-            List<RemittaLoanViewModel> moreInfoList = new List<RemittaLoanViewModel>();
-            // GetRemittaPhoneNumber Here.
-            string phoneNo = "08035528076";
-            RemittaLoanList list = new RemittaLoanList();
-            string com = ConfigurationManager.ConnectionStrings["FinacleCodeContext"].ConnectionString;
-            var query = $"SELECT CUST_NAME, SOL_ID, FREE_CODE_1 SBU_CODE, FREE_CODE_2 BROKER_CODE " +
-                $"FROM TBAADM.CMG C, TBAADM.GAM G, TBAADM.FCFTT F, CRMUSER.PHONEEMAIL P WHERE G.CIF_ID = C.CIF_ID AND " +
-                $"G.CIF_ID = P.ORGKEY AND G.ACID = F.ACID AND P.PHONENOLOCALCODE = '" + phoneNo + "' AND P.PHONEOREMAIL = 'PHONE' AND P.PREFERREDFLAG = 'Y' AND ROWNUM = 1";
+        //public List<RemittaLoanViewModel> GetMoreRemittaInfo()
+        //{
+        //    List<RemittaLoanViewModel> moreInfoList = new List<RemittaLoanViewModel>();
+        //    // GetRemittaPhoneNumber Here.
+        //    string phoneNo = "08035528076";
+        //    RemittaLoanList list = new RemittaLoanList();
+        //    string com = ConfigurationManager.ConnectionStrings["FinacleCodeContext"].ConnectionString;
+        //    var query = $"SELECT CUST_NAME, SOL_ID, FREE_CODE_1 SBU_CODE, FREE_CODE_2 BROKER_CODE " +
+        //        $"FROM TBAADM.CMG C, TBAADM.GAM G, TBAADM.FCFTT F, CRMUSER.PHONEEMAIL P WHERE G.CIF_ID = C.CIF_ID AND " +
+        //        $"G.CIF_ID = P.ORGKEY AND G.ACID = F.ACID AND P.PHONENOLOCALCODE = '" + phoneNo + "' AND P.PHONEOREMAIL = 'PHONE' AND P.PREFERREDFLAG = 'Y' AND ROWNUM = 1";
 
-            using (OracleConnection con = new OracleConnection(com))
-            {
-                try
-                {
-                    OracleCommand command = new OracleCommand(query, con);
-                    con.Open();
-                    using (OracleDataReader reader = command.ExecuteReader())
-                    {
-                        if (reader.HasRows)
-                        {
-                            while (reader.Read())
-                            {
-                                var model = new RemittaLoanViewModel()
-                                {
-                                    CustomerName = reader["CUST_NAME"].ToString(),
-                                    BranchSolId = reader["SOL_ID"].ToString(),
-                                    BranchSbu = reader["FREE_CODE_1 SBU_CODE"].ToString(),
-                                    BrokerCode = reader["FREE_CODE_2 BROKER_CODE"].ToString()
-                                };
-                                list.Add(model);
-                            }
-                        }
-                        logger.Info(" Remitta Loan Offer other Report data fetched from database successfully");
-                        return list;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    logger.Error(ex);
-                }
-            }
-            return null;
-        }
+        //    using (OracleConnection con = new OracleConnection(com))
+        //    {
+        //        try
+        //        {
+        //            OracleCommand command = new OracleCommand(query, con);
+        //            con.Open();
+        //            using (OracleDataReader reader = command.ExecuteReader())
+        //            {
+        //                if (reader.HasRows)
+        //                {
+        //                    while (reader.Read())
+        //                    {
+        //                        var model = new RemittaLoanViewModel()
+        //                        {
+        //                            CustomerName = reader["CUST_NAME"].ToString(),
+        //                            BranchSolId = reader["SOL_ID"].ToString(),
+        //                            BranchSbu = reader["FREE_CODE_1 SBU_CODE"].ToString(),
+        //                            BrokerCode = reader["FREE_CODE_2 BROKER_CODE"].ToString()
+        //                        };
+        //                        list.Add(model);
+        //                    }
+        //                }
+        //                logger.Info(" Remitta Loan Offer other Report data fetched from database successfully");
+        //                return list;
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            logger.Error(ex);
+        //        }
+        //    }
+        //    return null;
+        //}
         // Get SPL Loan from Db.
         public SalaryTopUpPlusList GetSalaryTopPlus(string RequestDate, string LogDate)
         {
@@ -290,9 +288,11 @@ namespace LoanOFFER.Data.DAL
 
             //var query = $"Select RecID, RequestID, SourcePhone, Channel, RequestType, RequestDate, ResponseDate, Duration, ResponseCode, ResponseDescr, Remark from [USSDBanking].[dbo].[ActivityLog] where requesttype = 'SALARYPLUSTOPUPAMT' and ltrim(rtrim(SourcePhone))= '"+phoneNo+"'  AND RequestDate BETWEEN '"+RequestDate+"' AND '"+LogDate+"'";
 
-            //var query = $"Select c.*,p.Address_1,p.[State],p.FirstName,p.LastName,f.Account ,m.network, SUBSTRING(f.account,1,7) as CustomerID from USSDBanking.dbo.Loans c join wallet.dbo.WalletCustomer p on c.SourcePhone = p.MobilePhone join wallet.dbo.WalletCustomerAccountsMapping f on c.SourcePhone = f.MobilePhone join [Wallet].[dbo].[MobileNetworkPrefix] m on SUBSTRING(c.SourcePhone, 1, 6) = m.Prefix where LoanType = 'SPLUSTOPUP' and TranDate between '{RequestDate}' and '{LogDate}' Order by TranDate desc";
+            // var query = $"SELECT c.LoanID, c.RequestID, c.SourcePhone, c.LoanType, c.Amount, c.CustType, c.Channel, c.BrokerCode, c.RespCode, c.RespDescr, c.TranDate, p.Address_1,p.[State],p.FirstName, p.LastName,f.Account ,m.network, SUBSTRING(f.account, 1, 7) as CustomerID,CASE WHEN c.RespCode = '00' THEN 'Successful' else 'failed' end as Transaction_Status from USSDBanking.dbo.Loans c join wallet.dbo.WalletCustomer p on c.SourcePhone = p.MobilePhone join wallet.dbo.WalletCustomerAccountsMapping f on c.SourcePhone = f.MobilePhone join [Wallet].[dbo].[MobileNetworkPrefix] m on SUBSTRING(c.SourcePhone, 1, 6) = m.Prefix where LoanType = 'SPLUSTOPUP' and TranDate between '{RequestDate}​​​​​​​' and '{​​​​​​​​​​LogDate}' Order by TranDate desc";
 
-            var query = $"SELECT c.LoanID, c.RequestID, c.SourcePhone, c.LoanType, c.Amount, c.CustType, c.Channel, c.BrokerCode, c.RespCode, c.RespDescr, c.TranDate, p.Address_1,p.[State],p.FirstName, p.LastName,f.Account ,m.network, SUBSTRING(f.account, 1, 7) as CustomerID from USSDBanking.dbo.Loans c join wallet.dbo.WalletCustomer p on c.SourcePhone = p.MobilePhone join wallet.dbo.WalletCustomerAccountsMapping f on c.SourcePhone = f.MobilePhone join [Wallet].[dbo].[MobileNetworkPrefix] m on SUBSTRING(c.SourcePhone, 1, 6) = m.Prefix where LoanType = 'SPLUSTOPUP' and TranDate between '{RequestDate}' and '{LogDate}' Order by TranDate desc";
+           // var query = $"SELECT c.LoanID, c.RequestID, c.SourcePhone, c.LoanType, c.Amount, c.CustType, c.Channel, c.BrokerCode, c.RespCode, c.RespDescr, c.TranDate, p.Address_1,p.[State],p.FirstName, p.LastName,f.Account ,m.network, SUBSTRING(f.account, 1, 7) as CustomerID,CASE WHEN c.RespCode = '00' THEN 'Successful' else 'failed' end as Transaction_Status from USSDBanking.dbo.Loans c join wallet.dbo.WalletCustomer p on c.SourcePhone = p.MobilePhone join wallet.dbo.WalletCustomerAccountsMapping f on c.SourcePhone = f.MobilePhone join [Wallet].[dbo].[MobileNetworkPrefix] m on SUBSTRING(c.SourcePhone, 1, 6) = m.Prefix where LoanType = 'SPLUSTOPUP' and TranDate between '{RequestDate}' and '{LogDate}' Order by TranDate desc";
+            //var query = $"SELECT c.LoanID, c.RequestID, c.SourcePhone, c.LoanType, c.Amount, c.CustType, c.Channel, c.BrokerCode, c.RespCode, c.RespDescr, c.TranDate, p.Address_1,p.[State],p.FirstName, p.LastName,f.Account ,m.network, SUBSTRING(f.account, 1, 7) as CustomerID from USSDBanking.dbo.Loans c join wallet.dbo.WalletCustomer p on c.SourcePhone = p.MobilePhone join wallet.dbo.WalletCustomerAccountsMapping f on c.SourcePhone = f.MobilePhone join [Wallet].[dbo].[MobileNetworkPrefix] m on SUBSTRING(c.SourcePhone, 1, 6) = m.Prefix where LoanType = 'SPLUSTOPUP' and TranDate between '{RequestDate}' and '{LogDate}' Order by TranDate desc";
+            var query = $"SELECT c.LoanID, c.RequestID, c.SourcePhone, c.LoanType, c.Amount, c.CustType, c.Channel, c.BrokerCode, c.RespCode, c.RespDescr, c.TranDate, p.Address_1,p.[State],p.FirstName, p.LastName,f.Account ,m.network, SUBSTRING(f.account, 1, 7) as CustomerID,CASE WHEN c.RespCode = '00' THEN 'Successful' else 'failed' end as Transaction_Status, ResponseDescr as Loan_Offer from USSDBanking.dbo.Loans c join wallet.dbo.WalletCustomer p on c.SourcePhone = p.MobilePhone join wallet.dbo.WalletCustomerAccountsMapping f on c.SourcePhone = f.MobilePhone join [Wallet].[dbo].[MobileNetworkPrefix] m on SUBSTRING(c.SourcePhone, 1, 6) = m.Prefix join Activitylog_View E on c.SourcePhone = E.SourcePhone where LoanType = 'SPLUSTOPUP' and TranDate between '{RequestDate}' and '{LogDate}' Order by TranDate desc";
 
             using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["LoanOffer"].ToString()))
             {
@@ -330,7 +330,9 @@ namespace LoanOFFER.Data.DAL
                                         LastName = reader["LastName"].ToString(),
                                         Account = reader["Account"].ToString(),
                                         Network = reader["network"].ToString(),
-                                        CustomerID = reader["CustomerID"].ToString()
+                                        CustomerID = reader["CustomerID"].ToString(),
+                                        Status = reader["Transaction_Status"].ToString(),
+                                        Loan_Offer = reader["Loan_Offer"].ToString()
 
                                     };
                                     salaryList.Add(model);
@@ -349,7 +351,7 @@ namespace LoanOFFER.Data.DAL
             }
             return null;
         }
-        // Get Fast Cash Loan from Db.
+        // Get USSD Fast Cash Loan from Db.
         public FastCashList GetFastCashLoan(string RequestDate, string LogDate)
         {
             FastCashList fastList = new FastCashList();
@@ -473,43 +475,43 @@ namespace LoanOFFER.Data.DAL
         }
 
         // Get Account number from Simbrella Loan Offer.
-        public string GetSimbrellaCustomerNameWithCustomerID()
-        {
-            var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo";
-            using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["LoanOffer"].ToString()))
-            {
-                using (SqlCommand com = new SqlCommand(query, con))
-                {
-                    try
-                    {
-                        con.Open();
-                        logger.Info("Connection to database to fetch Simbrella Loan Offer Report!");
-                        SqlDataReader reader = com.ExecuteReader();
-                        if (reader != null)
-                        {
-                            logger.Info("Reader is not null..");
-                            if (reader.HasRows)
-                            {
-                                logger.Info("Reader is equal to true..");
-                                while (reader.Read())
-                                {
-                                    var model = new SimbrellaViewModel()
-                                    {
-                                        Request = reader["Request"].ToString()
-                                    };
-                                    return model.Request.ToString();
-                                }
-                            }
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        logger.Error(ex);
-                    }
-                }
-            }
-            return null;
-        }
+        //public string GetSimbrellaCustomerNameWithCustomerID()
+        //{
+        //    var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo";
+        //    using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["LoanOffer"].ToString()))
+        //    {
+        //        using (SqlCommand com = new SqlCommand(query, con))
+        //        {
+        //            try
+        //            {
+        //                con.Open();
+        //                logger.Info("Connection to database to fetch Simbrella Loan Offer Report!");
+        //                SqlDataReader reader = com.ExecuteReader();
+        //                if (reader != null)
+        //                {
+        //                    logger.Info("Reader is not null..");
+        //                    if (reader.HasRows)
+        //                    {
+        //                        logger.Info("Reader is equal to true..");
+        //                        while (reader.Read())
+        //                        {
+        //                            var model = new SimbrellaViewModel()
+        //                            {
+        //                                Request = reader["Request"].ToString()
+        //                            };
+        //                            return model.Request.ToString();
+        //                        }
+        //                    }
+        //                }
+        //            }
+        //            catch (Exception ex)
+        //            {
+        //                logger.Error(ex);
+        //            }
+        //        }
+        //    }
+        //    return null;
+        //}
         //
     }
 }

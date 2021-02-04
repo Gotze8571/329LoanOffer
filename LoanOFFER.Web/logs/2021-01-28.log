@@ -1,0 +1,381 @@
+2021-01-28 05:41:40.1272 INFO NEW LOGIN
+2021-01-28 05:41:43.8950 INFO Incorrect login details
+2021-01-28 05:42:00.1180 INFO NEW LOGIN
+2021-01-28 05:42:00.8521 INFO Signed in User: tella.adesina
+2021-01-28 05:42:00.8521 INFO IP Address: ::1
+2021-01-28 05:42:00.8521 INFO IP Address: TELLA-PC
+2021-01-28 05:42:00.8850 INFO Home Page Loaded: 1/28/2021 5:42:00 AM
+2021-01-28 05:42:16.0287 INFO 1/28/2021 5:42:16 AM
+2021-01-28 05:46:24.4122 INFO NEW LOGIN
+2021-01-28 05:46:27.2472 INFO Incorrect login details
+2021-01-28 05:46:46.5919 INFO NEW LOGIN
+2021-01-28 05:46:46.8821 INFO Signed in User: tella.adesina
+2021-01-28 05:46:46.8821 INFO IP Address: ::1
+2021-01-28 05:46:46.8821 INFO IP Address: TELLA-PC
+2021-01-28 05:46:46.9121 INFO Home Page Loaded: 1/28/2021 5:46:46 AM
+2021-01-28 05:46:53.3278 INFO 1/28/2021 5:46:53 AM
+2021-01-28 05:47:10.6217 INFO 1/28/2021 5:47:10 AM
+2021-01-28 05:47:25.9701 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 05:47:33.1979 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 05:47:33.6008 INFO start date:31-Dec-2017
+2021-01-28 05:47:33.6008 INFO end date:28-Jan-2021
+2021-01-28 05:47:33.6008 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 05:47:51.1249 INFO 1/28/2021 5:47:51 AM
+2021-01-28 05:47:57.1162 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 05:47:57.2261 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 05:49:13.9488 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 05:49:14.0077 INFO start date:25-Dec-2016
+2021-01-28 05:49:14.0077 INFO end date:28-Jan-2021
+2021-01-28 05:49:14.0077 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 05:59:03.4494 INFO 1/28/2021 5:59:03 AM
+2021-01-28 05:59:28.6007 INFO 1/28/2021 5:59:28 AM
+2021-01-28 05:59:32.9713 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 05:59:33.1588 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 05:59:35.4453 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 05:59:37.7662 INFO start date:25-Dec-2016
+2021-01-28 05:59:37.7662 INFO end date:28-Jan-2021
+2021-01-28 05:59:37.7662 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 06:00:01.1924 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 06:00:01.7260 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 06:00:02.2306 INFO Simbrella Report exported successfully
+2021-01-28 06:00:12.0070 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 06:00:12.4559 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 06:00:12.4559 INFO Simbrella Report exported successfully
+2021-01-28 06:01:23.6947 INFO Home Page Loaded: 1/28/2021 6:01:23 AM
+2021-01-28 06:03:51.7266 INFO 1/28/2021 6:03:51 AM
+2021-01-28 06:04:29.4883 INFO 1/28/2021 6:04:29 AM
+2021-01-28 06:04:31.4451 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 06:04:31.6635 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 06:04:34.0550 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 06:04:36.7009 INFO start date:27-Dec-2015
+2021-01-28 06:04:36.7009 INFO end date:28-Jan-2021
+2021-01-28 06:04:36.7009 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 06:19:10.4565 INFO 1/28/2021 6:19:10 AM
+2021-01-28 06:19:30.1030 INFO 1/28/2021 6:19:30 AM
+2021-01-28 06:19:34.0854 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 06:19:34.4684 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 06:19:37.0647 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 06:19:39.5226 INFO start date:25-Dec-2016
+2021-01-28 06:19:39.5226 INFO end date:28-Jan-2021
+2021-01-28 06:19:39.5226 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 06:19:55.7176 INFO 1/28/2021 6:19:55 AM
+2021-01-28 06:19:58.1579 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 06:19:58.6338 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 06:19:58.6777 INFO start date:25-Dec-2016
+2021-01-28 06:19:58.6777 INFO end date:28-Jan-2021
+2021-01-28 06:19:58.6777 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 07:04:20.5311 INFO NEW LOGIN
+2021-01-28 07:04:23.2106 INFO Signed in User: tella.adesina
+2021-01-28 07:04:23.2106 INFO IP Address: ::1
+2021-01-28 07:04:23.2106 INFO IP Address: TELLA-PC
+2021-01-28 07:04:23.2465 INFO Home Page Loaded: 1/28/2021 7:04:23 AM
+2021-01-28 07:04:27.9036 INFO 1/28/2021 7:04:27 AM
+2021-01-28 07:04:41.0470 INFO 1/28/2021 7:04:41 AM
+2021-01-28 07:04:43.7739 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-28 07:04:44.7416 INFO Reader is not null..
+2021-01-28 07:04:44.7416 INFO Reader is equal to true..
+2021-01-28 07:04:44.7616 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-28 07:04:45.1411 INFO start date:25-Dec-2016
+2021-01-28 07:04:45.1411 INFO end date:28-Jan-2021
+2021-01-28 07:04:45.1411 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-28 07:05:37.7582 INFO Home Page Loaded: 1/28/2021 7:05:37 AM
+2021-01-28 07:05:40.4337 INFO 1/28/2021 7:05:40 AM
+2021-01-28 07:05:58.3049 INFO 1/28/2021 7:05:58 AM
+2021-01-28 07:05:58.3310 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 07:05:58.7390 INFO Reader is not null..
+2021-01-28 07:05:58.7390 INFO Reader is equal to true..
+2021-01-28 07:05:58.9125 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 07:05:58.9883 INFO start date:25-Dec-2016
+2021-01-28 07:05:58.9883 INFO end date:28-Jan-2021
+2021-01-28 07:05:58.9883 INFO  Remitta Report Loaded Successful
+2021-01-28 09:49:45.7483 INFO NEW LOGIN
+2021-01-28 09:49:48.4625 INFO Incorrect login details
+2021-01-28 09:50:09.1801 INFO NEW LOGIN
+2021-01-28 09:50:09.3685 INFO Incorrect login details
+2021-01-28 09:50:26.7524 INFO NEW LOGIN
+2021-01-28 09:50:26.9329 INFO Incorrect login details
+2021-01-28 09:50:32.5750 INFO NEW LOGIN
+2021-01-28 09:50:32.7515 INFO Incorrect login details
+2021-01-28 09:50:49.6566 INFO NEW LOGIN
+2021-01-28 09:50:49.8326 INFO Incorrect login details
+2021-01-28 09:51:33.4786 INFO NEW LOGIN
+2021-01-28 09:51:36.4438 INFO Incorrect login details
+2021-01-28 09:52:25.1759 INFO NEW LOGIN
+2021-01-28 09:52:25.3511 INFO Incorrect login details
+2021-01-28 09:53:02.3150 INFO NEW LOGIN
+2021-01-28 09:53:02.7175 INFO Signed in User: tella.adesina
+2021-01-28 09:53:02.7175 INFO IP Address: ::1
+2021-01-28 09:53:02.7175 INFO IP Address: TELLA-PC
+2021-01-28 09:53:02.7504 INFO Home Page Loaded: 1/28/2021 9:53:02 AM
+2021-01-28 09:53:23.9534 INFO 1/28/2021 9:53:23 AM
+2021-01-28 09:57:40.6467 INFO 1/28/2021 9:57:40 AM
+2021-01-28 09:57:41.4129 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 09:57:41.6044 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 09:57:43.3557 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 09:57:43.8298 INFO start date:25-Dec-2016
+2021-01-28 09:57:43.8298 INFO end date:28-Jan-2021
+2021-01-28 09:57:43.8298 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 10:08:25.7297 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 10:08:26.2557 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 10:08:26.2557 INFO Simbrella Report exported successfully
+2021-01-28 10:12:07.5891 INFO 1/28/2021 10:12:07 AM
+2021-01-28 10:12:09.2558 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 10:12:09.7316 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 10:12:09.7996 INFO start date:25-Dec-2016
+2021-01-28 10:12:09.7996 INFO end date:28-Jan-2021
+2021-01-28 10:12:09.7996 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 10:17:30.4111 INFO Home Page Loaded: 1/28/2021 10:17:30 AM
+2021-01-28 10:17:32.2826 INFO 1/28/2021 10:17:32 AM
+2021-01-28 10:17:53.5237 INFO 1/28/2021 10:17:53 AM
+2021-01-28 10:17:58.9919 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-28 10:17:59.9253 INFO Reader is not null..
+2021-01-28 10:17:59.9253 INFO Reader is equal to true..
+2021-01-28 10:17:59.9523 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-28 10:18:00.0680 INFO start date:27-Dec-2015
+2021-01-28 10:18:00.0680 INFO end date:28-Jan-2021
+2021-01-28 10:18:00.0680 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-28 10:19:12.2803 INFO Home Page Loaded: 1/28/2021 10:19:12 AM
+2021-01-28 10:19:51.7551 INFO 1/28/2021 10:19:51 AM
+2021-01-28 10:21:47.2019 INFO 1/28/2021 10:21:47 AM
+2021-01-28 10:21:47.2309 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 10:21:47.2723 INFO Reader is not null..
+2021-01-28 10:21:47.2723 INFO Reader is equal to true..
+2021-01-28 10:21:47.6399 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 10:21:47.6798 INFO start date:28-Dec-2014
+2021-01-28 10:21:47.6798 INFO end date:28-Jan-2021
+2021-01-28 10:21:47.6798 INFO  Remitta Report Loaded Successful
+2021-01-28 10:23:09.8822 INFO 1/28/2021 10:23:09 AM
+2021-01-28 10:23:09.8822 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 10:23:09.9011 INFO Reader is not null..
+2021-01-28 10:23:09.9011 INFO Reader is equal to true..
+2021-01-28 10:23:10.2736 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 10:23:10.3255 INFO start date:28-Dec-2014
+2021-01-28 10:23:10.3255 INFO end date:28-Jan-2021
+2021-01-28 10:23:10.3255 INFO  Remitta Report Loaded Successful
+2021-01-28 10:34:14.9132 INFO Home Page Loaded: 1/28/2021 10:34:14 AM
+2021-01-28 10:34:17.8400 INFO 1/28/2021 10:34:17 AM
+2021-01-28 10:35:20.6593 INFO 1/28/2021 10:35:20 AM
+2021-01-28 10:35:21.5477 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 10:35:21.6126 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 10:35:22.5773 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 10:35:22.6412 INFO start date:25-Dec-2016
+2021-01-28 10:35:22.6412 INFO end date:28-Jan-2021
+2021-01-28 10:35:22.6412 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 10:37:42.5653 INFO 1/28/2021 10:37:42 AM
+2021-01-28 10:37:48.7479 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 10:37:49.2406 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 10:37:49.2835 INFO start date:31-Dec-2017
+2021-01-28 10:37:49.2835 INFO end date:28-Jan-2021
+2021-01-28 10:37:49.2835 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 10:39:19.6308 INFO Home Page Loaded: 1/28/2021 10:39:19 AM
+2021-01-28 10:39:21.5048 INFO 1/28/2021 10:39:21 AM
+2021-01-28 10:39:33.0909 INFO 1/28/2021 10:39:33 AM
+2021-01-28 10:39:34.3306 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-28 10:39:34.8109 INFO Reader is not null..
+2021-01-28 10:39:34.8109 INFO Reader is equal to true..
+2021-01-28 10:39:34.8349 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-28 10:39:34.8718 INFO start date:25-Dec-2016
+2021-01-28 10:39:34.8718 INFO end date:28-Jan-2021
+2021-01-28 10:39:34.8718 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-28 10:57:53.9177 INFO Home Page Loaded: 1/28/2021 10:57:53 AM
+2021-01-28 10:57:57.8087 INFO 1/28/2021 10:57:57 AM
+2021-01-28 10:58:17.9053 INFO 1/28/2021 10:58:17 AM
+2021-01-28 10:58:18.7260 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 10:58:19.1050 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 10:58:20.2627 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 10:58:20.3385 INFO start date:29-Dec-2013
+2021-01-28 10:58:20.3385 INFO end date:28-Jan-2021
+2021-01-28 10:58:20.3385 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 10:59:29.9381 INFO Home Page Loaded: 1/28/2021 10:59:29 AM
+2021-01-28 10:59:31.4685 INFO 1/28/2021 10:59:31 AM
+2021-01-28 11:04:08.2060 INFO Home Page Loaded: 1/28/2021 11:04:08 AM
+2021-01-28 11:04:11.3599 INFO 1/28/2021 11:04:11 AM
+2021-01-28 11:04:34.2667 INFO 1/28/2021 11:04:34 AM
+2021-01-28 11:04:35.6970 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 11:04:36.1605 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 11:04:37.5722 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 11:04:37.7513 INFO start date:31-Dec-2017
+2021-01-28 11:04:37.7513 INFO end date:28-Jan-2021
+2021-01-28 11:04:37.7513 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 11:11:14.8894 INFO 1/28/2021 11:11:14 AM
+2021-01-28 11:11:14.9243 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 11:11:15.3813 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 11:11:15.4182 INFO start date:25-Dec-2016
+2021-01-28 11:11:15.4182 INFO end date:28-Jan-2021
+2021-01-28 11:11:15.4182 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 11:12:26.4379 INFO Home Page Loaded: 1/28/2021 11:12:26 AM
+2021-01-28 11:55:10.6598 INFO 1/28/2021 11:55:10 AM
+2021-01-28 11:55:25.0214 INFO 1/28/2021 11:55:25 AM
+2021-01-28 11:55:25.0474 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 11:55:25.0723 INFO Reader is not null..
+2021-01-28 11:55:25.0723 INFO Reader is equal to true..
+2021-01-28 11:55:25.5570 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 11:55:25.6199 INFO start date:25-Dec-2016
+2021-01-28 11:55:25.6199 INFO end date:28-Jan-2021
+2021-01-28 11:55:25.6199 INFO  Remitta Report Loaded Successful
+2021-01-28 11:55:37.5242 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 11:55:38.5597 INFO Reader is not null..
+2021-01-28 11:55:38.5597 INFO Reader is equal to true..
+2021-01-28 11:55:38.6435 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 11:55:39.1571 INFO Remitta Report exported successfully
+2021-01-28 11:58:47.4755 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 11:58:47.5114 INFO Reader is not null..
+2021-01-28 11:58:47.5114 INFO Reader is equal to true..
+2021-01-28 11:58:47.9203 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 11:58:47.9203 INFO Remitta Report exported successfully
+2021-01-28 12:25:17.7009 INFO NEW LOGIN
+2021-01-28 12:25:20.6907 INFO Signed in User: tella.adesina
+2021-01-28 12:25:20.6917 INFO IP Address: ::1
+2021-01-28 12:25:20.6917 INFO IP Address: TELLA-PC
+2021-01-28 12:25:20.7276 INFO Home Page Loaded: 1/28/2021 12:25:20 PM
+2021-01-28 12:26:27.2839 INFO 1/28/2021 12:26:27 PM
+2021-01-28 12:26:48.4572 INFO 1/28/2021 12:26:48 PM
+2021-01-28 12:26:48.4971 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 12:26:48.5340 INFO Reader is not null..
+2021-01-28 12:26:48.5340 INFO Reader is equal to true..
+2021-01-28 12:26:48.8941 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 12:26:49.3698 INFO start date:25-Dec-2016
+2021-01-28 12:26:49.3698 INFO end date:28-Jan-2021
+2021-01-28 12:26:49.3698 INFO  Remitta Report Loaded Successful
+2021-01-28 12:32:56.3229 INFO 1/28/2021 12:32:56 PM
+2021-01-28 12:32:56.3519 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 12:32:56.3758 INFO Reader is not null..
+2021-01-28 12:32:56.3758 INFO Reader is equal to true..
+2021-01-28 12:32:57.1477 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 12:32:57.2624 INFO start date:25-Dec-2016
+2021-01-28 12:32:57.2624 INFO end date:28-Jan-2021
+2021-01-28 12:32:57.2624 INFO  Remitta Report Loaded Successful
+2021-01-28 13:03:55.6215 INFO NEW LOGIN
+2021-01-28 13:03:59.0758 INFO Signed in User: tella.adesina
+2021-01-28 13:03:59.0758 INFO IP Address: ::1
+2021-01-28 13:03:59.0758 INFO IP Address: TELLA-PC
+2021-01-28 13:03:59.1157 INFO Home Page Loaded: 1/28/2021 1:03:59 PM
+2021-01-28 13:04:46.6350 INFO 1/28/2021 1:04:46 PM
+2021-01-28 13:05:53.8639 INFO 1/28/2021 1:05:53 PM
+2021-01-28 13:05:53.8949 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 13:05:54.4713 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 13:05:54.8734 INFO start date:25-Dec-2016
+2021-01-28 13:05:54.8734 INFO end date:28-Jan-2021
+2021-01-28 13:05:54.8734 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 13:08:26.2080 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 13:08:26.8263 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 13:08:27.3280 INFO Simbrella Report exported successfully
+2021-01-28 13:09:18.1486 INFO 1/28/2021 1:09:18 PM
+2021-01-28 13:09:19.0652 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 13:09:19.3964 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 13:09:22.6628 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 13:09:22.8790 INFO start date:31-Dec-2017
+2021-01-28 13:09:22.8790 INFO end date:28-Jan-2021
+2021-01-28 13:09:22.8790 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 13:09:23.3527 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 13:09:23.9694 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 13:09:24.0532 INFO Simbrella Report exported successfully
+2021-01-28 13:10:09.1401 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 13:10:09.7794 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 13:10:09.7794 INFO Simbrella Report exported successfully
+2021-01-28 13:21:45.1905 INFO NEW LOGIN
+2021-01-28 13:21:54.0795 INFO Signed in User: tella.adesina
+2021-01-28 13:21:54.0795 INFO IP Address: ::1
+2021-01-28 13:21:54.0795 INFO IP Address: TELLA-PC
+2021-01-28 13:21:54.1164 INFO Home Page Loaded: 1/28/2021 1:21:54 PM
+2021-01-28 13:22:20.4601 INFO 1/28/2021 1:22:20 PM
+2021-01-28 13:22:45.9360 INFO 1/28/2021 1:22:45 PM
+2021-01-28 13:22:47.8631 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 13:22:48.0895 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 13:22:50.6975 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 13:22:51.0785 INFO start date:27-Dec-2015
+2021-01-28 13:22:51.0785 INFO end date:28-Jan-2021
+2021-01-28 13:22:51.0785 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 13:22:54.2909 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 13:22:54.7916 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 13:22:55.3082 INFO Simbrella Report exported successfully
+2021-01-28 13:28:32.4773 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 13:28:33.2343 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 13:28:33.2343 INFO Simbrella Report exported successfully
+2021-01-28 14:06:15.2980 INFO NEW LOGIN
+2021-01-28 14:06:18.8051 INFO Signed in User: tella.adesina
+2021-01-28 14:06:18.8051 INFO IP Address: ::1
+2021-01-28 14:06:18.8051 INFO IP Address: TELLA-PC
+2021-01-28 14:06:18.8370 INFO Home Page Loaded: 1/28/2021 2:06:18 PM
+2021-01-28 14:07:04.4557 INFO 1/28/2021 2:07:04 PM
+2021-01-28 14:07:36.3715 INFO 1/28/2021 2:07:36 PM
+2021-01-28 14:07:36.3994 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 14:07:36.9779 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 14:07:51.6984 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 14:07:52.0935 INFO start date:27-Dec-2015
+2021-01-28 14:07:52.0935 INFO end date:28-Jan-2021
+2021-01-28 14:07:52.0935 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-28 14:07:59.9808 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 14:08:00.5184 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 14:08:01.0180 INFO Simbrella Report exported successfully
+2021-01-28 15:05:14.6189 INFO Home Page Loaded: 1/28/2021 3:05:14 PM
+2021-01-28 15:05:17.4222 INFO 1/28/2021 3:05:17 PM
+2021-01-28 15:05:34.9013 INFO 1/28/2021 3:05:34 PM
+2021-01-28 15:05:34.9292 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 15:05:34.9711 INFO Reader is not null..
+2021-01-28 15:05:34.9711 INFO Reader is equal to true..
+2021-01-28 15:05:35.0858 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 15:05:35.1626 INFO start date:27-Dec-2015
+2021-01-28 15:05:35.1626 INFO end date:28-Jan-2021
+2021-01-28 15:05:35.1626 INFO  Remitta Report Loaded Successful
+2021-01-28 15:05:59.9318 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 15:05:59.9547 INFO Reader is not null..
+2021-01-28 15:05:59.9547 INFO Reader is equal to true..
+2021-01-28 15:06:00.0534 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 15:06:00.1502 INFO Remitta Report exported successfully
+2021-01-28 15:07:15.9730 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-28 15:07:15.9959 INFO Reader is not null..
+2021-01-28 15:07:15.9959 INFO Reader is equal to true..
+2021-01-28 15:07:16.0667 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-28 15:07:16.0667 INFO Remitta Report exported successfully
+2021-01-28 18:00:27.4926 INFO 1/28/2021 6:00:27 PM
+2021-01-28 18:00:43.7961 INFO 1/28/2021 6:00:43 PM
+2021-01-28 18:00:45.4444 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-28 18:00:46.6866 INFO Reader is not null..
+2021-01-28 18:00:46.6866 INFO Reader is equal to true..
+2021-01-28 18:00:46.7058 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-28 18:00:49.3744 INFO start date:31-Dec-2017
+2021-01-28 18:00:49.3744 INFO end date:28-Jan-2021
+2021-01-28 18:00:49.3744 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-28 18:01:23.3575 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-28 18:01:23.9130 INFO Reader is not null..
+2021-01-28 18:01:23.9130 INFO Reader is equal to true..
+2021-01-28 18:01:23.9270 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-28 18:01:23.9270 INFO SPL Report exported successfully
+2021-01-28 18:46:01.0600 INFO NEW LOGIN
+2021-01-28 18:46:03.9985 INFO Signed in User: tella.adesina
+2021-01-28 18:46:03.9985 INFO IP Address: ::1
+2021-01-28 18:46:03.9985 INFO IP Address: TELLA-PC
+2021-01-28 18:46:04.0304 INFO Home Page Loaded: 1/28/2021 6:46:04 PM
+2021-01-28 18:46:06.9210 INFO 1/28/2021 6:46:06 PM
+2021-01-28 18:46:48.2788 INFO 1/28/2021 6:46:48 PM
+2021-01-28 18:46:58.9908 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-28 18:47:55.8092 INFO Reader is not null..
+2021-01-28 18:47:58.1097 INFO Reader is equal to true..
+2021-01-28 18:48:19.8465 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-28 18:48:20.2265 INFO start date:25-Dec-2016
+2021-01-28 18:48:20.2265 INFO end date:28-Jan-2021
+2021-01-28 18:48:20.2265 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-28 18:51:21.3994 INFO NEW LOGIN
+2021-01-28 18:51:24.7292 INFO Signed in User: tella.adesina
+2021-01-28 18:51:24.7292 INFO IP Address: ::1
+2021-01-28 18:51:24.7292 INFO IP Address: TELLA-PC
+2021-01-28 18:51:24.7631 INFO Home Page Loaded: 1/28/2021 6:51:24 PM
+2021-01-28 18:51:27.1451 INFO 1/28/2021 6:51:27 PM
+2021-01-28 18:51:40.3190 INFO 1/28/2021 6:51:40 PM
+2021-01-28 18:51:49.4681 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-28 18:51:50.3039 INFO Reader is not null..
+2021-01-28 18:51:50.3039 INFO Reader is equal to true..
+2021-01-28 18:51:52.1663 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-28 18:51:52.5498 INFO start date:25-Dec-2016
+2021-01-28 18:51:52.5498 INFO end date:28-Jan-2021
+2021-01-28 18:51:52.5498 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-28 19:12:59.8566 INFO Home Page Loaded: 1/28/2021 7:12:59 PM
+2021-01-28 19:13:01.2707 INFO 1/28/2021 7:13:01 PM
+2021-01-28 19:13:24.5994 INFO 1/28/2021 7:13:24 PM
+2021-01-28 19:13:24.6273 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-28 19:13:24.8088 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-28 19:13:25.6946 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-28 19:13:25.8059 INFO start date:25-Dec-2016
+2021-01-28 19:13:25.8059 INFO end date:28-Jan-2021
+2021-01-28 19:13:25.8059 INFO  Simbrella Loan Offer Report Loaded Successfully

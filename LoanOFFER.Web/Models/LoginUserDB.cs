@@ -135,7 +135,6 @@ namespace LoanOFFER.Web.Models
                                     isValidUser = true;
                                     break;
                                 }
-
                             }
 
                             logger.Info("Group: " + userGroup);
@@ -143,10 +142,10 @@ namespace LoanOFFER.Web.Models
 
                             Login loginUser = new Login
                             {
-                                Date = DateTime.Now,
-                                Group = userGroup,
-                                IPAddress = UserIPAddress.GetIPAddress(),
                                 Name = UserId,
+                                Group = userGroup,
+                                Date = DateTime.Now,
+                                IPAddress = UserIPAddress.GetIPAddress(),
                                 HostName = machineName
                             };
 

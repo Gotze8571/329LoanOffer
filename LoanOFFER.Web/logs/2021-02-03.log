@@ -1,0 +1,19 @@
+2021-02-03 08:49:51.4032 INFO NEW LOGIN
+2021-02-03 08:50:06.4058 INFO Signed in User: tella.adesina
+2021-02-03 08:51:33.1224 INFO NEW LOGIN
+2021-02-03 08:51:41.9005 INFO Signed in User: tella.adesina
+2021-02-03 08:52:15.4782 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Web.Controllers.LoginController.Index(User user, String returnUrl, String GroupName) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\LoginController.cs:line 74
+2021-02-03 08:56:18.5057 INFO NEW LOGIN
+2021-02-03 08:56:24.0518 INFO Signed in User: tella.adesina
+2021-02-03 08:57:13.6023 INFO NEW LOGIN
+2021-02-03 08:57:30.9804 INFO Signed in User: tella.adesina
+2021-02-03 08:57:31.9952 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanOFFER.Web.Controllers.LoginController.Index(User user, String returnUrl) in C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\Controllers\LoginController.cs:line 74
+2021-02-03 15:33:02.2544 INFO NEW LOGIN
+2021-02-03 16:14:32.3995 INFO NEW LOGIN
+2021-02-03 16:14:39.5632 INFO Signed in User: tella.adesina
+2021-02-03 16:14:39.5632 INFO IP Address: ::1
+2021-02-03 16:14:39.5632 INFO IP Address: TELLA-PC
+2021-02-03 16:14:39.6051 INFO Home Page Loaded: 2/3/2021 4:14:39 PM
+2021-02-03 16:14:46.3131 INFO Home Page Loaded: 2/3/2021 4:14:46 PM

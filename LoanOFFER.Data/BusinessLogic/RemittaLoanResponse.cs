@@ -29,7 +29,7 @@ namespace LoanOFFER.Data.BusinessLogic
         public string LastName { get; set; }
         public string dob { get; set; }
         public string Title { get; set; }
-        public string AccountNo { get; set; }
+        public string AcoountNo { get; set; }
         public string BankCode { get; set; }
         public string companyName { get; set; }
     }

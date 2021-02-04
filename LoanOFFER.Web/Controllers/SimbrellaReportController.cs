@@ -15,6 +15,7 @@ using System.Web.UI;
 using LoanOFFER.Data.BusinessLogic;
 using LoanOFFER.Web.DAL;
 using Rotativa;
+using System.Dynamic;
 
 namespace LoanOFFER.Web.Controllers
 {
@@ -54,8 +55,19 @@ namespace LoanOFFER.Web.Controllers
                 if (!string.IsNullOrEmpty(CustId))
                 {
                     var result = dataConnector.GetSimbrellaLoanWithCustId(startDate, endDate, CustId).ToPagedList(pageNumber, pageSize);
-                    var afterResult = dataConnector.GetCustomerMoreInfoWithFinacle().ToPagedList(pageNumber, pageSize);
-                   
+                    var afterResult = dataConnector.GetCustomerMoreInfoWithFinacle(CustId).ToPagedList(pageNumber, pageSize).FirstOrDefault();
+                    //var combineResult = new Tuple<SimbrellaLoanList>(GetSimbrellaLoanWithCustId(startDate, endDate, CustId), GetCustomerMoreInfoWithFinacle(CustId));
+
+                    foreach (var item in result) {
+                        item.CustomerName = afterResult.CustomerName;
+                        item.CustomerAddress1 = afterResult.CustomerAddress1;
+                        item.BrokerCode = afterResult.BrokerCode;
+                        item.BranchSolID = afterResult.BranchSolID;
+                        item.BranchSBU = afterResult.BranchSBU;
+                        //item.CustomerAddress2 = afterResult.CustomerAddress2;
+                        //item.CustomerAddress3 = afterResult.CustomerAddress3;
+                    }
+
                     ViewBag.startDate = this.Request.Params["RequestTime"];
                     ViewBag.endDate = this.Request.Params["LogDate"];
                     ViewBag.CustId = this.Request.Params["customerId"];
@@ -76,6 +88,8 @@ namespace LoanOFFER.Web.Controllers
                     logger.Info("end date:" + endDate);
                     logger.Info(" Simbrella Loan Offer Report Loaded Successfully");
                     return View(result);
+
+                    
                 }
                 if ((startDate != null) || (endDate != null))
                    // if (string.IsNullOrWhiteSpace(startDate) || string.IsNullOrWhiteSpace(endDate))
@@ -152,6 +166,40 @@ namespace LoanOFFER.Web.Controllers
             LoanOfferDb report = new LoanOfferDb();
             //ViewBag.startDate = this.Request.Params["startDate"];
             //ViewBag.endDate = this.Request.Params["endDate"];
+
+            if (!string.IsNullOrEmpty(CustId))
+            {
+                SimbrellaLoanList list = new SimbrellaLoanList();
+                
+                list = report.GetSimbrellaLoanWithCustId(startDate, endDate, CustId);
+                var afterResult = report.GetCustomerMoreInfoWithFinacle(CustId);
+                //var combineResult = new Tuple<SimbrellaLoanList>(GetSimbrellaLoanWithCustId(startDate, endDate, CustId), GetCustomerMoreInfoWithFinacle(CustId));
+
+                //foreach (var item in list)
+                //{
+                //    item.CustomerName = afterResult.CustomerName;
+                //    item.CustomerAddress1 = afterResult.CustomerAddress1;
+                //    item.BrokerCode = afterResult.BrokerCode;
+                //    item.BranchSolID = afterResult.BranchSolID;
+                //    item.BranchSBU = afterResult.BranchSBU;
+
+                //}
+
+                string[] columns = { "Id", "customerid", "RequestTime", "Response", "ResponseTime", "LogDate", "ResponseCode" };
+                byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
+                logger.Info("Simbrella Report exported successfully");
+                string userId = Session["UserId"] as string;
+                Export export = new Export
+                {
+                    ExportedDate = DateTime.Now,
+                    ReportName = "SimbrellaLoanOffer",
+                    LoginUser = userId
+                };
+                context.Exports.Add(export);
+                context.SaveChanges();
+                return File(filecontent, ExcelExportHelper.ExcelContentType, "SimbrellaLoanOffer.xlsx");
+
+            }
             if ((startDate != null) || (endDate != null))
             {
                 SimbrellaLoanList list = new SimbrellaLoanList();
@@ -174,7 +222,7 @@ namespace LoanOFFER.Web.Controllers
             {
                 SimbrellaLoanList list = null;
                 list = report.GetSimbrellaLoanDb(startDate, endDate, CustId);
-                string[] columns = { "Id", "Request", "customerid", "RequestTime", "Response", "ResponseTime", "LogDate", "ResponseCode" };
+                string[] columns = { "Id", "customerid", "RequestTime", "Response", "ResponseTime", "LogDate", "ResponseCode" };
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info(" Simbrella Report exported successfully");
                 string userId = Session["UserId"] as string;

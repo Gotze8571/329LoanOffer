@@ -455,6 +455,16 @@ C:\Users\DELL\Documents\Project\329 Loan Offer Project\LoanOFFER.Web\obj\Debug\L
 C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.ApplicationContextMigration.Initial.resources
 C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportDbContextMigration.Initial.resources
 C:\Users\DELL\OneDrive\Documents\Project\329 Loan Offer Project\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.RoleDbContextMigration.Initial.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.ApplicationContextMigration.Initial.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.Initial.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.SecondMigration.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.ThirdMigration.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.FourthMigration.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.RoleDbContextMigration.Initial.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.RoleDbContextMigration.SecondMigration.resources
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csprojAssemblyReference.cache
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\NLog.config
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\LoanOFFER.Web.dll.config
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\LoanOFFER.Web.dll
@@ -561,16 +571,6 @@ C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csprojAssemblyReference.cache
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.ApplicationContextMigration.Initial.resources
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.Initial.resources
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.SecondMigration.resources
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.ThirdMigration.resources
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.FourthMigration.resources
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.RoleDbContextMigration.Initial.resources
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.RoleDbContextMigration.SecondMigration.resources
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.GenerateResource.cache
-C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.CopyComplete
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.pdb

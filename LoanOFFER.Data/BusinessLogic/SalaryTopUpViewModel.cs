@@ -45,7 +45,11 @@ namespace LoanOFFER.Data.BusinessLogic
         public string Network { get; set; }
         [Display(Name = "Customer Id")]
         public string CustomerID { get; set; }
-        
+        [Display(Name = "Transaction Status")]
+        public string Status { get; set; }
+        [Display(Name = "Loan Offer")]
+        public string Loan_Offer { get; set; }
+
 
     }
 }

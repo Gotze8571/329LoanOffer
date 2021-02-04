@@ -1,0 +1,124 @@
+2021-02-01 08:21:30.1273 INFO NEW LOGIN
+2021-02-01 08:21:33.3408 INFO Signed in User: tella.adesina
+2021-02-01 08:21:33.3408 INFO IP Address: ::1
+2021-02-01 08:21:33.3408 INFO IP Address: TELLA-PC
+2021-02-01 08:21:33.3747 INFO Home Page Loaded: 2/1/2021 8:21:33 AM
+2021-02-01 08:21:36.0379 INFO 2/1/2021 8:21:36 AM
+2021-02-01 08:21:50.0953 INFO 2/1/2021 8:21:50 AM
+2021-02-01 08:21:50.1234 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:21:50.1643 INFO Reader is not null..
+2021-02-01 08:21:50.1643 INFO Reader is equal to true..
+2021-02-01 08:21:50.5393 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:21:50.9292 INFO start date:31-Dec-2017
+2021-02-01 08:21:50.9292 INFO end date:01-Feb-2021
+2021-02-01 08:21:50.9292 INFO  Remitta Report Loaded Successful
+2021-02-01 08:22:04.6048 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:22:04.6267 INFO Reader is not null..
+2021-02-01 08:22:04.6267 INFO Reader is equal to true..
+2021-02-01 08:22:05.0516 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:22:05.0516 INFO Remitta Report exported successfully
+2021-02-01 08:40:09.7301 INFO NEW LOGIN
+2021-02-01 08:40:26.1645 INFO Signed in User: tella.adesina
+2021-02-01 08:40:26.1645 INFO IP Address: ::1
+2021-02-01 08:40:26.1645 INFO IP Address: TELLA-PC
+2021-02-01 08:40:26.1974 INFO Home Page Loaded: 2/1/2021 8:40:26 AM
+2021-02-01 08:40:28.8975 INFO 2/1/2021 8:40:28 AM
+2021-02-01 08:41:41.8347 INFO NEW LOGIN
+2021-02-01 08:41:45.1882 INFO Incorrect login details
+2021-02-01 08:41:59.3750 INFO NEW LOGIN
+2021-02-01 08:42:01.5425 INFO Incorrect login details
+2021-02-01 08:42:57.7556 INFO 2/1/2021 8:42:57 AM
+2021-02-01 08:43:17.6542 INFO 2/1/2021 8:43:17 AM
+2021-02-01 08:43:18.6848 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:43:19.1838 INFO Reader is not null..
+2021-02-01 08:43:19.1838 INFO Reader is equal to true..
+2021-02-01 08:43:19.4448 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:43:24.8354 INFO start date:28-Dec-2014
+2021-02-01 08:43:24.8354 INFO end date:01-Feb-2021
+2021-02-01 08:43:24.8354 INFO  Remitta Report Loaded Successful
+2021-02-01 08:43:29.0750 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:43:29.0940 INFO Reader is not null..
+2021-02-01 08:43:29.0940 INFO Reader is equal to true..
+2021-02-01 08:43:29.6456 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:43:29.6456 INFO Remitta Report exported successfully
+2021-02-01 08:51:27.4097 INFO NEW LOGIN
+2021-02-01 08:51:30.1888 INFO Signed in User: tella.adesina
+2021-02-01 08:51:30.1888 INFO IP Address: ::1
+2021-02-01 08:51:30.1888 INFO IP Address: TELLA-PC
+2021-02-01 08:51:30.2347 INFO Home Page Loaded: 2/1/2021 8:51:30 AM
+2021-02-01 08:51:41.3871 INFO 2/1/2021 8:51:41 AM
+2021-02-01 08:51:57.2045 INFO 2/1/2021 8:51:57 AM
+2021-02-01 08:51:57.2355 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:51:57.2844 INFO Reader is not null..
+2021-02-01 08:51:57.2844 INFO Reader is equal to true..
+2021-02-01 08:51:57.7213 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:51:58.0962 INFO start date:25-Dec-2016
+2021-02-01 08:51:58.0962 INFO end date:01-Feb-2021
+2021-02-01 08:51:58.0962 INFO  Remitta Report Loaded Successful
+2021-02-01 08:52:02.0065 INFO 2/1/2021 8:52:02 AM
+2021-02-01 08:52:02.0065 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:52:02.0255 INFO Reader is not null..
+2021-02-01 08:52:02.0255 INFO Reader is equal to true..
+2021-02-01 08:52:02.1033 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:52:02.1413 INFO start date:25-Dec-2016
+2021-02-01 08:52:02.1413 INFO end date:01-Feb-2021
+2021-02-01 08:52:02.1413 INFO  Remitta Report Loaded Successful
+2021-02-01 08:52:05.7589 INFO 2/1/2021 8:52:05 AM
+2021-02-01 08:52:05.7589 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:52:05.7808 INFO Reader is not null..
+2021-02-01 08:52:05.7808 INFO Reader is equal to true..
+2021-02-01 08:52:06.1909 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:52:06.2208 INFO start date:25-Dec-2016
+2021-02-01 08:52:06.2208 INFO end date:01-Feb-2021
+2021-02-01 08:52:06.2208 INFO  Remitta Report Loaded Successful
+2021-02-01 08:52:17.0593 INFO 2/1/2021 8:52:17 AM
+2021-02-01 08:52:17.0593 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:52:17.1331 INFO Reader is not null..
+2021-02-01 08:52:17.1331 INFO Reader is equal to true..
+2021-02-01 08:52:17.2259 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:52:17.2638 INFO start date:25-Dec-2016
+2021-02-01 08:52:17.2638 INFO end date:01-Feb-2021
+2021-02-01 08:52:17.2638 INFO  Remitta Report Loaded Successful
+2021-02-01 08:52:24.4669 INFO 2/1/2021 8:52:24 AM
+2021-02-01 08:52:24.4669 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:52:24.4888 INFO Reader is not null..
+2021-02-01 08:52:24.4888 INFO Reader is equal to true..
+2021-02-01 08:52:24.9894 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:52:25.0253 INFO start date:25-Dec-2016
+2021-02-01 08:52:25.0253 INFO end date:01-Feb-2021
+2021-02-01 08:52:25.0253 INFO  Remitta Report Loaded Successful
+2021-02-01 08:52:33.2128 INFO 2/1/2021 8:52:33 AM
+2021-02-01 08:52:33.2128 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-02-01 08:52:33.2308 INFO Reader is not null..
+2021-02-01 08:52:33.2308 INFO Reader is equal to true..
+2021-02-01 08:52:33.3166 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-02-01 08:52:33.3495 INFO start date:25-Dec-2016
+2021-02-01 08:52:33.3495 INFO end date:01-Feb-2021
+2021-02-01 08:52:33.3495 INFO  Remitta Report Loaded Successful
+2021-02-01 08:52:47.7327 INFO Home Page Loaded: 2/1/2021 8:52:47 AM
+2021-02-01 08:52:51.7608 INFO 2/1/2021 8:52:51 AM
+2021-02-01 08:53:05.3610 INFO 2/1/2021 8:53:05 AM
+2021-02-01 08:53:05.3610 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-02-01 08:53:05.9534 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-02-01 08:53:06.0014 INFO start date:27-Dec-2015
+2021-02-01 08:53:06.0014 INFO end date:01-Feb-2021
+2021-02-01 08:53:06.0014 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-02-01 08:53:07.9168 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-02-01 08:53:08.4554 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-02-01 08:53:08.4554 INFO Simbrella Report exported successfully
+2021-02-01 08:53:42.2770 INFO Home Page Loaded: 2/1/2021 8:53:42 AM
+2021-02-01 12:04:04.5593 INFO NEW LOGIN
+2021-02-01 12:04:07.5746 INFO Signed in User: tella.adesina
+2021-02-01 12:04:07.5746 INFO IP Address: ::1
+2021-02-01 12:04:07.5746 INFO IP Address: TELLA-PC
+2021-02-01 12:04:07.6085 INFO Home Page Loaded: 2/1/2021 12:04:07 PM
+2021-02-01 12:04:13.7942 INFO 2/1/2021 12:04:13 PM
+2021-02-01 12:04:34.5590 INFO 2/1/2021 12:04:34 PM
+2021-02-01 12:04:40.2471 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-02-01 12:04:43.3250 INFO Reader is not null..
+2021-02-01 12:04:43.3250 INFO Reader is equal to true..
+2021-02-01 12:04:45.5292 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-02-01 12:04:46.2876 INFO start date:28-Dec-2014
+2021-02-01 12:04:46.2876 INFO end date:01-Feb-2021
+2021-02-01 12:04:46.2876 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-02-01 12:11:24.4829 INFO Home Page Loaded: 2/1/2021 12:11:24 PM

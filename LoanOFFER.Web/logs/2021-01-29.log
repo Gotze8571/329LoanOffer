@@ -1,0 +1,247 @@
+2021-01-29 09:42:47.0012 INFO 1/29/2021 9:42:47 AM
+2021-01-29 09:43:02.9357 INFO 1/29/2021 9:43:02 AM
+2021-01-29 09:43:03.0145 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 09:43:03.5460 INFO Reader is not null..
+2021-01-29 09:43:03.5460 INFO Reader is equal to true..
+2021-01-29 09:43:03.8890 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 09:43:06.3004 INFO start date:27-Dec-2015
+2021-01-29 09:43:06.3004 INFO end date:28-Jan-2021
+2021-01-29 09:43:06.3004 INFO  Remitta Report Loaded Successful
+2021-01-29 09:43:19.0084 INFO 1/29/2021 9:43:19 AM
+2021-01-29 09:43:19.0084 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 09:43:19.0265 INFO Reader is not null..
+2021-01-29 09:43:19.0265 INFO Reader is equal to true..
+2021-01-29 09:43:19.0973 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 09:43:19.1303 INFO start date:27-Dec-2015
+2021-01-29 09:43:19.1303 INFO end date:28-Jan-2021
+2021-01-29 09:43:19.1303 INFO  Remitta Report Loaded Successful
+2021-01-29 09:57:41.7554 INFO NEW LOGIN
+2021-01-29 09:57:44.7827 INFO Signed in User: tella.adesina
+2021-01-29 09:57:44.7827 INFO IP Address: ::1
+2021-01-29 09:57:44.7827 INFO IP Address: TELLA-PC
+2021-01-29 09:57:44.8167 INFO Home Page Loaded: 1/29/2021 9:57:44 AM
+2021-01-29 09:57:48.8429 INFO 1/29/2021 9:57:48 AM
+2021-01-29 09:57:51.7464 INFO Home Page Loaded: 1/29/2021 9:57:51 AM
+2021-01-29 09:57:53.1156 INFO 1/29/2021 9:57:53 AM
+2021-01-29 09:58:04.5136 INFO 1/29/2021 9:58:04 AM
+2021-01-29 09:58:04.5435 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 09:58:04.5834 INFO Reader is not null..
+2021-01-29 09:58:04.5834 INFO Reader is equal to true..
+2021-01-29 09:58:05.0362 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 09:58:05.3823 INFO start date:25-Dec-2016
+2021-01-29 09:58:05.3823 INFO end date:28-Jan-2021
+2021-01-29 09:58:05.3823 INFO  Remitta Report Loaded Successful
+2021-01-29 09:58:24.2111 INFO 1/29/2021 9:58:24 AM
+2021-01-29 09:58:24.2111 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 09:58:24.2300 INFO Reader is not null..
+2021-01-29 09:58:24.2300 INFO Reader is equal to true..
+2021-01-29 09:58:24.6968 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 09:58:24.7317 INFO start date:25-Dec-2016
+2021-01-29 09:58:24.7317 INFO end date:28-Jan-2021
+2021-01-29 09:58:24.7317 INFO  Remitta Report Loaded Successful
+2021-01-29 10:17:12.3583 INFO 1/29/2021 10:17:12 AM
+2021-01-29 10:18:31.4892 INFO 1/29/2021 10:18:31 AM
+2021-01-29 10:22:26.4740 INFO 1/29/2021 10:22:26 AM
+2021-01-29 10:22:26.5617 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:22:26.7752 INFO Reader is not null..
+2021-01-29 10:22:26.7752 INFO Reader is equal to true..
+2021-01-29 10:22:27.1601 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:22:31.1518 INFO start date:25-Dec-2016
+2021-01-29 10:22:31.1518 INFO end date:28-Jan-2021
+2021-01-29 10:22:31.1518 INFO  Remitta Report Loaded Successful
+2021-01-29 10:22:45.9581 INFO 1/29/2021 10:22:45 AM
+2021-01-29 10:22:45.9581 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:22:46.1561 INFO Reader is not null..
+2021-01-29 10:22:46.1561 INFO Reader is equal to true..
+2021-01-29 10:22:46.6567 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:22:47.3299 INFO start date:25-Dec-2016
+2021-01-29 10:22:47.3299 INFO end date:28-Jan-2021
+2021-01-29 10:22:47.3299 INFO  Remitta Report Loaded Successful
+2021-01-29 10:35:16.6401 INFO 1/29/2021 10:35:16 AM
+2021-01-29 10:35:16.6731 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:35:16.7060 INFO Reader is not null..
+2021-01-29 10:35:16.7060 INFO Reader is equal to true..
+2021-01-29 10:35:17.4250 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:35:17.4879 INFO start date:25-Dec-2016
+2021-01-29 10:35:17.4879 INFO end date:28-Jan-2021
+2021-01-29 10:35:17.4879 INFO  Remitta Report Loaded Successful
+2021-01-29 10:35:29.7990 INFO 1/29/2021 10:35:29 AM
+2021-01-29 10:35:29.7990 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:35:29.8249 INFO Reader is not null..
+2021-01-29 10:35:29.8249 INFO Reader is equal to true..
+2021-01-29 10:35:29.9077 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:35:29.9446 INFO start date:25-Dec-2016
+2021-01-29 10:35:29.9446 INFO end date:28-Jan-2021
+2021-01-29 10:35:29.9446 INFO  Remitta Report Loaded Successful
+2021-01-29 10:35:45.8797 INFO 1/29/2021 10:35:45 AM
+2021-01-29 10:35:45.8797 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:35:45.9026 INFO Reader is not null..
+2021-01-29 10:35:45.9026 INFO Reader is equal to true..
+2021-01-29 10:35:46.3315 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:35:46.3654 INFO start date:25-Dec-2016
+2021-01-29 10:35:46.3654 INFO end date:28-Jan-2021
+2021-01-29 10:35:46.3654 INFO  Remitta Report Loaded Successful
+2021-01-29 10:37:01.4400 INFO 1/29/2021 10:37:01 AM
+2021-01-29 10:37:01.4400 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:37:01.5109 INFO Reader is not null..
+2021-01-29 10:37:01.5109 INFO Reader is equal to true..
+2021-01-29 10:37:01.9626 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:37:01.9966 INFO start date:25-Dec-2016
+2021-01-29 10:37:01.9966 INFO end date:28-Jan-2021
+2021-01-29 10:37:01.9966 INFO  Remitta Report Loaded Successful
+2021-01-29 10:37:16.0146 INFO 1/29/2021 10:37:16 AM
+2021-01-29 10:37:16.0146 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:37:16.0366 INFO Reader is not null..
+2021-01-29 10:37:16.0366 INFO Reader is equal to true..
+2021-01-29 10:37:16.0964 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:37:16.1293 INFO start date:25-Dec-2016
+2021-01-29 10:37:16.1293 INFO end date:28-Jan-2021
+2021-01-29 10:37:16.1293 INFO  Remitta Report Loaded Successful
+2021-01-29 10:39:23.7276 INFO 1/29/2021 10:39:23 AM
+2021-01-29 10:39:23.7276 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:39:23.7476 INFO Reader is not null..
+2021-01-29 10:39:23.7476 INFO Reader is equal to true..
+2021-01-29 10:39:24.1824 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:39:24.2483 INFO start date:25-Dec-2016
+2021-01-29 10:39:24.2483 INFO end date:28-Jan-2021
+2021-01-29 10:39:24.2483 INFO  Remitta Report Loaded Successful
+2021-01-29 10:39:56.7305 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:39:56.7634 INFO Reader is not null..
+2021-01-29 10:39:56.7634 INFO Reader is equal to true..
+2021-01-29 10:39:56.8641 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:39:56.8641 INFO Remitta Report exported successfully
+2021-01-29 10:40:13.6634 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:40:13.6873 INFO Reader is not null..
+2021-01-29 10:40:13.6873 INFO Reader is equal to true..
+2021-01-29 10:40:14.1691 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:40:14.6687 INFO Remitta Report exported successfully
+2021-01-29 10:43:08.7435 INFO 1/29/2021 10:43:08 AM
+2021-01-29 10:43:23.6149 INFO 1/29/2021 10:43:23 AM
+2021-01-29 10:43:23.6608 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:43:23.7196 INFO Reader is not null..
+2021-01-29 10:43:23.7196 INFO Reader is equal to true..
+2021-01-29 10:43:24.0796 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:43:26.3341 INFO start date:27-Dec-2015
+2021-01-29 10:43:26.3341 INFO end date:29-Jan-2021
+2021-01-29 10:43:26.3341 INFO  Remitta Report Loaded Successful
+2021-01-29 10:43:30.8854 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:43:30.9053 INFO Reader is not null..
+2021-01-29 10:43:30.9053 INFO Reader is equal to true..
+2021-01-29 10:43:31.3591 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:43:31.8438 INFO Remitta Report exported successfully
+2021-01-29 10:45:19.1496 INFO 1/29/2021 10:45:19 AM
+2021-01-29 10:45:37.3922 INFO 1/29/2021 10:45:37 AM
+2021-01-29 10:45:37.4431 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:45:37.4929 INFO Reader is not null..
+2021-01-29 10:45:37.4929 INFO Reader is equal to true..
+2021-01-29 10:45:37.9168 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:45:40.1424 INFO start date:27-Dec-2015
+2021-01-29 10:45:40.1424 INFO end date:29-Jan-2021
+2021-01-29 10:45:40.1424 INFO  Remitta Report Loaded Successful
+2021-01-29 10:45:58.6909 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:45:58.7088 INFO Reader is not null..
+2021-01-29 10:45:58.7088 INFO Reader is equal to true..
+2021-01-29 10:54:54.8424 INFO 1/29/2021 10:54:54 AM
+2021-01-29 10:55:30.4547 INFO 1/29/2021 10:55:30 AM
+2021-01-29 10:55:30.5135 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:55:30.5764 INFO Reader is not null..
+2021-01-29 10:55:30.5764 INFO Reader is equal to true..
+2021-01-29 10:55:30.7220 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:55:33.2685 INFO start date:25-Dec-2016
+2021-01-29 10:55:33.2685 INFO end date:29-Jan-2021
+2021-01-29 10:55:33.2685 INFO  Remitta Report Loaded Successful
+2021-01-29 10:55:49.3183 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 10:55:49.3402 INFO Reader is not null..
+2021-01-29 10:55:49.3402 INFO Reader is equal to true..
+2021-01-29 10:55:49.6973 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 10:55:50.2079 INFO Remitta Report exported successfully
+2021-01-29 11:04:27.0931 INFO 1/29/2021 11:04:27 AM
+2021-01-29 11:06:59.2297 INFO 1/29/2021 11:06:59 AM
+2021-01-29 11:06:59.2806 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:06:59.3404 INFO Reader is not null..
+2021-01-29 11:06:59.3404 INFO Reader is equal to true..
+2021-01-29 11:06:59.7035 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:07:01.8988 INFO start date:25-Dec-2016
+2021-01-29 11:07:01.8988 INFO end date:29-Jan-2021
+2021-01-29 11:07:01.8988 INFO  Remitta Report Loaded Successful
+2021-01-29 11:15:19.9196 INFO 1/29/2021 11:15:19 AM
+2021-01-29 11:15:19.9465 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:15:19.9774 INFO Reader is not null..
+2021-01-29 11:15:19.9774 INFO Reader is equal to true..
+2021-01-29 11:15:20.3320 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:15:20.3988 INFO start date:25-Dec-2016
+2021-01-29 11:15:20.3988 INFO end date:29-Jan-2021
+2021-01-29 11:15:20.3988 INFO  Remitta Report Loaded Successful
+2021-01-29 11:19:23.5673 INFO 1/29/2021 11:19:23 AM
+2021-01-29 11:21:58.5731 INFO 1/29/2021 11:21:58 AM
+2021-01-29 11:21:58.6200 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:21:58.6748 INFO Reader is not null..
+2021-01-29 11:21:58.6748 INFO Reader is equal to true..
+2021-01-29 11:21:58.8364 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:22:01.1493 INFO start date:27-Dec-2015
+2021-01-29 11:22:01.1493 INFO end date:29-Jan-2021
+2021-01-29 11:22:01.1493 INFO  Remitta Report Loaded Successful
+2021-01-29 11:22:14.1441 INFO 1/29/2021 11:22:14 AM
+2021-01-29 11:22:14.1441 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:22:14.1670 INFO Reader is not null..
+2021-01-29 11:22:14.1670 INFO Reader is equal to true..
+2021-01-29 11:22:14.2278 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:22:14.2617 INFO start date:27-Dec-2015
+2021-01-29 11:22:14.2617 INFO end date:29-Jan-2021
+2021-01-29 11:22:14.2617 INFO  Remitta Report Loaded Successful
+2021-01-29 11:22:22.5159 INFO 1/29/2021 11:22:22 AM
+2021-01-29 11:22:22.5159 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:22:22.5349 INFO Reader is not null..
+2021-01-29 11:22:22.5349 INFO Reader is equal to true..
+2021-01-29 11:22:22.5967 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:22:22.6306 INFO start date:27-Dec-2015
+2021-01-29 11:22:22.6306 INFO end date:29-Jan-2021
+2021-01-29 11:22:22.6306 INFO  Remitta Report Loaded Successful
+2021-01-29 11:28:35.9168 INFO 1/29/2021 11:28:35 AM
+2021-01-29 11:28:35.9416 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:28:35.9665 INFO Reader is not null..
+2021-01-29 11:28:35.9665 INFO Reader is equal to true..
+2021-01-29 11:28:36.3355 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:28:36.3684 INFO start date:27-Dec-2015
+2021-01-29 11:28:36.3684 INFO end date:29-Jan-2021
+2021-01-29 11:28:36.3684 INFO  Remitta Report Loaded Successful
+2021-01-29 11:30:56.6334 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:30:56.6634 INFO Reader is not null..
+2021-01-29 11:30:56.6634 INFO Reader is equal to true..
+2021-01-29 11:30:56.8309 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:34:10.6994 INFO 1/29/2021 11:34:10 AM
+2021-01-29 11:34:37.1863 INFO 1/29/2021 11:34:37 AM
+2021-01-29 11:34:37.7628 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:34:37.9593 INFO Reader is not null..
+2021-01-29 11:34:37.9593 INFO Reader is equal to true..
+2021-01-29 11:34:38.6513 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:34:47.8291 INFO start date:31-Dec-2017
+2021-01-29 11:34:47.8291 INFO end date:29-Jan-2021
+2021-01-29 11:34:47.8291 INFO  Remitta Report Loaded Successful
+2021-01-29 11:34:57.3847 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:34:58.0031 INFO Reader is not null..
+2021-01-29 11:34:58.0031 INFO Reader is equal to true..
+2021-01-29 11:34:58.2334 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:36:07.0827 INFO 1/29/2021 11:36:07 AM
+2021-01-29 11:36:18.5801 INFO 1/29/2021 11:36:18 AM
+2021-01-29 11:36:19.6432 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:36:19.7987 INFO Reader is not null..
+2021-01-29 11:36:19.7987 INFO Reader is equal to true..
+2021-01-29 11:36:20.3096 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:36:25.2744 INFO start date:25-Dec-2016
+2021-01-29 11:36:25.2744 INFO end date:29-Jan-2021
+2021-01-29 11:36:25.2744 INFO  Remitta Report Loaded Successful
+2021-01-29 11:36:28.9027 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-01-29 11:36:29.0095 INFO Reader is not null..
+2021-01-29 11:36:29.0095 INFO Reader is equal to true..
+2021-01-29 11:36:29.0832 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-01-29 11:36:29.5590 INFO Remitta Report exported successfully
+2021-01-29 11:37:53.1569 INFO Home Page Loaded: 1/29/2021 11:37:53 AM
+2021-01-29 11:38:35.6844 INFO 1/29/2021 11:38:35 AM
+2021-01-29 11:38:53.7335 INFO 1/29/2021 11:38:53 AM
+2021-01-29 11:38:53.7963 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-29 11:38:54.0786 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-29 11:38:54.9055 INFO  Simbrella Loan Offer other Report data fetched from database successfully
+2021-01-29 11:38:57.2904 INFO start date:25-Dec-2016
+2021-01-29 11:38:57.2904 INFO end date:21-Jan-2021
+2021-01-29 11:38:57.2904 INFO  Simbrella Loan Offer Report Loaded Successfully

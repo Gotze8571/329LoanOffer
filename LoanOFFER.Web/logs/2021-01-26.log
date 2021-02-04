@@ -1,0 +1,87 @@
+2021-01-26 00:29:57.7625 INFO NEW LOGIN
+2021-01-26 00:30:03.2148 INFO Signed in User: tella.adesina
+2021-01-26 00:30:03.2148 INFO IP Address: ::1
+2021-01-26 00:30:03.2148 INFO IP Address: TELLA-PC
+2021-01-26 00:30:03.2467 INFO Home Page Loaded: 1/26/2021 12:30:03 AM
+2021-01-26 00:30:12.6429 INFO 1/26/2021 12:30:12 AM
+2021-01-26 00:30:14.6960 INFO 1/26/2021 12:30:14 AM
+2021-01-26 00:31:02.0416 INFO 1/26/2021 12:31:02 AM
+2021-01-26 00:31:02.1244 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-26 00:31:03.2041 INFO Reader is not null..
+2021-01-26 00:31:03.2041 INFO Reader is equal to true..
+2021-01-26 00:31:03.2270 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-26 00:31:03.5808 INFO start date:28-Dec-2014
+2021-01-26 00:31:03.5808 INFO end date:13-Jan-2021
+2021-01-26 00:31:03.5808 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-26 00:31:13.5223 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-26 00:31:14.1335 INFO Reader is not null..
+2021-01-26 00:31:14.1335 INFO Reader is equal to true..
+2021-01-26 00:31:14.1335 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-26 00:31:14.6553 INFO Salary Top-Up Report exported successfully
+2021-01-26 00:31:48.5120 INFO Home Page Loaded: 1/26/2021 12:31:48 AM
+2021-01-26 10:45:36.6711 INFO NEW LOGIN
+2021-01-26 10:46:03.0982 INFO NEW LOGIN
+2021-01-26 10:47:10.5826 INFO NEW LOGIN
+2021-01-26 10:47:54.7264 INFO NEW LOGIN
+2021-01-26 11:10:47.5560 INFO NEW LOGIN
+2021-01-26 11:11:00.5283 INFO Signed in User: tella.adesina
+2021-01-26 11:11:09.6052 INFO IP Address: ::1
+2021-01-26 11:11:09.6052 INFO IP Address: TELLA-PC
+2021-01-26 11:11:09.6391 INFO Home Page Loaded: 1/26/2021 11:11:09 AM
+2021-01-26 11:11:20.9207 INFO NEW LOGIN
+2021-01-26 11:11:22.1783 INFO Incorrect login details
+2021-01-26 11:40:23.9413 INFO NEW LOGIN
+2021-01-26 11:40:24.3232 INFO Signed in User: tella.adesina
+2021-01-26 11:40:24.3232 INFO IP Address: ::1
+2021-01-26 11:40:24.3232 INFO IP Address: TELLA-PC
+2021-01-26 11:40:24.3421 INFO Home Page Loaded: 1/26/2021 11:40:24 AM
+2021-01-26 11:40:42.6847 INFO 1/26/2021 11:40:42 AM
+2021-01-26 11:41:11.6535 INFO 1/26/2021 11:41:11 AM
+2021-01-26 11:41:16.7597 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-26 11:41:17.5602 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-26 11:41:18.0882 INFO start date:25-Dec-2016
+2021-01-26 11:41:18.0882 INFO end date:25-Jan-2021
+2021-01-26 11:41:18.0882 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-26 11:41:33.0968 INFO 1/26/2021 11:41:33 AM
+2021-01-26 11:41:40.7029 INFO 1/26/2021 11:41:40 AM
+2021-01-26 11:41:43.5177 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-26 11:41:44.4273 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-26 11:41:44.4303 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-01-26 11:41:44.4941 INFO start date:25-Dec-2016
+2021-01-26 11:41:44.4941 INFO end date:25-Jan-2021
+2021-01-26 11:41:44.4941 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-26 11:41:44.9211 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-01-26 11:41:44.9553 INFO start date:25-Dec-2016
+2021-01-26 11:41:44.9553 INFO end date:25-Jan-2021
+2021-01-26 11:41:44.9553 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-01-26 18:05:25.2285 INFO NEW LOGIN
+2021-01-26 18:05:28.4284 INFO Signed in User: tella.adesina
+2021-01-26 18:05:28.4294 INFO IP Address: ::1
+2021-01-26 18:05:28.4294 INFO IP Address: TELLA-PC
+2021-01-26 18:05:28.4643 INFO Home Page Loaded: 1/26/2021 6:05:28 PM
+2021-01-26 18:23:47.0593 INFO NEW LOGIN
+2021-01-26 18:23:50.8251 INFO Incorrect login details
+2021-01-26 18:24:21.1070 INFO NEW LOGIN
+2021-01-26 18:24:21.5425 INFO Signed in User: tella.adesina
+2021-01-26 18:24:21.5425 INFO IP Address: ::1
+2021-01-26 18:24:21.5425 INFO IP Address: TELLA-PC
+2021-01-26 18:24:21.5674 INFO Home Page Loaded: 1/26/2021 6:24:21 PM
+2021-01-26 18:24:26.6380 INFO 1/26/2021 6:24:26 PM
+2021-01-26 18:24:46.2364 INFO 1/26/2021 6:24:46 PM
+2021-01-26 18:25:02.2403 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-26 18:29:49.5614 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-26 18:36:23.9795 INFO 1/26/2021 6:36:23 PM
+2021-01-26 18:37:08.1532 INFO 1/26/2021 6:37:08 PM
+2021-01-26 18:37:36.7189 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-26 18:37:51.6701 INFO Reader is not null..
+2021-01-26 18:37:51.6701 INFO Reader is equal to true..
+2021-01-26 18:37:51.6701 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-26 18:37:53.9251 INFO start date:29-Dec-2013
+2021-01-26 18:37:53.9251 INFO end date:23-Jan-2021
+2021-01-26 18:37:53.9251 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-01-26 18:51:22.5716 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-01-26 18:51:23.2058 INFO Reader is not null..
+2021-01-26 18:51:23.2058 INFO Reader is equal to true..
+2021-01-26 18:51:23.2367 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-01-26 18:51:23.7723 INFO Salary Top-Up Report exported successfully
+2021-01-26 19:33:11.1651 INFO Home Page Loaded: 1/26/2021 7:33:11 PM

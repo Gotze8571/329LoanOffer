@@ -123,7 +123,7 @@ namespace LoanOFFER.Web.Controllers
             {
                 RemittaLoanList list = new RemittaLoanList();
                 list = report.GetRemittaLoanDb(startDate, endDate);
-                string[] columns = { "Id", "Request", "PhoneNumber", "RequestTime", "Response", "LogDate" };
+                string[] columns = { "Id", "PhoneNumber", "RequestTime", "Response", "LogDate" };
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Remitta Report exported successfully");
                 string userId = Session["UserId"] as string;
@@ -141,7 +141,7 @@ namespace LoanOFFER.Web.Controllers
             {
                 RemittaLoanList list = null;
                 list = report.GetRemittaLoanDb(startDate, endDate);
-                string[] columns = { "Id", "Request", "PhoneNumber", "RequestTime", "Response", "LogDate" };
+                string[] columns = { "Id", "PhoneNumber", "RequestTime", "Response", "LogDate" };
                 byte[] filecontent = ExcelExportHelper.ExportExcel(list, "", true, columns);
                 logger.Info("Remitta Report exported successfully");
                 string userId = Session["UserId"] as string;
@@ -178,7 +178,6 @@ namespace LoanOFFER.Web.Controllers
                     var PhoneNo = Request.Params["phoneNo"];
                     int pageNumber = (page ?? 1);
                     const int pageSize = 20;
-
                     
                     LoanOfferDb report = new LoanOfferDb();
 
@@ -208,17 +207,17 @@ namespace LoanOFFER.Web.Controllers
             {
                 ModelState.AddModelError("message", "An error occured");
                 logger.Error(ex);
-                //ErrorLoan error = new ErrorLoan
-                //{
-                //    StartDate = startDate,
-                //    EndDate = endDate,
-                //    FetchedData = true,
-                //    LoginUser = userId,
-                //    ErrorName = "Remitta Report caught an Exception.",
-                //    ErrorDate = DateTime.Now
-                //};
-                //context.Errors.Add(error);
-                //context.SaveChanges();
+                ErrorLoan error = new ErrorLoan
+                {
+                    StartDate = startDate,
+                    EndDate = endDate,
+                    FetchedData = true,
+                    LoginUser = userId,
+                    ErrorName = "Remitta Report caught an Exception.",
+                    ErrorDate = DateTime.Now
+                };
+                context.Errors.Add(error);
+                context.SaveChanges();
             }
             
             return null;
@@ -241,7 +240,6 @@ namespace LoanOFFER.Web.Controllers
                 PageOrientation = Rotativa.Options.Orientation.Landscape,
                 PageSize = Rotativa.Options.Size.A2
             };
-
         }
 
         //[HttpPost]
