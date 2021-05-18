@@ -1,0 +1,52 @@
+2021-05-18 11:22:52.2259 INFO NEW LOGIN
+2021-05-18 11:23:07.9628 INFO Signed in User: tella.adesina
+2021-05-18 11:23:07.9628 INFO IP Address: ::1
+2021-05-18 11:23:07.9628 INFO IP Address: TELLA-PC
+2021-05-18 11:23:07.9998 INFO Home Page Loaded: 5/18/2021 11:23:07 AM
+2021-05-18 11:23:13.3179 INFO 5/18/2021 11:23:13 AM
+2021-05-18 11:23:35.6481 INFO 5/18/2021 11:23:35 AM
+2021-05-18 11:23:35.6850 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-05-18 11:23:36.5024 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-05-18 11:24:10.6113 INFO 5/18/2021 11:24:10 AM
+2021-05-18 11:24:32.9830 INFO 5/18/2021 11:24:32 AM
+2021-05-18 11:24:33.0640 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-05-18 11:24:33.8569 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-05-18 11:24:37.1686 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\Source\Repos\329LoanOfferScreenLog\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 113
+2021-05-18 11:24:49.1160 INFO Home Page Loaded: 5/18/2021 11:24:49 AM
+2021-05-18 11:24:52.0069 INFO 5/18/2021 11:24:52 AM
+2021-05-18 11:25:05.3059 INFO 5/18/2021 11:25:05 AM
+2021-05-18 11:25:05.3677 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-05-18 11:25:08.6160 INFO Reader is not null..
+2021-05-18 11:25:08.6160 INFO Reader is equal to true..
+2021-05-18 11:25:10.2829 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-05-18 11:25:10.4342 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\Source\Repos\329LoanOfferScreenLog\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 70
