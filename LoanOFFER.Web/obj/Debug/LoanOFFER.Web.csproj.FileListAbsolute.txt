@@ -693,3 +693,6 @@ C:\Users\DELL\Source\Repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFF
 C:\Users\DELL\Source\Repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.CopyComplete
 C:\Users\DELL\Source\Repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.dll
 C:\Users\DELL\Source\Repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.pdb
+C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.RoleDbContextMigration.thirdMigration.resources
+C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.LoanReportMigration.FifthMigration.resources
+C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.ApplicationContextMigration.SecondMigration.resources

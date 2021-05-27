@@ -1,0 +1,84 @@
+2021-05-27 10:05:10.3645 INFO NEW LOGIN
+2021-05-27 10:05:18.0331 INFO Signed in User: tella.adesina
+2021-05-27 10:05:18.0331 INFO IP Address: ::1
+2021-05-27 10:05:18.0331 INFO IP Address: TELLA-PC
+2021-05-27 10:05:18.0571 INFO Home Page Loaded: 5/27/2021 10:05:18 AM
+2021-05-27 10:05:40.6846 INFO 5/27/2021 10:05:40 AM
+2021-05-27 10:06:04.9174 INFO 5/27/2021 10:06:04 AM
+2021-05-27 10:06:16.2785 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-05-27 10:06:16.9705 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-05-27 10:06:17.3565 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SimbrellaReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\Controllers\SimbrellaReportController.cs:line 113
+2021-05-27 10:06:52.0100 INFO Home Page Loaded: 5/27/2021 10:06:52 AM
+2021-05-27 10:06:54.3139 INFO 5/27/2021 10:06:54 AM
+2021-05-27 10:07:16.5173 INFO 5/27/2021 10:07:16 AM
+2021-05-27 10:07:21.1434 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-05-27 10:07:24.6778 INFO Reader is not null..
+2021-05-27 10:07:24.6778 INFO Reader is equal to true..
+2021-05-27 10:07:26.6770 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-05-27 10:07:26.7943 ERROR System.InvalidOperationException: The model backing the 'LoanReportDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).
+   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at LoanOFFER.Web.Controllers.SalaryTopUpReportController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\Controllers\SalaryTopUpReportController.cs:line 70
+2021-05-27 10:15:50.4347 INFO NEW LOGIN
+2021-05-27 10:15:53.4358 INFO Incorrect login details
+2021-05-27 10:16:21.4971 INFO NEW LOGIN
+2021-05-27 10:16:25.3947 INFO Signed in User: tella.adesina
+2021-05-27 10:16:25.3947 INFO IP Address: ::1
+2021-05-27 10:16:25.3947 INFO IP Address: TELLA-PC
+2021-05-27 10:16:25.4177 INFO Home Page Loaded: 5/27/2021 10:16:25 AM
+2021-05-27 10:16:35.7063 INFO 5/27/2021 10:16:35 AM
+2021-05-27 10:17:00.6810 INFO 5/27/2021 10:17:00 AM
+2021-05-27 10:17:06.2734 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-05-27 10:17:06.9268 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-05-27 10:17:07.3126 INFO start date:27-Dec-2015
+2021-05-27 10:17:07.3126 INFO end date:26-May-2021
+2021-05-27 10:17:07.3126 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-05-27 10:17:11.6450 INFO Home Page Loaded: 5/27/2021 10:17:11 AM
+2021-05-27 10:17:14.0135 INFO 5/27/2021 10:17:14 AM
+2021-05-27 10:17:47.8089 INFO 5/27/2021 10:17:47 AM
+2021-05-27 10:18:11.4192 INFO 5/27/2021 10:18:11 AM
+2021-05-27 10:18:26.1366 INFO Connection to database to fetch Salary Top-Up Plus Loan Offer Report!
+2021-05-27 10:18:29.7325 INFO Reader is not null..
+2021-05-27 10:18:29.7325 INFO Reader is equal to true..
+2021-05-27 10:18:31.8731 INFO  Salary Top-Up Plus Loan Offer Report data fetched from database successfully
+2021-05-27 10:18:31.9598 INFO start date:28-Dec-2014
+2021-05-27 10:18:31.9598 INFO end date:26-May-2021
+2021-05-27 10:18:31.9598 INFO Salary Top-Up Plus Loan Report Loaded Successful
+2021-05-27 10:18:35.9081 INFO Home Page Loaded: 5/27/2021 10:18:35 AM
+2021-05-27 10:18:38.4138 INFO 5/27/2021 10:18:38 AM
+2021-05-27 10:18:55.2939 INFO 5/27/2021 10:18:55 AM
+2021-05-27 10:19:07.2089 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-05-27 10:19:07.2329 INFO Reader is not null..
+2021-05-27 10:19:07.2329 INFO Reader is equal to true..
+2021-05-27 10:19:07.6726 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-05-27 10:19:07.7086 INFO start date:27-Dec-2015
+2021-05-27 10:19:07.7086 INFO end date:27-May-2021
+2021-05-27 10:19:07.7086 INFO  Remitta Report Loaded Successful
+2021-05-27 10:19:12.3376 INFO Home Page Loaded: 5/27/2021 10:19:12 AM

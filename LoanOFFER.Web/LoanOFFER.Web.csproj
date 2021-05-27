@@ -216,6 +216,10 @@
     <Compile Include="ApplicationContextMigration\202012151606510_Initial.Designer.cs">
       <DependentUpon>202012151606510_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="ApplicationContextMigration\202105270912501_SecondMigration.cs" />
+    <Compile Include="ApplicationContextMigration\202105270912501_SecondMigration.Designer.cs">
+      <DependentUpon>202105270912501_SecondMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="ApplicationContextMigration\Configuration.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -250,6 +254,10 @@
     <Compile Include="LoanReportMigration\202101190837285_FourthMigration.Designer.cs">
       <DependentUpon>202101190837285_FourthMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoanReportMigration\202105270909119_FifthMigration.cs" />
+    <Compile Include="LoanReportMigration\202105270909119_FifthMigration.Designer.cs">
+      <DependentUpon>202105270909119_FifthMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoanReportMigration\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AuditTrail\Export.cs" />
@@ -281,6 +289,10 @@
     <Compile Include="RoleDbContextMigration\202012220605373_SecondMigration.cs" />
     <Compile Include="RoleDbContextMigration\202012220605373_SecondMigration.Designer.cs">
       <DependentUpon>202012220605373_SecondMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoleDbContextMigration\202105270902449_thirdMigration.cs" />
+    <Compile Include="RoleDbContextMigration\202105270902449_thirdMigration.Designer.cs">
+      <DependentUpon>202105270902449_thirdMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="RoleDbContextMigration\Configuration.cs" />
     <Compile Include="Startup.cs" />
@@ -708,6 +720,9 @@
     <EmbeddedResource Include="ApplicationContextMigration\202012151606510_Initial.resx">
       <DependentUpon>202012151606510_Initial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationContextMigration\202105270912501_SecondMigration.resx">
+      <DependentUpon>202105270912501_SecondMigration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoanReportMigration\202012211913399_Initial.resx">
       <DependentUpon>202012211913399_Initial.cs</DependentUpon>
     </EmbeddedResource>
@@ -720,11 +735,17 @@
     <EmbeddedResource Include="LoanReportMigration\202101190837285_FourthMigration.resx">
       <DependentUpon>202101190837285_FourthMigration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoanReportMigration\202105270909119_FifthMigration.resx">
+      <DependentUpon>202105270909119_FifthMigration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RoleDbContextMigration\202012151629366_Initial.resx">
       <DependentUpon>202012151629366_Initial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RoleDbContextMigration\202012220605373_SecondMigration.resx">
       <DependentUpon>202012220605373_SecondMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoleDbContextMigration\202105270902449_thirdMigration.resx">
+      <DependentUpon>202105270902449_thirdMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
