@@ -67,7 +67,7 @@ namespace LoanOFFER.Web.Controllers
                         //    Name = user.UserId,
                         //    Group = "null",
                         //    Date = DateTime.Now,
-                        //   // SpooledData = true,
+                        //    // SpooledData = true,
                         //    IPAddress = UserIPAddress.GetIPAddress(),
                         //    HostName = machineName
                         //};

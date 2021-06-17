@@ -16,6 +16,7 @@ namespace LoanOFFER.Web.Models
     {
         private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
         private readonly LoanReportDbContext context;
+        private readonly RoleDBContext contextTrap;
 
         public LoginUserDB()
         {
@@ -48,6 +49,19 @@ namespace LoanOFFER.Web.Models
                         roleDBContext.Roles.Add(role1);
                         roleDBContext.SaveChanges();
                     }
+                    //else
+                    //{
+                    //    User log = new User
+                    //    {
+                    //        UserId = UserId,
+                    //        Password = "Not to be shown",
+
+                    //    };
+
+                    //    roleDBContext.Users.Add(log);
+                    //    roleDBContext.SaveChanges();
+                    //}
+
 
                     var ans = obj.GetUserAdFullDetails(UserId, password, appId, appKey);
                     //logger.Info("Server Response" + ans);
@@ -136,10 +150,11 @@ namespace LoanOFFER.Web.Models
                                     break;
                                 }
                             }
-
                             logger.Info("Group: " + userGroup);
                             logger.Info("UserId:" + thisUserId);
-
+                        }
+                        else
+                        {
                             Login loginUser = new Login
                             {
                                 Name = UserId,
@@ -151,7 +166,7 @@ namespace LoanOFFER.Web.Models
 
                             context.Logins.Add(loginUser);
                             context.SaveChanges();
-                           
+
                             Session["pUser"] = UserId;
                             Session["admin"] = true.ToString();
                         }

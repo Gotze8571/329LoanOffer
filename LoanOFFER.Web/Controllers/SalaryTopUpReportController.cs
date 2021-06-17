@@ -95,17 +95,17 @@ namespace LoanOFFER.Web.Controllers
             {
                 ModelState.AddModelError("message", "An error occured");
                 logger.Error(ex);
-                ErrorLoan error = new ErrorLoan
-                {
-                    StartDate = startDate,
-                    EndDate = endDate,
-                    FetchedData = true,
-                    LoginUser = userId,
-                    ErrorName = "Salary Top-Up Plus Report caught an Exception.",
-                    ErrorDate = DateTime.Now
-                };
-                context.Errors.Add(error);
-                context.SaveChanges();
+                //ErrorLoan error = new ErrorLoan
+                //{
+                //    StartDate = startDate,
+                //    EndDate = endDate,
+                //    FetchedData = true,
+                //    LoginUser = userId,
+                //    ErrorName = "Salary Top-Up Plus Report caught an Exception.",
+                //    ErrorDate = DateTime.Now
+                //};
+                //context.Errors.Add(error);
+                //context.SaveChanges();
 
             }
 
