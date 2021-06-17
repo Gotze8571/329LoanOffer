@@ -575,6 +575,9 @@ C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\Loa
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.dll
 C:\Users\DELL\source\repos\329 Loan Offer Screen Log\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 11d74aae193e28ac6f0ffbc3c696176a2f1fb4fa
 C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\bin\NLog.config
 C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\bin\LoanOFFER.Web.dll.config
 C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\bin\LoanOFFER.Web.dll
@@ -697,5 +700,8 @@ C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFF
 C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.csproj.CopyComplete
 C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.dll
 C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\obj\Debug\LoanOFFER.Web.pdb
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 621ff62 (Commit18052021-A)
+=======
+>>>>>>> 11d74aae193e28ac6f0ffbc3c696176a2f1fb4fa
