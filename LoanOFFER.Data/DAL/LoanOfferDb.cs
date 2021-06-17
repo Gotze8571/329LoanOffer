@@ -76,7 +76,7 @@ namespace LoanOFFER.Data.DAL
             SimbrellaLoanList list = new SimbrellaLoanList();
             if ((RequestTime != null) && (LogDate != null))
             {
-                var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo where ltrim(rtrim(customerid))= '{CustId}' and RequestTime BETWEEN '{RequestTime}' AND '{LogDate}'";
+                var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo nolock where ltrim(rtrim(customerid))= '{CustId}' and RequestTime BETWEEN '{RequestTime}' AND '{LogDate}'";
 
                 using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["329LoanOffer"].ToString()))
                 {
@@ -130,7 +130,7 @@ namespace LoanOFFER.Data.DAL
             SimbrellaLoanList list = new SimbrellaLoanList();
             if ((RequestTime != null) && (LogDate != null))
             {
-                var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo where RequestTime BETWEEN'" + RequestTime + "' and  '" + LogDate + "'";
+                var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo nolock where RequestTime BETWEEN'" + RequestTime + "' and  '" + LogDate + "'";
 
                 using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["329LoanOffer"].ToString()))
                 {
@@ -190,7 +190,7 @@ namespace LoanOFFER.Data.DAL
             RemittaLoanList Realist = new RemittaLoanList();
             // var query = $"Select Id, Request, PhoneNumber, RequestTime, Response, LogDate FROM [MicroLendingDBNew].[dbo].[vx_RemitaEligibiltyInfo] where ltrim(rtrim(PhoneNumber))= '"+phoneNo+"' and RequestTime BETWEEN '"+RequestTime+"' AND '"+LogDate+"'";
 
-            var query = $"Select Id, Request, PhoneNumber, RequestTime, Response, LogDate FROM [MicroLendingDBNew].[dbo].[vx_RemitaEligibiltyInfo] where RequestTime BETWEEN '{RequestTime}' AND '{LogDate}'";
+            var query = $"Select Id, Request, PhoneNumber, RequestTime, Response, LogDate FROM [MicroLendingDB].[dbo].[vx_RemitaEligibiltyInfo] nolock where RequestTime BETWEEN '{RequestTime}' AND '{LogDate}'";
             using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["329LoanOffer"].ToString()))
             {
                 using (SqlCommand command = new SqlCommand(query, con))

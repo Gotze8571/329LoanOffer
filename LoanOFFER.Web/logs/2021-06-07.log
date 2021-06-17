@@ -1,0 +1,138 @@
+2021-06-07 15:34:34.5911 INFO NEW LOGIN
+2021-06-07 15:34:46.3979 INFO Signed in User: tella.adesina
+2021-06-07 15:34:46.3979 INFO IP Address: ::1
+2021-06-07 15:34:46.3979 INFO IP Address: TELLA-PC
+2021-06-07 15:34:46.4259 INFO Home Page Loaded: 6/7/2021 3:34:46 PM
+2021-06-07 15:34:50.0403 INFO 6/7/2021 3:34:50 PM
+2021-06-07 15:35:17.1061 INFO 6/7/2021 3:35:17 PM
+2021-06-07 15:35:21.8661 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-06-07 15:38:13.4684 INFO NEW LOGIN
+2021-06-07 15:38:17.5093 INFO Signed in User: tella.adesina
+2021-06-07 15:38:17.5093 INFO IP Address: ::1
+2021-06-07 15:38:17.5093 INFO IP Address: TELLA-PC
+2021-06-07 15:38:17.5393 INFO Home Page Loaded: 6/7/2021 3:38:17 PM
+2021-06-07 15:38:43.2125 INFO 6/7/2021 3:38:43 PM
+2021-06-07 15:39:21.8512 INFO 6/7/2021 3:39:21 PM
+2021-06-07 15:39:30.1600 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-06-07 15:39:43.7749 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-06-07 15:39:43.8429 INFO start date:06-Jun-2021
+2021-06-07 15:39:43.8429 INFO end date:07-Jun-2021
+2021-06-07 15:39:43.8429 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-06-07 15:39:59.6188 INFO Home Page Loaded: 6/7/2021 3:39:59 PM
+2021-06-07 15:40:02.1895 INFO 6/7/2021 3:40:02 PM
+2021-06-07 15:40:12.8086 INFO 6/7/2021 3:40:12 PM
+2021-06-07 15:40:14.9922 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-06-07 15:40:15.0592 ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MicroLendingDBNew.dbo.vx_RemitaEligibiltyInfo'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate) in C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 202
+ClientConnectionId:109491cc-e495-49bb-83ca-1ea5df5fe8a3
+Error Number:208,State:1,Class:16
+2021-06-07 15:40:15.1312 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\Controllers\RemittaController.cs:line 55
+2021-06-07 15:42:39.6310 INFO NEW LOGIN
+2021-06-07 15:42:43.8007 INFO Signed in User: tella.adesina
+2021-06-07 15:42:43.8007 INFO IP Address: ::1
+2021-06-07 15:42:43.8007 INFO IP Address: TELLA-PC
+2021-06-07 15:42:43.8257 INFO Home Page Loaded: 6/7/2021 3:42:43 PM
+2021-06-07 15:42:46.7003 INFO 6/7/2021 3:42:46 PM
+2021-06-07 15:43:04.7520 INFO 6/7/2021 3:43:04 PM
+2021-06-07 15:43:07.0921 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-06-07 15:43:07.1621 ERROR System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'MicroLendingDBNew.dbo.vx_RemitaEligibiltyInfo'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at LoanOFFER.Data.DAL.LoanOfferDb.GetRemittaLoanDb(String RequestTime, String LogDate) in C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Data\DAL\LoanOfferDb.cs:line 202
+ClientConnectionId:989c142f-c898-4790-838d-4cbb6307aa1e
+Error Number:208,State:1,Class:16
+2021-06-07 15:43:07.2341 ERROR System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Queryable.AsQueryable[TElement](IEnumerable`1 source)
+   at PagedList.PagedList`1..ctor(IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at PagedList.PagedListExtensions.ToPagedList[T](IEnumerable`1 superset, Int32 pageNumber, Int32 pageSize)
+   at LoanOFFER.Web.Controllers.RemittaController.Index(Nullable`1 page, String search) in C:\Users\DELL\source\repos\329LoanOfferScreenLog\LoanOFFER.Web\Controllers\RemittaController.cs:line 55
+2021-06-07 15:43:33.1535 INFO 6/7/2021 3:43:33 PM
+2021-06-07 15:46:37.9076 INFO NEW LOGIN
+2021-06-07 15:46:41.8591 INFO Signed in User: tella.adesina
+2021-06-07 15:46:41.8591 INFO IP Address: ::1
+2021-06-07 15:46:41.8591 INFO IP Address: TELLA-PC
+2021-06-07 15:46:41.8851 INFO Home Page Loaded: 6/7/2021 3:46:41 PM
+2021-06-07 15:46:44.7135 INFO 6/7/2021 3:46:44 PM
+2021-06-07 15:46:55.1971 INFO 6/7/2021 3:46:55 PM
+2021-06-07 15:46:56.9389 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-06-07 15:46:57.0809 INFO Reader is not null..
+2021-06-07 15:46:57.0809 INFO Reader is equal to true..
+2021-06-07 15:46:57.8869 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-06-07 15:46:57.9299 INFO start date:06-Jun-2021
+2021-06-07 15:46:57.9299 INFO end date:07-Jun-2021
+2021-06-07 15:46:57.9299 INFO  Remitta Report Loaded Successful
+2021-06-07 15:47:01.5427 INFO 6/7/2021 3:47:01 PM
+2021-06-07 15:47:03.6470 INFO Connection to database to fetch Remitta Loan Offer Report!
+2021-06-07 15:47:03.8150 INFO Reader is not null..
+2021-06-07 15:47:03.8150 INFO Reader is equal to true..
+2021-06-07 15:47:04.2130 INFO  Remitta Loan Offer Report data fetched from database successfully
+2021-06-07 15:47:04.2420 INFO start date:06-Jun-2021
+2021-06-07 15:47:04.2420 INFO end date:07-Jun-2021
+2021-06-07 15:47:04.2420 INFO  Remitta Report Loaded Successful
+2021-06-07 15:47:21.4408 INFO Home Page Loaded: 6/7/2021 3:47:21 PM
+2021-06-07 15:52:06.1851 INFO NEW LOGIN
+2021-06-07 15:52:10.5111 INFO Signed in User: tella.adesina
+2021-06-07 15:52:10.5111 INFO IP Address: ::1
+2021-06-07 15:52:10.5111 INFO IP Address: TELLA-PC
+2021-06-07 15:52:10.5711 INFO Home Page Loaded: 6/7/2021 3:52:10 PM
+2021-06-07 15:52:17.0005 INFO 6/7/2021 3:52:16 PM
+2021-06-07 15:52:28.3501 INFO 6/7/2021 3:52:28 PM
+2021-06-07 15:52:31.3613 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-06-07 15:52:34.1310 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-06-07 15:52:34.1650 INFO start date:06-Jun-2021
+2021-06-07 15:52:34.1650 INFO end date:07-Jun-2021
+2021-06-07 15:52:34.1650 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-06-07 15:52:39.0153 INFO Home Page Loaded: 6/7/2021 3:52:39 PM
+2021-06-07 15:53:34.0179 INFO NEW LOGIN
+2021-06-07 15:53:37.9082 INFO Signed in User: tella.adesina
+2021-06-07 15:53:37.9082 INFO IP Address: ::1
+2021-06-07 15:53:37.9082 INFO IP Address: TELLA-PC
+2021-06-07 15:53:37.9312 INFO Home Page Loaded: 6/7/2021 3:53:37 PM
+2021-06-07 15:53:40.5674 INFO 6/7/2021 3:53:40 PM
+2021-06-07 15:54:40.6457 INFO 6/7/2021 3:54:40 PM
+2021-06-07 15:54:43.6589 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-06-07 15:55:02.4715 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-06-07 15:55:02.5060 INFO start date:06-Jun-2021
+2021-06-07 15:55:02.5060 INFO end date:07-Jun-2021
+2021-06-07 15:55:02.5060 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-06-07 15:55:07.3826 INFO 6/7/2021 3:55:07 PM
+2021-06-07 15:55:10.8469 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-06-07 15:55:27.1903 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-06-07 15:55:27.2563 INFO start date:06-Jun-2021
+2021-06-07 15:55:27.2563 INFO end date:07-Jun-2021
+2021-06-07 15:55:27.2563 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-06-07 15:55:38.3847 INFO 6/7/2021 3:55:38 PM
+2021-06-07 15:55:42.2678 INFO Connection to Simbrella Loan Offer Report was successful!
+2021-06-07 15:55:58.6233 INFO  Simbrella Loan Offer Report data fetched from database successfully
+2021-06-07 15:55:58.6403 INFO start date:06-Jun-2021
+2021-06-07 15:55:58.6403 INFO end date:07-Jun-2021
+2021-06-07 15:55:58.6403 INFO  Simbrella Loan Offer Report Loaded Successfully
+2021-06-07 15:56:01.8840 INFO Home Page Loaded: 6/7/2021 3:56:01 PM

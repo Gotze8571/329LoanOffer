@@ -36,7 +36,7 @@ namespace LoanOFFER.Web.Controllers
             logger.Info(DateTime.Now);
 
             int pageNumber = (page ?? 1);
-            const int pageSize = 20;
+            const int pageSize = 100;
             string userId = Session["UserId"] as string;
             var startDate = Request.Params["RequestTime"];
             var endDate = Request.Params["LogDate"];
