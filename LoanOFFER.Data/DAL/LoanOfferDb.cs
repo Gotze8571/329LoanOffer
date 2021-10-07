@@ -476,45 +476,5 @@ namespace LoanOFFER.Data.DAL
             }
             return null;
         }
-
-        // Get Account number from Simbrella Loan Offer.
-        //public string GetSimbrellaCustomerNameWithCustomerID()
-        //{
-        //    var query = $"Select Id, Request, customerid, RequestTime, Response, ResponseTime, LogDate, ResponseCode from vx_FastCashEligibiltyInfo";
-        //    using (SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["LoanOffer"].ToString()))
-        //    {
-        //        using (SqlCommand com = new SqlCommand(query, con))
-        //        {
-        //            try
-        //            {
-        //                con.Open();
-        //                logger.Info("Connection to database to fetch Simbrella Loan Offer Report!");
-        //                SqlDataReader reader = com.ExecuteReader();
-        //                if (reader != null)
-        //                {
-        //                    logger.Info("Reader is not null..");
-        //                    if (reader.HasRows)
-        //                    {
-        //                        logger.Info("Reader is equal to true..");
-        //                        while (reader.Read())
-        //                        {
-        //                            var model = new SimbrellaViewModel()
-        //                            {
-        //                                Request = reader["Request"].ToString()
-        //                            };
-        //                            return model.Request.ToString();
-        //                        }
-        //                    }
-        //                }
-        //            }
-        //            catch (Exception ex)
-        //            {
-        //                logger.Error(ex);
-        //            }
-        //        }
-        //    }
-        //    return null;
-        //}
-        //
     }
 }
